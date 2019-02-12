@@ -1,0 +1,22 @@
+baseurl = "https://piotr.is/"
+languageCode = "en-us"
+title = "Sound & Complete"
+enableEmoji = true
+footnotereturnlinkcontents = "↩"
+pygmentsuseclasses = true
+MetaDataFormat = "yaml"
+googleAnalytics = ""
+
+[outputFormats.RSS]
+    path = "/feed/"
+
+[permalinks]
+    post = "/:year/:slug/"
+    page = "/:title/"
+
+[author]
+    name = "Piotr Kaźmierczak"
+
+[params]
+    description = "A personal blog."
+    author = "Piotr Kaźmierczak"

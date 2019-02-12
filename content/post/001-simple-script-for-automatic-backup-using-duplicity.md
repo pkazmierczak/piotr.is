@@ -1,0 +1,69 @@
++++
+title = "Simple script for automatic backup using duplicity"
+location = "Borowiny, Poland"
+aliases = ["/2009/11/01/simple-script-for-automatic-backup-using-duplicity/"]
+date = "2009-11-01"
+tags = ["linux", "backup", "duplicity"]
++++
+
+I'm paranoid about backups and I have good reasons for that. I've tested many
+open source tools for automatic backup available for linux, but none of them
+fulfilled all my requirements.
+
+I liked [Déjà-Dup](https://launchpad.net/deja-dup) a lot, but it wasn't able
+to abort a backup once the destination directory (portable hdd) wasn't present
+(or rather: it did abort, but tried to prepare a backup anyway, consuming some
+cpu on the way). Second thing about Déjà-Dup I didn't like is that it divides
+backup files into 5 megabyte archives --- opening a directory containing 20
+gigabytes of such archives takes a while (I understand the reason for such
+small volumes is handling Amazon S3, but for local backups it makes no sense),
+and finally, Déjà-Dup can't make automatic backups more often than once a day
+(did I mention I'm a bit paranoid?). However, Déjà-Dup integrates with Gnome
+very nicely, and since it uses [duplicity](http://duplicity.nongnu.org/) as a
+backend, I was able to come up with a simple script fixing all the problems in
+a couple of minutes.
+
+{{< highlight sh >}}
+#!/bin/bash
+
+BACKUP_SCRIPT=${0##*/}
+DUPLICITY="/usr/bin/duplicity"
+DATE="/bin/date +%R-%d-%m-%y"
+
+BACKUP_COMMAND="$DUPLICITY --exclude=/media/backups --exclude=/home/piotr/.cache --include=/home/piotr --exclude=** --no-encryption / file:///media/backups --volsize=250 --archive-dir=/home/piotr/.cache/deja-dup"
+
+# Sanity checks
+if test -z "$BASH" ; then
+   printf "$DATE \n$BACKUP_SCRIPT:$LINENO: please run this script with the BASH shell\n" >&2
+   exit 192
+fi
+if test ! -x "$DUPLICITY" ; then
+   printf "$DATE \n$BACKUP_SCRIPT:$LINENO: the command $DUPLICITY is not available - aborting\n" >&2
+   exit 192
+fi
+
+# Create an incremental backup if the portable drive is connected
+if test -d /media/backups ; then
+    printf "\n\n\n\n\n`$DATE` \nBacking up!\n-------------------------------------------------\n"
+    $BACKUP_COMMAND
+else
+    printf "`$DATE` \n$BACKUP_SCRIPT:$LINENO: portable drive not connected - aborting\n\n" >&2
+    exit 192
+fi
+
+# Cleanup
+printf "`$DATE` Files backed up successfully\n-------------------------------------------------\n"
+exit 0   # all is well
+{{< /highlight >}}
+
+
+The best way is to first configure Déjà-Dup according to your needs, then copy
+the duplicity command it uses while backing up (it's visible in `STDOUT` once
+you set an environment variable `DEJA_DUP_DEBUG=1`), paste it into the script,
+tune it (I've changed the volume size), and simply put it to `crontab` ---
+this way it's easy to control how often your backups are done.
+
+Feel free to use the script if you need it, and if you're better in unix
+scripting than I am (and I believe you are), send me any improvements and/or
+comments.
+
