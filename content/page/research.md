@@ -12,28 +12,28 @@ Before my PhD studies I was a student at [MISH](http://www.mish.uw.edu.pl/), Uni
 ### Peer-reviewed publications
 
 ["Compliance Games"](http://link.springer.com/chapter/10.1007%2F978-3-319-17130-2_14)
-<small>Accepted at the 12th European Conference on Multi-Agent Systems EUMAS-14 as a short paper.&nbsp;<a href="/papers/compliance.pdf"><i class="fa fa-file-pdf-o"></i></a></small>
+<small>Accepted at the 12th European Conference on Multi-Agent Systems EUMAS-14 as a short paper.&nbsp;<a href="/papers/compliance.pdf"><i class="far fa-file-pdf"></i></a></small>
 
 ["Multi-agency is coordination and (limited) communication"](http://link.springer.com/chapter/10.1007%2F978-3-319-13191-7_8) (with Thomas Ågotnes and Wojtek Jamroga)
-<small>In proceedings of the 17th International Conference on Principles and Practice of Multi-Agent Systems PRIMA-14.&nbsp;<a href="/papers/1atl.pdf"><i class="fa fa-file-pdf-o"></i></a></small>
+<small>In proceedings of the 17th International Conference on Principles and Practice of Multi-Agent Systems PRIMA-14.&nbsp;<a href="/papers/1atl.pdf"><i class="far fa-file-pdf"></i></a></small>
 
 ["Gerhard Weiss (ed.): Multiagent Systems"](http://link.springer.com/article/10.1007%2Fs13218-014-0310-7) (book review)
-<small>*Künstliche Intelligenz*, special issue on Multi-agent decision making, Springer 2014.&nbsp;<a href="/papers/ki-review.pdf"><i class="fa fa-file-pdf-o"></i></a></small>
+<small>*Künstliche Intelligenz*, special issue on Multi-agent decision making, Springer 2014.&nbsp;<a href="/papers/ki-review.pdf"><i class="far fa-file-pdf"></i></a></small>
 
 ["Playing with norms: Tractability of normative systems for homogeneous game structures"](http://dl.acm.org/citation.cfm?id=2615754) (with Sjur Dyrkolbotn)
-<small>In proceedings of the 13th International Conference on Autonomous Agents and Multiagent Systems AAMAS-14.&nbsp;<a href="/papers/playing-with-norms.pdf"><i class="fa fa-file-pdf-o"></i></a></small>
+<small>In proceedings of the 13th International Conference on Autonomous Agents and Multiagent Systems AAMAS-14.&nbsp;<a href="/papers/playing-with-norms.pdf"><i class="far fa-file-pdf"></i></a></small>
 
 "Big, but not unruly: Tractable norms for anonymous game structures" (with Sjur Dyrkolbotn and Truls Pedersen)
-<small>Presented at the 16th International Workshop on Coordination, Organization, Institutions and Norms in multi-agent systems COIN@PRIMA 2013;&nbsp;<a href="http://arxiv.org/abs/1405.6899"><i class="fa fa-file-pdf-o"></i></a></small>
+<small>Presented at the 16th International Workshop on Coordination, Organization, Institutions and Norms in multi-agent systems COIN@PRIMA 2013;&nbsp;<a href="http://arxiv.org/abs/1405.6899"><i class="far fa-file-pdf"></i></a></small>
 
 ["Compliance Games"](http://eprints.lib.hokudai.ac.jp/dspace/handle/2115/54938) (extended abstract)
-<small>In proceedings of the 3rd International Workshop on Philosophy and Ethics of Social Reality SOCREAL 2013;&nbsp;<a href="/papers/compliance-games-socreal.pdf"><i class="fa fa-file-pdf-o"></i></a></small>
+<small>In proceedings of the 3rd International Workshop on Philosophy and Ethics of Social Reality SOCREAL 2013;&nbsp;<a href="/papers/compliance-games-socreal.pdf"><i class="far fa-file-pdf"></i></a></small>
 
 ["Concurrent Game Structures with Roles"](http://eptcs.web.cse.unsw.edu.au/paper.cgi?SR.11) (with Sjur Dyrkolbotn, Erik Parmann and Truls Pedersen)
-<small>In Proceedings of the 1st International Workshop on *Strategic Reasoning* (SR 2013), Rome, Italy, March 2013, Electronic Proceedings in Theoretical Computer Science;&nbsp;<a href="http://arxiv.org/abs/1303.0792"><i class="fa fa-file-pdf-o"></i></a></small>
+<small>In Proceedings of the 1st International Workshop on *Strategic Reasoning* (SR 2013), Rome, Italy, March 2013, Electronic Proceedings in Theoretical Computer Science;&nbsp;<a href="http://arxiv.org/abs/1303.0792"><i class="far fa-file-pdf"></i></a></small>
 
 ["NorMC: a Norm Compliance Temporal Logic Model Checker"](http://ebooks.iospress.nl/publication/6913) (with Truls Pedersen and Thomas Ågotnes)
-<small>In Proceedings of The Sixth Starting Artificial Intelligence Research Symposium (STAIRS 2012), Montpellier, France, August 2012;&nbsp;<a href="/papers/normc.pdf"><i class="fa fa-file-pdf-o"></i></a></small>
+<small>In Proceedings of The Sixth Starting Artificial Intelligence Research Symposium (STAIRS 2012), Montpellier, France, August 2012;&nbsp;<a href="/papers/normc.pdf"><i class="far fa-file-pdf"></i></a></small>
 
 ### Activities
 
