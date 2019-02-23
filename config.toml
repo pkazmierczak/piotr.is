@@ -5,7 +5,7 @@ enableEmoji = true
 footnotereturnlinkcontents = "↩"
 pygmentsuseclasses = true
 MetaDataFormat = "yaml"
-googleAnalytics = ""
+googleAnalytics = "UA-26225127-4"
 
 [outputFormats.RSS]
     path = "/feed/"
@@ -20,3 +20,14 @@ googleAnalytics = ""
 [params]
     description = "A personal blog."
     author = "Piotr Kaźmierczak"
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
+
