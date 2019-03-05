@@ -157,16 +157,15 @@ First and foremost to show to my dear friends at the Dept. of Computer
 Engineering, that I'm not yet as much of an Apple fan boy as, for example, my
 supervisor is.
 
-Secondly, I wanted to put my thoughts in order, and blogging works miracles
-for me in this manner. You see, for me being part of the whole FOSS community
-was an important part of my life. The decision of going to Eplehuset, entering
-my PIN, confirming and leaving with a white paper box and a gayish computer
-inside it wasn't an easy one. When I came back home I felt pretty sad, no
-excitement about the new hardware whatsoever (that is of course until I
-finally unpacked it). It took me a couple of months to convince myself that
-this was the right decision, and I had to share this with everyone who reads
-my blog, because (a) that's the way I am and (b) because _what is written is
-properly confirmed in existence_.
+Secondly, I wanted to put my thoughts in order, and blogging works miracles for
+me in this manner. You see, for me being part of the whole FOSS community was
+an important part of my life. The decision of going to Eplehuset, entering my
+PIN, confirming and leaving with a white paper box wasn't an easy one. When I
+came back home I felt pretty sad, no excitement about the new hardware
+whatsoever (that is of course until I finally unpacked it). It took me a couple
+of months to convince myself that this was the right decision, and I had to
+share this with everyone who reads my blog, because (a) that's the way I am and
+(b) because _what is written is properly confirmed in existence_.
 
 And finally, I wrote this post as a last of the _I bought a Mac, look how
 (un)cool it is_ series. There will be no posts about these matters, and I
