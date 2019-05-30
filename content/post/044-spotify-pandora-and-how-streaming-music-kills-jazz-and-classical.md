@@ -4,7 +4,7 @@ location = "Bergen, Norway"
 link = "http://www.salon.com/2014/07/20/its_not_just_david_byrne_and_radiohead_spotify_pandora_and_how_streaming_music_kills_jazz_and_classical/"
 aliases = ["/2014/07/26/spotify-pandora-and-how-streaming-music-kills-jazz-and-classical/"]
 date = "2014-07-26"
-tags = ["jazz", "music", "spotify"]
+tags = ["jazz", "music"]
 +++
 
 > "All of my colleagues — composers and arrangers — are seeing huge cuts in their earnings," says Paul Chihara, a veteran composer who until recently headed UCLA's film-music program. "In effect, we're not getting royalties. It's almost amusing some of the royalty checks I get." One of the last checks he got was for $29. "And it bounced."

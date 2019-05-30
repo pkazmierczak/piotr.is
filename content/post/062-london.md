@@ -2,7 +2,7 @@
 date: 2015-12-14
 title: London
 location: Munich, Germany
-tags: [travel, london, uk]
+tags: [travels, london, uk, personal]
 aliases: /2015/12/14/london/
 header: "/images/header-london.jpg"
 twitter: yes

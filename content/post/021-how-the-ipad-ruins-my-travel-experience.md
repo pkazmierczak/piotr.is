@@ -3,7 +3,7 @@ title = "How the iPad ruins my travel experience"
 location = "Paris CDG Airport, France"
 aliases = ["/2012/08/25/how-the-ipad-ruins-my-travel-experience/"]
 date = "2012-08-25"
-tags = ["ipad", "travel"]
+tags = ["ipad", "travels"]
 +++
 
 I travel a lot, be it for work or pleasure, and one of the things I particularly enjoy when I’m transferring at my favorite Schiphol airport is visiting bookstores. I browse magazines, bestsellers and non-fiction, and usually buy an issue of The Economist, The New Yorker or a book. Or actually, I used to buy.

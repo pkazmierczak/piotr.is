@@ -2,7 +2,7 @@
 title: "AWS Cloudformation template for Counter Strike GO server"
 date: 2016-10-30T23:31:23+01:00
 location: "Munich, Germany"
-tags: ["aws", "cloudformation", "counter strike", "linux", "devops"]
+tags: ["aws", "cloudformation", "linux", "devops", "gaming"]
 ---
 
 I spent an evening writing [a cloudformation template for Counter Strike Global Offensive linux server](https://gist.github.com/pkazmierczak/07bcc42d829411dcb4f8525562567228). No, I don't have a life. Yes, you will thank me next time you play with your friends and the laptop cannot handle more than 5 players. (AWS `t2.micro` handles 6 players easily, and you can always throw a `c4.large` at the problem which is still about $0.13/hr and handles, well, just about anything).

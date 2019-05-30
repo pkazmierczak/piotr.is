@@ -4,7 +4,7 @@ location = "Bergen, Norway"
 readlater = true
 aliases = ["/2012/11/06/blogging-is-hard/"]
 date = "2012-11-06"
-tags = ["meta", "blogging"]
+tags = ["meta"]
 +++
 
 I started blogging quite a long time ago, in 2006. The first platform I used was Polish [Jogger](http://jogger.pl) --- a blogging engine centered around Jabber (aka [XMPP](http://xmpp.org)) protocol. It was very cool (and unique) at the time, you could interact with your blog via IM (posting new entries, replying to comments), and it gathered a specific crowd of open-source/linux/free software enthusiasts which made for a nice community. My blog at the time was called *Das Nichts*[^1], and it was like most other blogs at that time --- about **everything**. It was written in Polish and my audience were mostly friends from high school and college. *Das Nichts* later moved to Wordpress, and finally evolved into a [tumblr](http://dasnichts.tumblr.com), but in 2009 I stopped writing it, considering it too childish and wanting to switch to English. 

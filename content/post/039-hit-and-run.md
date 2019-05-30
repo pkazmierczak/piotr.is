@@ -4,6 +4,7 @@ location = "Bergen, Norway"
 readlater = true
 aliases = ["/2014/03/22/hit-and-run/"]
 date = "2014-03-22"
+tags = ["personal"]
 +++
 
 Last Sunday night I was walking home and I got hit by a car on a zebra crossing.[^1] It was pretty late (around 11:30pm) and there was very little traffic. I was on a green light and while I was in the middle of the road, a black car came from behind me (he was making a left turn). I stopped, turned right, and as I was facing the car it hit me on my left leg knocking me down, and then just drove off. Before we get any further, I am happy to assure everyone that I'm perfectly fine, and that I did not sustain any serious injuries. But here are some of my thoughts about the accident. 

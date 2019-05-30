@@ -3,7 +3,7 @@ date: 2015-08-15
 title: The dawn of my camera
 readlater: true
 location: Munich, Germany
-tags: [photography, technology]
+tags: [photography, personal]
 twitter: true
 header: "/images/header-dolomiti.jpg"
 ---

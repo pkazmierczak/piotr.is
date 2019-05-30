@@ -4,7 +4,7 @@ location = "Bergen, Norway"
 aliases = ["/2014/06/14/speed-and-aerodynamics/"]
 update_date = "2015-03-17"
 date = "2014-06-14"
-tags = ["bicycles", "cycling"]
+tags = ["cycling"]
 +++
 
 <blockquote class="twitter-tweet" lang="en"><p>Companies selling &quot;speed&quot; and &quot;aerodynamics&quot; to dudes who only ride on the weekends, rather than selling them an experience.</p>&mdash; John Watson (@JohnProlly) <a href="https://twitter.com/JohnProlly/statuses/476173495353618432">June 10, 2014</a></blockquote>

@@ -3,7 +3,7 @@ title = "How I stopped being a desktop linux enthusiast"
 location = "Borowiny, Poland"
 aliases = ["/2009/11/09/how-ive-stopped-being-a-desktop-linux-enthusiast/"]
 date = "2009-11-09"
-tags = ["linux"]
+tags = ["linux", "rant"]
 +++
 
 It's actually about "how I'm stopping to be a desktop linux enthusiast",

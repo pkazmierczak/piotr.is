@@ -6,9 +6,7 @@
     <div class="archive">
         <h2 class="archive-title">Topics</h2>
         {{ range $key, $taxonomy := .Site.Taxonomies.tags.ByCount }}
-        {{ if gt $taxonomy.Count 2 }}
-        <nobr><a class="archive-item-link" href="/tags/{{ $taxonomy.Name | urlize }}">{{ $taxonomy.Name }}</a>&nbsp;({{ $taxonomy.Count }})&nbsp;&nbsp;</nobr>
-        {{ end }}
+        <a class="archive-item-{{ $taxonomy.Count }}" href="/tags/{{ $taxonomy.Name | urlize }}">{{ $taxonomy.Name }}</a>&nbsp;&nbsp;
         {{ end }}
     </div>
 

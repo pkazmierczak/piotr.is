@@ -3,7 +3,7 @@ title = "Dr. Karolina"
 location = "Groningen, The Netherlands"
 aliases = ["/2015/02/04/dr-karolina/"]
 date = "2015-02-04"
-tags = ["academia", "phd"]
+tags = ["academia", "phd", "philosophy"]
 +++
 
 <img src="/images/drkarolina.jpg" />

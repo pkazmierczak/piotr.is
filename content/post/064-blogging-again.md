@@ -2,7 +2,7 @@
 date: 2015-12-22
 title: Blogging Again
 location: Munich, Germany
-tags: [blogging, meta]
+tags: [meta]
 aliases: ["/2015/12/22/blogging-again/"]
 ---
 

@@ -3,7 +3,7 @@ title = "Winter Sports"
 location = "Bergen, Norway"
 aliases = ["/2014/01/25/winter-sports/"]
 date = "2014-01-25"
-tags = ["strava", "cycling"]
+tags = ["cycling"]
 +++
 
 I don't ski,[^1] and every winter doing any sorts of sports becomes a major problem. This year I'm trying to change that. As anyone will tell you, riding a bike or running in bad weather is simply a matter of attitude. One should just embrace [Rule #9](http://www.velominati.com/the-rules/#9) and keep on pushing, but I've never been able to do that myself. Every year I promised myself that I won't be paying any attention to rain or snow, but year after year I failed, bought that monthly bus ticket and locked my bike at home. 
