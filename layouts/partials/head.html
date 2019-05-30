@@ -1,7 +1,7 @@
 <head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		{{- if eq .URL "/" }}
+		{{- if .IsHome }}
 		<meta name="description" content="{{ .Site.Params.Description }}">
 		{{- else if .Description }}
 		<meta name="description" content="{{ .Description }}">
@@ -11,7 +11,7 @@
 		{{ template "_internal/twitter_cards.html" . }}
 
 		<title>
-			{{- if eq .URL "/" }}
+			{{- if .IsHome }}
 				{{ .Site.Title }}
 			{{- else }}
 				{{ .Title }} &middot; {{ .Site.Title }}
@@ -47,6 +47,6 @@
     <meta name="theme-color" content="#ffffff">
 
 		<!-- RSS -->
-		<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+		<link href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 
 	</head>

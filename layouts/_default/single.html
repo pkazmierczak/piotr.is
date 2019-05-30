@@ -18,17 +18,10 @@
 		{{ end }}
 	</div>
 	<div class="feedback">
-		Questions or feedback: <a href="https://twitter.com/pkazmierczak">@pkazmierczak</a>
+		Questions or feedback? <a href="https://twitter.com/pkazmierczak">@pkazmierczak</a>
 	</div>
-	<div class="pagination">
-		{{- if .PrevPage }}
-		<a href="{{ .PrevPage.URL }}" class="left arrow">&#8592;</a>
-		{{- end }}
-		<a href="/archive">All posts</a>
-		{{- if .NextPage }}
-		<a href="{{ .NextPage.URL }}" class="right arrow">&#8594;</a>
-		{{- end }}
-	</div>
+
+	{{ partial "recently.html" . }}
 	{{ end }}
 </main>
 
