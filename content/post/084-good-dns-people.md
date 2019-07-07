@@ -7,7 +7,7 @@ tags: ["dns", "internet"]
 
 DNS and domain registration services generally suck. GoDaddy people [hunt elephants](http://edition.cnn.com/2011/BUSINESS/04/01/godaddy.peta.protest/index.html). Hover is _okay_, but has mediocre customer service (personal experience) and bad web interface (objective truth). There’s tons of bad domain registrars out there. But amongst them, there are people that know their shit and know it well, and they don’t try to scam or bullshit you. 
 
-What follows is an unpaid advertisement for [ISNIC](https://www.isnic.is) and [iwantmyname](https://iwantmyname.com).[^1]
+What follows is an unpaid advertisement for [ISNIC](https://www.isnic.is) and [iwantmyname](https://iwantmyname.com).
 
 I own a couple of domains, and amongst them is `piotrkazmierczak.com`. `piotrkazmierczak.com` used to be my primary email domain, but recently more and more often I have to spell my email address to people, and if it’s Dutch people I’m talking to, and my email is in `piotrkazmierczak.com` domain, things aren’t as smooth as they should be. So I intended to simplify things, and bought `piotr.is`, which I now use as my primary domain. It's shorter, simpler, better. And it’s Icelandic. 
 
@@ -23,6 +23,4 @@ iwantmyname.com is a small business. Just [look at them](https://iwantmyname.com
 
 Is there something about remote, slightly too-windy and too-rainy places that makes good network engineers? Is there something about these places that makes people setup companies/institutions that customers actually want to love and send flowers to?
 
-And if yes, how do I get to move there? 🤔. 
-
-[^1]:	I suppose I should start asking them for money?
+And if yes, how do I get to move there? 🤔
