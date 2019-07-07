@@ -4,6 +4,11 @@ date: 2018-01-03
 location: "Munich, Germany"
 ---
 
+<figure class="wide">
+<img src="/images/auto-emocion.jpg">
+<figcaption>Karolina preparing for yet another hike, somewhere in central Italy. </figcaption>
+</figure>
+
 Most of you probably don’t know, but about 5 months ago, Karolina and I bought a beautiful, red, 2013 Seat Leon coupé. We sold it today, because of our upcoming move to the Netherlands where we won’t need it, and also because it’s a major hassle moving a car to NL (a proper European federation cannot happen soon enough). It was our first car and despite the fact that we’re both pretty left-leaning, bike-riding, train-loving hippies, we were surprised how much our car--a petrol-burning, city-clogging thing--grew on us. Here is a couple of observations we made about it.
 
 1. We didn’t use our car on a daily basis. In fact, it lived in the garage for the great majority of time, even though all of our friends told us we’d start using the car for commuting once we got it. That didn’t happen, but we did end up putting more than 6000 kms on it during our 5 months of ownership, which could be considered "a lot". We’re thus happy to report that it is in fact possible and, given that you live in a densely populated city, easy to have a car and not use it on a daily basis. And we’re happy to report that our little Seat completed its mission of taking us on numerous Alpine trips flawlessly. 
