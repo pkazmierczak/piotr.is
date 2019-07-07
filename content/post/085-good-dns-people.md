@@ -11,7 +11,7 @@ What follows is an unpaid advertisement for [ISNIC](https://www.isnic.is) and [i
 
 I own a couple of domains, and amongst them is `piotrkazmierczak.com`. `piotrkazmierczak.com` used to be my primary email domain, but recently more and more often I have to spell my email address to people, and if it’s Dutch people I’m talking to, and my email is in `piotrkazmierczak.com` domain, things aren’t as smooth as they should be. So I intended to simplify things, and bought `piotr.is`, which I now use as my primary domain. It's shorter, simpler, better. And it’s Icelandic. 
 
-Some of you may not know this, but Icelandic domains are controlled by ISNIC, aka “Internet á Íslandi hf.“ ISNIC is the registrar and keeper of rules, of which there are many. Not only when it comes to [registration](https://www.isnic.is/en/domain/rules), but also [technical ones](https://www.isnic.is/en/faq#q33-a). ISNIC also has a clunky we interface that it forces its clients to use. 
+Some of you may not know this, but Icelandic domains are controlled by ISNIC, aka “Internet á Íslandi hf.“ ISNIC is the registrar and keeper of rules, of which there are many. Not only when it comes to [registration](https://www.isnic.is/en/domain/rules), but also [technical ones](https://www.isnic.is/en/faq#q33-a). ISNIC also has a clunky web interface that it forces its clients to use. 
 
 And you know what? I ❤️ these people. They are smart. Their rules are _sane_. Their website contain no idiotic javascript and no advertisements. Their technical support is smart af. They don’t bullshit. The internet needs more people like ISNIC. 
 
