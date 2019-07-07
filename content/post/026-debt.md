@@ -3,7 +3,7 @@ title = "“Debt”"
 location = "Bergen, Norway"
 aliases = ["/2013/02/02/debt/"]
 date = "2013-02-02"
-tags = ["economics", "sociology", "anthropology", "books"]
+tags = ["economics", "society", "anthropology", "books"]
 +++
 
 David Graeber's _Debt_ is one of the best books I have read in my life.

@@ -4,7 +4,7 @@ location = "Bergen, Norway"
 readlater = true
 aliases = ["/2010/04/17/norway-in-the-eyes-of-a-foreigner/"]
 date = "2010-04-17"
-tags = ["norway"]
+tags = ["norway", "travels"]
 +++
 
 After a long period of searching for a PhD scholarship I finally got a great

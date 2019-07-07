@@ -2,7 +2,7 @@
 title = "Done"
 location = "Munich, Germany"
 date = "2015-05-10"
-tags = ["academia", "PhD"]
+tags = ["academia", "logic", "PhD", "personal"]
 +++
 
 <img src="/images/disputas.jpg" />

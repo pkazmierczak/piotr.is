@@ -4,7 +4,7 @@ location = "Dunedin, New Zealand"
 link = "http://www.theatlantic.com/magazine/archive/2013/11/the-man-who-would-teach-machines-to-think/309529/"
 aliases = ["/2013/12/10/what-ai-should-and-what-it-should-not-be/"]
 date = "2013-12-10"
-tags = ["ai", "douglas hofstadter"]
+tags = ["ai"]
 twitter = true
 +++
 

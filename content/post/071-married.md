@@ -2,6 +2,7 @@
 title: Married
 date: 2016-05-30
 location: Warsaw, Poland
+tags: [personal]
 ---
 
 <img src="/images/married.jpg" />

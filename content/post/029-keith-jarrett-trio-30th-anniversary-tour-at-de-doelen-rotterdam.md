@@ -3,7 +3,7 @@ title = "Keith Jarrett Trio 30th Anniversary Tour at De Doelen, Rotterdam"
 location = "Rotterdam, The Netherlands"
 aliases = ["/2013/07/08/keith-jarrett-trio-30th-anniversary-tour-at-de-doelen-rotterdam/"]
 date = "2013-07-08"
-tags = ["music", "jazz", "keith jarrett", "concert"]
+tags = ["music", "jazz", "concert"]
 twitter = true
 +++
 

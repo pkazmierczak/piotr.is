@@ -4,7 +4,7 @@ location = "Bergen, Norway"
 readlater = true
 aliases = ["/2011/01/09/in-defense-of-the-phd/"]
 date = "2011-01-09"
-tags = ["academia", "phd", "society"]
+tags = ["academia", "phd", "society", "personal"]
 twitter = true
 +++
 

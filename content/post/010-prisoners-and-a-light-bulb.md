@@ -3,11 +3,8 @@ title = "100 prisoners and a light bulb"
 location = "Copenhagen, Denmark"
 aliases = ["/2010/08/20/100-prisoners-and-a-light-bulb/"]
 date = "2010-08-20"
-tags = ["logic", "epistemic logic", "epistemology", "academia"]
+tags = ["logic", "academia"]
 +++
-
-There are days when I feel particularly proud of myself, and today is one of
-those days.
 
 It's Friday the 20th of August, that is the last day of [ESSLLI
 2010](http://esslli2010cph.info). The morning lecture was the last lecture of

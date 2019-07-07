@@ -3,7 +3,7 @@ title = "Simple script for automatic backup using duplicity"
 location = "Borowiny, Poland"
 aliases = ["/2009/11/01/simple-script-for-automatic-backup-using-duplicity/"]
 date = "2009-11-01"
-tags = ["linux", "backup", "duplicity"]
+tags = ["linux", "backup"]
 +++
 
 I'm paranoid about backups and I have good reasons for that. I've tested many

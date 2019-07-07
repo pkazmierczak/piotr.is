@@ -1,7 +1,7 @@
 <head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		{{- if eq .URL "/" }}
+		{{- if .IsHome }}
 		<meta name="description" content="{{ .Site.Params.Description }}">
 		{{- else if .Description }}
 		<meta name="description" content="{{ .Description }}">
@@ -11,7 +11,7 @@
 		{{ template "_internal/twitter_cards.html" . }}
 
 		<title>
-			{{- if eq .URL "/" }}
+			{{- if .IsHome }}
 				{{ .Site.Title }}
 			{{- else }}
 				{{ .Title }} &middot; {{ .Site.Title }}
@@ -26,9 +26,6 @@
   	<link rel="stylesheet" href="{{ $style.RelPermalink }}">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
 		<link rel="stylesheet" href="/css/fa.min.css">
-
-    <!-- cookies... -->
-    <link rel="stylesheet" type="text/css" href="/cookieconsent.min.css"/><script src="/cookieconsent.min.js"></script><script>window.addEventListener("load", function(){window.wpcc.init({"position":"bottom","colors":{"popup":{"background":"#f6f6f6","text":"#000000"},"button":{"background":"#555555","text":"#ffffff","border":"transparent"}},"content":{"href":"/privacy-policy"}})});</script>
 
 		<!-- Favicon -->
 		<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
@@ -50,6 +47,6 @@
     <meta name="theme-color" content="#ffffff">
 
 		<!-- RSS -->
-		<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+		<link href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 
 	</head>

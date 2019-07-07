@@ -2,7 +2,7 @@
 title: "Hi, America"
 slug: "hi-america"
 date: "2016-08-28"
-tags: ["america", "usa", "travel"]
+tags: ["america", "travels"]
 location: "New York, NY and Munich, Germany"
 twitter: true
 ---

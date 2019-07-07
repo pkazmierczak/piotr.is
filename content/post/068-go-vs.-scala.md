@@ -2,7 +2,7 @@
 date: 2016-01-16
 title: Go vs. Scala
 location: "Munich, Germany"
-tags: [golang, programming, scala, quora]
+tags: [golang, programming, scala]
 twitter: false
 ---
 

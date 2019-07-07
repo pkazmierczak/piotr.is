@@ -3,7 +3,7 @@ title = "“Breaking Bad” finale"
 location = "Bergen, Norway"
 aliases = ["/2013/10/05/6252/"]
 date = "2013-10-05"
-tags = ["breaking bad", "television"]
+tags = ["television"]
 +++
 
 Despite what you might hear me saying, I like TV shows. I don’t own a TV set (in fact I haven’t lived in an apartment with one for many years), and I avoid mentioning my interest in some shows, but that’s mostly due to my somewhat snobbish nature – I would like to be seen as a person who doesn’t fall for easy entertainment, and isn’t interested in anything less than a Booker prize winning novel, an inaccessible contemporary jazz album, or modern art exhibition. But in the privacy of my own blog I am willing to admit that there are certain things on television that I really enjoy, and one<a id="ref1" href="#1"><sup>1</sup></a> of these things – AMC’s Breaking Bad – just <em>came to an end</em>.

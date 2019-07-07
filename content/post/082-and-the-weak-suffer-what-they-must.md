@@ -2,7 +2,7 @@
 title: "“And the Weak Suffer What They Must?”"
 date: 2017-09-05T22:26:57+01:00
 location: "Munich, Germany"
-tags: ["books", "europe", "economics"]
+tags: ["books", "europe", "economics", "politics"]
 twitter: true
 ---
 

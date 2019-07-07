@@ -4,7 +4,7 @@ location = "Bergen, Norway"
 link = "http://www.wired.com/2014/06/strava-sells-cycling-data/"
 aliases = ["/2014/06/06/stravas-cycling-app-is-helping-cities-build-better-bike-lanes/"]
 date = "2014-06-06"
-tags = ["strava", "cycling", "bicycles"]
+tags = ["cycling"]
 +++
 
 <a href="http://www.wired.com/2014/06/strava-sells-cycling-data/" class="link">Wired:</a> 

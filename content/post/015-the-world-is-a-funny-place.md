@@ -3,7 +3,7 @@ title = "The world is a funny place"
 location = "Taipei, Republic of China"
 aliases = ["/2011/05/05/the-world-is-a-funny-place/"]
 date = "2011-05-05"
-tags = ["travel", "taiwan", "academia"]
+tags = ["travels", "taiwan", "academia"]
 +++
 
 ![](/images/funnyplace.jpg)

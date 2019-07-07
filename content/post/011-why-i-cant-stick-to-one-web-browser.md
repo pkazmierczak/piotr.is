@@ -3,6 +3,7 @@ title = "Why I Can't Stick To One Web Browser"
 location = "Groningen, The Netherlands"
 date = "2011-01-02"
 aliases = ["/2011/01/02/why-i-cant-stick-to-one-web-browser/"]
+tags = ["rant"]
 +++
 
 Because they **all suck**.

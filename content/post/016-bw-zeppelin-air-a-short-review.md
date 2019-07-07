@@ -4,7 +4,7 @@ location = "Groningen, The Netherlands"
 readlater = true
 aliases = ["/2011/09/04/bw-zeppelin-air-a-short-sort-of-review/"]
 date = "2011-09-04"
-tags = ["music", "ipod"]
+tags = ["music", "hifi"]
 +++
 
 B&W Zeppelin is one of those devices that really catch one's eye. It can't remain unnoticed, but it doesn't make a good impression. When we saw it in a store today, our initial thought was that it's a beautiful toy for people willing to spend too much money (€600!) on what basically is just a fancy iPod docking station. Didn't expect to cycle through the narrow streets of downtown Groningen holding my left hand on a shaky old handlebar of a borrowed *oma fiets*, and another one on a big white 'Bowers & Wilkins' box semi-attached to the rear rack an hour later. That hour was filled with discussions between me and Karolina whether it makes sense to spend such an amount of money on such a small 'thingy', and whether the sound really is that good. Well, as everyone probably already expects, it actually is *that* good.

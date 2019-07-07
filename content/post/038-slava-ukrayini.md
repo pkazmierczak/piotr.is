@@ -5,7 +5,7 @@ link = "http://www.economist.com/blogs/easternapproaches/2014/02/ukraines-new-da
 aliases = ["/2014/02/23/слава-українi/"]
 url = "/2014/slava-ukrayini/"
 date = "2014-02-23"
-tags = ["the economist", "ukraine"]
+tags = ["the economist", "politics", "ukraine"]
 +++
 
 [The Economist:](http://www.economist.com/blogs/easternapproaches/2014/02/ukraines-new-dawn)

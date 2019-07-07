@@ -3,7 +3,7 @@ title = "Growing linux frustration"
 location = "Bergen, Norway"
 aliases = ["/2010/08/07/growing-linux-frustration/"]
 date = "2010-08-07"
-tags = ["linux"]
+tags = ["linux", "rant"]
 +++
 
 I've already mentioned my linux-related laptop problems [some time

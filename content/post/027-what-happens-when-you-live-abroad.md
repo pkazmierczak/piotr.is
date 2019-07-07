@@ -4,6 +4,7 @@ location = "Bergen, Norway"
 link = "http://thoughtcatalog.com/2012/what-happens-when-you-live-abroad/"
 date = "2013-04-18"
 aliases = ["/2013/04/18/what-happens-when-you-live-abroad/"]
+tags = ["personal", "society"]
 +++
 
 > The anxiousness that was once concentrated on how you’re going to make

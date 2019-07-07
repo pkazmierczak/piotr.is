@@ -4,7 +4,7 @@ location = "Bergen, Norway"
 readlater = true
 aliases = ["/2012/09/16/traveling/"]
 date = "2012-09-16"
-tags = ["travel"]
+tags = ["travels"]
 +++
 
 I travel **a lot**, and I mean a lot not only for a PhD student. Yes, I do travel to conferences, workshops, seminars and summer schools, but apart from that I visit family in Poland and friends in The Netherlands, which means I’m on an international flight at least once a month. It made me reflect on how I travel, how I feel about traveling and how many of my traveling habits changed.

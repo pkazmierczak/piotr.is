@@ -1,23 +1,19 @@
 {{ define "main" }}
 
 <main>
-	<div class="catalogue">
-		{{ $paginator := .Paginate (where .Pages "Type" "post") 5 }}
-		{{ range $paginator.Pages }}
-			{{ .Render "summary" }}
-		{{ end }}
-	</div>
+		{{ range first 1 (.Paginate .Pages).Pages }}
+		<div class="post">
+			{{ if eq .Section "post" }}
+			{{ partial "single/post-info.html" . }}
+			{{ partial "single/title.html" . }}
+			{{ end }}
 
-	<div class="pagination">
-		{{ if .Paginator.HasPrev }}
-			<a href="{{ .Paginator.Prev.URL }}" class="left arrow">&#8592;</a>
-		{{ end }}
-		{{ if .Paginator.HasNext }}
-			<a href="{{ .Paginator.Next.URL }}" class="right arrow">&#8594;</a>
-		{{ end }}
+			{{ .Content }}
 
-		<span>{{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}</span>
-	</div>
+		</div>
+
+		{{ end }}
+		{{ partial "recently.html" . }}
 </main>
 
 {{ end }}

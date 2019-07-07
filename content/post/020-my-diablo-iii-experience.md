@@ -3,7 +3,7 @@ title = "My Diablo III Experience"
 location = "Bergen, Norway"
 aliases = ["/2012/05/15/my-diablo-iii-experience/"]
 date = "2012-05-15"
-tags = ["diablo", "games"]
+tags = ["gaming", "rant"]
 +++
 
 I’m not a big gamer, I seldom buy and play computer games. There aren’t many titles that engage me for more than a couple of days, but those that do, however, I keep coming back to for years. That’s the case with my favorite games, such as [ADOM](http://www.adom.de/), Starcraft, Counter-Strike, Half-Life, Grand Theft Auto series (only in 3D) and Neverwinter Nights. I was told that Diablo is a similar kind of game, the one that you keep coming back to, so since the long awaited Diablo III premiered last night, I figured I could give it a try.

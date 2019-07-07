@@ -3,7 +3,7 @@ title = "Philosophy of Social Sciences and Norwegian Mountains"
 location = "Flåm, Norway"
 aliases = ["/2011/02/20/philosophy-of-social-sciences-and-norwegian-mountains/"]
 date = "2011-02-20"
-tags = ["norway"]
+tags = ["norway", "travels", "philosophy"]
 +++
 
 I'm back in Bergen after a week spent literally in the middle of nowhere, or
