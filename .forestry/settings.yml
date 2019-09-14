@@ -19,8 +19,8 @@ sections:
   label: Page
   create: all
   match: "**/*"
-upload_dir: static/images
-public_path: "/images"
+upload_dir: ''
+public_path: https://dcc6e3lk9c0l3.cloudfront.net
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"
