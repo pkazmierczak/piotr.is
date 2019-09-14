@@ -7,6 +7,6 @@ tags:
 - travels
 
 ---
-<img class="wide" src="https://static.piotr.is/diekirch.heic" />
+<img class="wide" src="https://static.piotr.is/44551EEB-79B0-4593-82F2-B691447334F1.jpeg">
 
 Luxembourg is my _favorite_ place on Earth.
