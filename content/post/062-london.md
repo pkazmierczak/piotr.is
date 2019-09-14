@@ -4,7 +4,7 @@ title: London
 location: Munich, Germany
 tags: [travels, london, uk, personal]
 aliases: /2015/12/14/london/
-header: "https://dcc6e3lk9c0l3.cloudfront.net/header-london.jpg"
+header: "https://static.piotr.is/header-london.jpg"
 twitter: yes
 ---
 
@@ -19,7 +19,7 @@ I remember visiting London a couple of years back, admiring the architecture of 
 Moving around the city during morning or evening rush hours means standing in some sort of a line most of the time. You queue for the trains (I never managed to get on the first or even the second Jubilee line train in the morning, not to mention the Central line), you queue to the stairs, and then in many other places you also queue even when you leave the station; for example at Faringdon station if you want to cross the street in the direction of Leather Lane the queue (~50m long) to the zebra crossing starts right at the station exit.
 
 <figure class="wide">
-<img src="https://dcc6e3lk9c0l3.cloudfront.net/london-canary-wharf.jpg">
+<img src="https://static.piotr.is/london-canary-wharf.jpg">
 <figcaption>A queue to the first escalators, Canary Wharf station at 8:50 AM. People of Munich, if you think that U6 gets crowded in the mornings, think again. </figcaption>
 </figure>
 

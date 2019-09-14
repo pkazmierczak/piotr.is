@@ -5,7 +5,7 @@ date = "2015-05-10"
 tags = ["academia", "logic", "PhD", "personal"]
 +++
 
-<img src="https://dcc6e3lk9c0l3.cloudfront.net/disputas.jpg" />
+<img src="https://static.piotr.is/disputas.jpg" />
 
 On Thursday, April 30th I successfully defended my thesis on ["Agents that Play by the Rules"](/papers/thesis.pdf) and was awarded the title of PhD.[^1] It was 4,5 years of work,[^2] and the last week was definitely the most stressful and exhausting one I had in my entire life, but now I'm *done.* There's no more school to go to, no more exams and no more courses to take.[^3]
 

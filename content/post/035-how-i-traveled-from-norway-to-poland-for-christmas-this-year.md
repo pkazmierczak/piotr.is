@@ -5,7 +5,7 @@ aliases: ["/2013/12/30/how-i-traveled-from-norway-to-poland-for-christmas-this-y
 date: "2013-12-30"
 tags: ["travels"]
 cover: 
-    image: https://dcc6e3lk9c0l3.cloudfront.net/covers/train.jpg
+    image: https://static.piotr.is/covers/train.jpg
     style: full
 ---
 
@@ -27,11 +27,11 @@ So that was the plan, and it looked good. In the end I managed to arrive in Pozn
 
 I took off from Bergen at 8am. <a href="http://en.wikipedia.org/wiki/Bergen_Line">Bergensbana</a> is probably one of world's most beautiful train routes, but not in December. The sun doesn't rise until ~9:40, so you can't see any of the beautiful fiords of Western Norway.
 
-<img src="https://dcc6e3lk9c0l3.cloudfront.net/trainChristmas1.jpg" class="wide" />
+<img src="https://static.piotr.is/trainChristmas1.jpg" class="wide" />
 
 By the time it's daylight, the train reaches <a href="http://en.wikipedia.org/wiki/Hardangervidda">Hardangervidda</a>, and everything's just <em>white</em>, but you won't even see that, because the train goes through the snow like a giant plough, and in effect all you see through the windows is a giant white cloud.
 
-<img src="https://dcc6e3lk9c0l3.cloudfront.net/trainChristmas2.jpg" class="wide" />
+<img src="https://static.piotr.is/trainChristmas2.jpg" class="wide" />
 
 It gets better in Eastern Norway as the train approaches Oslo, but then again the landscape becomes a bit boring there. But apart from all that, the Bergen-Oslo train was one of the best parts of my trip. The train itself is comfy, there are power outlets in 2nd class, and it was on time.
 
@@ -43,7 +43,7 @@ I walked towards platform 19 at Oslo S and jumped on a bus[^1] to Karlstad, wher
 
 Katrineholm is the Swedish equivalent of <a href="http://en.wikipedia.org/wiki/Koluszki">Koluszki</a> – apparently the only reason to be there is to get off of one train and get on another one – but the night train Stockholm-Malmö arrived on time, and it was way more comfortable than I expected. I had a couple of hours of sleep and got up at 5am to get off in Lund Central and make another train – <a href="http://en.wikipedia.org/wiki/%C3%96resundst%C3%A5g">Øresundståg</a> to Copenhagen. This part of the trip was relatively uneventful, and when I got to Copenhagen, I finally had a decent morning coffee.
 
-<img src="https://dcc6e3lk9c0l3.cloudfront.net/trainChristmas3.jpg" class="wide" />
+<img src="https://static.piotr.is/trainChristmas3.jpg" class="wide" />
 
 Copenhagen station was pretty busy, and, as always, full of junkies. Anyways, I finished my coffee and went to platform 4, where an ICE 38 train to Hamburg/Berlin arrived and took me to Germany.
 
@@ -51,19 +51,19 @@ So here's the thing about ICE. It's advertised as high-speed, premium service by
 
 First off, ICE 38 is nowhere near high-speed. It's a *diesel high-speed train*, geddit? It's diesel, because tracks in southern Denmark aren't electrified, and because it has to be loaded on a ferry (!) in order to cross the Fehrman belt (from Rodbyhavn to Puttgarden).
 
-<img src="https://dcc6e3lk9c0l3.cloudfront.net/trainChristmas4.jpg" class="wide" />
+<img src="https://static.piotr.is/trainChristmas4.jpg" class="wide" />
 
 On top of being slow, the ICE 38 was late. It left Copenhagen on time, but was late for the ferry, was 20 minutes late in Hamburg Hbf, and then it simply broke down. It took another 35 minutes before we left for Berlin. The ridiculous thing about ICE is that it was hands-down the most expensive leg of my journey – the ticket from Copenhagen to Berlin costed €140 (in comparison, the NSB ticket from Bergen to Oslo costed 300 NOK (which is ~€35), the SJ ticket from Oslo to Copenhagen costed 800 SEK (which is ~€90), and the last part from Berlin to Poznań was ~€40 (bought that one very late, would have been much cheaper if booked earlier)). For €140 I'd expect much more.
 
 I arrived pretty late in Berlin Hbf and only managed to grab a shot of the Christmas tree:
 
-<img src="https://dcc6e3lk9c0l3.cloudfront.net/trainChristmas5.jpg" class="wide" />
+<img src="https://static.piotr.is/trainChristmas5.jpg" class="wide" />
 
 and had to run to catch the EuroCity train to Gdynia which was already waiting. Didn't even manage to buy any <a href="http://en.wikipedia.org/wiki/Hanuta">Hanutas</a>, and it's all your fault, Deutsche Bahn.
 
 Now comes the final part: a Polish train operated by <a href="http://en.wikipedia.org/wiki/PKP_Intercity">PKP InterCity</a>. If you ever lived in Poland or known any Polish people, you'd know that PKP has the worst possible reputation in my homeland. So it came as no surprise when I saw the train looked pretty bad from the outside,
 
-<img src="https://dcc6e3lk9c0l3.cloudfront.net/trainChristmas6.jpg" class="wide" />
+<img src="https://static.piotr.is/trainChristmas6.jpg" class="wide" />
 
 but it came as a *major* surprise that it was brand new, roomy and comfortable inside. More than that, it was fast, on time, and they served free snacks + coffee/tea/juice in 2nd class. So, yeah, turns out that PKP InterCity was the cheapest and best part of my whole journey, by a fat margin.
 

@@ -15,7 +15,7 @@ And what's funnier, its design is brilliant. The Zeppelin looks like a creature 
 
 There's also a funny little pilot in the box that comes in handy when you're sitting on the couch with your girlfriend sipping that Italian wine and enjoying the sound of Leszek Możdżer's piano.
 
-![](https://dcc6e3lk9c0l3.cloudfront.net/zeppelin2.jpg)
+![](https://static.piotr.is/zeppelin2.jpg)
 
 And finally, the Zeppelin has a composite video output socket that can stream the video from an iPod/iPhone to a TV, but this feature we couldn't test because we don't own a TV set.
 

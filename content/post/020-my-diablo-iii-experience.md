@@ -12,7 +12,7 @@ I also figured that it’s a bad idea buying and downloading the game last night
 
 Today I had a pretty tough day (possibly due to a sleepless night), so I thought it wouldn’t hurt to slay a couple of demons and zombies. I bought the game, downloaded the OS X[^1] client, downloaded 9+ gigabytes of files and… never even managed to play single-player campaign.
 
-<img class="small" src="https://dcc6e3lk9c0l3.cloudfront.net/diablo.png" />
+<img class="small" src="https://static.piotr.is/diablo.png" />
 
 The message above, or some of its variants, keeps popping up, and I’m either unable to login with my Battle.net account, or get kicked out of the game after ~5 minutes of playing. I can’t resume the game, because *the server awaits other party members* (wtf?), and after quitting it and relaunching I’m usually not able to login again. I had what Blizzard installer called a *playable* game on my hard drive since about 6:00 p.m., it’s 12:24 a.m. now and I’m still unable to play. There are two observations one can make about it.
 

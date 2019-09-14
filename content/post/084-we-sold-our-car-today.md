@@ -8,7 +8,7 @@ tags: [cars, mobility, personal]
 Most of you probably don’t know, but about 5 months ago, Karolina and I bought a beautiful, red, 2013 Seat Leon coupé. We sold it today, because of our upcoming move to the Netherlands where we won’t need it, and also because it’s a major hassle moving a car to NL (a proper European federation cannot happen soon enough). It was our first car and despite the fact that we’re both pretty left-leaning, bike-riding, train-loving hippies, we were surprised how much our car--a petrol-burning, city-clogging thing--grew on us. Here is a couple of observations we made about it.
 
 <figure class="wide">
-<img src="https://dcc6e3lk9c0l3.cloudfront.net/auto-emocion.jpg">
+<img src="https://static.piotr.is/auto-emocion.jpg">
 <figcaption>Karolina preparing for yet another hike, somewhere in central Italy. </figcaption>
 </figure>
 
