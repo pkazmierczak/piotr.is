@@ -1,0 +1,16 @@
+---
+label: default
+hide_body: false
+fields:
+- type: text
+  name: slug
+  label: slug
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: location
+  label: location
+- type: list
+  name: tags
+  label: tags
