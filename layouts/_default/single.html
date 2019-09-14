@@ -2,15 +2,21 @@
 
 <main>
 	<div class="post">
+		{{ if .Params.Title }}
+		{{ partial "single/post-info.html" . }}
+		{{ partial "single/title.html" . }}
+		{{ end }}
 		{{ .Content }}
 	</div>
 
 	{{ if eq .Section "post" }}
 	<div class="meta">
+		{{ if (not (isset .Params "title")) }}
 		<div><time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>&nbsp;&middot;&nbsp;<a href="{{.Permalink}}">&infin;</a>
 		{{- if .Params.location }}
 		&nbsp;&middot;&nbsp;{{ .Params.location }}
 		{{- end }}</div>
+		{{ end }}
 		<div>{{- if .Params.tags }}
 		{{ range .Params.tags }}
 		<a href="/tags/{{ . | urlize }}">#{{.}}</a>

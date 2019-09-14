@@ -1,7 +1,7 @@
 +++
-title = "Put.io – a discussion about piracy on Hacker News"
 location = "Bergen, Norway"
 link = "https://news.ycombinator.com/item?id=7175210"
+slug = "put.io-a-discussion-about-piracy-on-hacker-news"
 aliases = ["/2014/02/04/put-io-a-discussion-about-piracy-on-hacker-news/"]
 date = "2014-02-04"
 tags = ["privacy", "internet"]

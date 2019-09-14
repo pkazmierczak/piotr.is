@@ -13,7 +13,11 @@
         {{ range .Pages.GroupByDate "2006"}}
         <h2 class="archive-title">{{ .Key }}</h2>
         {{ range .Pages }}
-            <a href="{{ .Permalink }}" class="archive-item-link">{{ .Date.Format "Jan 2" }}</a>&nbsp;&nbsp;&nbsp;
+            {{ if .Title }}
+            <a href="{{ .Permalink }}" class="archive-item-link">{{ .Title }}</a>&nbsp;&middot;&nbsp;<span class="archive-item-date"> {{ .Date.Format "Jan 2" }} </span>&nbsp;&nbsp;&nbsp;
+            {{ else }}
+            <a href="{{ .Permalink }}" class="archive-item-date">{{ .Date.Format "Jan 2" }}</a>&nbsp;&nbsp;&nbsp;
+            {{ end }}
         {{ end }}
         {{ end }}
         {{ end }}

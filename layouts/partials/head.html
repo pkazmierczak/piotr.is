@@ -11,7 +11,11 @@
 		{{ template "_internal/twitter_cards.html" . }}
 
 		<title>
-			{{ .Site.Title }}
+			{{- if .Params.Title }}
+				{{ .Title }} &middot; {{ .Site.Title }}
+			{{- else }}
+				{{ .Site.Title }}
+			{{- end }}
 		</title>
 
 		<!-- CSS -->
