@@ -1,5 +1,5 @@
 +++
-title = "100 prisoners and a light bulb"
+slug = "prisoners-lightbulb"
 location = "Copenhagen, Denmark"
 aliases = ["/2010/08/20/100-prisoners-and-a-light-bulb/"]
 date = "2010-08-20"

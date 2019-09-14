@@ -1,5 +1,5 @@
 +++
-title = "Cheating in LetterPress"
+slug = "letterpress"
 location = "Munich, Germany"
 aliases = ["/2015/01/22/coding-in-python-cheating-in-letterpress/"]
 date = "2015-01-22"

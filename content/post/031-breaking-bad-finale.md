@@ -1,5 +1,5 @@
 +++
-title = "“Breaking Bad” finale"
+slug = "breaking-bad"
 location = "Bergen, Norway"
 aliases = ["/2013/10/05/6252/"]
 date = "2013-10-05"

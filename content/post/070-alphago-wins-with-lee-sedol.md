@@ -1,5 +1,5 @@
 ---
-title: AlphaGo wins with Lee Sedol
+slug: alphago
 date: 2016-03-10
 location: Munich, Germany
 tags: [ai, google, machine learning]

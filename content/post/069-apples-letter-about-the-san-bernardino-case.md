@@ -1,6 +1,6 @@
 ---
 date: 2016-02-17
-title: Apple's letter about the San Bernardino case
+slug: san-bernardino
 location: Braunschweig, Germany
 tags: [apple, internet, privacy]
 twitter: true

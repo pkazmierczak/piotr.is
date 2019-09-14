@@ -1,6 +1,6 @@
 ---
 date: 2016-01-16
-title: Go vs. Scala
+slug: ijaz
 location: "Munich, Germany"
 tags: [golang, programming, scala]
 twitter: false

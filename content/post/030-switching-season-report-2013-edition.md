@@ -1,5 +1,5 @@
 +++
-title = "Switching Season"
+slug = "switching-season"
 location = "Bergen, Norway"
 link = "https://al3x.net/2013/08/12/switching-season-annual-report-2013.html"
 date = "2013-08-22"

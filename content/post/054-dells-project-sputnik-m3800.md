@@ -1,5 +1,5 @@
 +++
-title = "Dell’s Project Sputnik: M3800"
+slug = "dell-sputnik"
 location = "Munich, Germany"
 aliases = ["/2015/02/07/dell-precision-m3800-mobile-workstation-developer-edition/"]
 date = "2015-02-07"

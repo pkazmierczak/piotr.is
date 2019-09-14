@@ -1,5 +1,5 @@
 +++
-title = "Disabling a minor-mode on a per-file basis"
+slug = "disabling-minor-mode"
 location = "Bergen, Norway"
 aliases = ["/2012/01/17/disabling-a-minor-mode-on-a-per-file-basis/"]
 date = "2012-01-17"

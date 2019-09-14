@@ -1,6 +1,6 @@
 ---
 date: 2015-12-18
-title: Positive experience as a woman in tech
+slug: ytwr
 location: Munich, Germany
 tags: [society, feminism]
 aliases: ["/2015/12/18/positive-experience-as-a-woman-in-tech/"]

@@ -1,5 +1,5 @@
 ---
-title: Married
+slug: married
 date: 2016-05-30
 location: Warsaw, Poland
 tags: [personal]

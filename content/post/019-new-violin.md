@@ -1,7 +1,6 @@
 +++
 title = "New Violin"
 location = "Groningen, The Netherlands"
-readlater = true
 aliases = ["/2012/01/28/new-violin/"]
 date = "2012-01-28"
 tags = ["music", "violin"]

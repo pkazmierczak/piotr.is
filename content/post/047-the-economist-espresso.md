@@ -1,5 +1,5 @@
 +++
-title = "The Economist Espresso"
+slug = "economist-espresso"
 location = "Munich, Germany"
 aliases = ["/2014/12/15/the-economist-espresso/"]
 date = "2014-12-15"

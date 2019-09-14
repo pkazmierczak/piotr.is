@@ -1,5 +1,5 @@
 +++
-title = "Simple script for automatic backup using duplicity"
+slug = "duplicity"
 location = "Borowiny, Poland"
 aliases = ["/2009/11/01/simple-script-for-automatic-backup-using-duplicity/"]
 date = "2009-11-01"

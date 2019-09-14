@@ -1,6 +1,6 @@
 ---
 date: 2015-12-08
-title: Dropbox shuts down Mailbox
+slug: botd
 location: Munich, Germany
 tags: [dropbox]
 aliases: /2015/12/08/dropbox-shuts-down-mailbox/

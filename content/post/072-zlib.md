@@ -1,5 +1,5 @@
 ---
-title: "How are zlib, gzip and Zip related?"
+slug: zlib
 date: "2016-06-21"
 tags: ["open source", "stack overflow"]
 location: "Warsaw, Poland"

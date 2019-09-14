@@ -1,5 +1,5 @@
 +++
-title = "Growing linux frustration"
+slug = "linux-frustration"
 location = "Bergen, Norway"
 aliases = ["/2010/08/07/growing-linux-frustration/"]
 date = "2010-08-07"

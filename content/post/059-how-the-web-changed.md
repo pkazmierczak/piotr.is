@@ -1,6 +1,6 @@
 ---
 date: 2015-09-14
-title: How the web changed
+slug: lvjv
 location: Munich, Germany
 tags: [internet, privacy]
 link: https://medium.com/matter/the-web-we-have-to-save-2eb1fe15a426

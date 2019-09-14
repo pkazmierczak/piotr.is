@@ -1,9 +1,8 @@
 ---
 date: 2015-09-03
-title: Spacemacs
+slug: spacemacs
 location: Munich, Germany
 tags: [emacs, vim]
-aside: true
 update_date: 2015-09-14
 ---
 
