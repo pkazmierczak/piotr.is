@@ -1,5 +1,5 @@
 +++
-title = "Strava’s Cycling App Is Helping Cities Build Better Bike Lanes"
+slug = "strava-lanes"
 location = "Bergen, Norway"
 link = "http://www.wired.com/2014/06/strava-sells-cycling-data/"
 aliases = ["/2014/06/06/stravas-cycling-app-is-helping-cities-build-better-bike-lanes/"]

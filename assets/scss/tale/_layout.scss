@@ -103,6 +103,16 @@ footer {
   text-decoration: none;
 }
 
+.archive ul {
+  display: inline-block; 
+  list-style: none;
+  padding: 0;
+}
+.archive ul li {
+  padding-right: 0.6rem;
+  margin: -10px 0;
+}
+
 @for $i from 1 through 50 {
   $base: 0.6em;
   $inc: 0.1*$i;

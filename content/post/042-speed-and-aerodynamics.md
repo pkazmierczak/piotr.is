@@ -1,5 +1,5 @@
 +++
-title = "“Speed” and “aerodynamics”"
+slug = "prolly"
 location = "Bergen, Norway"
 aliases = ["/2014/06/14/speed-and-aerodynamics/"]
 update_date = "2015-03-17"

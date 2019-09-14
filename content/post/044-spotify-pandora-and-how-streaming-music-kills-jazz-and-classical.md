@@ -1,5 +1,5 @@
 +++
-title = "Spotify, Pandora and how streaming music kills jazz and classical"
+slug = "spotify-classical"
 location = "Bergen, Norway"
 link = "http://www.salon.com/2014/07/20/its_not_just_david_byrne_and_radiohead_spotify_pandora_and_how_streaming_music_kills_jazz_and_classical/"
 aliases = ["/2014/07/26/spotify-pandora-and-how-streaming-music-kills-jazz-and-classical/"]

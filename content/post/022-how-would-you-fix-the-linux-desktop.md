@@ -1,5 +1,5 @@
 +++
-title = "How Would You Fix the Linux Desktop?"
+slug = "linux-desktop"
 location = "Bergen, Norway"
 date = "2012-09-13"
 aliases = ["/2012/09/13/how-would-you-fix-the-linux-desktop/"]
