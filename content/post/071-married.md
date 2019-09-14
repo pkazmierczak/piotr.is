@@ -5,7 +5,7 @@ location: Warsaw, Poland
 tags: [personal]
 ---
 
-<img src="/images/married.jpg" />
+<img src="https://dcc6e3lk9c0l3.cloudfront.net/married.jpg" />
 
 After many, *many* years of careful consideration, my lovely [fiancee](http://karolinakrzyzanowska.com) and I decided to get married. I'm posting this with a 1-month delay, because we were busy with [climbing](https://www.instagram.com/p/BFB21QQw-VT/), working and traveling a lot.
 

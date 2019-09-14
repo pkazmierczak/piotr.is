@@ -16,7 +16,7 @@ Then at the break of the century, a new world begun. 9.11 happened, W.&nbsp;&&nb
 Yet besides all that, there has never been a country I felt so emotionally strong about as the United States.
 
 <figure class="wide">
-<img src="/images/hi-america/brownstones.jpg">
+<img src="https://dcc6e3lk9c0l3.cloudfront.net/hi-america/brownstones.jpg">
 <figcaption>Brownstones in Park Slope, Brooklyn. The Huxtables lived in a similar one in Brooklyn Heights. Sadly, they wouldn't be able to afford one these days.  </figcaption>
 </figure>
 
@@ -27,14 +27,14 @@ I landed on JFK and took a cab to Manhattan from there, and my driver was Tariq,
 It's a cliché to write it, but the cultural and ethnic "melting pot" you witness in New York is, again, incomparable to anything I've ever seen, and I did quite some traveling. From African American Bedford-Stuyvesant, Brooklyn to Asian (mostly Korean and Chinese, I presume) neighborhoods of Flushing, Queens, New York city has it all.  All races, all languages, all cuisines. And yes, America definitely has a problem with racism and class society, but from my perspective it seems they are better at acknowledging the problem and trying to do something about it. Can't really say that about, e.g., France or Sweden, or many other European countries.
 
 <figure class="wide">
-<img src="/images/hi-america/flushing.jpg">
+<img src="https://dcc6e3lk9c0l3.cloudfront.net/hi-america/flushing.jpg">
 <figcaption>Flushing, Queens. You can have great dumplings around here. </figcaption>
 </figure>
 
 I've been living in different European countries for about 7 years now, and I felt welcome everywhere. People generally speak good English, and there are little to no bureaucratic or administrative issues moving around thanks to the miracle of the European Union and the Schengen agreement. But somewhere in the back of my head I know I will never be able to become German. Or Norwegian, or Dutch, or French. Probably not even British.  Europe's tormented history and still largely national-centric politics take its toll, and it's just much harder, if not impossible, to "fully integrate" (which can mean different things to different people). US is much simpler in this regard. If you speak at least some basic English, respect American values, wave the flag on 4th of July and eat turkey on Thanksgiving, you're one of them. So much easier in a country built on immigration I guess, where around 80% of population [identifies with foreign ancestry](https://www.census.gov/prod/2004pubs/c2kbr-35.pdf), and where millions of immigrant visas are issued and hundreds of thousands of immigrants are naturalized [every year](http://www.migrationpolicy.org/article/naturalization-trends-united-states).  It's funny that, it would seem to me, Americans are one of the very few nations that is able to reconcile this inclusiveness and multi-culturalism with national pride. In Europe, you're either a nationalist or left-wing, there seem to be less and less room for middle ground.
 
 <figure class="wide">
-<img src="/images/hi-america/flag.jpg">
+<img src="https://dcc6e3lk9c0l3.cloudfront.net/hi-america/flag.jpg">
 <figcaption>American flags are everywhere. Here decorating a façade of a beautiful townhouse in Charlestown, Boston. </figcaption>
 </figure>
 
@@ -45,8 +45,8 @@ Greyhound express bus from Boston to New York goes through rural Massachusetts a
 Crime in New York city and most of the US has been [in decline](https://ucr.fbi.gov/crime-in-the-u.s/2014/crime-in-the-u.s.-2014/tables/table-1) for many years now, and nothing seems to indicate this trend would change. But income differences get bigger every year, especially [in New York](http://www.nytimes.com/2014/09/18/nyregion/gap-between-manhattans-rich-and-poor-is-greatest-in-us-census-finds.html).  The issue of America's shrinking middle class is [nuanced](http://www.forbes.com/sites/timworstall/2016/06/21/sure-the-middle-class-is-shrinking-30-of-americans-are-too-rich-to-be-middle-class-now/), but from a European visitor's perspective the income differences are vivid. And if you have friends in New York, you know the dinner conversation will be mostly about the insane living cost in the city. The NY Times article I linked to above said that "about 45 percent of New York City households said they spent 35 percent or more of their income on housing." Seeing how the new [432 Park Avenue](http://432parkavenue.com/) (with [One57](http://www.one57.com/) not far behind) rises like a middle finger towards all the poor in the center of Manhattan, I can see why so many New York residents opposed to its construction.
 
 <figure class="wide">
-<img src="/images/hi-america/parkav432.jpg">
-<figcaption>View on Upper Manhattan, with super tall 432 Park Avenue prominently on the right, and One57 on the left. They were built so that all the billionaires could have a good view on those poor souls who were only able to afford apartments on the Upper West or Upper East Side. Have a look at the <a href="/images/hi-america/parkav432-big.jpg">full-size picture</a>. </figcaption>
+<img src="https://dcc6e3lk9c0l3.cloudfront.net/hi-america/parkav432.jpg">
+<figcaption>View on Upper Manhattan, with super tall 432 Park Avenue prominently on the right, and One57 on the left. They were built so that all the billionaires could have a good view on those poor souls who were only able to afford apartments on the Upper West or Upper East Side. Have a look at the <a href="https://dcc6e3lk9c0l3.cloudfront.net/hi-america/parkav432-big.jpg">full-size picture</a>. </figcaption>
 </figure>
 
 But it's not only that the US Economy has been going through hoops since 2008 that the US became less attractive to us Europeans. It's also because Europe became *so* good that we take it for granted. That we have clean, cheap and reliable public transportation, that there's universal free (or very affordable) health care, that 25 days of paid leave per year is nothing special and that decent education is for everyone—we expect all that. From an Eastern European perspective the fascination with the United States is of course easier to explain. For decades, we were very angry with Western Europe, and we felt it's been looking down upon us, whereas the US was the land of opportunity. It still very much seems that way, because reactions to people hearing "I'm Polish" are *very* different on both sides of the Atlantic. But it's us, Eastern Europeans, that especially forget how great Europe has become, and how vastly Poland itself improved compared to the country <s>our parents</s> we grew up in.[^3] So the disillusionment stems from a comparison between how "sooper-freaking-awesome" we expected the US to be, and how "awesome" it actually is.

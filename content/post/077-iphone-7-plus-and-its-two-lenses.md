@@ -9,7 +9,7 @@ To some, Apple's yesterday keynote wasn't all that impressive. After all, the ne
 
 This is the photograph Apple showed during the keynote, initially leading everyone to believe it's been taken with a "high-end camera":
 
-<img src="/images/iphone-7plus-sample.jpg" />
+<img src="https://dcc6e3lk9c0l3.cloudfront.net/iphone-7plus-sample.jpg" />
 
 only to later explain it's been shot with the upcoming iPhone 7 Plus, which features two lenses—one wide-angle, and one tele—that are then used by iPhone's software to infer the depth of field, and to create the *bokeh* effect. While far from perfect (there's something wrong with how the face of the model is separated from the background), this, to me, is a *major* breakthrough in smartphone photography. As the technology matures, we will see the "bokeh software" improve, and the dual-lens technology perhaps applied to other areas (VR?), but most importantly it'll render [cameras obsolete](/2015/the-dawn-of-my-camera/), to most people at least.
 

@@ -38,7 +38,7 @@ Play it *loudly*.
 
 #### Julian Argüelles—["Tetra"](http://www.whirlwindrecordings.com/tetra/) (Whirlwind)
 
-<a href="http://www.whirlwindrecordings.com/tetra/"><img src="/images/julian-arguelles-tetra.jpg" style="float:left;margin:10px 20px 10px 0px;"></a>
+<a href="http://www.whirlwindrecordings.com/tetra/"><img src="https://dcc6e3lk9c0l3.cloudfront.net/julian-arguelles-tetra.jpg" style="float:left;margin:10px 20px 10px 0px;"></a>
 Julian Argüelles comes back with a new band called Tetra to introduce an album titled... "Tetra." This is the most mainstream/conservative album of the 5 recommendations I compiled here, but it's still full of Julian's great improvisations and I'm pretty sure many of his pieces will soon become standards.  
 Play it at a party, play it to people who say they don't like contemporary jazz. 
 
