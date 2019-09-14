@@ -1,19 +1,8 @@
-{{ define "main" }}
-
-<main>
-		{{ range first 1 (.Paginate .Pages).Pages }}
-		<div class="post">
-			{{ if eq .Section "post" }}
-			{{ partial "single/post-info.html" . }}
-			{{ partial "single/title.html" . }}
-			{{ end }}
-
-			{{ .Content }}
-
-		</div>
-
-		{{ end }}
-		{{ partial "recently.html" . }}
-</main>
-
-{{ end }}
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="refresh" content="0;url={{range first 1 .Site.RegularPages}}{{ .Permalink }}{{ end }}" />
+	</head>
+	<body></body>
+</html>
+		

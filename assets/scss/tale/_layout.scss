@@ -81,13 +81,16 @@ footer,
 }
 
 footer {
-  font-family: $serif-secondary;
   padding: 2rem 0;
   text-align: center;
 
   span {
-    color: $default-color;
+    color: $grey-1;
     font-size: .8rem;
+  }
+
+  a {
+    color: inherit;
   }
 }
 
@@ -114,23 +117,25 @@ footer {
   margin-bottom: 0.6rem;
 }
 
-.feedback {
+.meta {
   margin-bottom: 1rem;
+  color: $grey-1;
+  a {
+    color: inherit;
+  }
 }
 
 .recently {
   border-top: .5px solid $grey-2;
   padding-top: 2rem;
-  color: $blue;
 }
 
 .aside {
   color: $grey-1;
   font-size: small;
-}
-
-.aside a {
-  color: inherit;
+  a {
+    color: inherit;
+  }
 }
 
 /*!

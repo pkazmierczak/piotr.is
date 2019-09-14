@@ -5,12 +5,12 @@
         {{ if or (eq $curPostTitle $primo.Title) $home }}
 			{{ range $index, $element := (first 6 .Site.RegularPages) }}
 			{{ if ne $index 0 }}
-				<a class="recently-item" href="{{ $element.RelPermalink }}">{{ $element.Title }}</a>&nbsp;&middot;&nbsp;
+				<a class="recently-item" href="{{ $element.RelPermalink }}">{{ $element.Date.Format "Jan 2 2006" }}</a>&nbsp;&middot;&nbsp;
             {{ end }}
             {{ end }}
         {{ else }}
             {{ range first 5 .Site.RegularPages }}
-				<a class="recently-item" href="{{ .RelPermalink }}">{{ .Title }}</a>&nbsp;&middot;&nbsp;
+				<a class="recently-item" href="{{ .RelPermalink }}">{{ .Date.Format "Jan 2 2006" }}</a>&nbsp;&middot;&nbsp;
 			{{ end }}
         {{ end }}
         <span class="recently-day"><a href="/archive/">&hellip;</a></span>

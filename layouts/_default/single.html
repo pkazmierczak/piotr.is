@@ -2,23 +2,20 @@
 
 <main>
 	<div class="post">
-		{{ if eq .Section "post" }}
-		{{ partial "single/post-info.html" . }}
-		{{ partial "single/title.html" . }}
-		{{ end }}
-
 		{{ .Content }}
-
 	</div>
 
 	{{ if eq .Section "post" }}
-	<div class="tags">
+	<div class="meta">
+		<div><time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>&nbsp;&middot;&nbsp;<a href="{{.Permalink}}">&infin;</a>
+		{{- if .Params.location }}
+		&nbsp;&middot;&nbsp;{{ .Params.location }}
+		{{- end }}</div>
+		<div>{{- if .Params.tags }}
 		{{ range .Params.tags }}
 		<a href="/tags/{{ . | urlize }}">#{{.}}</a>
 		{{ end }}
-	</div>
-	<div class="feedback">
-		Questions or feedback? <a href="https://twitter.com/pkazmierczak">@pkazmierczak</a>
+		{{- end }}</div>
 	</div>
 
 	{{ partial "recently.html" . }}
