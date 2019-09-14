@@ -1,5 +1,5 @@
 ---
-title: "We sold our car today"
+slug: auto-emocion
 date: 2018-01-03
 location: "Munich, Germany"
 tags: [cars, mobility, personal]
