@@ -2,9 +2,11 @@
 
 <main>
 	<div class="post">
+		{{ if eq .Section "post" }}
 		{{ if .Params.Title }}
 		{{ partial "single/post-info.html" . }}
 		{{ partial "single/title.html" . }}
+		{{ end }}
 		{{ end }}
 		{{ .Content }}
 	</div>
