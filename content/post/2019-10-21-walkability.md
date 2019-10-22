@@ -5,8 +5,10 @@ location: San Jose, CA
 tags:
 - society
 - travels
----
+- america
+- mobility
 
+---
 I am slowly beginning to grasp the concept of ["walkability."](https://en.wikipedia.org/wiki/Walkability) It's not about whether there are wide sidewalks (although there better be). Spending my second week in California I realize the absolute key part is whether you need to cross multi-lane streets/roads every 50 meters. Nothing kills the joy of walking around than having to stop all the time. 
 
 {{< aside >}}
