@@ -8,7 +8,7 @@
                 {{ if $element.Title }}
                 <a class="recently-item" href="{{ $element.RelPermalink }}">{{ $element.Title }}</a>&nbsp;&middot;&nbsp;
                 {{ else }}
-                <a class="recently-no-title-item" href="{{ $element.RelPermalink }}">{{ $element.Date.Format "Jan 2 2006" }}</a>&nbsp;&middot;&nbsp;
+                <a class="recently-item" href="{{ $element.RelPermalink }}">{{ $element.Date.Format "Jan 2 2006" }}</a>&nbsp;&middot;&nbsp;
                 {{ end }}
             {{ end }}
             {{ end }}
@@ -17,7 +17,7 @@
                 {{ if .Title }}
                 <a class="recently-item" href="{{ .RelPermalink }}">{{ .Title }}</a>&nbsp;&middot;&nbsp;
                 {{ else }}
-                <a class="recently-no-title-item" href="{{ .RelPermalink }}">{{ .Date.Format "Jan 2 2006" }}</a>&nbsp;&middot;&nbsp;
+                <a class="recently-item" href="{{ .RelPermalink }}">{{ .Date.Format "Jan 2 2006" }}</a>&nbsp;&middot;&nbsp;
                 {{ end }}
 			{{ end }}
         {{ end }}

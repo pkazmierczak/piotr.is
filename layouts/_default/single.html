@@ -14,7 +14,7 @@
 	{{ if eq .Section "post" }}
 	<div class="meta">
 		{{ if (not (isset .Params "title")) }}
-		<div><time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>&nbsp;&middot;&nbsp;<a href="{{.Permalink}}">&infin;</a>
+		<div><time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
 		{{- if .Params.location }}
 		&nbsp;&middot;&nbsp;{{ .Params.location }}
 		{{- end }}</div>
