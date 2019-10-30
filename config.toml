@@ -1,6 +1,6 @@
 baseurl = "https://piotr.is/"
 languageCode = "en-us"
-title = "Sound & Complete"
+title = "Piotr is"
 enableEmoji = true
 footnotereturnlinkcontents = "↩"
 pygmentsuseclasses = true
