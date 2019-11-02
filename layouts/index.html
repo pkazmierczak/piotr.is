@@ -1,8 +1,46 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta http-equiv="refresh" content="0;url={{range first 1 .Site.RegularPages}}{{ .Permalink }}{{ end }}" />
-	</head>
-	<body></body>
-</html>
-		
+{{ define "main" }}
+
+<main>
+	<div class="post">
+		{{ if eq .Section "post" }}
+		{{ if .Params.Title }}
+		{{ partial "single/post-info.html" . }}
+		{{ partial "single/title.html" . }}
+		{{ end }}
+		{{ end }}
+<p>Hi, I&rsquo;m Piotr! 👋 I am a data engineer at <a href="https://www.messagebird.com/">MessageBird</a>.</p>
+
+<p>I used to be a researcher when I was young. <a href="/research">Have a look</a> at what I worked on if you&rsquo;re interested.</p>
+
+<p>I sometimes post things on my <a href="https://piotr.blog/">blog.</a> </p>
+
+<p>I live in the lovely city of <s>Warsaw</s> <s>Leuven</s> <s>Bergen</s> <s>Munich</s> Amsterdam, where I enjoy good jazz concerts, beautiful parks, excellent bikelanes, and of course fine Dutch beer.</p>
+
+<p>I am <s>engaged</s> <a href="/2016/married/">married</a> to <a href="http://karolinakrzyzanowska.com">the best philosopher in the world</a>.</p>
+
+<h4 id="contact">Contact</h4>
+
+<p>Find me <a href="http://twitter.com/pkazmierczak">on twitter</a>.</p>
+
+<p><small><em>(last updated: Feb 2019)</em></small></p>
+	</div>
+
+	{{ if eq .Section "post" }}
+	<div class="meta">
+		{{ if (not (isset .Params "title")) }}
+		<div><time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
+		{{- if .Params.location }}
+		&nbsp;&middot;&nbsp;{{ .Params.location }}
+		{{- end }}</div>
+		{{ end }}
+		<div>{{- if .Params.tags }}
+		{{ range .Params.tags }}
+		<a href="/tags/{{ . | urlize }}">#{{.}}</a>
+		{{ end }}
+		{{- end }}</div>
+	</div>
+
+	{{ end }}
+</main>
+
+{{ end }}
