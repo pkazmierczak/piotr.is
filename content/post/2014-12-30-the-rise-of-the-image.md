@@ -3,7 +3,7 @@ title = "“The rise of the image, the fall of the word”"
 location = "Munich, Germany"
 aliases = ["/2014/12/30/the-rise-of-the-image-the-fall-of-the-word/"]
 date = "2014-12-30"
-tags = ["books", "television"]
+tags = ["books", "cinema", "television"]
 twitter = true
 +++
 

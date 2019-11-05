@@ -3,7 +3,7 @@ slug = "under-the-skin"
 location = "Munich, Germany"
 aliases = ["/2014/12/31/under-the-skin/"]
 date = "2014-12-31"
-tags = ["science-fiction"]
+tags = ["cinema", "science-fiction"]
 +++
 
 {{< youtube NoSWbyvdhHw >}}
