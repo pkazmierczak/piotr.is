@@ -1,9 +1,9 @@
 +++
-title = "About"
 permalink = "/about/"
-+++
+title = "About"
 
-Hi, I'm Piotr! 👋 I am a data engineer at [MessageBird](https://www.messagebird.com/).
++++
+Hi, I'm Piotr! 👋 I am a software engineer at [Viasat](https://www.viasat.com/).
 
 This is my personal website, where I write about some of the things that matter to me, which can be anything from functional programming to philosophy of religion and bicycles. It also means that all opinions expressed here are solely my own and not those of my employer.
 
