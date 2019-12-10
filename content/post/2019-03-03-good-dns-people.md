@@ -1,6 +1,7 @@
 ---
 slug: good-dns
 date: 2019-03-03
+title: "Good DNS people live in remote places"
 location: "Amsterdam, Noord-Holland"
 tags: ["dns", "internet"]
 ---

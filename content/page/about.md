@@ -17,4 +17,4 @@ I am <s>engaged</s> [married](/2016/married/) to [the best philosopher in the wo
 
 Find me [on twitter](http://twitter.com/pkazmierczak).
 
-<small>*(last updated: Feb 2019)*</small>
+<small>*(last updated: Nov 2019)*</small>
