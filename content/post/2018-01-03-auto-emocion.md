@@ -1,6 +1,7 @@
 ---
 slug: auto-emocion
 date: 2018-01-03
+title: "We sold our car today"
 location: "Munich, Germany"
 tags: [cars, mobility, personal]
 ---

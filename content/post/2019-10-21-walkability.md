@@ -1,6 +1,7 @@
 ---
 slug: walkability
 date: 2019-10-21
+title: Walkability
 location: San Jose, CA
 tags:
 - society
