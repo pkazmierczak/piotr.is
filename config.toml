@@ -21,6 +21,9 @@ googleAnalytics = "UA-26225127-4"
     description = "A personal blog."
     author = "Piotr Kaźmierczak"
 
+[markup.goldmark.renderer]
+    unsafe= true
+
 [privacy]
   [privacy.googleAnalytics]
     anonymizeIP = true
