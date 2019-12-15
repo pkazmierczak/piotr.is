@@ -1,18 +1,11 @@
 	<div class="recently">
-    {{ $curPostTitle := .Title }}
-        {{ $home := .IsHome }}
-        {{ range $_, $primo := (first 1 .Site.RegularPages) }}
-        {{ if or (eq $curPostTitle $primo.Title) $home }}
-			{{ range $index, $element := (first 6 .Site.RegularPages) }}
-            {{ if ne $index 0 }}
-                <a class="recently-item" href="{{ $element.RelPermalink }}">{{ $element.Date.Format "Jan 2 2006" }}</a>&nbsp;&middot;&nbsp;
-            {{ end }}
-            {{ end }}
-        {{ else }}
-            {{ range first 5 .Site.RegularPages }}
-                <a class="recently-item" href="{{ .RelPermalink }}">{{ .Date.Format "Jan 2 2006" }}</a>&nbsp;&middot;&nbsp;
-			{{ end }}
+        {{ $curPostTitle := .Title }}
+        <!-- exclude "asides" post from "recently" -->
+        {{ $pages := where .Site.RegularPages ".Title" "!=" "" }}
+        <!-- exclude current page from "recently" -->
+        {{ $pages := $pages | intersect (where .Site.RegularPages ".Title" "!=" $curPostTitle) }}
+        {{ range first 5 $pages }}
+            <a class="recently-item" href="{{ .RelPermalink }}">{{ .Title }}</a>&nbsp;&middot;&nbsp;
         {{ end }}
-        <span class="recently-day"><a href="/archive/">&hellip;</a></span>
-	{{ end }}
+    <span class="recently-day"><a href="/archive/">&hellip;</a></span>
     </div>
