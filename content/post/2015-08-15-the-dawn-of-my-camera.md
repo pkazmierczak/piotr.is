@@ -5,7 +5,7 @@ readlater: true
 location: Munich, Germany
 tags: [photography, personal]
 twitter: true
-header: "https://static.piotr.is/header-dolomiti.jpg"
+header: "/images/header-dolomiti.jpg"
 ---
 
 I like taking photographs, and I *love* cameras.
@@ -41,7 +41,7 @@ I'd say there are three types of photographers.
 3. And finally there's the *enthusiast.* Enthusiasts know about the gear, know about composition (which doesn't necessarily mean their photos are well composed!), and know about technical aspects of photography. They can distinguish a bad image from a good one, and some of them are also *photographers.* Sadly, not all, and I'd even say most enthusiasts are in it for the *gear.* I am a proud member of this category. I like taking pictures. I envy the *photographers* their skill and talent. I take hundreds of photographs and every now and then I take a good one. I'd say it's about 1% of all the pictures I take, but that's okay. Once I do get that great shot, though, I want it to be of great technical quality, so that I can print it and proudly hang on my wall. That's why I'm into gear. That's why I didn't want to take photographs with my smartphone.
 
 <figure class="wide">
-<img src="https://static.piotr.is/camera-dawn/iphone4-amsterdam.jpg">
+<img src="/images/camera-dawn/iphone4-amsterdam.jpg">
 <figcaption>Fig. 1: Amsterdam covered in snow. Taken in December 2010 with an iPhone 4. </figcaption>
 </figure>
 
@@ -50,14 +50,14 @@ Craig Mod was right when he wrote ["Goodbye, cameras"](http://www.newyorker.com/
 It's not only the optics and sensors of smartphone cameras that are improving as technology progresses, but the software, too. I'd go as far as saying that it's the software that lets you get the most out of smartphone photography. Take a look at the photograph below.
 
 <figure class="wide">
-<img src="https://static.piotr.is/camera-dawn/samsung-toblach-lake.jpg">
+<img src="/images/camera-dawn/samsung-toblach-lake.jpg">
 <figcaption>Fig. 2: View of the Dolomites from Lago di Dobbiaco, shot with Samsung Galaxy S5 (HDR on) last weekend. </figcaption>
 </figure>
 
 I have shots of the very same place at the very same time taken with the Nikon DSLR. Despite the Nikon having more than twice the size of a sensor, shooting RAW and pulling shadows in post-processing, it can't beat Samsung's subtle-but-effective HDR mode's dynamic range. In these conditions even the Fujifilm's excellent X-Trans sensor would struggle, yet my smartphone's tiny sensor aided by great, built-in HDR software manages very well. Here's another one.
 
 <figure class="wide">
-<img src="https://static.piotr.is/camera-dawn/samsung-dolomites.jpg">
+<img src="/images/camera-dawn/samsung-dolomites.jpg">
 <figcaption>Fig. 3: View of the Dolomites from the Drei Zinnen, shot with Samsung Galaxy S5 (panorama mode). </figcaption>
 </figure>
 

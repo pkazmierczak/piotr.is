@@ -35,7 +35,7 @@ AUCTeX has a number of nice features, the two I use most often are:
 - automatic formatting of a section: `C-c C-q C-s`;
 - section preview: `C-c C-p C-s`; (see the screenshot on the right)
 
-<img src="https://static.piotr.is/emacs-latex-preview.png" />
+<img src="/images/emacs-latex-preview.png" />
 
 Preview function is very nice, because you can *see* the commands that are *behind* preview images, edit the code, apply preview again and see the results --- no need to parse the whole file too often, and most importantly no need to switch to a PDF/PS viewer to see if your math formula/xypic tree is formatted correctly. Trust me, this saves a lot of time.
 
@@ -118,6 +118,6 @@ LaTeX-section-label))
 Once Reftex is loaded, you can invoke the table of contents buffer with
 `C-c =`
 
-<img src="https://static.piotr.is/emacs-reftex-toc.png" class="small" />
+<img src="/images/emacs-reftex-toc.png" class="small" />
 
 All right, enough. If I mention any more packages, I guess it will scare off those who aren't already scared. I know that Emacs is a bit *peculiar* with its complicated keyboard shortcuts, enormous documentation and thousands of modes. It's not easy to learn, but definitely worth it. I remember that switching from Vim to Emacs for LaTeX editing wasn't easy, but I never regretted that, and I hope whoever's going to switch under the influence of this post will not regret it either.

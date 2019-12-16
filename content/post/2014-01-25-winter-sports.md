@@ -10,7 +10,7 @@ I don't ski,[^1] and every winter doing any sorts of sports becomes a major prob
 
 This year, however, things are different. I just got the lamest Strava badge for 150km ridden in a month: 
 
-<a href="http://www.strava.com/athletes/40808"><img src="https://static.piotr.is/winter-sports.png" class="small" /></a>
+<a href="http://www.strava.com/athletes/40808"><img src="/images/winter-sports.png" class="small" /></a>
 
 but it's the very first time I got any kind of badge for *January*. 
 
