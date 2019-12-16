@@ -39,4 +39,4 @@ Before my PhD studies I was a student at [MISH](http://www.mish.uw.edu.pl/), Uni
 
 Reviewer for [AAMAS 2016](http://sis.smu.edu.sg/aamas2016), co-organizing [LOFT 2014](http://folk.uib.no/nmita/LOFT11/) conference, together with Thomas Ågotnes and [others](http://folk.uib.no/nmita/LOFT11/Committees.html), reviewer for [AAAI 2013](http://www.aaai.org/Conferences/AAAI/aaai13.php), co-organizing [DEON 2012](http://infomedia.uib.no/deon2012) conference, together with Thomas Ågotnes, Dag Elgesem and Jan Broersen, reviewer for [JELIA 2012](http://www.irit.fr/jelia2012/), reviewer for [EASLLC 2012](http://home.hib.no/prosjekter/easllc2012/).
 
-<small>*(last updated: Jan 2016)*</small>
+<small><em>(last updated: Jan 2016)</em></small>
