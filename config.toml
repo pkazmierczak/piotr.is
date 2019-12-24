@@ -7,8 +7,12 @@ pygmentsuseclasses = true
 MetaDataFormat = "yaml"
 googleAnalytics = "UA-26225127-4"
 
+[outputs]
+    home = ["HTML", "RSS"]
+    page = ["HTML"]
+
 [outputFormats.RSS]
-    path = "/feed/"
+    path = "/feed/index.html"
 
 [permalinks]
     post = "/:year/:slug/"
