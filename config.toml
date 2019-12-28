@@ -12,7 +12,7 @@ googleAnalytics = "UA-26225127-4"
     page = ["HTML"]
 
 [outputFormats.RSS]
-    path = "/feed/index.html"
+    path = "/feed/"
 
 [permalinks]
     post = "/:year/:slug/"
