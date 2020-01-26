@@ -14,43 +14,17 @@ I'm 25, I'm a full-time PhD student, and I'd like to put in my oar now.
 
 First off, while The Economist's article has a number of valid points, it's very US- and UK-centric. Even though the author refers to some case-studies outside the Anglo-Saxon world, like Germany, Slovakia or Belgium, some of its arguments do not apply at all to most European countries. For example:
 
-> One thing many PhD students have in common is dissatisfaction. Some describe
-> their work as “slave labour”. Seven-day weeks, ten-hour days, low pay and
-> uncertain prospects are widespread. You know you are a graduate student, goes
-> one quip, when your office is better decorated than your home and you have a
-> favourite flavour of instant noodle. “It isn’t graduate school itself that is
-> discouraging,” says one student, who confesses to rather enjoying the hunt for
-> free pizza. “What’s discouraging is realising the end point has been yanked
-> out of reach.”
+> One thing many PhD students have in common is dissatisfaction. Some describe their work as “slave labour”. Seven-day weeks, ten-hour days, low pay and uncertain prospects are widespread. You know you are a graduate student, goes one quip, when your office is better decorated than your home and you have a favourite flavour of instant noodle. “It isn’t graduate school itself that is discouraging,” says one student, who confesses to rather enjoying the hunt for free pizza. “What’s discouraging is realising the end point has been yanked out of reach.”
 
 We all read the [PhD Comics](http://www.phdcomics.com/comics.php) and we all hear about how many hours of coursework or admin-duties a typical US grad student has. I don't know how does it look like in other countries, but in Norway, Denmark, Holland and Belgium this is definitely **not** the case. At some Dutch universities, even if PhD students want to teach, they can't do that (e.g. because there's too many of them, or because they are considered underqualified, or whatever). My contract clearly states that I have to spend 25% of my time on teaching, and that's exactly what I do. One quarter of my overall work time is not much, yet I still gain valuable teaching experience, so it's a win-win. I know many of my friends who are PhD-students work as TAs for courses taught by their promoters, and that's usually also not too much work. Apart from all that, a little bit of teaching looks good in your CV, especially if you want to apply for post-doc or other academic positions after finishing a PhD.
 
-> There is an oversupply of PhDs. Although a doctorate is designed as training
-> for a job in academia, the number of PhD positions is unrelated to the number
-> of job openings.
+> There is an oversupply of PhDs. Although a doctorate is designed as training for a job in academia, the number of PhD positions is unrelated to the number of job openings.
 
 There probably is an oversupply of PhDs in the US and in the UK, fair point, but there isn't one in Norway, and as far as I know not in any of the Nordic countries. Maybe it's a peculiar situation here, but then again I hear that there's too many PhD students in The Netherlands, yet all of my friends who recently graduated managed to get post-doc positions in the same country (yes, in some cases it took a while, but still). So let's talk about the subject that generates most controversy: money.
 
-> But universities have discovered that PhD students are cheap, highly
-> motivated and disposable labour. With more PhD students they can do more
-> research, and in some countries more teaching, with less money. A graduate
-> assistant at Yale might earn $20,000 a year for nine months of teaching. The
-> average pay of full professors in America was $109,000 in 2009—higher than the
-> average for judges and magistrates.
+> But universities have discovered that PhD students are cheap, highly motivated and disposable labour. With more PhD students they can do more research, and in some countries more teaching, with less money. A graduate assistant at Yale might earn $20,000 a year for nine months of teaching. The average pay of full professors in America was $109,000 in 2009—higher than the average for judges and magistrates.
 
-Again: US is not the whole world. I'm not going to quote numbers here, but a
-PhD student in Norway gets a very decent salary, even compared to industry
-salaries in technology sector. I'm not saying I earn more than a senior
-programmer at Google, but the money is more than good enough to rent a nice
-flat (not shared with anyone), eat out from time to time, travel virtually
-wherever I want and still being able to save some of my monthly pay. The
-article fails to understand a basic thing behind PhD students' motivations,
-though: we're not after the money. If we were, we wouldn't be studying
-philosophy, logic, theoretical computer science or quantum physics. We'd go
-for an MBA, law or something similar, only to end up working our asses off for
-McKinsey, Boston Consulting, E&Y or PWC. That is simply not our goal, and
-while many PhD candidates like to whine about how little cash they have, they
-either lie, or they simply shouldn't be doing a PhD at all.[^1]
+Again: US is not the whole world. I'm not going to quote numbers here, but a PhD student in Norway gets a very decent salary, even compared to industry salaries in technology sector. I'm not saying I earn more than a senior programmer at Google, but the money is more than good enough to rent a nice flat (not shared with anyone), eat out from time to time, travel virtually wherever I want and still being able to save some of my monthly pay. The article fails to understand a basic thing behind PhD students' motivations, though: we're not after the money. If we were, we wouldn't be studying philosophy, logic, theoretical computer science or quantum physics. We'd go for an MBA, law or something similar, only to end up working our asses off for McKinsey, Boston Consulting, E&Y or PWC. That is simply not our goal, and while many PhD candidates like to whine about how little cash they have, they either lie, or they simply shouldn't be doing a PhD at all.
 
 > One OECD study shows that five years after receiving their degrees, more
 > than 60% of PhDs in Slovakia and more than 45% in Belgium, the Czech Republic,
