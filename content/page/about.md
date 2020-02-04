@@ -13,8 +13,5 @@ I live in the lovely city of <s>Warsaw</s> <s>Leuven</s> <s>Bergen</s> <s>Munich
 
 I am <s>engaged</s> [married](/2016/married/) to [the best philosopher in the world](http://karolinakrzyzanowska.com).
 
-#### Contact
+I use [twitter](http://twitter.com/pkazmierczak).
 
-Find me [on twitter](http://twitter.com/pkazmierczak).
-
-<small><em>(last updated: Nov 2019)</em></small>
