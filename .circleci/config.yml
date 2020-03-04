@@ -38,8 +38,7 @@ jobs:
               aws s3 sync $HUGO_BUILD_DIR \
               s3://piotr.is --region eu-central-1 --delete --metadata-directive \
               REPLACE --cache-control max-age=2592000
-              aws cloudfront create-invalidation --distribution-id E2COJD5GHJ1RXH --paths "/*"
-              aws cloudfront create-invalidation --distribution-id E1FETIAV1VSAJ0 --paths "/*"
+              # aws cloudfront create-invalidation --distribution-id E1FETIAV1VSAJ0 --paths "/*"
             else
               echo "Not master branch, dry run only"
             fi
