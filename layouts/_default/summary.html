@@ -3,11 +3,10 @@
         <time datetime="{{ .PublishDate }}" class="catalogue-time">{{ .PublishDate.Format "January 2, 2006" }}</time>
         {{ if .Params.Title }}
         <h1 class="catalogue-title">{{ .Title }}</h1>
-        <div class="catalogue-line"></div>
-        {{ end }} 
+        {{ end }}
 
         <p>
-            {{ if isset .Params "summary" }}{{ .Params.Summary }}{{ else }}{{ .Summary }}{{ end }}
+            {{ if isset .Params "title" }}{{ .Summary }}{{ else }}{{ .Content }}{{ end }}
         </p>
     </div>
 </a>
