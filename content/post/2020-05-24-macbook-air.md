@@ -2,6 +2,8 @@
 date: 2020-05-24T00:00:00+01:00
 location: Amsterdam, Noord-Holland
 title: "2020 Core i5 Apple Macbook Air Detailed Review"
+aliases:
+- /2020/05/24/2020-core-i5-apple-macbook-air-detailed-review/
 tags:
 - apple
 ---

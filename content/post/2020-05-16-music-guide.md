@@ -2,6 +2,8 @@
 date: 2020-05-16T00:00:00+01:00
 location: Amsterdam, Noord-Holland
 title: "Non-classical music playing guide for classically trained musicians"
+aliases:
+- /2020/05/16/non-classical-music-playing-guide-for-classically-trained-musicians/
 tags:
 - music
 - violin

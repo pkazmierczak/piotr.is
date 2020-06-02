@@ -1,5 +1,5 @@
 ---
-slug: walkability
+title: "Walkability"
 date: 2019-10-21
 location: San Jose, CA
 tags:
