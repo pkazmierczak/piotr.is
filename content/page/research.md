@@ -3,8 +3,6 @@ title = "Research"
 permalink = "/research/"
 +++
 
-# Research
-
 I used to work in the field of multi-agent systems, specifically the logical and game-theoretic foundations of said systems. I did my PhD under the supervision of [Thomas Ågotnes](http://folk.uib.no/nmita/) as part of his [LII research group](http://www.uib.no/en/rg/lii). My thesis was reviewed by [John-Jules Meyer](http://www.cs.uu.nl/staff/jj.html) and [Natasha Alechina](http://www.cs.nott.ac.uk/~nza/).
 
 My thesis was titled ["Agents that Play by the Rules"](/papers/thesis.pdf), and I successfully defended it on April 30, 2015.
