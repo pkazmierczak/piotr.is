@@ -1,11 +1,10 @@
 baseurl = "https://piotr.is/"
 languageCode = "en-us"
-title = "Sound & Complete"
+title = "Piotr Kaźmierczak"
 enableEmoji = true
 footnotereturnlinkcontents = "↩"
 pygmentsuseclasses = true
 MetaDataFormat = "yaml"
-googleAnalytics = "UA-26225127-4"
 
 [outputs]
     home = ["HTML", "RSS"]

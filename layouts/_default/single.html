@@ -5,12 +5,20 @@
 		{{ if eq .Section "post" }}
 		{{ if .Params.Title }}
 		{{ partial "single/title.html" . }}
+		{{ else }}
+		<div class="meta">
+			<div><time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
+			{{- if .Params.location }}
+			&nbsp;&middot;&nbsp;{{ .Params.location }}
+			{{- end }}</div>
+		</div>
 		{{ end }}
 		{{ end }}
 		{{ .Content }}
 	</div>
 
 	{{ if eq .Section "post" }}
+	{{ if .Params.Title }}
 	<div class="meta">
 		<div><time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
 		{{- if .Params.location }}
@@ -22,8 +30,9 @@
 		{{ end }}
 		{{- end }}</div>
 	</div>
+	{{ end }}
 
-	{{ partial "recently.html" . }}
+	<!-- {{ partial "recently.html" . }} -->
 	{{ end }}
 </main>
 
