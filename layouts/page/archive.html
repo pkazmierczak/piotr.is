@@ -15,9 +15,7 @@
         {{ range .Pages }}
         <ul>
             {{ if .Title }}
-            <!-- <article class="archive-item"> -->
-                <li><a href="{{ .Permalink }}" class="archive-item-link">{{ .Title }}</a><span class="archive-item-date">&nbsp;{{ .Date.Format "Jan 2" }} </span></li>
-            <!-- </article> -->
+                <li><a href="{{ .Permalink }}" class="archive-item-link">{{ .Title }}</a><span class="archive-item-date">&nbsp;{{ .Date.Format "Jan 2" }}</span></li>
             {{ end }}
         </ul>
         {{ end }}
