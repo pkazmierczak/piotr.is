@@ -1,7 +1,6 @@
 User-agent: *
 Allow: /
 Allow: /about
-Allow: /research
 
 User-agent: *
 Disallow: /2020/
