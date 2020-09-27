@@ -24,11 +24,6 @@
 		{{- if .Params.location }}
 		&nbsp;&middot;&nbsp;{{ .Params.location }}
 		{{- end }}</div>
-		<div>{{- if .Params.tags }}
-		{{ range .Params.tags }}
-		<a href="/tags/{{ . | urlize }}">#{{.}}</a>
-		{{ end }}
-		{{- end }}</div>
 	</div>
 	{{ end }}
 
