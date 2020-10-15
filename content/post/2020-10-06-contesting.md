@@ -12,6 +12,7 @@ tags:
 ---
 
 [Enjoy the Best, Not The Latest, Media – Kartick’s Blog](https://kartick.substack.com/p/enjoy-the-best-not-the-latest-media):
+
 > In fact, tried and tested is the best. Here’s a list of the top TV series,
 > for example. Notice that the #1, Breaking Bad, ended in 2013. If people are
 > still talking about it after so many years, it must be really good. Whatever
