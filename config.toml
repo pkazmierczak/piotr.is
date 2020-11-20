@@ -5,6 +5,7 @@ enableEmoji = true
 footnotereturnlinkcontents = "↩"
 pygmentsuseclasses = true
 MetaDataFormat = "yaml"
+publishDir = "docs"
 
 [outputs]
     home = ["HTML", "RSS"]
