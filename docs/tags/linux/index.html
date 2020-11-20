@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta property="og:title" content="linux" />
+<meta property="og:description" content="A personal blog." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://piotr.is/tags/linux/" />
+<meta property="og:updated_time" content="2016-10-30T23:31:23+01:00" />
+
+		<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="linux"/>
+<meta name="twitter:description" content="A personal blog."/>
+
+
+		<title>
+				linux &middot; Piotr Kaźmierczak
+		</title>
+
+		
+  	<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="/css/baskerville.css">
+		<link rel="stylesheet" href="/css/fa.min.css">
+
+		
+		<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+		
+		<link href="/feed/index.xml" rel="alternate" type="application/rss+xml" title="Piotr Kaźmierczak" />
+
+    
+
+	</head>
+
+    <body>
+        		<nav class="nav">
+			<div class="nav-container">
+				
+			</div>
+		</nav>
+
+        
+
+<main>
+	<div class="catalogue">
+		
+		<a href="https://piotr.is/2016/cloudformation-counter-strike/" class="catalogue-item">
+    <div>
+        <time datetime="2016-10-30 23:31:23 &#43;0100 CET" class="catalogue-time">October 30, 2016</time>
+        
+
+        <p>
+            <p>I spent an evening writing <a href="https://gist.github.com/pkazmierczak/07bcc42d829411dcb4f8525562567228">a cloudformation template for Counter Strike Global Offensive linux server</a>. No, I don&rsquo;t have a life. Yes, you will thank me next time you play with your friends and the laptop cannot handle more than 5 players. (AWS <code>t2.micro</code> handles 6 players easily, and you can always throw a <code>c4.large</code> at the problem which is still about $0.13/hr and handles, well, just about anything).</p>
+<p>The template sets up a single EC2 instance of type <code>t2.micro</code> by default, uses the default VPC, and runs the server with &ldquo;Arms Race&rdquo; game in a free-for-all mode. Consult Valve&rsquo;s <a href="https://developer.valvesoftware.com/wiki/Counter-Strike:_Global_Offensive_Dedicated_Servers">documentataion page</a> if you want to run other games or reconfigure the server in any way. The template also sets up a CNAME record pointing to the instance&rsquo;s public DNS name, so comment the last section out if you don&rsquo;t have a public hosted zone in your Route53.</p>
+<p>Happy shooting!</p>
+
+        </p>
+    </div>
+</a>
+
+		
+		<a href="https://piotr.is/2015/dell-sputnik/" class="catalogue-item">
+    <div>
+        <time datetime="2015-02-07 00:00:00 &#43;0000 UTC" class="catalogue-time">February 7, 2015</time>
+        
+
+        <p>
+            <p>Dell <a href="http://bartongeorge.net/2015/01/27/welcome-the-dell-precision-m3800-mobile-workstation-developer-edition/">announces</a> another in its series of &ldquo;developer laptops&rdquo; with Ubuntu pre-installed. This time it&rsquo;s the überpowerful M3800 mobile workstation, available with everything from an i7 CPU, through a Quadro K1100M graphics board to a 3840×2160 display. I remember <a href="http://arstechnica.com/gadgets/2013/04/it-just-works-dell-xps-13-developer-edition-linux-ultrabook-review/">ArsTechnica&rsquo;s review</a> of the XPS 13 developer edition, in which they basically said the best thing about the laptop was that it was &ldquo;unremarkable&rdquo;, which by today&rsquo;s standards is the best compliment. Dell managed to deliver a premium quality linux laptop that <em>just worked</em>, Cupertino style. If they manage to do the same with the powerful 15'' mobile workstation and, as they announce in the blogpost linked above, with the upcoming XPS 13'', we&rsquo;ll have Linux-powered alternatives to both the Retina Macbook Pro and the Macbook Air. Which would be brilliant.</p>
+<p>You seem to be doing a great job, Dell.</p>
+<p><strong>update 01.01.2015:</strong> Andy Turfer has a review of this laptop <a href="http://turferm3800.blogspot.co.uk">on his blog</a>.</p>
+
+        </p>
+    </div>
+</a>
+
+		
+		<a href="https://piotr.is/2013/switching-season/" class="catalogue-item">
+    <div>
+        <time datetime="2013-08-22 00:00:00 &#43;0000 UTC" class="catalogue-time">August 22, 2013</time>
+        
+
+        <p>
+            <blockquote>
+<p>Every couple years I get the urge to peek out of my Apple-furnished hole and survey the landscape of alternative devices and operating systems. I call this urge switching season [&hellip;] I figure that the least I can do when the urge to switch strikes me is to share what I’ve learned in the hopes that it saves other people some time.</p>
+</blockquote>
+<p>via <a href="https://al3x.net/2013/08/12/switching-season-annual-report-2013.html">Alex Payne — Switching Season Report, 2013 Edition</a>.</p>
+<p>I have it exactly like Alex Payne – I&rsquo;ve been living in the Apple-ecosystem for the last 3 years, and I am sorry to admit that the <a href="http://piotrkazmierczak.com/2011/03/17/macbook-pro-after-6-months/">2010 13'' Macbook Pro</a> is hands-down the best computer I have ever used. It&rsquo;s fast (especially after having an SSD upgrade last summer), silent, portable, has great keyboard, and its software is boring like hell – it doesn&rsquo;t crash and I don&rsquo;t have to tinker with it to make wifi work after resuming from suspend. Despite all that, whenever I see a nice Thinkpad,<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> I&rsquo;m immediately browsing <a href="http://allegro.pl">the best second-hand computer store in the world</a> searching for a used X201 or X220 in good condition. It&rsquo;s partly nostalgia, partly the love of <a href="http://xmonad.org">XMonad</a>, and to a small extent dislike of Apple.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> And every time it happens, I&rsquo;m performing an analysis similar to the one Alex Payne did, arriving at mostly the same conclusions: Android sucks, Linux on the desktop mostly sucks, Windows is not considered due to it not being unix-based, and Apple sucks least on all fronts.</p>
+<p>It&rsquo;s all rather sad.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>A friend just recently bought a used X201 Tablet. He&rsquo;s running Ubuntu on it and says everything&rsquo;s fine and dandy. I love the way this machine looks. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>However, I am not pro-Dell, pro-HP or pro-Google either. All corporations are evil, <a href="http://www.logophile.org/blog/2013/08/07/whats-wrong-with-the-world/">it&rsquo;s their duty</a>. <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+        </p>
+    </div>
+</a>
+
+		
+		<a href="https://piotr.is/2012/linux-desktop/" class="catalogue-item">
+    <div>
+        <time datetime="2012-09-13 00:00:00 &#43;0000 UTC" class="catalogue-time">September 13, 2012</time>
+        
+
+        <p>
+            <p><a href="http://ask.slashdot.org/story/12/09/07/1720206/ask-slashdot-how-would-you-fix-the-linux-desktop">How Would You Fix the Linux Desktop?</a></p>
+<p><a href="http://ask.slashdot.org/comments.pl?sid=3102073&amp;cid=41265629">aussersterne:</a></p>
+<blockquote>
+<p>The culture of Linux remains the culture of 1993 mid-range computing—but we no longer live in a world in which CS students can&rsquo;t afford the hardware/software they use at school and mainstream OSes can&rsquo;t do the fun stuff. Quite the opposite. It&rsquo;s funny to think back at how thrilled I was to have X11 on the desktop (compared to Windows 3.1) versus how I feel now, twenty years on, comparing KDE or GNOME on Fedora or Ubuntu to OS X 10.8. The tables have been exactly turned. Linux is still essentially the same in architecture and philosophy, while the rest of the world has moved to a completely different paradigm in which computing is essentially appliance-driven. In 1993 Linux was ahead of its time. In 2013 Linux is a decade behind.</p>
+</blockquote>
+<blockquote>
+<p>These days, I want an complete, polished, turnkey appliance at low cost and with no labor time investment, not a set of building block. Today&rsquo;s appliances are fast, intuitive, stable, durable, powerful, and integrated like the iPad (which I do, yes, use for serious work about 5-6 hours a day). For most users (which is where I have always ultimately fallen), Linux is solution in search of a problem that no longer exists.</p>
+</blockquote>
+<p>Ask Slashdot has an <a href="http://ask.slashdot.org/story/12/09/07/1720206/ask-slashdot-how-would-you-fix-the-linux-desktop">interesting discussion</a> about current state of the linux desktop, which has become (again) a heated debate after <a href="http://tech.slashdot.org/story/12/09/02/1437240/torvalds-takes-issue-with-de-icazas-linux-desktop-claims">Miguel de Icaza&rsquo;s blogpost and Linus Torvalds' reply</a>. There are some very insightful comments, like the one by <a href="http://slashdot.org/~aussersterne">aussersterne</a> above, but more importantly the discussion gives a good picture of the linux/FLOSS community, with different views on what linux desktop is or should be, different backgrounds, ideas and problems. The first comment sums up the problem, or meta-problem to me:</p>
+<p><a href="http://ask.slashdot.org/comments.pl?sid=3102073&amp;cid=41263347">Hatta:</a></p>
+<blockquote>
+<p>I&rsquo;ve been using Linux on my desktop for 13 years now. It works just fine for me.</p>
+</blockquote>
+<p><a href="http://www.codinghorror.com/blog/2007/03/the-works-on-my-machine-certification-program.html">Right</a>.</p>
+
+        </p>
+    </div>
+</a>
+
+		
+		<a href="https://piotr.is/2011/a-eulogy-for-maemo/meego/" class="catalogue-item">
+    <div>
+        <time datetime="2011-10-24 00:00:00 &#43;0000 UTC" class="catalogue-time">October 24, 2011</time>
+        
+        <h1 class="catalogue-title">A eulogy for Maemo/MeeGo</h1>
+        
+
+        <p>
+            A long, long time ago, when I was still very enthusiastic about desktop linux and free software in general, an idea of a linux-based cellphone or a &lsquo;palmtop&rsquo;, as they were called back in the day, was something the FLOSS community dreamed of. There were numerous software and hardware projects (does anyone still remember OpenMoko?), and one of them, Android, was acquired by Google in 2005, and later became one of the most popular operating systems for mobile devices in the world.
+        </p>
+    </div>
+</a>
+
+		
+		<a href="https://piotr.is/2010/linux-frustration/" class="catalogue-item">
+    <div>
+        <time datetime="2010-08-07 00:00:00 &#43;0000 UTC" class="catalogue-time">August 7, 2010</time>
+        
+
+        <p>
+            <p>I&rsquo;ve already mentioned my linux-related laptop problems [some time ago](/2009/11/09/how-ive-stopped-being-a-desktop- linux-enthusiast/). Some things changed since then. Canonical released a new version of Ubuntu, 10.04, which in my opinion is a huge improvement over 9.10, and I got a new laptop (kindly provided by <a href="http://www.hib.no">HiB</a>), an [HP EliteBook 6930p](<a href="http://h10010.www1.hp.com/wwpc/no/no/sm/WF25a/321957-321957-6">http://h10010.www1.hp.com/wwpc/no/no/sm/WF25a/321957-321957-6</a> 4295-3955549-3955549-3688868.html). Old problems are gone, but new have arisen.</p>
+<p>At first it all seemed ok. I&rsquo;ve installed Ubuntu 10.04 and didn&rsquo;t have to tweak anything. Wireless, bluetooth, suspend/resume &ndash; all worked automagically. Except graphics.</p>
+<p>My laptop has a built-in Intel 4500 graphics board. Most of the time it works fine, hardware acceleration and dual-display mode included. It&rsquo;s also quite fast for my needs &ndash; flash videos work with no frame-dropping, HD films as well, and Quakelive works smoothly (the last one especially relevant to my research). But from time to time, completely randomly, weird annoying things happen.</p>
+<p>First weird annoying thing is the Non Existing Display problem (which we shall henceforth refer to as NED). It goes like this: I power on the machine, the kernel boots, plymouth loads, and the GDM screen&hellip; well, it also loads, because I can hear the bongos, but it&rsquo;t not visible. The thing is, GDM login window is being displayed on the NED. If I simply press enter and put my password, it will log me in, and in most cases I will see my desktop. If not, I can use Gnome-Do to evoke the display configuration panel. Once it opens, the screen usually flickers and realizes that there&rsquo;s only one display connected, or, ontologically speaking, that the NED indeed does <strong>not</strong> exist (as the name clearly suggests). If it can&rsquo;t realize the obvious truth immediately, it will do it after a couple of clicks in the display configuration panel. If not after a couple, then after a couple more, but anyway after some time the display works correctly. That doesn&rsquo;t mean Ubuntu won&rsquo;t have any doubts as to the NED&rsquo;s ontological status anymore, and that&rsquo;s the most annoying part.</p>
+<p>The second weird annoying thing is the Proper Resolution Holding problem (which we shall henceforth refer to as PRH). Imagine a situation like this: you have your Emacs open and you&rsquo;re working on some non-trivial piece of code.  As any programmer will tell you, this requires utmost concentration. I often have situations like this, perhaps even more often than other people, because most programming problems are non-trivial for me, since I&rsquo;m a bad programmer.  Anyway, I have my Emacs open, and I&rsquo;m thinking deeply about some problem. If I keep thinking for more than 9:59 without touching the mouse/keyboard, e.g.  reading the algorithm description from a printed article, the screensaver will go on. And then <em><strong>boom!</strong></em>, the displays go crazy. Oh right, did I mention I&rsquo;m using dual display configuration? I guess I didn&rsquo;t, but I don&rsquo;t think having an external display connected to your laptop is something fancy in 2010. Anyway, when the screensaver wants to switch on, X.Org turns the <em>mirroring mode</em> for my displays, and sets 1024x768 resolution on both screens. Unfortunately, the only way to solve this situation is to save any work I have, switch to a virtual console 1 with Alt+F1, execute <code>sudo service gdm restart</code> and hope for the best.</p>
+<p>Display problems occur randomly while trying to change laptop screen&rsquo;s brightness too. And of course after resuming from suspend, but thankfully this happens really seldom, like one in fifty suspends. When it does, however, the only way to bring your display back to work is to forcibly reboot the laptop.</p>
+<p>There are more problems, like the silent microphone (no matter what I do it&rsquo;s just too quiet for most people to hear me via voip), short battery life (i.e.  much shorter than on windows), and terribly bad trackpoint/touchpad support (i.e. much worse than on windows), but these problems I could live with. The graphics related annoyances are just too much. And the worst thing is that I no longer know which graphics board should I recommend to people who want the best linux experience. Nvidia? Yes, but only with closed-source drivers, although some people claim that nouveau work well. Ati? Well, I remember both mine and Karolina&rsquo;s problems with our Radeons, so that&rsquo;s a no. Intel? As far as I recall everyone always told me that Intel chipset based products (graphics, wifi, ethernet) are always best for linux, but ever since the introduction of <a href="http://en.wikipedia.org/wiki/Mode-setting#Linux">KMS</a>-enabled drivers this is apparently no longer true. By the way, my case is nothing compared to a case of a new PhD student in our department. He&rsquo;s new, so he&rsquo;s got a newer laptop. Good for him? Not quite. Not a single linux distro supports his brand new Intel HD graphics.</p>
+<p>Now the obvious question is: did I try to fix my problems? Yes and no. Yes, I&rsquo;ve searched the forums, and yes, I&rsquo;ve tried some solutions. None of them worked. There probably are some new tips, new kernel releases I could compile, new patches I could apply, but no &ndash; thanks, I don&rsquo;t want to. I&rsquo;m too old.  With all my previous computers it was tuning and tweaking all the time.  Thinkpad T40 needed a custom TuxOnIce-patched kernel for suspend to disk to work (suspend to ram made no sense, the battery was too old and I was loosing too much power even during suspend). Dell Latitude D430 had huge problems with newer Intel graphics drivers. There was always something I needed to tune.  It&rsquo;s like this joke about Lancia owners &ndash; <em>they like tinkering with their cars in a garage</em>, which is only a nice way of saying that their cars won&rsquo;t work <em>unless</em> tinkered with.</p>
+<p>I&rsquo;ve been a linux user since about 1999, and during that time I&rsquo;ve been using linux exclusively on all my computers. First it was <a href="http://arstechnica.com/linux/reviews/1q99/suse-1.html">SuSE 6.0</a> and RedHat Manhattan (was it 5.1?). Then different RedHat versions for a short while, then Slackware for a long time, then Debian, Gentoo, Arch, and finally Ubuntu, since somewhere around 2005. In fall 2010 I&rsquo;ll stop using a linux-based operating system on my home computer, and I don&rsquo;t mean switching to some BSD (huh, been there!). I need a second computer, so I won&rsquo;t have to carry my laptop in a rucksack all the time (I moved to Fyllingsdalen and I work at HiB &ndash; everyone who knows Bergen sees the reason). It will be some Windows 7 based computer, or a product of one Cuppertino-based company.</p>
+<p>Either way, I feel sad.</p>
+
+        </p>
+    </div>
+</a>
+
+		
+		<a href="https://piotr.is/2009/how-i-stopped-being-a-desktop-linux-enthusiast/" class="catalogue-item">
+    <div>
+        <time datetime="2009-11-09 00:00:00 &#43;0000 UTC" class="catalogue-time">November 9, 2009</time>
+        
+        <h1 class="catalogue-title">How I stopped being a desktop linux enthusiast</h1>
+        
+
+        <p>
+            It&rsquo;s actually about &ldquo;how I&rsquo;m stopping to be a desktop linux enthusiast&rdquo;, because I&rsquo;m still using linux on my desktop/laptop, and I still think it&rsquo;s a much better solution than any Windows OS. It&rsquo;s just that I&rsquo;ve been using various linux distributions for many many years (since 1998 I guess) on every computer I&rsquo;ve owned and thought it is a nearly flawless system. It&rsquo;s not, and in fact it&rsquo;s getting on my nerves.
+        </p>
+    </div>
+</a>
+
+		
+		<a href="https://piotr.is/2009/duplicity/" class="catalogue-item">
+    <div>
+        <time datetime="2009-11-01 00:00:00 &#43;0000 UTC" class="catalogue-time">November 1, 2009</time>
+        
+
+        <p>
+            <p>I&rsquo;m paranoid about backups and I have good reasons for that. I&rsquo;ve tested many
+open source tools for automatic backup available for linux, but none of them
+fulfilled all my requirements.</p>
+<p>I liked <a href="https://launchpad.net/deja-dup">Déjà-Dup</a> a lot, but it wasn&rsquo;t able
+to abort a backup once the destination directory (portable hdd) wasn&rsquo;t present
+(or rather: it did abort, but tried to prepare a backup anyway, consuming some
+cpu on the way). Second thing about Déjà-Dup I didn&rsquo;t like is that it divides
+backup files into 5 megabyte archives &mdash; opening a directory containing 20
+gigabytes of such archives takes a while (I understand the reason for such
+small volumes is handling Amazon S3, but for local backups it makes no sense),
+and finally, Déjà-Dup can&rsquo;t make automatic backups more often than once a day
+(did I mention I&rsquo;m a bit paranoid?). However, Déjà-Dup integrates with Gnome
+very nicely, and since it uses <a href="http://duplicity.nongnu.org/">duplicity</a> as a
+backend, I was able to come up with a simple script fixing all the problems in
+a couple of minutes.</p>
+<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh"><span class="cp">#!/bin/bash
+</span><span class="cp"></span>
+<span class="nv">BACKUP_SCRIPT</span><span class="o">=</span><span class="si">${</span><span class="nv">0</span><span class="p">##*/</span><span class="si">}</span>
+<span class="nv">DUPLICITY</span><span class="o">=</span><span class="s2">&#34;/usr/bin/duplicity&#34;</span>
+<span class="nv">DATE</span><span class="o">=</span><span class="s2">&#34;/bin/date +%R-%d-%m-%y&#34;</span>
+
+<span class="nv">BACKUP_COMMAND</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$DUPLICITY</span><span class="s2"> --exclude=/media/backups --exclude=/home/piotr/.cache --include=/home/piotr --exclude=** --no-encryption / file:///media/backups --volsize=250 --archive-dir=/home/piotr/.cache/deja-dup&#34;</span>
+
+<span class="c1"># Sanity checks</span>
+<span class="k">if</span> <span class="nb">test</span> -z <span class="s2">&#34;</span><span class="nv">$BASH</span><span class="s2">&#34;</span> <span class="p">;</span> <span class="k">then</span>
+   <span class="nb">printf</span> <span class="s2">&#34;</span><span class="nv">$DATE</span><span class="s2"> \n</span><span class="nv">$BACKUP_SCRIPT</span><span class="s2">:</span><span class="nv">$LINENO</span><span class="s2">: please run this script with the BASH shell\n&#34;</span> &gt;<span class="p">&amp;</span><span class="m">2</span>
+   <span class="nb">exit</span> <span class="m">192</span>
+<span class="k">fi</span>
+<span class="k">if</span> <span class="nb">test</span> ! -x <span class="s2">&#34;</span><span class="nv">$DUPLICITY</span><span class="s2">&#34;</span> <span class="p">;</span> <span class="k">then</span>
+   <span class="nb">printf</span> <span class="s2">&#34;</span><span class="nv">$DATE</span><span class="s2"> \n</span><span class="nv">$BACKUP_SCRIPT</span><span class="s2">:</span><span class="nv">$LINENO</span><span class="s2">: the command </span><span class="nv">$DUPLICITY</span><span class="s2"> is not available - aborting\n&#34;</span> &gt;<span class="p">&amp;</span><span class="m">2</span>
+   <span class="nb">exit</span> <span class="m">192</span>
+<span class="k">fi</span>
+
+<span class="c1"># Create an incremental backup if the portable drive is connected</span>
+<span class="k">if</span> <span class="nb">test</span> -d /media/backups <span class="p">;</span> <span class="k">then</span>
+    <span class="nb">printf</span> <span class="s2">&#34;\n\n\n\n\n`</span><span class="nv">$DATE</span><span class="s2">` \nBacking up!\n-------------------------------------------------\n&#34;</span>
+    <span class="nv">$BACKUP_COMMAND</span>
+<span class="k">else</span>
+    <span class="nb">printf</span> <span class="s2">&#34;`</span><span class="nv">$DATE</span><span class="s2">` \n</span><span class="nv">$BACKUP_SCRIPT</span><span class="s2">:</span><span class="nv">$LINENO</span><span class="s2">: portable drive not connected - aborting\n\n&#34;</span> &gt;<span class="p">&amp;</span><span class="m">2</span>
+    <span class="nb">exit</span> <span class="m">192</span>
+<span class="k">fi</span>
+
+<span class="c1"># Cleanup</span>
+<span class="nb">printf</span> <span class="s2">&#34;`</span><span class="nv">$DATE</span><span class="s2">` Files backed up successfully\n-------------------------------------------------\n&#34;</span>
+<span class="nb">exit</span> <span class="m">0</span>   <span class="c1"># all is well</span></code></pre></div>
+<p>The best way is to first configure Déjà-Dup according to your needs, then copy
+the duplicity command it uses while backing up (it&rsquo;s visible in <code>STDOUT</code> once
+you set an environment variable <code>DEJA_DUP_DEBUG=1</code>), paste it into the script,
+tune it (I&rsquo;ve changed the volume size), and simply put it to <code>crontab</code> &mdash;
+this way it&rsquo;s easy to control how often your backups are done.</p>
+<p>Feel free to use the script if you need it, and if you&rsquo;re better in unix
+scripting than I am (and I believe you are), send me any improvements and/or
+comments.</p>
+
+        </p>
+    </div>
+</a>
+
+		
+	</div>
+
+	<div class="pagination">
+		
+		
+
+		<span>1 of 1</span>
+	</div>
+</main>
+
+
+        <footer>
+  <span> &copy; <time datetime="2020-11-20 10:31:27.154104 &#43;0100 CET m=&#43;0.158628228">2009—2020</time> Piotr Kaźmierczak</span><br />
+
+	<span><a href="/privacy-policy">privacy policy</a>
+	</span>
+</footer>
+
+        
+    </body>
+</html>

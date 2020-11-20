@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vpn on Piotr Kaźmierczak</title>
+    <link>https://piotr.is/tags/vpn/</link>
+    <description>Recent content in vpn on Piotr Kaźmierczak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 23 Dec 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://piotr.is/tags/vpn/feed/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Cloudformation template for OpenVPN server creation</title>
+      <link>https://piotr.is/2015/aws-cloudformation-template-for-openvpn-server-creation/</link>
+      <pubDate>Wed, 23 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://piotr.is/2015/aws-cloudformation-template-for-openvpn-server-creation/</guid>
+      <description>Are you traveling for Christmas to a country where Netflix/Hulu isn&amp;rsquo;t available? Are you worried you might resort to violence against your own family once you&amp;rsquo;re fed up with them? Here&amp;rsquo;s a VPN server template to help the situation (and keep you away from prison).
+update Jan 6, 2016: Oh, well. VPN servers can still be useful for other purposes.
+Netflix is brilliant and there&amp;rsquo;s no better time to catch up on your Jessica Jones episodes than Christmas break.</description>
+    </item>
+    
+  </channel>
+</rss>

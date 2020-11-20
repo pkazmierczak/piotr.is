@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta property="og:title" content="emacs" />
+<meta property="og:description" content="A personal blog." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://piotr.is/tags/emacs/" />
+<meta property="og:updated_time" content="2015-09-03T00:00:00+00:00" />
+
+		<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="emacs"/>
+<meta name="twitter:description" content="A personal blog."/>
+
+
+		<title>
+				emacs &middot; Piotr Kaźmierczak
+		</title>
+
+		
+  	<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="/css/baskerville.css">
+		<link rel="stylesheet" href="/css/fa.min.css">
+
+		
+		<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+		
+		<link href="/feed/index.xml" rel="alternate" type="application/rss+xml" title="Piotr Kaźmierczak" />
+
+    
+
+	</head>
+
+    <body>
+        		<nav class="nav">
+			<div class="nav-container">
+				
+			</div>
+		</nav>
+
+        
+
+<main>
+	<div class="catalogue">
+		
+		<a href="https://piotr.is/2015/spacemacs/" class="catalogue-item">
+    <div>
+        <time datetime="2015-09-03 00:00:00 &#43;0000 UTC" class="catalogue-time">September 3, 2015</time>
+        
+
+        <p>
+            <p>I was about to write a blog post about how indifferent I became towards different text editors, and how I don&rsquo;t really care anymore whether I edit code with emacs, vim, Sublime or even <a href="http://atom.io">Atom</a>. And then this happened:</p>
+<p><img src="/images/spacemacs.png" alt=""></p>
+<p>It&rsquo;s called <a href="https://github.com/syl20bnr/spacemacs/">Spacemacs</a> and it&rsquo;s a beautiful hybrid between emacs and vim, or at least it looks like it. Will explore how it works in the course of the next couple of days, i.e., no work will be done and I will spend my days playing with the configuration of a text editor.</p>
+<p>And I thought those days were over. Silly me.</p>
+<p><strong>update, Sep 9:</strong> I&rsquo;m back on <strike>ST3</strike> vim with my old config. I still think Spacemacs is a great idea, it&rsquo;s just a bit too bloated for my taste.</p>
+
+        </p>
+    </div>
+</a>
+
+		
+		<a href="https://piotr.is/2012/previewing-latex-symbols-without-preview-latex/" class="catalogue-item">
+    <div>
+        <time datetime="2012-12-27 00:00:00 &#43;0000 UTC" class="catalogue-time">December 27, 2012</time>
+        
+        <h1 class="catalogue-title">Previewing LaTeX symbols without preview-latex</h1>
+        
+
+        <p>
+            This blog&rsquo;s most popular post is the Emacs howto entry, so I thought I&rsquo;d share one more LaTeX-related tip for all your Emacs needs. Besides the traditional preview-latex way of generating TeX formulas inside Emacs buffer, there&rsquo;s a faster and neater way to do this using Emacs' unicode support. My friends Erik Parmann and Pål Drange made a simple package that turns many math symbols and Greek letters commands into corresponding unicode characters.
+        </p>
+    </div>
+</a>
+
+		
+		<a href="https://piotr.is/2012/disabling-minor-mode/" class="catalogue-item">
+    <div>
+        <time datetime="2012-01-17 00:00:00 &#43;0000 UTC" class="catalogue-time">January 17, 2012</time>
+        
+
+        <p>
+            <p>I like <code>auto-fill-mode</code> and even have it customized for <code>LaTeX-mode</code> in my Emacs configuration. However, while working with other people via a distributed version control system, like I do with my friends, <code>auto-fill-mode</code> can be a real pain if not everyone uses it. Whenever the ones that do commit any code, others are annoyed because it’s difficult to see the changes in the diff file, since <code>auto-fill-mode</code> reformats paragraphs (hence producing ‘more’ changes).</p>
+<p>The most straightforward solution is to put some local variables into the file, like <code>(auto-fill-mode -1)</code>, but today at StackOverflow I saw <a href="http://stackoverflow.com/questions/6669373/disabling-auto-fill-mode-on-a-per-file-not-filetype-basis">a much neater solution</a>: one can put a function that searches for a specific string inside a file and sets minor-modes accordingly. So now there’s a <em>coauthors search</em> function in my <code>.emacs</code>:</p>
+<pre><code>; auto-fill is enabled for TeX...
+(add-hook 'LaTeX-mode-hook 'turn-on-auto-fill)
+; ...unless I work with the gang
+(defun my-auto-fill-disabling-hook ()
+  &quot;Check to see if we should disable autofill.&quot;
+  (save-excursion
+    (when (or (re-search-forward &quot;truls&quot; 1000 t)
+              (re-search-forward &quot;sjur&quot; 1000 t)
+              (re-search-forward &quot;erik&quot; 1000 t))
+      (auto-fill-mode -1))))
+(add-hook 'find-file-hooks 'my-auto-fill-disabling-hook)
+</code></pre>
+        </p>
+    </div>
+</a>
+
+		
+		<a href="https://piotr.is/2010/emacs-as-the-ultimate-latex-editor/" class="catalogue-item">
+    <div>
+        <time datetime="2010-05-13 00:00:00 &#43;0000 UTC" class="catalogue-time">May 13, 2010</time>
+        
+        <h1 class="catalogue-title">Emacs as the Ultimate LaTeX Editor</h1>
+        
+
+        <p>
+            Everyone knows, that GNU Emacs is THE Best Programmer&rsquo;s Editor. Not everyone knows, though, that when you combine it with AUCTeX macros, it also becomes THE Best Editor for LaTeX.
+The biggest problem with Emacs is that it&rsquo;s not a particularly intuitive piece of software, to say the least, hence many users flee after their first encounter with it. Emacs has its complicated keyboard shortcuts, enormous documentation and config files written in a Lisp dialect (called Emacs lisp), so at first it might seem very unpleasant using it.
+        </p>
+    </div>
+</a>
+
+		
+	</div>
+
+	<div class="pagination">
+		
+		
+
+		<span>1 of 1</span>
+	</div>
+</main>
+
+
+        <footer>
+  <span> &copy; <time datetime="2020-11-20 10:31:27.149165 &#43;0100 CET m=&#43;0.153689521">2009—2020</time> Piotr Kaźmierczak</span><br />
+
+	<span><a href="/privacy-policy">privacy policy</a>
+	</span>
+</footer>
+
+        
+    </body>
+</html>

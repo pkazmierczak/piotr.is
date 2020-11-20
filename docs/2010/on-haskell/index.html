@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta property="og:title" content="On Haskell" />
+<meta property="og:description" content="Although I&rsquo;ve always wanted to become a professional programmer, I never became one. I studied philosophy and went into a PhD programme in computer science because of my interest in formal logic. I like computers very much, I have professional experience in UNIX administration, and I&rsquo;ve done a lot of Perl/Bash/Tcsh scripting, but I&rsquo;ve never actually written any non-trivial piece of programming code. Whether you want to model something, verify, or check your proofs, being able to write a computer program that helps you with some task really comes in handy." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://piotr.is/2010/on-haskell/" />
+<meta property="article:published_time" content="2010-05-23T00:00:00+00:00" />
+<meta property="article:modified_time" content="2010-05-23T00:00:00+00:00" />
+
+		<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="On Haskell"/>
+<meta name="twitter:description" content="Although I&rsquo;ve always wanted to become a professional programmer, I never became one. I studied philosophy and went into a PhD programme in computer science because of my interest in formal logic. I like computers very much, I have professional experience in UNIX administration, and I&rsquo;ve done a lot of Perl/Bash/Tcsh scripting, but I&rsquo;ve never actually written any non-trivial piece of programming code. Whether you want to model something, verify, or check your proofs, being able to write a computer program that helps you with some task really comes in handy."/>
+
+
+		<title>
+				On Haskell &middot; Piotr Kaźmierczak
+		</title>
+
+		
+  	<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="/css/baskerville.css">
+		<link rel="stylesheet" href="/css/fa.min.css">
+
+		
+		<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+		
+		<link href="/feed/index.xml" rel="alternate" type="application/rss+xml" title="Piotr Kaźmierczak" />
+
+    
+
+	</head>
+
+    <body>
+        		<nav class="nav">
+			<div class="nav-container">
+				
+			</div>
+		</nav>
+
+        
+
+<main>
+	<div class="post">
+		
+		
+		<h1 class="post-title">On Haskell</h1>
+<div class="post-line"></div> 
+		
+		
+		<p>Although I&rsquo;ve always wanted to become a professional programmer, I never
+became one. I studied philosophy and went into a PhD programme in computer
+science because of my interest in formal logic. I like computers very much, I
+have professional experience in UNIX administration, and I&rsquo;ve done a lot of
+Perl/Bash/Tcsh scripting, but I&rsquo;ve never actually written any non-trivial
+piece of programming code. Whether you want to model something, verify, or
+check your proofs, being able to write a computer program that helps you with
+some task really comes in handy. And then there&rsquo;s this question: what
+programming language should a person interested in logic/mathematics (without
+any CS background) learn?</p>
+<p>The first obvious choice for people interested in logic is
+<a href="http://en.wikipedia.org/wiki/Prolog">Prolog</a>. It&rsquo;s relatively easy to learn,
+but after some time playing with it we discover that it&rsquo;s quite limited, and
+not too efficient. Java is faster, easy as well and more versatile, but for
+<em>very high-level</em> programming (theorem provers, model checkers) it takes a lot
+of time to implement ideas, especially when compared to Prolog. Then there are
+other nice suitable languages like Python (very generic), LISP/Scheme (rather
+old, yet still very powerful), and finally Haskell.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>Haskell is a general purpose <a href="http://en.wikipedia.org/wiki/Static_types#Static_typing">statically-
+typed</a> <a href="http://en.wikipedia.org/wiki/Purely_functional">purely
+functional</a> programming
+language. It supports <a href="http://en.wikipedia.org/wiki/Lazy_evaluation">lazy
+evaluation</a>,
+<a href="http://en.wikipedia.org/wiki/Type_class">typeclasses</a> and <a href="http://en.wikipedia.org/wiki/Type_polymorphism">type
+polymorphism</a>. It provides an
+enormous set of tools for the programmer, while being far more efficient and
+flexible than, say, Prolog. Due to its nature it also imposes some discipline
+on the programmer (for example, static typing prevents a number of errors on
+the level of compilation), making programming more rigorous and efficient. ESR
+<a href="http://esr.ibiblio.org/?p=1796">recently wrote</a> about Haskell:</p>
+<blockquote>
+<p>Haskell is built around a handful of powerful primitive concepts and a <em>pons
+asinorum</em>. The most pervasive of these, purely functional programming without
+side effects or variables, is generally described in introductions to Haskell
+as the most difficult barrier for most programmers arriving from conventional
+imperative or OO languages like C, C++, and Python. And yes, if your mental
+model of programming is all about for-loops and static variables — or, for
+that matter, objects! — learning to think in Haskell is going to be quite a
+wrench. There are reasons to make the effort. Haskellers (Haskellites?
+Haskellians? Haskellators? Haskelletons?) maintain that imperative programming
+relies heavily on side effects that push proving the correctness of programs
+to somewhere between impractically difficult and impossible. They also like to
+point out that side effects make programs difficult to automatically
+parallelize across multiple processors, an increasingly important
+consideration as multicores become the rule rather than the exception.</p>
+</blockquote>
+<p>That&rsquo;s true, Haskell is not a trivial language to learn. I&rsquo;ve been learning it
+for a while now, and I&rsquo;m still far from saying that I actually <em>know</em> Haskell.
+Lazy evaluation and purely functional approach make it especially hard to
+switch from imperative way of thinking in the beginning. It&rsquo;s difficult to
+learn, but the effort is worth taking. &ldquo;Discrete Mathematics Using a Computer&rdquo;
+justifies the effort like this:</p>
+<blockquote>
+<p>Pure functional languages like Haskell, as well as mathematics itself, are
+demanding in that they require you to think through a problem deeply in order
+to express its solution with equations. It&rsquo;s always possible to hack an
+imperative program by sticking an assignment in it somewhere in order to patch
+up a problem, but you cannot do that in a functional program. On the other
+hand, if our goal is to build correct and reliable software &mdash; and this
+should be our goal! &mdash; then the discipline of careful thought will be repaid
+in higher quality software.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+</blockquote>
+<p>I can also add that Haskell forces a programmer to study some aspects of
+theoretical computer science in a way other languages don&rsquo;t. It&rsquo;s a bit like
+with LISP &ndash; you have to know something about lists, trees, recursion, higher-
+order functions, etc., otherwise you won&rsquo;t be able to learn it. On the other
+hand I&rsquo;d risk saying that it&rsquo;s possible to learn for example Perl without
+getting into theory of programming too much (but perhaps I&rsquo;m wrong here).</p>
+<p>So if it&rsquo;s all so hard, how should one learn Haskell? That very much depends
+on your level of programming literacy (in general, not necessarily functional
+programming literacy), amount of time you want to spend, and your motivations
+behind learning Haskell. I once told my PhD supervisor that I actually know of
+3,5 good books on Haskell programming:</p>
+<ol>
+<li>
+<p>&ldquo;<a href="http://learnyouahaskell.com">Learn you a Haskell for great good</a>&rdquo;
+&ndash; not a book really, rather an online tutorial with lots of funny
+pictures; among the free tutorials it&rsquo;s the best one I know;</p>
+</li>
+<li>
+<p>&ldquo;<a href="http://book.realworldhaskell.org">Real world Haskell</a>&rdquo; &ndash;
+currently the most famous Haskell book I guess; it&rsquo;s a bit like
+Seibel&rsquo;s &ldquo;<a href="http://www.gigamonkeys.com/book/">Practical Common Lisp</a>&rdquo;,
+only on Haskell; even if you&rsquo;re not into web development or databases,
+this book is the best introduction to Haskell and functional
+programming I found; oh, and it&rsquo;s free for online reading, but you can
+always grab a printed copy for ~$50;</p>
+</li>
+<li>
+<p>&ldquo;<a href="http://www.dcs.gla.ac.uk/~jtod/discrete-mathematics/">Discrete Mathematics Using a Computer</a>&rdquo;
+&ndash; this is definitely a must read for anyone interested particularly
+in using Haskell for solving logical and/or mathematical problems;
+it&rsquo;s really great and focuses on logic, recursion, set theory and so
+on, and still provides a good introduction to Haskell;</p>
+</li>
+<li>
+<p>&ldquo;<a href="http://homepages.cwi.nl/~jve/HR/">The Haskell Road to Logic, Maths and Programming</a>&rdquo;
+&ndash; another book focusing mainly on logical and mathematical
+applications; it&rsquo;s good, but I found it very difficult and although
+authors say they don&rsquo;t assume any background in functional
+programming, they actually do assume quite a lot (at least that was my
+impression).</p>
+</li>
+</ol>
+<p>All the books listed above are good, but I think the order in which I put them
+corresponds to their difficulty level. Not exactly, though: &ldquo;Real World
+Haskell&rdquo; can get pretty dense, but it introduces everything quite gently. &ldquo;The
+Haskell Road to Logic&hellip;&rdquo; on the other hand is in my opinion difficult
+throughout its whole length.</p>
+<p>I strongly recommend everyone (especially to fellow logicians) to at least
+give Haskell a try, it&rsquo;s definitely worth it. And if you happen to live in
+Bergen and would like to meet to discuss some Haskell-related stuff, there&rsquo;s
+an informal group of people, consisting of me and three of my friends. Let us
+know if you&rsquo;d like to join us in <em>haskelling</em>.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>Let me make one thing clear here. This post is not <em>against</em> other programming languages. I acknowledge Java, Python and Prolog&rsquo;s usefulness. The post is just about emphasizing Haskell&rsquo;s pros. No war intended. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>O&rsquo;Donnell/Hall/Page, <em>Discrete Mathematics Using a Computer</em>. <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+	</div>
+
+	
+	
+	<div class="meta">
+		<div><time datetime="2010-05-23 00:00:00 &#43;0000 UTC">May 23, 2010</time>
+		&nbsp;&middot;&nbsp;Bergen, Norway</div>
+	</div>
+	
+
+	
+	
+</main>
+
+
+        <footer>
+  <span> &copy; <time datetime="2020-11-20 10:31:27.086348 &#43;0100 CET m=&#43;0.090872181">2009—2020</time> Piotr Kaźmierczak</span><br />
+
+	<span><a href="/privacy-policy">privacy policy</a>
+	</span>
+</footer>
+
+        
+    </body>
+</html>

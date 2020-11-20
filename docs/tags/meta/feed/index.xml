@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>meta on Piotr Kaźmierczak</title>
+    <link>https://piotr.is/tags/meta/</link>
+    <description>Recent content in meta on Piotr Kaźmierczak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Dec 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://piotr.is/tags/meta/feed/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blogging Again</title>
+      <link>https://piotr.is/2015/blogging-again/</link>
+      <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://piotr.is/2015/blogging-again/</guid>
+      <description>Manton Reece:
+ By creating a blog, you’re making a statement that you care about something
+ I haven&amp;rsquo;t been blogging on a regular basis for many months now, primarily because I was busy with my PhD, depressed with my PhD, depressed about looking for a job or busy with my new job, but also because I wasn&amp;rsquo;t really sure there&amp;rsquo;s a point in having a blog in the first place.</description>
+    </item>
+    
+    <item>
+      <title>Blogging is hard</title>
+      <link>https://piotr.is/2012/blogging-is-hard/</link>
+      <pubDate>Tue, 06 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://piotr.is/2012/blogging-is-hard/</guid>
+      <description>I started blogging quite a long time ago, in 2006. The first platform I used was Polish Jogger &amp;mdash; a blogging engine centered around Jabber (aka XMPP) protocol. It was very cool (and unique) at the time, you could interact with your blog via IM (posting new entries, replying to comments), and it gathered a specific crowd of open-source/linux/free software enthusiasts which made for a nice community. My blog at the time was called Das Nichts1, and it was like most other blogs at that time &amp;mdash; about everything.</description>
+    </item>
+    
+  </channel>
+</rss>

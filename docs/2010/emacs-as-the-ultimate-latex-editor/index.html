@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta property="og:title" content="Emacs as the Ultimate LaTeX Editor" />
+<meta property="og:description" content="Everyone knows, that GNU Emacs is THE Best Programmer&rsquo;s Editor. Not everyone knows, though, that when you combine it with AUCTeX macros, it also becomes THE Best Editor for LaTeX.
+The biggest problem with Emacs is that it&rsquo;s not a particularly intuitive piece of software, to say the least, hence many users flee after their first encounter with it. Emacs has its complicated keyboard shortcuts, enormous documentation and config files written in a Lisp dialect (called Emacs lisp), so at first it might seem very unpleasant using it." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://piotr.is/2010/emacs-as-the-ultimate-latex-editor/" />
+<meta property="article:published_time" content="2010-05-13T00:00:00+00:00" />
+<meta property="article:modified_time" content="2010-05-13T00:00:00+00:00" />
+
+		<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Emacs as the Ultimate LaTeX Editor"/>
+<meta name="twitter:description" content="Everyone knows, that GNU Emacs is THE Best Programmer&rsquo;s Editor. Not everyone knows, though, that when you combine it with AUCTeX macros, it also becomes THE Best Editor for LaTeX.
+The biggest problem with Emacs is that it&rsquo;s not a particularly intuitive piece of software, to say the least, hence many users flee after their first encounter with it. Emacs has its complicated keyboard shortcuts, enormous documentation and config files written in a Lisp dialect (called Emacs lisp), so at first it might seem very unpleasant using it."/>
+
+
+		<title>
+				Emacs as the Ultimate LaTeX Editor &middot; Piotr Kaźmierczak
+		</title>
+
+		
+  	<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="/css/baskerville.css">
+		<link rel="stylesheet" href="/css/fa.min.css">
+
+		
+		<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+		
+		<link href="/feed/index.xml" rel="alternate" type="application/rss+xml" title="Piotr Kaźmierczak" />
+
+    
+
+	</head>
+
+    <body>
+        		<nav class="nav">
+			<div class="nav-container">
+				
+			</div>
+		</nav>
+
+        
+
+<main>
+	<div class="post">
+		
+		
+		<h1 class="post-title">Emacs as the Ultimate LaTeX Editor</h1>
+<div class="post-line"></div> 
+		
+		
+		<p>Everyone knows, that <a href="http://www.gnu.org/software/emacs/">GNU Emacs</a> is <a href="http://www.dina.dk/~abraham/religion/">THE Best Programmer&rsquo;s Editor</a>. Not everyone knows, though, that when you combine it with <a href="http://www.gnu.org/software/auctex/">AUCTeX</a> macros, it also becomes <strong>THE</strong> Best Editor for LaTeX.</p>
+<p>The biggest problem with Emacs is that it&rsquo;s not a particularly intuitive piece of software, to say the least, hence many users flee after their first encounter with it. Emacs has its complicated keyboard shortcuts, enormous documentation and config files written in a Lisp dialect (called <a href="http://en.wikipedia.org/wiki/Emacs_lisp">Emacs lisp</a>), so at first it might seem very unpleasant using it. However, once <em>tamed</em>, it becomes your best friend.</p>
+<p>I&rsquo;d like to present some tips that customize Emacs making it a perfect and very sophisticated editor for LaTeX. Most of these ideas are taken from various config files, howtos and other resources found on the web. Some of them are mine, but I can no longer tell which.</p>
+<p>First things first: you need to get Emacs and AUCTeX, and get it running.</p>
+<p>Every major linux distro comes with both Emacs and AUCTeX available via package systems. In Ubuntu, you just type <code>sudo apt-get install emacs23 auctex</code> and you&rsquo;re laughing. Emacs is also <a href="http://ftp.gnu.org/gnu/emacs/windows/">available</a> for Windows, and AUCTeX website has <a href="http://www.gnu.org/software/auctex/download-for-windows.html">instructions</a> on how to set it up with Windows systems. Mac users have a choice of setting up either <a href="http://homepage.mac.com/zenitani/emacs-e.html">Carbon Emacs</a> (a version closer to original GNU Emacs) or <a href="http://aquamacs.org/">Aquamacs</a> (an Emacs variant supporting tabs and other nice tweaks; preferred Emacs package by all Mac users I know, Karolina included). Full comparison of Mac Emacs variants is available <a href="http://aquamacs.org/feature-matrix.shtml">here</a>, so you can make your own choice. Both Carbon Emacs and Aquamacs come with AUCTeX bundled, so there&rsquo;s no need to download additional packages.</p>
+<p>After running Emacs and loading a TeX file (<code>C-x C-f file_name.tex</code>), AUCTeX should load itself automatically. If it doesn&rsquo;t happen, you can invoke it with <code>M-x tex-mode</code>, or you can put the following into your <code>$HOME/.emacs</code> file:</p>
+<pre><code>(setq TeX-auto-save t)
+(setq TeX-parse-self t)
+(setq TeX-save-query nil)
+;(setq TeX-PDF-mode t)
+</code></pre><p><em>(all the code snippets from this post are available as a <a href="https://gist.github.com/pkazmierczak/4331666">Github Gist</a>)</em></p>
+<p>The options above will make sure, that AUCTeX macros are loaded every time a TeX file is opened. The last option, <code>;(setq TeX-PDF-mode t)</code>, is commented (all lines beginning with <code>;</code> are a comment in Emacs Lisp), but you can uncomment it if you want to have PDFLaTeX mode enabled by default for all documents.</p>
+<p>AUCTeX has a number of nice features, the two I use most often are:</p>
+<ul>
+<li>automatic formatting of a section: <code>C-c C-q C-s</code>;</li>
+<li>section preview: <code>C-c C-p C-s</code>; (see the screenshot on the right)</li>
+</ul>
+<p><img src="/images/emacs-latex-preview.png" /></p>
+<p>Preview function is very nice, because you can <em>see</em> the commands that are <em>behind</em> preview images, edit the code, apply preview again and see the results &mdash; no need to parse the whole file too often, and most importantly no need to switch to a PDF/PS viewer to see if your math formula/xypic tree is formatted correctly. Trust me, this saves a lot of time.</p>
+<p><em>(update 27.12.2012: there’s another way of previewing LaTeX symbols inside an Emacs buffer, take a look <a href="/2012/12/27/previewing-latex-symbols-without-preview-latex/">here</a>)</em></p>
+<p>AUCTeX has many many more features, and you can always consult its <a href="http://www.gnu.org/software/auctex/documentation.html">documentation</a> if you want to learn more. It&rsquo;s a little bit overwhelming, but learning it is a very good investment, especially if you work with TeX a lot. But there are more packages that provide features which make your life easier.</p>
+<p><a href="http://flymake.sourceforge.net/">Flymake</a> is one of those packages. It enables Emacs to check the syntax of your TeX file on-the-fly. To turn it on, put the following code in your <code>$HOME/.emacs</code>:</p>
+<pre><code>(require 'flymake)
+
+(defun flymake-get-tex-args (file-name)
+(list &quot;pdflatex&quot;
+(list &quot;-file-line-error&quot; &quot;-draftmode&quot; &quot;-interaction=nonstopmode&quot; file-name)))
+
+(add-hook 'LaTeX-mode-hook 'flymake-mode)
+</code></pre><p>Beware, though &mdash; flymake consumes quite a lot of CPU power, especially when used with large files (and paradoxically large files make it most useful).</p>
+<p>On the other hand, spell-checking while you type isn&rsquo;t so cpu consuming, and you can turn it on with:</p>
+<pre><code>; could be ispell as well, depending on your preferences
+(setq ispell-program-name &quot;aspell&quot;) 
+; this can obviously be set to any language your spell-checking program supports
+(setq ispell-dictionary &quot;english&quot;) 
+
+(add-hook 'LaTeX-mode-hook 'flyspell-mode)
+(add-hook 'LaTeX-mode-hook 'flyspell-buffer)
+</code></pre><p>Another nice package is the <a href="http://www.gnu.org/software/emacs/manual/html_node/emacs/Outline-Mode.html">Outline Mode</a>. It allows the user to <em>hide</em> some parts of the text file, which makes working with large files much easier. To enable it, put the following in <code>$HOME/.emacs</code>:</p>
+<pre><code>(defun turn-on-outline-minor-mode ()
+(outline-minor-mode 1))
+
+(add-hook 'LaTeX-mode-hook 'turn-on-outline-minor-mode)
+(add-hook 'latex-mode-hook 'turn-on-outline-minor-mode)
+(setq outline-minor-mode-prefix &quot;\C-c \C-o&quot;) ; Or something else
+</code></pre><p>Now you can <em>fold</em> sections, subsections, chapters, or the whole document. To hide all the contents of your current section, use <code>C-c C-o C-l</code>. You can apply it to a chapter, subsection, etc. You can also move to a next <em>unit</em> of your document with <code>C-c C-o C-n</code>, or to a previous one with <code>C-c C-o C-p</code>. If you&rsquo;re lost and want to see the whole document again, use <code>C-c C-o C-a</code>.</p>
+<p>Folding and unfolding parts of the text might be confusing, though, but there&rsquo;s another way to navigate through a big TeX file, and you can use <a href="http://www.gnu.org/software/auctex/reftex.html">Reftex</a> mode for it. Reftex is a mode that helps with managing references (<a href="http://www.gnu.org/software/auctex/manual/reftex.index.html">full documentation</a>), but it can also be used to create a table of contents for a TeX file and to navigate using it. Here is my configuration for Reftex from my <code>.emacs</code> file:</p>
+<pre><code>(require 'tex-site)
+(autoload 'reftex-mode &quot;reftex&quot; &quot;RefTeX Minor Mode&quot; t)
+(autoload 'turn-on-reftex &quot;reftex&quot; &quot;RefTeX Minor Mode&quot; nil)
+(autoload 'reftex-citation &quot;reftex-cite&quot; &quot;Make citation&quot; nil)
+(autoload 'reftex-index-phrase-mode &quot;reftex-index&quot; &quot;Phrase Mode&quot; t)
+(add-hook 'latex-mode-hook 'turn-on-reftex) ; with Emacs latex mode
+;; (add-hook 'reftex-load-hook 'imenu-add-menubar-index)
+(add-hook 'LaTeX-mode-hook 'turn-on-reftex)
+
+(setq LaTeX-eqnarray-label &quot;eq&quot;
+LaTeX-equation-label &quot;eq&quot;
+LaTeX-figure-label &quot;fig&quot;
+LaTeX-table-label &quot;tab&quot;
+LaTeX-myChapter-label &quot;chap&quot;
+TeX-auto-save t
+TeX-newline-function 'reindent-then-newline-and-indent
+TeX-parse-self t
+TeX-style-path
+'(&quot;style/&quot; &quot;auto/&quot;
+&quot;/usr/share/emacs21/site-lisp/auctex/style/&quot;
+&quot;/var/lib/auctex/emacs21/&quot;
+&quot;/usr/local/share/emacs/site-lisp/auctex/style/&quot;)
+LaTeX-section-hook
+'(LaTeX-section-heading
+LaTeX-section-title
+LaTeX-section-toc
+LaTeX-section-section
+LaTeX-section-label))
+</code></pre><p>Once Reftex is loaded, you can invoke the table of contents buffer with
+<code>C-c =</code></p>
+<p><img src="/images/emacs-reftex-toc.png" class="small" /></p>
+<p>All right, enough. If I mention any more packages, I guess it will scare off those who aren&rsquo;t already scared. I know that Emacs is a bit <em>peculiar</em> with its complicated keyboard shortcuts, enormous documentation and thousands of modes. It&rsquo;s not easy to learn, but definitely worth it. I remember that switching from Vim to Emacs for LaTeX editing wasn&rsquo;t easy, but I never regretted that, and I hope whoever&rsquo;s going to switch under the influence of this post will not regret it either.</p>
+
+	</div>
+
+	
+	
+	<div class="meta">
+		<div><time datetime="2010-05-13 00:00:00 &#43;0000 UTC">May 13, 2010</time>
+		&nbsp;&middot;&nbsp;Bergen, Norway</div>
+	</div>
+	
+
+	
+	
+</main>
+
+
+        <footer>
+  <span> &copy; <time datetime="2020-11-20 10:31:27.08628 &#43;0100 CET m=&#43;0.090804235">2009—2020</time> Piotr Kaźmierczak</span><br />
+
+	<span><a href="/privacy-policy">privacy policy</a>
+	</span>
+</footer>
+
+        
+    </body>
+</html>

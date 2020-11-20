@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta property="og:title" content="Posts" />
+<meta property="og:description" content="A personal blog." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://piotr.is/post/" />
+<meta property="og:updated_time" content="2020-10-06T00:00:00+01:00" />
+
+		<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Posts"/>
+<meta name="twitter:description" content="A personal blog."/>
+
+
+		<title>
+				Piotr Kaźmierczak
+		</title>
+
+		
+  	<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="/css/baskerville.css">
+		<link rel="stylesheet" href="/css/fa.min.css">
+
+		
+		<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+		
+		<link href="/feed/index.xml" rel="alternate" type="application/rss+xml" title="Piotr Kaźmierczak" />
+
+    
+
+	</head>
+
+    <body>
+        		<nav class="nav">
+			<div class="nav-container">
+				
+			</div>
+		</nav>
+
+        
+
+<main>
+	<div class="catalogue">
+		
+			<a href="https://piotr.is/2016/boraan-aws-cloudformation-wrapper/" class="catalogue-item">
+    <div>
+        <time datetime="2016-12-14 21:42:23 &#43;0100 CET" class="catalogue-time">December 14, 2016</time>
+        
+        <h1 class="catalogue-title">bora—an AWS Cloudformation wrapper</h1>
+        
+
+        <p>
+            Last weekend I spent some time working on a small project: bora.1 It&rsquo;s a simple wrapper around AWS Cloudformation, so obviously everyone&rsquo;s question is: why the hell would I want yet another Cloudformation wrapper? tl;dr answer is: because all the ones which are available suck. But let me elaborate.
+  Troposphere-based tools are inelegant. Troposphere itself is poorly documented, and I dislike how the Python code mixes with actual Cloudformation JSON code in it.
+        </p>
+    </div>
+</a>
+
+		
+			<a href="https://piotr.is/2016/between-the-world-and-me/" class="catalogue-item">
+    <div>
+        <time datetime="2016-11-19 21:31:23 &#43;0100 CET" class="catalogue-time">November 19, 2016</time>
+        
+        <h1 class="catalogue-title">“Between the world and me”</h1>
+        
+
+        <p>
+            Here is what I would like for you to know: In America, it is traditional to destroy the black body—it is heritage.
+ My recent disillusioning trip notwithstanding, I am still very much in love with the US, but Ta-Nehisi Coates puts things into perspective. Much like sexism is often difficult to notice for males until a woman points it out, white people tend not to realize just how huge a problem racism in America still is.
+        </p>
+    </div>
+</a>
+
+		
+			<a href="https://piotr.is/2016/cloudformation-counter-strike/" class="catalogue-item">
+    <div>
+        <time datetime="2016-10-30 23:31:23 &#43;0100 CET" class="catalogue-time">October 30, 2016</time>
+        
+
+        <p>
+            <p>I spent an evening writing <a href="https://gist.github.com/pkazmierczak/07bcc42d829411dcb4f8525562567228">a cloudformation template for Counter Strike Global Offensive linux server</a>. No, I don&rsquo;t have a life. Yes, you will thank me next time you play with your friends and the laptop cannot handle more than 5 players. (AWS <code>t2.micro</code> handles 6 players easily, and you can always throw a <code>c4.large</code> at the problem which is still about $0.13/hr and handles, well, just about anything).</p>
+<p>The template sets up a single EC2 instance of type <code>t2.micro</code> by default, uses the default VPC, and runs the server with &ldquo;Arms Race&rdquo; game in a free-for-all mode. Consult Valve&rsquo;s <a href="https://developer.valvesoftware.com/wiki/Counter-Strike:_Global_Offensive_Dedicated_Servers">documentataion page</a> if you want to run other games or reconfigure the server in any way. The template also sets up a CNAME record pointing to the instance&rsquo;s public DNS name, so comment the last section out if you don&rsquo;t have a public hosted zone in your Route53.</p>
+<p>Happy shooting!</p>
+
+        </p>
+    </div>
+</a>
+
+		
+			<a href="https://piotr.is/2016/iphone-7-plus-and-its-two-lenses/" class="catalogue-item">
+    <div>
+        <time datetime="2016-09-08 00:00:00 &#43;0000 UTC" class="catalogue-time">September 8, 2016</time>
+        
+        <h1 class="catalogue-title">iPhone 7 Plus and its Two Lenses</h1>
+        
+
+        <p>
+            To some, Apple&rsquo;s yesterday keynote wasn&rsquo;t all that impressive. After all, the new iPhone 7 doesn&rsquo;t look all that new, the new Apple Watch looks exactly like the old one, and minor improvements aside (water resistance, GPS for the watch, new processors), there wasn&rsquo;t really anything impressive shown in San Francisco last night. Except one small detail—the camera(s) on the upcoming iPhone 7 Plus.
+This is the photograph Apple showed during the keynote, initially leading everyone to believe it&rsquo;s been taken with a &ldquo;high-end camera&rdquo;:
+        </p>
+    </div>
+</a>
+
+		
+			<a href="https://piotr.is/2016/hi-america/" class="catalogue-item">
+    <div>
+        <time datetime="2016-08-28 00:00:00 &#43;0000 UTC" class="catalogue-time">August 28, 2016</time>
+        
+        <h1 class="catalogue-title">Hi, America</h1>
+        
+
+        <p>
+            (I&rsquo;m biased towards everything American, so despite a relatively US-critical tone, you may be offended by this post if you&rsquo;re too European.)
+I remember watching &ldquo;The Cosby Show&rdquo; with my parents in the nineties. It was a crazy time of massive political change in Poland, and my parents were always pointing at the fictional Huxtables as role models. Me and my father were even replicating Cliff Huxtable&rsquo;s way of making chili, and we&rsquo;d make tons of inside jokes that we&rsquo;d always gladly explain to any guests we&rsquo;d be having.
+        </p>
+    </div>
+</a>
+
+		
+			<a href="https://piotr.is/2016/dehydration/" class="catalogue-item">
+    <div>
+        <time datetime="2016-07-10 00:00:00 &#43;0000 UTC" class="catalogue-time">July 10, 2016</time>
+        
+        <h1 class="catalogue-title">Dehydration—a cautionary tale</h1>
+        
+
+        <p>
+            I&rsquo;ve been riding bikes for a very long time, and although I&rsquo;ve had breaks, I can safely say I&rsquo;ve been riding bicycles throughout my whole life. I am lucky to have never had any serious accidents or injuries while cycling, other than the occasional my-shoes-are-still-clipped-into-the-pedals thing,1 I&rsquo;ve never been doored, I never smashed with my bike into things that generally don&rsquo;t like being smashed into (that&rsquo;s a lie; it&rsquo;s just that injuries were never serious), and I was rear-ended by other bikers only on a few occasions.
+        </p>
+    </div>
+</a>
+
+		
+			<a href="https://piotr.is/2016/mfa-tokens-in-your-terminal/" class="catalogue-item">
+    <div>
+        <time datetime="2016-06-26 00:00:00 &#43;0000 UTC" class="catalogue-time">June 26, 2016</time>
+        
+        <h1 class="catalogue-title">MFA tokens in your terminal</h1>
+        
+
+        <p>
+            All the stuff described here I learned from my dear colleague Giulio. I&rsquo;m sharing it here because it&rsquo;s cool, and because I don&rsquo;t think he&rsquo;d share it anywhere other than our internal mailing list.
+Do you use MFA a lot? Are you tired of reaching for your phone to check those codes on Google Authenticator app? Perhaps you&rsquo;ve been logging to too many different AWS accounts because your work requires that?
+        </p>
+    </div>
+</a>
+
+		
+			<a href="https://piotr.is/2016/hunger-makes-me-a-modern-girl/" class="catalogue-item">
+    <div>
+        <time datetime="2016-06-23 00:00:00 &#43;0000 UTC" class="catalogue-time">June 23, 2016</time>
+        
+        <h1 class="catalogue-title">“Hunger makes me a modern girl”</h1>
+        
+
+        <p>
+            I know Carrie Brownstein through &ldquo;Portlandia,&rdquo; a quirky sketch show she&rsquo;s been doing with Fred Armisen for the last couple of years. I&rsquo;m a huge fan of how accurately &ldquo;Portlandia&rdquo; pokes fun at alternative-culture so commonly associated with Pacific Northwest.1 What I learned later, only after doing some research on Fred and Carrie, is that they were both well-known before the show even started. Fred, to a perhaps lesser extent, through SNL, and Carrie, probably to a much greater extent, through Sleater-Kinney.
+        </p>
+    </div>
+</a>
+
+		
+			<a href="https://piotr.is/2016/zlib/" class="catalogue-item">
+    <div>
+        <time datetime="2016-06-21 00:00:00 &#43;0000 UTC" class="catalogue-time">June 21, 2016</time>
+        
+
+        <p>
+            <p><a href="http://stackoverflow.com/questions/20762094/how-are-zlib-gzip-and-zip-related-what-do-they-have-in-common-and-how-are-they">Abhishek Jain asks</a> Stack Overflow about the differences between zlib, gzip and Zip, and gets a fascinating and very insightful response from none other than <a href="https://en.wikipedia.org/wiki/Mark_Adler">Mark Adler</a>. I particularly like <a href="http://stackoverflow.com/questions/20762094/how-are-zlib-gzip-and-zip-related-what-do-they-have-in-common-and-how-are-they/20765054#20765054">the comment</a> Adler made when the OP asked about referenecs for his answer.</p>
+<blockquote>
+<p>I am the reference, having been part of all of that. This post could be cited in Wikipedia as an original source.</p>
+</blockquote>
+<p>This, to me, is a perfect example of the <em>enormous</em> impact of open source and free software libraries developed in the 80s and 90s have on modern-day computing. All these small components of Linux or *BSD systems that were developed over the years now play such crucial parts in <em>so many</em> complex systems we rely on every day.</p>
+<p>Free/open source software developers are the heroes of the internet era, and as such should have monuments built to their glory and schools named after them.</p>
+
+        </p>
+    </div>
+</a>
+
+		
+			<a href="https://piotr.is/2016/married/" class="catalogue-item">
+    <div>
+        <time datetime="2016-05-30 00:00:00 &#43;0000 UTC" class="catalogue-time">May 30, 2016</time>
+        
+
+        <p>
+            <p><img src="/images/married.jpg" /></p>
+<p>After many, <em>many</em> years of careful consideration, my lovely <a href="http://karolinakrzyzanowska.com">fiancee</a> and I decided to get married. I&rsquo;m posting this with a 1-month delay, because we were busy with <a href="https://www.instagram.com/p/BFB21QQw-VT/">climbing</a>, working and traveling a lot.</p>
+<p>So far being married has been great, I recommend it to everyone.</p>
+<p><small><em>Photograph by <a href="http://konradciok.pl">Konrad Ciok</a></em></small></p>
+
+        </p>
+    </div>
+</a>
+
+		
+	</div>
+	
+	<div class="pagination">
+		
+			<a href="/post/page/2/" class="left arrow">&#8592;</a>
+		
+		
+			<a href="/post/page/4/" class="right arrow">&#8594;</a>
+		
+	
+		<span>3 of 10</span>
+	</div>
+</main>
+
+
+        <footer>
+  <span> &copy; <time datetime="2020-11-20 10:31:27.593424 &#43;0100 CET m=&#43;0.597948688">2009—2020</time> Piotr Kaźmierczak</span><br />
+
+	<span><a href="/privacy-policy">privacy policy</a>
+	</span>
+</footer>
+
+        
+    </body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta property="og:title" content="bora—an AWS Cloudformation wrapper" />
+<meta property="og:description" content="Last weekend I spent some time working on a small project: bora.1 It&rsquo;s a simple wrapper around AWS Cloudformation, so obviously everyone&rsquo;s question is: why the hell would I want yet another Cloudformation wrapper? tl;dr answer is: because all the ones which are available suck. But let me elaborate.
+  Troposphere-based tools are inelegant. Troposphere itself is poorly documented, and I dislike how the Python code mixes with actual Cloudformation JSON code in it." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://piotr.is/2016/boraan-aws-cloudformation-wrapper/" />
+<meta property="article:published_time" content="2016-12-14T21:42:23+01:00" />
+<meta property="article:modified_time" content="2016-12-14T21:42:23+01:00" />
+
+		<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="bora—an AWS Cloudformation wrapper"/>
+<meta name="twitter:description" content="Last weekend I spent some time working on a small project: bora.1 It&rsquo;s a simple wrapper around AWS Cloudformation, so obviously everyone&rsquo;s question is: why the hell would I want yet another Cloudformation wrapper? tl;dr answer is: because all the ones which are available suck. But let me elaborate.
+  Troposphere-based tools are inelegant. Troposphere itself is poorly documented, and I dislike how the Python code mixes with actual Cloudformation JSON code in it."/>
+
+
+		<title>
+				bora—an AWS Cloudformation wrapper &middot; Piotr Kaźmierczak
+		</title>
+
+		
+  	<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="/css/baskerville.css">
+		<link rel="stylesheet" href="/css/fa.min.css">
+
+		
+		<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+		
+		<link href="/feed/index.xml" rel="alternate" type="application/rss+xml" title="Piotr Kaźmierczak" />
+
+    
+
+	</head>
+
+    <body>
+        		<nav class="nav">
+			<div class="nav-container">
+				
+			</div>
+		</nav>
+
+        
+
+<main>
+	<div class="post">
+		
+		
+		<h1 class="post-title">bora—an AWS Cloudformation wrapper</h1>
+<div class="post-line"></div> 
+		
+		
+		<p>Last weekend I spent some time working on a small project: <a href="https://github.com/pkazmierczak/bora">bora</a>.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> It&rsquo;s a simple wrapper around AWS Cloudformation, so obviously everyone&rsquo;s question is: why the hell would I want yet another Cloudformation wrapper? <em>tl;dr</em> answer is: because all the ones which are available suck. But let me elaborate.</p>
+<ul>
+<li>
+<p><a href="https://github.com/cloudtools/troposphere">Troposphere</a>-based tools are inelegant. Troposphere itself is poorly documented, and I dislike how the Python code mixes with actual Cloudformation JSON code in it. It&rsquo;s also very often non-lintable (or gets unreadable after linting).</p>
+</li>
+<li>
+<p>I ❤️ Python just like the next guy, but it&rsquo;s not very well suited for things like CI/CD pipelines. I see this a lot in clients' setups: first your jenkins job needs to pull the code, then create a <code>virtualenv</code> and <code>pip</code> the requirements, then lint (hah!), and then, hopefully, run. With compiled languages (and Golang especially), you only need to download a binary and run it. The only thing you have to care about is the underlying architecture and OS (which, in 99% of the CI/CD cases, is <code>elf x86_64</code>).</p>
+</li>
+<li>
+<p>I want to embrace Cloudformation&rsquo;s new neat &amp; clean <a href="https://aws.amazon.com/blogs/aws/aws-cloudformation-update-yaml-cross-stack-references-simplified-substitution/">YAML capabilities</a>.  JSON is ugly. Troposphere, as mentioned already, is ugly too.  Combining YAML with some Jinja-like markup for variables and loops, we could end up with something very elegant and readable.</p>
+</li>
+</ul>
+<p>With these requirements in mind, I began hacking, and I&rsquo;m happy to say that bora, even though it&rsquo;s in its earliest stages of development, fulfills all of them already.</p>
+<p>Bora is written in Golang, which makes it fast, cross-platform, and portable. While you do need to setup a build environment for Golang if you want your jenkins job to build the tool (not sure why, but whatever), you only need to build it once per version. Other than that, all you need to do is put it some place your CI/CD can <code>curl</code> from, <em>et voilà</em>, you&rsquo;re ready to run the binary. For pipelines that involve many Cloudformation runs, this saves a significant amount of time, and reduces run-time dependencies to a bare minimum.</p>
+<p>Furthermore, bora takes YAML templates as input, but also accepts YAML <em>meta</em>-templates augmented with Golang&rsquo;s <code>text/template</code> <a href="https://golang.org/pkg/text/template/#pkg-examples">markup</a>, which allows for setting variables and looping. It&rsquo;s especially convenient when you need to deploy, say, multiple EC2 instances that differ in some details.</p>
+<p>At this point bora is able to generate YAMLs, deploy, update and terminate stacks, and handle errors gracefully (you&rsquo;d be surprised how few Cloudformation wrappers do this). Assuming roles for multi-account deployment is coming soon, along with other neat features. Stay tuned!</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>Because <a href="https://en.wikipedia.org/wiki/Bora_(wind)">winds</a>, because clouds, because cloud formations&hellip; <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+	</div>
+
+	
+	
+	<div class="meta">
+		<div><time datetime="2016-12-14 21:42:23 &#43;0100 CET">December 14, 2016</time>
+		&nbsp;&middot;&nbsp;Munich, Germany</div>
+	</div>
+	
+
+	
+	
+</main>
+
+
+        <footer>
+  <span> &copy; <time datetime="2020-11-20 10:31:27.120192 &#43;0100 CET m=&#43;0.124715772">2009—2020</time> Piotr Kaźmierczak</span><br />
+
+	<span><a href="/privacy-policy">privacy policy</a>
+	</span>
+</footer>
+
+        
+    </body>
+</html>

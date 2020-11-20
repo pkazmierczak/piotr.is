@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>conference on Piotr Kaźmierczak</title>
+    <link>https://piotr.is/tags/conference/</link>
+    <description>Recent content in conference on Piotr Kaźmierczak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Apr 2019 18:26:57 +0100</lastBuildDate><atom:link href="https://piotr.is/tags/conference/feed/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>dotGo 2019</title>
+      <link>https://piotr.is/2019/dotgo-2019/</link>
+      <pubDate>Thu, 25 Apr 2019 18:26:57 +0100</pubDate>
+      
+      <guid>https://piotr.is/2019/dotgo-2019/</guid>
+      <description>A couple of weeks ago I went to Paris to attend dotGo (thanks, MessageBird!), one of the biggest Go conferences in Europe. dotGo lasts only one day, and it&amp;rsquo;s single-track, but it&amp;rsquo;s a solid offering with great organization, excellent venue and awesome talks. I realize I sound like a dotGo commercial, but as a former academic I remain amazed at how much better professional conferences are, and in the case of dotGo we&amp;rsquo;re talking orders of magnitude.</description>
+    </item>
+    
+  </channel>
+</rss>

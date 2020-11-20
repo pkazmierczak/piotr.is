@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta property="og:title" content="We should cherish email" />
+<meta property="og:description" content="Recent launch of Basecamp&rsquo;s Hey service made me realize how much I love email. Their pitch is actually on point:
+ Email gets a bad rap, but it shouldn’t. Email’s a treasure.
+ Damn right it is.
+Email is a set of open protocols. We can argue about the “implementability” of IMAP clients and such, but it remains the only widely used, open communication system we have on the internet. XMPP was supposed to become its equivalent for instant messaging, but failed, and no other protocol took its place because it’s in no messaging platform’s interest to give its users freedom of choice." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://piotr.is/2020/we-should-cherish-email/" />
+<meta property="article:published_time" content="2020-06-21T00:00:00+01:00" />
+<meta property="article:modified_time" content="2020-06-21T00:00:00+01:00" />
+
+		<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="We should cherish email"/>
+<meta name="twitter:description" content="Recent launch of Basecamp&rsquo;s Hey service made me realize how much I love email. Their pitch is actually on point:
+ Email gets a bad rap, but it shouldn’t. Email’s a treasure.
+ Damn right it is.
+Email is a set of open protocols. We can argue about the “implementability” of IMAP clients and such, but it remains the only widely used, open communication system we have on the internet. XMPP was supposed to become its equivalent for instant messaging, but failed, and no other protocol took its place because it’s in no messaging platform’s interest to give its users freedom of choice."/>
+
+
+		<title>
+				We should cherish email &middot; Piotr Kaźmierczak
+		</title>
+
+		
+  	<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="/css/baskerville.css">
+		<link rel="stylesheet" href="/css/fa.min.css">
+
+		
+		<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+		
+		<link href="/feed/index.xml" rel="alternate" type="application/rss+xml" title="Piotr Kaźmierczak" />
+
+    
+
+	</head>
+
+    <body>
+        		<nav class="nav">
+			<div class="nav-container">
+				
+			</div>
+		</nav>
+
+        
+
+<main>
+	<div class="post">
+		
+		
+		<h1 class="post-title">We should cherish email</h1>
+<div class="post-line"></div> 
+		
+		
+		<p>Recent launch of Basecamp&rsquo;s <a href="https://hey.com/">Hey</a> service made me realize how much I love email. Their pitch is actually on point:</p>
+<blockquote>
+<p>Email gets a bad rap, but it shouldn’t. Email’s a treasure.</p>
+</blockquote>
+<p>Damn right it is.</p>
+<p>Email is a set of open protocols. We can argue about the “implementability” of IMAP clients and such, but it remains the only widely used, open communication system we have on the internet. <a href="https://xmpp.org/">XMPP</a> was supposed to become its equivalent for instant messaging, but failed, and no other protocol took its place because it’s in no messaging platform’s interest to give its users freedom of choice. There are multi-protocol <a href="http://pidgin.im/">messaging</a> <a href="https://meetfranz.com/">apps</a>, but they are essentially UI hacks. Even Twitter, which arguably isn’t an IM, is <a href="https://www.theverge.com/2018/5/16/17362138/twitter-api-third-party-apps-changes-explained">gradually limiting</a> what third party clients can and cannot do.</p>
+<p>Email does not. It doesn’t matter whether your recipients use GMail, Outlook, Fastmail, Yahoo, or something else (there are probably people that use Protonmail), emails can always be read, replied to, quoted, and forwarded. You can have people participating in the same thread of a mailing list using Hey’s latest email web app and <a href="https://en.wikipedia.org/wiki/Mutt_(email_client)">Mutt</a>, and although it’s unlikely these people would reach an agreement on anything, it’s remarkable that we have 3 decades of backwards compatibility.</p>
+<p>It’s not only clients, but servers/providers, too. Hey, GMail or Outlook might be offering extra features that other platforms don’t (same as GMail or Outlook), but it doesn’t break compatibility. Thus it makes no difference which “platform” we use, because it’s transparent to users.</p>
+<p class="aside">
+    Ok can we pause here for a second and all agree that MS Outlook’s default HTML email formatting is just awful, disgusting, and wrong? I don’t mind HTML emails anymore, but how come others (Apple Mail, GMail) are able to format HTML emails in a readable and non-invasive way, and Outlook can’t? What’s up with that?
+</p>
+<p>But wait, it gets better.</p>
+<p>Because email is such an old thing, it has its own DNS record type: MX. What this means, then, is that if you own a domain, you can create an email address within it, and then simply point to an email provider of your choice, or even host one yourself (horrible idea). In fact, you should <a href="https://marco.org/2011/07/11/own-your-identity">own your identity</a>, if only for scenarios where your provider accidentally (or maliciously) <a href="https://www.google.com/search?q=google+locked+my+account">locks your account</a>. This way you can easily switch between providers/servers, without changing your address or in fact letting anyone else know.</p>
+<p>If email is so great, then how come everyone hates it so much?</p>
+<p>Forget everything written above, because people simply don’t appreciate what they have, and let’s focus on spam. Or actually the two different kinds of spam: the spam most email clients or servers filter automatically, the obvious scams and phishing expeditions, aka the stuff you never even see, and the other kind of spam, the more acceptable kind. You know, newsletters you don’t remember signing up for, adverts from stores you once bought a pair of shoes at (ok it was more than a single pair, but still), and generally stuff sent to you by bots. The amount of noise in most email users’ inboxes creates an illusion of email being noisy and messy, and it’s exactly where email gets its bad rap from.</p>
+<p>I wrote &ldquo;illusion&rdquo; because that&rsquo;s precisely what it is. Think about the email you get, and I mean personal mail, not work stuff. How much of it is written by actual humans directly to you? I bet it&rsquo;s not that much.</p>
+<p class="aside">
+    Work email is another thing entirely. I’d say excessive work email is not a problem with email per se, but with how an organization communicates, and that’s a whole different ball game.
+</p>
+<p>You probably get a lot of newsletters, and you most likely don&rsquo;t want to be getting most of them. But modern email clients all come with many automated filters (like GMail or Hey), and if these filters don&rsquo;t catch the new-kind-of-spam, you can filter messages manually by creating rules. GMail makes it particularly easy for its users, and so does Fastmail.</p>
+<p>You could of course prefer for these rules to be automatically discovered so that you&rsquo;d be spared the 2-clicks-hassle, which is precisely the business model of Hey, but think about it for a second: isn&rsquo;t it wonderful that this is even <em>possible?</em> Good luck having the same flexibility with your Facebook, Instagram or Twitter feeds.</p>
+<blockquote>
+<p>It feels great to get an email from someone you care about. Or a newsletter you enjoy. Or an update from a service you like. That’s how email used to feel all the time.</p>
+</blockquote>
+<p>Actually, it still feels like this. Or at least it easily can, and we should cherish it.</p>
+
+	</div>
+
+	
+	
+	<div class="meta">
+		<div><time datetime="2020-06-21 00:00:00 &#43;0100 &#43;0100">June 21, 2020</time>
+		&nbsp;&middot;&nbsp;Amsterdam, Noord-Holland</div>
+	</div>
+	
+
+	
+	
+</main>
+
+
+        <footer>
+  <span> &copy; <time datetime="2020-11-20 10:31:27.12711 &#43;0100 CET m=&#43;0.131634494">2009—2020</time> Piotr Kaźmierczak</span><br />
+
+	<span><a href="/privacy-policy">privacy policy</a>
+	</span>
+</footer>
+
+        
+    </body>
+</html>

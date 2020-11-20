@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>logic on Piotr Kaźmierczak</title>
+    <link>https://piotr.is/tags/logic/</link>
+    <description>Recent content in logic on Piotr Kaźmierczak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 May 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://piotr.is/tags/logic/feed/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Done</title>
+      <link>https://piotr.is/2015/done/</link>
+      <pubDate>Sun, 10 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://piotr.is/2015/done/</guid>
+      <description>On Thursday, April 30th I successfully defended my thesis on &amp;ldquo;Agents that Play by the Rules&amp;rdquo; and was awarded the title of PhD.1 It was 4,5 years of work,2 and the last week was definitely the most stressful and exhausting one I had in my entire life, but now I&amp;rsquo;m done. There&amp;rsquo;s no more school to go to, no more exams and no more courses to take.3
+The overwhelming feeling of completion is a very pleasant one.</description>
+    </item>
+    
+    <item>
+      <title>On Haskell</title>
+      <link>https://piotr.is/2010/on-haskell/</link>
+      <pubDate>Sun, 23 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://piotr.is/2010/on-haskell/</guid>
+      <description>Although I&amp;rsquo;ve always wanted to become a professional programmer, I never became one. I studied philosophy and went into a PhD programme in computer science because of my interest in formal logic. I like computers very much, I have professional experience in UNIX administration, and I&amp;rsquo;ve done a lot of Perl/Bash/Tcsh scripting, but I&amp;rsquo;ve never actually written any non-trivial piece of programming code. Whether you want to model something, verify, or check your proofs, being able to write a computer program that helps you with some task really comes in handy.</description>
+    </item>
+    
+  </channel>
+</rss>

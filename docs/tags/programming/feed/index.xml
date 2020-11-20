@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programming on Piotr Kaźmierczak</title>
+    <link>https://piotr.is/tags/programming/</link>
+    <description>Recent content in programming on Piotr Kaźmierczak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 26 Sep 2020 00:00:00 +0100</lastBuildDate><atom:link href="https://piotr.is/tags/programming/feed/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VS Code</title>
+      <link>https://piotr.is/2020/vs-code/</link>
+      <pubDate>Sat, 26 Sep 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://piotr.is/2020/vs-code/</guid>
+      <description>The best, most entertaining and immortal topic in software engineering is back! Editor Wars!
+After reading Roben Kleene’s blog post I realized that I’ve been using VS Code all-day every-day for over a year now. I’m not willing to admit it because in my mind I’m a die-hard (n)vim user, but the reality is this: VS Code is brilliant. Kleene makes many great points about key ingredients of VS Code’s success (popularity/MS backing, plugin ecosystem, client-server architecture), and you should read his post.</description>
+    </item>
+    
+    <item>
+      <title>bora—an AWS Cloudformation wrapper</title>
+      <link>https://piotr.is/2016/boraan-aws-cloudformation-wrapper/</link>
+      <pubDate>Wed, 14 Dec 2016 21:42:23 +0100</pubDate>
+      
+      <guid>https://piotr.is/2016/boraan-aws-cloudformation-wrapper/</guid>
+      <description>Last weekend I spent some time working on a small project: bora.1 It&amp;rsquo;s a simple wrapper around AWS Cloudformation, so obviously everyone&amp;rsquo;s question is: why the hell would I want yet another Cloudformation wrapper? tl;dr answer is: because all the ones which are available suck. But let me elaborate.
+  Troposphere-based tools are inelegant. Troposphere itself is poorly documented, and I dislike how the Python code mixes with actual Cloudformation JSON code in it.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://piotr.is/2016/ijaz/</link>
+      <pubDate>Sat, 16 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://piotr.is/2016/ijaz/</guid>
+      <description>One of Go&amp;rsquo;s features is that it doesn&amp;rsquo;t have an excess of features, and frankly, I think that feature is undervalued.
+ There&amp;rsquo;s an interesting discussion on Quora about the differences between Golang and Scala.
+As a former academic with tendencies towards functional programming, I used to be very tempted by Scala.1 It offers all the functional goodness without the exoticism of Haskell, and came with reasonably good tools and frameworks.</description>
+    </item>
+    
+    <item>
+      <title>AWS Cloudformation template for OpenVPN server creation</title>
+      <link>https://piotr.is/2015/aws-cloudformation-template-for-openvpn-server-creation/</link>
+      <pubDate>Wed, 23 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://piotr.is/2015/aws-cloudformation-template-for-openvpn-server-creation/</guid>
+      <description>Are you traveling for Christmas to a country where Netflix/Hulu isn&amp;rsquo;t available? Are you worried you might resort to violence against your own family once you&amp;rsquo;re fed up with them? Here&amp;rsquo;s a VPN server template to help the situation (and keep you away from prison).
+update Jan 6, 2016: Oh, well. VPN servers can still be useful for other purposes.
+Netflix is brilliant and there&amp;rsquo;s no better time to catch up on your Jessica Jones episodes than Christmas break.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://piotr.is/2015/letterpress/</link>
+      <pubDate>Thu, 22 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://piotr.is/2015/letterpress/</guid>
+      <description>I&amp;rsquo;ve been trying to hone some web-development skills the last few days, and yesterday evening I read about a particularly elegant Python microframework called Flask. I read the tutorial, did some stackoverflow searches and hacked a very simple (borderline trivial, actually) app for cheating in LetterPress in just a few hours. The code that runs the whole application is merely 50 lines long, and that&amp;rsquo;s only because I&amp;rsquo;m adhering to PEP8’s blank lines policies.</description>
+    </item>
+    
+    <item>
+      <title>On Haskell</title>
+      <link>https://piotr.is/2010/on-haskell/</link>
+      <pubDate>Sun, 23 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://piotr.is/2010/on-haskell/</guid>
+      <description>Although I&amp;rsquo;ve always wanted to become a professional programmer, I never became one. I studied philosophy and went into a PhD programme in computer science because of my interest in formal logic. I like computers very much, I have professional experience in UNIX administration, and I&amp;rsquo;ve done a lot of Perl/Bash/Tcsh scripting, but I&amp;rsquo;ve never actually written any non-trivial piece of programming code. Whether you want to model something, verify, or check your proofs, being able to write a computer program that helps you with some task really comes in handy.</description>
+    </item>
+    
+  </channel>
+</rss>

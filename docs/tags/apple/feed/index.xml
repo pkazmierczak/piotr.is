@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>apple on Piotr Kaźmierczak</title>
+    <link>https://piotr.is/tags/apple/</link>
+    <description>Recent content in apple on Piotr Kaźmierczak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 24 May 2020 00:00:00 +0100</lastBuildDate><atom:link href="https://piotr.is/tags/apple/feed/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2020 Core i5 Apple Macbook Air Detailed Review</title>
+      <link>https://piotr.is/2020/2020-core-i5-apple-macbook-air-detailed-review/</link>
+      <pubDate>Sun, 24 May 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://piotr.is/2020/2020-core-i5-apple-macbook-air-detailed-review/</guid>
+      <description>It&amp;rsquo;s brilliant.
+ Ok fine, let&amp;rsquo;s do a small Q&amp;amp;A no one asked for.
+Doesn&amp;rsquo;t it get a bit hot and noisy under load?
+It does, but it rarely happens. Actually I don&amp;rsquo;t even run tbswitcher on it. It&amp;rsquo;s not a good laptop if your aim is to run XCode or multiple Docker containers regularly, and neither is this a good laptop for editing videos in Premiere Pro. But you knew that already didn&amp;rsquo;t you?</description>
+    </item>
+    
+    <item>
+      <title>Sunk cost of my iPad Pro</title>
+      <link>https://piotr.is/2020/sunk-cost-of-my-ipad-pro/</link>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://piotr.is/2020/sunk-cost-of-my-ipad-pro/</guid>
+      <description>In January 2019 I bought an 11-inch iPad Pro. It&amp;rsquo;s a magnificent piece of hardware that you can read many reviews of online. The screen is brilliant, the portability and battery life are unmatched, the performance is swift (until you&amp;rsquo;re trying to perform a long-running CPU-intensive operation, that is).
+The iPad Pro was always meant to be my “personal computing” device. I don&amp;rsquo;t really code in my free time anymore, so issues of not being able to run VS Code on it are not my issues.</description>
+    </item>
+    
+    <item>
+      <title>iPhone 7 Plus and its Two Lenses</title>
+      <link>https://piotr.is/2016/iphone-7-plus-and-its-two-lenses/</link>
+      <pubDate>Thu, 08 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://piotr.is/2016/iphone-7-plus-and-its-two-lenses/</guid>
+      <description>To some, Apple&amp;rsquo;s yesterday keynote wasn&amp;rsquo;t all that impressive. After all, the new iPhone 7 doesn&amp;rsquo;t look all that new, the new Apple Watch looks exactly like the old one, and minor improvements aside (water resistance, GPS for the watch, new processors), there wasn&amp;rsquo;t really anything impressive shown in San Francisco last night. Except one small detail—the camera(s) on the upcoming iPhone 7 Plus.
+This is the photograph Apple showed during the keynote, initially leading everyone to believe it&amp;rsquo;s been taken with a &amp;ldquo;high-end camera&amp;rdquo;:</description>
+    </item>
+    
+    <item>
+      <title>Macbook Pro After 6 Months</title>
+      <link>https://piotr.is/2011/macbook-pro-after-6-months/</link>
+      <pubDate>Thu, 17 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://piotr.is/2011/macbook-pro-after-6-months/</guid>
+      <description>Some readers of this blog probably know that for a very long time (ca. 1998&amp;ndash; 2010) I&amp;rsquo;ve been a devout linux user. I&amp;rsquo;ve been using this system exclusively on all the computers until the Fall last year, when I decided to give Macbook Pro a try (mainly for hardware-related reasons). I&amp;rsquo;ve written about it a couple of times already, but it&amp;rsquo;s still a subject I keep thinking about, and about which I&amp;rsquo;m being asked by my friends constantly.</description>
+    </item>
+    
+  </channel>
+</rss>

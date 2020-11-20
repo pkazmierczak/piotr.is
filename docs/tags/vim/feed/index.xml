@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vim on Piotr Kaźmierczak</title>
+    <link>https://piotr.is/tags/vim/</link>
+    <description>Recent content in vim on Piotr Kaźmierczak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Jan 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://piotr.is/tags/vim/feed/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>No more LaTeX</title>
+      <link>https://piotr.is/2016/no-more-latex/</link>
+      <pubDate>Sun, 10 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://piotr.is/2016/no-more-latex/</guid>
+      <description>I made jokes about this before, but it actually happened: since I no longer use LaTeX, I removed it from my laptop and got rid of the config from my .vimrc. It&amp;rsquo;s nothing unusual, but I somewhat feel that the departure from LaTeX marks an important (sic!) moment in my life.
+LaTeX was my &amp;ldquo;gateway drug&amp;rdquo; to programming. I kid you not. Since I was interested in publishing as a teenager (even ran a small but successful magazine for a while), got very disappointed in MS Word&amp;rsquo;s DTP capabilities, had no money or supported OS to run Adobe or Quark, LaTeX was for me, sadly, the only option to put my magazine together.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://piotr.is/2015/spacemacs/</link>
+      <pubDate>Thu, 03 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://piotr.is/2015/spacemacs/</guid>
+      <description>I was about to write a blog post about how indifferent I became towards different text editors, and how I don&amp;rsquo;t really care anymore whether I edit code with emacs, vim, Sublime or even Atom. And then this happened:
+It&amp;rsquo;s called Spacemacs and it&amp;rsquo;s a beautiful hybrid between emacs and vim, or at least it looks like it. Will explore how it works in the course of the next couple of days, i.</description>
+    </item>
+    
+  </channel>
+</rss>

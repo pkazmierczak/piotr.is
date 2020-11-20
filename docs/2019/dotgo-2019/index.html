@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta property="og:title" content="dotGo 2019" />
+<meta property="og:description" content="A couple of weeks ago I went to Paris to attend dotGo (thanks, MessageBird!), one of the biggest Go conferences in Europe. dotGo lasts only one day, and it&rsquo;s single-track, but it&rsquo;s a solid offering with great organization, excellent venue and awesome talks. I realize I sound like a dotGo commercial, but as a former academic I remain amazed at how much better professional conferences are, and in the case of dotGo we&rsquo;re talking orders of magnitude." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://piotr.is/2019/dotgo-2019/" />
+<meta property="article:published_time" content="2019-04-25T18:26:57+01:00" />
+<meta property="article:modified_time" content="2019-04-25T18:26:57+01:00" />
+
+		<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="dotGo 2019"/>
+<meta name="twitter:description" content="A couple of weeks ago I went to Paris to attend dotGo (thanks, MessageBird!), one of the biggest Go conferences in Europe. dotGo lasts only one day, and it&rsquo;s single-track, but it&rsquo;s a solid offering with great organization, excellent venue and awesome talks. I realize I sound like a dotGo commercial, but as a former academic I remain amazed at how much better professional conferences are, and in the case of dotGo we&rsquo;re talking orders of magnitude."/>
+
+
+		<title>
+				dotGo 2019 &middot; Piotr Kaźmierczak
+		</title>
+
+		
+  	<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="/css/baskerville.css">
+		<link rel="stylesheet" href="/css/fa.min.css">
+
+		
+		<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+		
+		<link href="/feed/index.xml" rel="alternate" type="application/rss+xml" title="Piotr Kaźmierczak" />
+
+    
+
+	</head>
+
+    <body>
+        		<nav class="nav">
+			<div class="nav-container">
+				
+			</div>
+		</nav>
+
+        
+
+<main>
+	<div class="post">
+		
+		
+		<h1 class="post-title">dotGo 2019</h1>
+<div class="post-line"></div> 
+		
+		
+		<p>A couple of weeks ago I went to Paris to attend <a href="https://www.dotgo.eu/">dotGo</a> (thanks, <a href="https://www.messagebird.com">MessageBird</a>!), one of the biggest Go conferences in Europe. dotGo lasts only one day, and it&rsquo;s single-track, but it&rsquo;s a solid offering with great organization, excellent venue and awesome talks. I realize I sound like a dotGo commercial, but as a former academic I remain amazed at how much better professional conferences are, and in the case of dotGo we&rsquo;re talking orders of magnitude.</p>
+<p>Not all of the dotGo 2019 talks were brilliant, but I see even that as an advantage; it&rsquo;s easy to make a good conference by putting an all-star speaker line-up. It doesn&rsquo;t allow for younger, less known people in the community to present anything, though, and I think dotGo organizers' decision to present a mix of established engineers and newcomers was very successful. They also succeeded in having a variety of topics, and many of the talks weren&rsquo;t necessarily Go-specific. Sure,</p>
+<h3 id="advanced-go-specific-topics">advanced, Go-specific topics</h3>
+<p>were prominently represented, with Daniel Martí&rsquo;s <a href="https://www.dotconferences.com/2019/03/daniel-marti-optimizing-go-code-without-a-blindfold">optimization talk</a> a prime example, and Dave Cheney&rsquo;s <a href="https://www.dotconferences.com/2019/03/dave-cheney-constant-time">talk about constants</a>, probably the best talk of the whole conference. There was also <a href="https://www.dotconferences.com/2019/03/bryan-boreham-go-tune-your-memory">a perfectly mediocre talk</a> about Go GC, because, as we all know, no Go conference is complete without a GC talk. These are the kind of talks everyone going to a Go-related conference expects. You can learn more about internals of the language and some of its more obscure features, and that&rsquo;s great. But then there&rsquo;s the second kind of talks, my personal favorite, a &ldquo;meetup-talk&rdquo;, or</p>
+<h3 id="i-had-this-problem-and-ive-been-trying-to-solve-it">&ldquo;I had this problem, and I&rsquo;ve been trying to solve it&rdquo;</h3>
+<p>-talk. It&rsquo;s when an engineer comes on stage, and tells us about an unusual problem they&rsquo;ve been having, and they walk us through their reasoning, and iterative attempts at finding a solution. Basically, something we can all easily relate to as developers.</p>
+<p>Ignat Korchagin, a systems engineer at CloudFlare, spoke about his attempts of using Go as a scripting language, and ended up taking a deep dive into how the Linux kernel executes &ldquo;shebang&rdquo; lines that start all scripts. <a href="https://www.dotconferences.com/2019/03/ignat-korchagin-go-as-a-scripting-language-in-linux">An excellent talk</a> that everyone should watch, not necessarily only engineers interested in Go.</p>
+<p>But then there was Ellen Körbes' <a href="https://www.dotconferences.com/2019/03/ellen-korbes-go-for-phallic-object-generation">excellent talk</a> about &ldquo;phallic object generation&rdquo; (oh yeah). Ellen, a transgender woman, gave the coolest background story for her talk:</p>
+<blockquote>
+<p>Installing a vagina makes the body go &ldquo;oh noes there&rsquo;s a huge gash here I better close it asap!!&rdquo; To avoid that happening, there are dilators, and not dilating for even a single day may be catastrophic.
+Problem: Airport security loves to take them away. Solution: Let&rsquo;s make 3D printable dilators&hellip; with Go!</p>
+</blockquote>
+<p>Well if you want to captivate your audience&rsquo;s attention, waving a 3D printed penis-shaped object is definitely one way to do it. And if you thought Körbes just wanted to be sensational and didn&rsquo;t really have much to say, you&rsquo;d be wrong; her &ldquo;let&rsquo;s try to 3d print with Go&rdquo; journey was very interesting and her presentation very well prepared. Go watch it.</p>
+<p>dotGo is of course a major conference, so it naturally attracts big names from big companies, working on huge projects. That&rsquo;s the last talk category, aka</p>
+<h3 id="im-a-big-shot-working-on-big-problems-and-i-wanted-to-show-you-something-cool">&ldquo;I&rsquo;m a big-shot working on big problems, and I wanted to show you something cool.&rdquo;</h3>
+<p>We had three highlights that fall into said category:</p>
+<ul>
+<li><a href="https://www.dotconferences.com/2019/03/jean-de-klerk-multi-module-repositories">&ldquo;Multi-module repositories&rdquo;</a> by Google&rsquo;s Jean de Klerk, which covers an interesting situation of having multiple Go modules within single repository. A problem, hopefully, nobody but giant corporations should have.</li>
+<li><a href="https://www.dotconferences.com/2019/03/jessica-frazelle-a-dive-into-risc-v">&ldquo;A dive into RISC-V&rdquo;</a> by Jess Frazelle, of Docker/Google/Microsoft/Github fame. It was a bit of a disappointment, because Jess &ldquo;<code>xrandr</code> goddess&rdquo; Frazelle&rsquo;s Linux laptop refused to work with the conference beamer, and instead of live demos of <a href="https://twitter.com/jessfraz/status/1108385226609385475">RISC-V Go binaries</a>, we got a long historical rant about computer architectures and firmware. <code>¯\_(ツ)_/¯</code></li>
+<li>and finally <a href="https://www.dotconferences.com/2019/03/michael-mcloughlin-better-x86-assembly-generation-with-go">&ldquo;Better x86 Assembly Generation with Go&rdquo;</a> by Uber&rsquo;s Michael McLoughlin. That one deserves more than a <code>&lt;li&gt;</code>.</li>
+</ul>
+<p>What McLoughlin presented was, at least to me, jaw-dropping. He works on optimizing cryptographic operations, and is the author of <a href="https://github.com/mmcloughlin/avo"><code>avo</code></a>, which is basically a DSL for generating assembly from Go. <code>avo</code> lets the user take advantage of Go native types, function signatures and control structures, thus making writing assembly from within Go (something you should never do unless you work on cray things) much easier and safer. Seeing McLoughlin present how to generate assembly code for SHA-1 hash function with <code>avo</code> was quite spectacular. 😶➡️💥</p>
+<h3 id="wrapping-it-all-up">Wrapping it all up,</h3>
+<p>going to dotGo was an excellent idea. We got to listen to awesome talks, meet fellow Gophers from all around Europe (actually that&rsquo;s not true, we didn&rsquo;t network, because we&rsquo;re shy), and eat French baguette. Can&rsquo;t put a price on any of that! Or actually you can, and it&rsquo;s not expensive; it&rsquo;s all a 4-hour-long train ride away from Amsterdam and the conference fees are very reasonable, so there&rsquo;s really no reason for other Gophers not to go next year.</p>
+<p>See you all at dotGo 2020!</p>
+
+	</div>
+
+	
+	
+	<div class="meta">
+		<div><time datetime="2019-04-25 18:26:57 &#43;0100 &#43;0100">April 25, 2019</time>
+		&nbsp;&middot;&nbsp;Amsterdam, Noord-Holland</div>
+	</div>
+	
+
+	
+	
+</main>
+
+
+        <footer>
+  <span> &copy; <time datetime="2020-11-20 10:31:27.123327 &#43;0100 CET m=&#43;0.127850594">2009—2020</time> Piotr Kaźmierczak</span><br />
+
+	<span><a href="/privacy-policy">privacy policy</a>
+	</span>
+</footer>
+
+        
+    </body>
+</html>

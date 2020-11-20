@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta property="og:title" content="gaming" />
+<meta property="og:description" content="A personal blog." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://piotr.is/tags/gaming/" />
+<meta property="og:updated_time" content="2016-10-30T23:31:23+01:00" />
+
+		<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="gaming"/>
+<meta name="twitter:description" content="A personal blog."/>
+
+
+		<title>
+				gaming &middot; Piotr Kaźmierczak
+		</title>
+
+		
+  	<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="/css/baskerville.css">
+		<link rel="stylesheet" href="/css/fa.min.css">
+
+		
+		<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+		
+		<link href="/feed/index.xml" rel="alternate" type="application/rss+xml" title="Piotr Kaźmierczak" />
+
+    
+
+	</head>
+
+    <body>
+        		<nav class="nav">
+			<div class="nav-container">
+				
+			</div>
+		</nav>
+
+        
+
+<main>
+	<div class="catalogue">
+		
+		<a href="https://piotr.is/2016/cloudformation-counter-strike/" class="catalogue-item">
+    <div>
+        <time datetime="2016-10-30 23:31:23 &#43;0100 CET" class="catalogue-time">October 30, 2016</time>
+        
+
+        <p>
+            <p>I spent an evening writing <a href="https://gist.github.com/pkazmierczak/07bcc42d829411dcb4f8525562567228">a cloudformation template for Counter Strike Global Offensive linux server</a>. No, I don&rsquo;t have a life. Yes, you will thank me next time you play with your friends and the laptop cannot handle more than 5 players. (AWS <code>t2.micro</code> handles 6 players easily, and you can always throw a <code>c4.large</code> at the problem which is still about $0.13/hr and handles, well, just about anything).</p>
+<p>The template sets up a single EC2 instance of type <code>t2.micro</code> by default, uses the default VPC, and runs the server with &ldquo;Arms Race&rdquo; game in a free-for-all mode. Consult Valve&rsquo;s <a href="https://developer.valvesoftware.com/wiki/Counter-Strike:_Global_Offensive_Dedicated_Servers">documentataion page</a> if you want to run other games or reconfigure the server in any way. The template also sets up a CNAME record pointing to the instance&rsquo;s public DNS name, so comment the last section out if you don&rsquo;t have a public hosted zone in your Route53.</p>
+<p>Happy shooting!</p>
+
+        </p>
+    </div>
+</a>
+
+		
+		<a href="https://piotr.is/2015/letterpress/" class="catalogue-item">
+    <div>
+        <time datetime="2015-01-22 00:00:00 &#43;0000 UTC" class="catalogue-time">January 22, 2015</time>
+        
+
+        <p>
+            <p>I&rsquo;ve been trying to hone some web-development skills the last few days, and yesterday evening I read about a particularly elegant Python microframework called <a href="http://flask.pocoo.org/">Flask</a>. I read the tutorial, did some stackoverflow searches and hacked a very simple (borderline trivial, actually) <a href="https://github.com/pkazmierczak/letterpresscheater">app</a> for cheating in <a href="http://www.atebits.com/letterpress/">LetterPress</a> in just a few hours. The code that runs the whole application is merely 50 lines long, and that&rsquo;s only because I&rsquo;m adhering to <a href="https://www.python.org/dev/peps/pep-0008/#blank-lines">PEP8</a>’s blank lines policies. Karolina contributed some CSS code and a logo, and we deployed it to <a href="http://heroku.com">Heroku</a> in a couple of minutes. As a web-development newbie I have to say I&rsquo;m amazed by how quickly and easily one can learn writing simple applications from scratch these days. And Heroku deployment can be done (for free!) by just one <code>git push</code>. Amazing stuff, especially if you remember coding PHP in 2004.</p>
+
+        </p>
+    </div>
+</a>
+
+		
+	</div>
+
+	<div class="pagination">
+		
+		
+
+		<span>1 of 1</span>
+	</div>
+</main>
+
+
+        <footer>
+  <span> &copy; <time datetime="2020-11-20 10:31:27.148534 &#43;0100 CET m=&#43;0.153057663">2009—2020</time> Piotr Kaźmierczak</span><br />
+
+	<span><a href="/privacy-policy">privacy policy</a>
+	</span>
+</footer>
+
+        
+    </body>
+</html>

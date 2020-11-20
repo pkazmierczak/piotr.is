@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>golang on Piotr Kaźmierczak</title>
+    <link>https://piotr.is/tags/golang/</link>
+    <description>Recent content in golang on Piotr Kaźmierczak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Apr 2019 18:26:57 +0100</lastBuildDate><atom:link href="https://piotr.is/tags/golang/feed/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>dotGo 2019</title>
+      <link>https://piotr.is/2019/dotgo-2019/</link>
+      <pubDate>Thu, 25 Apr 2019 18:26:57 +0100</pubDate>
+      
+      <guid>https://piotr.is/2019/dotgo-2019/</guid>
+      <description>A couple of weeks ago I went to Paris to attend dotGo (thanks, MessageBird!), one of the biggest Go conferences in Europe. dotGo lasts only one day, and it&amp;rsquo;s single-track, but it&amp;rsquo;s a solid offering with great organization, excellent venue and awesome talks. I realize I sound like a dotGo commercial, but as a former academic I remain amazed at how much better professional conferences are, and in the case of dotGo we&amp;rsquo;re talking orders of magnitude.</description>
+    </item>
+    
+    <item>
+      <title>bora—an AWS Cloudformation wrapper</title>
+      <link>https://piotr.is/2016/boraan-aws-cloudformation-wrapper/</link>
+      <pubDate>Wed, 14 Dec 2016 21:42:23 +0100</pubDate>
+      
+      <guid>https://piotr.is/2016/boraan-aws-cloudformation-wrapper/</guid>
+      <description>Last weekend I spent some time working on a small project: bora.1 It&amp;rsquo;s a simple wrapper around AWS Cloudformation, so obviously everyone&amp;rsquo;s question is: why the hell would I want yet another Cloudformation wrapper? tl;dr answer is: because all the ones which are available suck. But let me elaborate.
+  Troposphere-based tools are inelegant. Troposphere itself is poorly documented, and I dislike how the Python code mixes with actual Cloudformation JSON code in it.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://piotr.is/2016/ijaz/</link>
+      <pubDate>Sat, 16 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://piotr.is/2016/ijaz/</guid>
+      <description>One of Go&amp;rsquo;s features is that it doesn&amp;rsquo;t have an excess of features, and frankly, I think that feature is undervalued.
+ There&amp;rsquo;s an interesting discussion on Quora about the differences between Golang and Scala.
+As a former academic with tendencies towards functional programming, I used to be very tempted by Scala.1 It offers all the functional goodness without the exoticism of Haskell, and came with reasonably good tools and frameworks.</description>
+    </item>
+    
+  </channel>
+</rss>

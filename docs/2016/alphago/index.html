@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta property="og:title" content="AlphaGo wins with Lee Sedol" />
+<meta property="og:description" content="Google Deep Mind&rsquo;s AlphaGo won two games against the world go champion, Lee Sedol. This is a ginormous triumph of statistical methods in general and machine learning in particular over &ldquo;symbolic AI.&rdquo;
+I remember writing an essay for a class in philosophy some years ago about the progress of AI game engines and the somewhat unimpressive achievements of Deep Blue. It was of course exciting to see a computer beat a reigning chess world champion, but underneath all the heuristics IBM implemented for chess, it was all &ldquo;brute force." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://piotr.is/2016/alphago/" />
+<meta property="article:published_time" content="2016-03-10T00:00:00+00:00" />
+<meta property="article:modified_time" content="2016-03-10T00:00:00+00:00" />
+
+		<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="AlphaGo wins with Lee Sedol"/>
+<meta name="twitter:description" content="Google Deep Mind&rsquo;s AlphaGo won two games against the world go champion, Lee Sedol. This is a ginormous triumph of statistical methods in general and machine learning in particular over &ldquo;symbolic AI.&rdquo;
+I remember writing an essay for a class in philosophy some years ago about the progress of AI game engines and the somewhat unimpressive achievements of Deep Blue. It was of course exciting to see a computer beat a reigning chess world champion, but underneath all the heuristics IBM implemented for chess, it was all &ldquo;brute force."/>
+
+
+		<title>
+				AlphaGo wins with Lee Sedol &middot; Piotr Kaźmierczak
+		</title>
+
+		
+  	<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="/css/baskerville.css">
+		<link rel="stylesheet" href="/css/fa.min.css">
+
+		
+		<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+		
+		<link href="/feed/index.xml" rel="alternate" type="application/rss+xml" title="Piotr Kaźmierczak" />
+
+    
+
+	</head>
+
+    <body>
+        		<nav class="nav">
+			<div class="nav-container">
+				
+			</div>
+		</nav>
+
+        
+
+<main>
+	<div class="post">
+		
+		
+		<h1 class="post-title">AlphaGo wins with Lee Sedol</h1>
+<div class="post-line"></div> 
+		
+		
+		<p>Google <a href="https://deepmind.com/">Deep Mind</a>&rsquo;s AlphaGo won <a href="https://twitter.com/mustafasuleymn/status/707469083458068480">two</a> <a href="https://twitter.com/demishassabis/status/707845224731508736">games</a> against the world go champion, <a href="https://en.wikipedia.org/wiki/Lee_Sedol">Lee Sedol</a>. This is a <em>ginormous</em> triumph of statistical methods in general and machine learning in particular over &ldquo;symbolic AI.&rdquo;</p>
+<p>I remember writing an essay for a class in philosophy some years ago about the progress of AI game engines and the somewhat unimpressive <a href="https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov#1997_rematch">achievements of Deep Blue</a>. It was of course exciting to see a computer beat a reigning chess world champion, but underneath all the heuristics IBM implemented for chess, it was all &ldquo;brute force.&rdquo; Chess has a <a href="https://en.wikipedia.org/wiki/Game_complexity#Game-tree_complexity">game tree complexity</a> of 10<sup>123</sup>, which is huge, but still &ldquo;traversable&rdquo; by modern computers using good heuristic functions. Go, on the other hand, was deemed unsolvable by any &ldquo;brute force&rdquo; methods, because its game tree complexity is 10<sup>360</sup>—far too big. I don&rsquo;t think anyone in 2006 expected that within ten years a computer program will beat the best Go player (I know I didn&rsquo;t), yet it just happened.</p>
+<p>And most importantly, it happened in a more, hm, &ldquo;intelligent&rdquo; way. AlphaGo doesn&rsquo;t just search the state space, it analyses patterns and <em>learns</em> how to play. Again, I cannot stress this enough what an incredible achievement this is for deep learning (aka neural networks). The fact that Google Photos can quickly learn what my photos contain so that I can search for &ldquo;mountains&rdquo; even though I didn&rsquo;t tag/categorize anything in my photo library is very impressive. But the fact that AlphaGo can learn patterns of the most complex board game is just mind-blowing.</p>
+<p>All this is not to say that logic-based AI is without merit. Yoav Shoham <a href="http://cacm.acm.org/magazines/2016/1/195730-why-knowledge-representation-matters/fulltext">is right</a> that what he calls &ldquo;applied philosophy&rdquo; is an underrated branch of AI these days, but I think the success of machine learning is astonishing in how much it can deliver vs. traditional, logic-based methods, and I don&rsquo;t agree with Shoham when he says that the &ldquo;the pendulum has swung too far,&rdquo; and that there&rsquo;s too much emphasis on ML in AI research. Given how much ML can deliver, I think the emphasis is well justified.</p>
+<p>I, for one, welcome our future AI overlords.</p>
+<p><strong>update, Mar 15, 2016:</strong> AlphaGo <a href="https://twitter.com/mustafasuleymn/status/709673935428780032">won</a> the match 4:1.</p>
+
+	</div>
+
+	
+	
+	<div class="meta">
+		<div><time datetime="2016-03-10 00:00:00 &#43;0000 UTC">March 10, 2016</time>
+		&nbsp;&middot;&nbsp;Munich, Germany</div>
+	</div>
+	
+
+	
+	
+</main>
+
+
+        <footer>
+  <span> &copy; <time datetime="2020-11-20 10:31:27.110818 &#43;0100 CET m=&#43;0.115341574">2009—2020</time> Piotr Kaźmierczak</span><br />
+
+	<span><a href="/privacy-policy">privacy policy</a>
+	</span>
+</footer>
+
+        
+    </body>
+</html>
