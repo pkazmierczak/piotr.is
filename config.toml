@@ -5,6 +5,7 @@ enableEmoji = true
 footnotereturnlinkcontents = "↩"
 pygmentsuseclasses = true
 MetaDataFormat = "yaml"
+theme = "etch"
 
 [outputs]
     home = ["HTML", "RSS"]
@@ -23,9 +24,28 @@ MetaDataFormat = "yaml"
 [params]
     description = "A personal blog."
     author = "Piotr Kaźmierczak"
+    copyright = "© 2009-2020 Piotr Kaźmierczak"
+    highlight = true
+    dark = "auto"
 
 [markup.goldmark.renderer]
     unsafe= true
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "posts"
+    title = "posts"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    title = "about"
+    url = "/about/"
+    weight = 20
+
 
 [privacy]
   [privacy.googleAnalytics]

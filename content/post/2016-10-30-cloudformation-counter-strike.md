@@ -1,4 +1,5 @@
 ---
+title: "AWS Cloudformation template for Counter Strike GO server"
 slug: cloudformation-counter-strike
 date: 2016-10-30T23:31:23+01:00
 location: "Munich, Germany"
