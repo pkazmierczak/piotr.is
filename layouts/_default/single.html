@@ -3,9 +3,13 @@
     <header id="post-header">
         <h1>{{ .Title }}</h1>
         {{- if isset .Params "date" -}}
-            <time>{{ .Date.Format "January 2, 2006" }}</time>
+            <time>{{ .Date.Format "January 2, 2006" }}
+        {{- end -}}
+        {{- if .Params.location -}}
+        &nbsp;&middot;&nbsp;{{ .Params.location }}</time>
         {{- end -}}
     </header>
     {{- .Content -}}
 </article>
+{{ if eq .Section "post"}} {{ partial "recently.html" . }}{{ end }}
 {{ end }}

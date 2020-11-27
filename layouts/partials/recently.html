@@ -1,0 +1,12 @@
+<hr />
+<div class="recently">
+        {{ $curPostTitle := .Title }}
+        <!-- exclude "asides" post from "recently" -->
+        {{ $pages := where .Site.RegularPages ".Title" "!=" "" }}
+        <!-- exclude current page from "recently" -->
+        {{ $pages := $pages | intersect (where .Site.RegularPages ".Title" "!=" $curPostTitle) }}
+        {{ range first 5 $pages }}
+            <a class="recently-item" href="{{ .RelPermalink }}">{{ .Title }}</a>&nbsp;&middot;&nbsp;
+        {{ end }}
+    <span class="recently-day"><a href="/">&hellip;</a></span>
+    </div>

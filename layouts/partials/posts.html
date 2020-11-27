@@ -1,7 +1,6 @@
-<h3>Posts</h3>
 {{- range where site.Pages "Section" "post" }}
 {{ range .Pages.GroupByDate "2006" }}
-<h4>{{ .Key }}</h4>
+<h3>{{ .Key }}</h3>
 {{ range .Pages }}
 <ul id="posts">
         {{ if .Title }}
