@@ -2,14 +2,14 @@
 date: 2015-12-23
 title: AWS Cloudformation template for OpenVPN server creation
 location: Munich, Germany
-tags: [aws, cloudformation, netflix, openvpn, programming, python, vpn, devops]
+tags: [aws, cloudformation, netflix, openvpn, automation, python, vpn, devops]
 alias: /2015/12/23/aws-cloudformation-template-for-openvpn-server-creation/
 twitter: true
 ---
 
 Are you traveling for Christmas to a country where Netflix/Hulu isn't available? Are you worried you might resort to violence against your own family once you're fed up with them? Here's a VPN server template to help the situation (and keep you away from prison).
 
-**update Jan 6, 2016:** [Oh, well.](https://media.netflix.com/en/press-releases/netflix-is-now-available-around-the-world) VPN servers can still be useful for other purposes. 
+**update Jan 6, 2016:** [Oh, well.](https://media.netflix.com/en/press-releases/netflix-is-now-available-around-the-world) VPN servers can still be useful for other purposes.
 
 Netflix is brilliant and there's no better time to catch up on your [Jessica Jones](http://www.netflix.com/title/80002311?locale=en-DE) episodes than Christmas break. But what if your family resides in a country where Netflix isn't available yet? 😱 Fear not, there's a way to circumvent geolocation-based legal barriers that protect, in my case, Eastern Europe from excellent comic book-based television. First, you're gonna need a *fast* internet connection.[^1] Second, a VPN server into the country where Netflix is available, e.g., Bundesrepublik Deutschland.
 
