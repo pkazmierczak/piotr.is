@@ -2,32 +2,25 @@
 
 <main>
 	<div class="post">
-		{{ if eq .Section "post" }}
-		{{ if .Params.Title }}
-		{{ partial "single/title.html" . }}
-		{{ else }}
-		<div class="meta">
-			<div><time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
-			{{- if .Params.location }}
-			&nbsp;&middot;&nbsp;{{ .Params.location }}
-			{{- end }}</div>
-		</div>
-		{{ end }}
-		{{ end }}
-		{{ .Content }}
-	</div>
-
-	{{ if eq .Section "post" }}
-	{{ if .Params.Title }}
+	{{ if and (eq .Section "post") (.Title) }}
 	<div class="meta">
 		<div><time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
 		{{- if .Params.location }}
 		&nbsp;&middot;&nbsp;{{ .Params.location }}
 		{{- end }}</div>
 	</div>
-	{{ end }}
+{{ end }}
+		{{ .Content }}
+	</div>
 
-	<!-- {{ partial "recently.html" . }} -->
+	{{ if and (eq .Section "post") (not .Title) }}
+	<div class="meta" align="center">
+		<div><time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
+		{{- if .Params.location }}
+		&nbsp;&middot;&nbsp;{{ .Params.location }}
+		{{- end }}</div>
+	</div>
+
 	{{ end }}
 </main>
 

@@ -4,9 +4,7 @@
     <body>
         {{ partial "header.html" . }}
         {{ block "main" . }}{{ end }}
-          {{ if eq .Section "post" }}
         {{ partial "footer.html" . }}
-          {{ end }}
         {{ template "_internal/google_analytics_async.html" . }}
     </body>
 </html>
