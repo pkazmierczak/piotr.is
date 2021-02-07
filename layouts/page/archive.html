@@ -16,6 +16,8 @@
         <ul>
             {{ if .Title }}
                 <li><a href="{{ .Permalink }}" class="archive-item-link">{{ .Title }}</a><span class="archive-item-date">&nbsp;{{ .Date.Format "Jan 2" }}</span></li>
+            {{ else }}
+                <li><a href="{{ .Permalink }}" class="archive-item-link">&middot;</a><span class="archive-item-date">&nbsp;{{ .Date.Format "Jan 2" }}</span></li>
             {{ end }}
         </ul>
         {{ end }}

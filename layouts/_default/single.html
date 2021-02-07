@@ -7,18 +7,27 @@
 		<div><time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
 		{{- if .Params.location }}
 		&nbsp;&middot;&nbsp;{{ .Params.location }}
-		{{- end }}</div>
+		{{- end }}
+    &nbsp;&middot;&nbsp;<a href="{{ .Permalink }}">&infin;</a></div>
 	</div>
 {{ end }}
 		{{ .Content }}
 	</div>
 
-	{{ if and (eq .Section "post") (not .Title) }}
+  {{ if and (eq .Section "post") (not .Title) }}
+  {{ if .Params.image }}
 	<div class="meta" align="center">
+  {{ else }}
+  <div class="meta">
+  {{ end }}
 		<div><time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
 		{{- if .Params.location }}
 		&nbsp;&middot;&nbsp;{{ .Params.location }}
-		{{- end }}</div>
+		{{- end }}
+    {{ if not .Params.image }}
+    &nbsp;&middot;&nbsp;<a href="{{ .Permalink }}">&infin;</a>
+    {{ end }}
+    </div>
 	</div>
 
 	{{ end }}
