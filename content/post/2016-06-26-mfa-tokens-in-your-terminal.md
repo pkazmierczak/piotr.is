@@ -1,7 +1,7 @@
 ---
 title: MFA tokens in your terminal
 date: 2016-06-26
-tags: [aws, security, mfa, devops]
+tags: [aws, security, mfa]
 location: "Munich, Germany"
 twitter: true
 ---

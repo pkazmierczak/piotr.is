@@ -1,7 +1,7 @@
 ---
 date: 2020-10-06T00:00:00+01:00
 location: Amsterdam, Noord-Holland
-title: Contesting
+slug: contesting
 aliases:
 - /2020/10/06/contesting/
 tags:
