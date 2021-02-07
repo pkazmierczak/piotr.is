@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link href="/feed/index.xml" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 		<meta http-equiv="refresh" content="0;url={{range first 1 .Site.RegularPages}}{{ .Permalink }}{{ end }}" />
 	</head>
 	<body></body>
 </html>
-		
+

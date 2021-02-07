@@ -90,7 +90,7 @@ unplugged, which makes them handy for practicing at home.
 
 <figure class="wide">
 <img src="/images/music-guide/yamaha.jpg">
-<figcaption>My Yamaha SV-200 I bought in <a href="2012/new-violin/">2012</a>. Solid instrument despite somewhat heavy weight (compared to acoustic instruments, not other electric ones which are often heavier) and an abysmal dynamic performance. Also I kinda like the way it looks and I'm shallow like that. Also this photo is of poor quality, but I'm putting it here anyway because I took it moments after I received the instrument. I think it's in my girlfriend's apartment in Groningen.</figcaption>
+<figcaption>My Yamaha SV-200 I bought in <a href="/2012/new-violin/">2012</a>. Solid instrument despite somewhat heavy weight (compared to acoustic instruments, not other electric ones which are often heavier) and an abysmal dynamic performance. Also I kinda like the way it looks and I'm shallow like that. Also this photo is of poor quality, but I'm putting it here anyway because I took it moments after I received the instrument. I think it's in my girlfriend's apartment in Groningen.</figcaption>
 </figure>
 
 Getting a good amplified sound using pickups attached to an acoustic instrument
