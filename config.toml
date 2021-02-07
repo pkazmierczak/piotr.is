@@ -5,6 +5,7 @@ enableEmoji = true
 footnotereturnlinkcontents = "↩"
 pygmentsuseclasses = true
 MetaDataFormat = "yaml"
+canonifyURLs = true
 
 [outputs]
     home = ["HTML", "RSS"]
