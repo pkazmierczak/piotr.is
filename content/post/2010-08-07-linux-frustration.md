@@ -6,7 +6,7 @@ date = "2010-08-07"
 tags = ["linux", "rant"]
 +++
 
-I've already mentioned my linux-related laptop problems [some time ago](/2009/11/09/how-ive-stopped-being-a-desktop- linux-enthusiast/). Some things changed since then. Canonical released a new version of Ubuntu, 10.04, which in my opinion is a huge improvement over 9.10, and I got a new laptop (kindly provided by [HiB](http://www.hib.no)), an [HP EliteBook 6930p](http://h10010.www1.hp.com/wwpc/no/no/sm/WF25a/321957-321957-6 4295-3955549-3955549-3688868.html). Old problems are gone, but new have arisen.
+I've already mentioned my linux-related laptop problems [some time ago](/2009/11/09/how-ive-stopped-being-a-desktop-linux-enthusiast/). Some things changed since then. Canonical released a new version of Ubuntu, 10.04, which in my opinion is a huge improvement over 9.10, and I got a new laptop (kindly provided by [HiB](http://www.hib.no)), an [HP EliteBook 6930p](http://h10010.www1.hp.com/wwpc/no/no/sm/WF25a/321957-321957-64295-3955549-3955549-3688868.html). Old problems are gone, but new have arisen.
 
 At first it all seemed ok. I've installed Ubuntu 10.04 and didn't have to tweak anything. Wireless, bluetooth, suspend/resume -- all worked automagically. Except graphics.
 
