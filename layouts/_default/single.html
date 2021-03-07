@@ -4,19 +4,19 @@
 	<div class="post">
 	{{ if and (eq .Section "post") (.Title) }}
 	<h2 class="post-title">{{ .Title }}</h2>
-	<div class="meta">
-		<div><time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
-		{{- if .Params.location }}
-		&nbsp;&middot;&nbsp;{{ .Params.location }}
-		{{- end }}
-    &nbsp;&middot;&nbsp;<a href="{{ .Permalink }}">&infin;</a></div>
+	<div class="post-meta">
+		<a href="/">Sound & Complete</a>&nbsp;&middot;&nbsp;<time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>&nbsp;&middot;&nbsp;{{ .Params.location }}
 	</div>
 	{{ else }} 	<h1 class="post-title"></h1> {{ end }}
 		{{ .Content }}
 	</div>
 
   {{ if and (eq .Section "post") (not .Title) }}
+  {{ if .Params.image }}
+  <div class="meta" align="center">
+	  {{ else }}
   <div class="meta">
+	  {{ end }}
 		<div><time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
 		{{- if .Params.location }}
 		&nbsp;&middot;&nbsp;{{ .Params.location }}
