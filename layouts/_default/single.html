@@ -5,7 +5,7 @@
 	{{ if and (eq .Section "post") (.Title) }}
 	<h2 class="post-title">{{ .Title }}</h2>
 	<div class="post-meta">
-		<a href="/">Sound & Complete</a>&nbsp;&middot;&nbsp;<time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>&nbsp;&middot;&nbsp;{{ .Params.location }}
+		<time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>&nbsp;&middot;&nbsp;{{ .Params.location }}
 	</div>
 	{{ else }} 	<h1 class="post-title"></h1> {{ end }}
 		{{ .Content }}
