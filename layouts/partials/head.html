@@ -24,8 +24,6 @@
 		{{- $cssOptions		:= cond ($inServerMode) (dict "targetPath" $cssTarget "enableSourceMap" true) (dict "targetPath" $cssTarget "outputStyle" "compressed") }}
 		{{- $style			:= resources.Get "scss/tale.scss" | toCSS $cssOptions }}
 		<link rel="stylesheet" href="{{ $style.RelPermalink }}">
-		<link rel="preconnect" href="https://fonts.gstatic.com"> 
-		<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@300;700&display=swap" rel="stylesheet">
 
 
 		<!-- favicon -->
