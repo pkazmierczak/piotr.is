@@ -3,6 +3,8 @@
     {{ partial "head.html" . }}
     <body>
         {{ block "main" . }}{{ end }}
+        {{ if eq .Section "post" }}
         {{ partial "footer.html" . }}
+        {{ end }}
     </body>
 </html>
