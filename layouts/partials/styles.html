@@ -33,6 +33,13 @@
     display: block;
   }
 
+  .photo-content img,
+  .photo-content {
+    margin-left: -100px;
+    max-width: 1000px;
+    width: 1000px;
+  }
+
   .left-justify {
     float: left;
   }
@@ -325,6 +332,15 @@
     text-decoration: none;
     display: inline-block;
     padding-top: 225px;
+  }
+
+  @media (max-width: 1000px) {
+    .photo-content img,
+    .photo-content {
+      margin-left:0;
+      max-width: 100%;
+      width: 100%;
+    }
   }
 
   @media (max-width: 750px) {

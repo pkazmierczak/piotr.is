@@ -28,5 +28,12 @@
         {{ end }}
         {{ end }}
     </div>
+    <div class="archive">
+        {{ range where .Site.Pages "Section" "photo" }}
+        {{ range .Pages }}
+        <a href="{{ .Permalink }}">{{ .Content }}</a>
+        {{ end }}
+        {{ end }}
+    </div>
 </section>
 {{ partial "footer.html" . }}

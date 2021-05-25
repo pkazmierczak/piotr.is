@@ -13,7 +13,6 @@ canonifyURLs = true
 
 [outputs]
     home = ["HTML", "RSS"]
-    page = ["HTML"]
 
 [outputFormats.RSS]
     path = "/feed/"

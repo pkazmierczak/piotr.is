@@ -1,12 +1,8 @@
 ---
 slug: otterlo
 date: 2021-04-18T00:00:00+01:00
-image: true
+photo: otterlo.jpg
 location: National Park de Hoge Veluwe, GE
 locations: 
 - National Park de Hoge Veluwe
-tags:
-- cycling
 ---
-
-<img class="wide" src="/images/otterlo.jpg">

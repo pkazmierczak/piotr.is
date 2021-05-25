@@ -1,8 +1,15 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<link href="/feed/index.xml" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-		<meta http-equiv="refresh" content="0;url={{range first 1 .Site.RegularPages}}{{ .Permalink }}{{ end }}" />
-	</head>
-	<body></body>
-</html>
+{{ partial "header.html" . }}
+{{ range first 1 (where .Site.Pages "Section" "photo") }}
+<section id=content>
+  <div class="photo-content">
+    {{ .Content }}
+  </div>
+
+  <div id=sub-header align="center">
+    {{ .Date.Format (.Site.Params.dateform | default "January 2006") }}&nbsp;&middot;&nbsp;{{ .Params.location }}
+    </div>
+
+</section>
+
+{{ end }}
+{{ partial "footer.html" . }}

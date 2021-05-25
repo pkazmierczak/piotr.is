@@ -16,16 +16,10 @@
   </div>
 
   {{ if and (eq .Section "post") (not .Title) }}
-    {{ if .Params.image }}
-      <div id=sub-header align="center">
-    {{ else }}
-      <div id=sub-header>
-    {{ end }}
+    <div id=sub-header>
 
     {{ .Date.Format (.Site.Params.dateform | default "January 2006") }}&nbsp;&middot;&nbsp;{{ .Params.location }}
-      {{ if not .Params.image }}
         &nbsp;&middot;&nbsp;{{ .ReadingTime }} minute read&nbsp;&middot;&nbsp;<a href="{{ .Permalink }}">&infin;</a>
-      {{ end }}
     </div>
   {{ end }}
 
