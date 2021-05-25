@@ -1,6 +1,6 @@
 +++
 title = "Macbook Pro After 6 Months"
-locations_full = ["Bergen, Vestland"]
+location = "Bergen, Vestland"
 locations = ["Bergen"]
 aliases = ["/2011/03/17/macbook-pro-after-6-months/"]
 readlater = true

@@ -1,6 +1,6 @@
 +++
 title = "A eulogy for Maemo/MeeGo"
-locations_full = ["Bergen, Vestland"]
+location = "Bergen, Vestland"
 locations = ["Bergen"]
 aliases = ["/2011/10/24/a-eulogy-for-maemomeego/"]
 date = "2011-10-24"

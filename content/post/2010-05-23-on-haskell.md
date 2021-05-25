@@ -1,6 +1,6 @@
 +++
 title = "On Haskell"
-locations_full = ["Bergen, Vestland"]
+location = "Bergen, Vestland"
 locations = ["Bergen"]
 aliases = ["/2010/05/23/on-haskell/"]
 date = "2010-05-23"

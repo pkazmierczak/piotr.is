@@ -1,7 +1,7 @@
 ---
 title: "Walkability"
 date: 2019-10-21
-locations_full: ["San Diego, CA"]
+location: "San Diego, CA"
 locations: ["San Diego"]
 tags:
 - society

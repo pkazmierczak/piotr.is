@@ -2,7 +2,7 @@
 title: MFA tokens in your terminal
 date: 2016-06-26
 tags: [aws, security, mfa]
-locations_full: ["München, BY"]
+location: "München, BY"
 locations: ["München"]
 ---
 

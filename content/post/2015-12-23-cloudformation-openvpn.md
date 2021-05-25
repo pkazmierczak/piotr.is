@@ -1,7 +1,7 @@
 ---
 date: 2015-12-23
 title: AWS Cloudformation template for OpenVPN server creation
-locations_full: ["München, BY"]
+location: "München, BY"
 locations: ["München"]
 tags: [aws, cloudformation, netflix, openvpn, automation, vpn]
 alias: /2015/12/23/aws-cloudformation-template-for-openvpn-server-creation/

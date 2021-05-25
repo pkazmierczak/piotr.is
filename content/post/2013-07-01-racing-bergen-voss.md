@@ -1,6 +1,6 @@
 +++
 title = "On Racing Bergen-Voss"
-locations_full = ["Groningen, GR"]
+location = "Groningen, GR"
 locations = ["Groningen"]
 aliases = ["/2013/07/01/on-racing-in-bergen-voss/"]
 date = "2013-07-01"

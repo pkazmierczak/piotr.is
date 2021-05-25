@@ -1,6 +1,6 @@
 +++
 title = "“Where the Conflict Really Lies”"
-locations_full = ["München, BY"]
+location = "München, BY"
 locations = ["München"]
 aliases = ["/2014/12/25/where-the-conflict-really-lies/"]
 date = "2014-12-25"

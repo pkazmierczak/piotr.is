@@ -13,7 +13,6 @@ canonifyURLs = true
 
 [outputs]
     home = ["HTML", "RSS"]
-    page = ["HTML"]
 
 [outputFormats.RSS]
     path = "/feed/"
@@ -28,6 +27,7 @@ canonifyURLs = true
 [params]
     description = "A personal blog."
     author = "Piotr Kaźmierczak"
+    sitename = "Piotr Kaźmierczak"
 
 [markup.goldmark.renderer]
     unsafe= true

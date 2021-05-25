@@ -1,6 +1,6 @@
 +++
 title = "In Defense Of The PhD"
-locations_full = ["Bergen, Vestland"]
+location = "Bergen, Vestland"
 locations = ["Bergen"]
 aliases = ["/2011/01/09/in-defense-of-the-phd/"]
 date = "2011-01-09"

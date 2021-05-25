@@ -1,6 +1,6 @@
 +++
 title = "Dr. Karolina"
-locations_full = ["Groningen, GR"]
+location = "Groningen, GR"
 locations = ["Groningen"]
 aliases = ["/2015/02/04/dr-karolina/"]
 date = "2015-02-04"

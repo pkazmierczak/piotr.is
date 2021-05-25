@@ -1,33 +1,30 @@
-{{ define "main" }}
+{{ partial "header.html" . }}
 
-<main>
-	<div class="post">
-	{{ if and (eq .Section "post") (.Title) }}
-	<h2 class="post-title">{{ .Title }}</h2>
-	<div class="post-meta">
-		<time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>&nbsp;&middot;&nbsp;{{ range .Params.locations_full }}{{ . }}&nbsp;{{end}}
-	</div>
-	{{ else }} 	<h1 class="post-title"></h1> {{ end }}
-		{{ .Content }}
-	</div>
+<section id=content>
+  {{ if and (eq .Section "post") (.Title) }}
+  <h1>{{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} {{ end }}</h1>
+
+  {{ if .Params.date }}
+    <div id=sub-header>
+      {{ .Date.Format (.Site.Params.dateform | default "January 2006") }}&nbsp;&middot;&nbsp;{{ .Params.location }} · {{ .ReadingTime }} minute read
+    </div>
+  {{ end }}
+  {{ end }}
+
+  <div class="entry-content">
+    {{ .Content }}
+  </div>
 
   {{ if and (eq .Section "post") (not .Title) }}
-  {{ if .Params.image }}
-  <div class="meta" align="center">
-	  {{ else }}
-  <div class="meta">
-	  {{ end }}
-		<div><time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
-		{{- if .Params.locations_full }}
-		&nbsp;&middot;&nbsp;{{ range .Params.locations_full }}{{ . }}&nbsp;{{end}}
-		{{- end }}
-    {{ if not .Params.image }}
-    &middot;&nbsp;<a href="{{ .Permalink }}">&infin;</a>
-    {{ end }}
+    <div id=sub-header>
+
+    {{ .Date.Format (.Site.Params.dateform | default "January 2006") }}&nbsp;&middot;&nbsp;{{ .Params.location }}
+        &nbsp;&middot;&nbsp;<a href="{{ .Permalink }}">&infin;</a>
     </div>
-	</div>
+  {{ end }}
 
-	{{ end }}
-</main>
+</section>
 
-{{ end }}
+{{ partial "footer.html" . }}
+
+

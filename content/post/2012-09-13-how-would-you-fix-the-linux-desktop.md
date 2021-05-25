@@ -1,6 +1,6 @@
 +++
 slug = "linux-desktop"
-locations_full = ["Bergen, Vestland"]
+location = "Bergen, Vestland"
 locations = ["Bergen"]
 date = "2012-09-13"
 aliases = ["/2012/09/13/how-would-you-fix-the-linux-desktop/"]

@@ -1,7 +1,7 @@
 ---
 date: 2015-06-11
 title: Ornette Coleman Dies at 85
-locations_full: ["München, BY"]
+location: "München, BY"
 locations: ["München"]
 tags: [music, jazz]
 ---

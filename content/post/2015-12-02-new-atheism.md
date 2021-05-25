@@ -1,7 +1,7 @@
 ---
 date: 2015-12-02
 title: New Atheism
-locations_full: ["München, BY"]
+location: "München, BY"
 locations: ["München"]
 tags: [atheism, religion, society, books]
 aliases: /2015/12/02/new-atheism/

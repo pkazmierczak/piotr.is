@@ -1,6 +1,6 @@
 +++
 title = "The world is a funny place"
-locations_full = ["Taipei, Republic of China"]
+location = "Taipei, Republic of China"
 locations = ["Taipei"]
 aliases = ["/2011/05/05/the-world-is-a-funny-place/"]
 date = "2011-05-05"

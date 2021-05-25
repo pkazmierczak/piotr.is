@@ -1,7 +1,7 @@
 ---
 title: "ECM is finally streaming, and I'm here to tell you what's good"
 date: 2017-12-02T18:26:57+01:00
-locations_full: ["München, BY"]
+location: "München, BY"
 locations: ["München"]
 tags: ["music", "jazz"]
 ---

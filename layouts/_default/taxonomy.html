@@ -1,22 +1,22 @@
-{{ define "main" }}
+{{ partial "header.html" . }}
 
-<main>
-	<div class="catalogue">
-		{{ range (.Paginate .Pages).Pages }}
-		{{ .Render "summary" }}
-		{{ end }}
-	</div>
+<section id=content>
+  <ul class=posts_listing>
+    {{ range .Pages }}
+      <li>
+        {{ if .Title }}
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        {{ else }}
+        <h2><a href="{{ .Permalink }}">[untitled]</a></h2>
+        {{ end }}
+        <div class=date>
+          {{if not .Date.IsZero }}
+            {{ .Date.Format (.Site.Params.dateform | default "January 2006") }}
+          {{end}}
+        </div>
+      </li>
+    {{ end }}
+  </ul>
+</section>
 
-	<div class="pagination">
-		{{ if .Paginator.HasPrev }}
-		<a href="{{ .Paginator.Prev.URL }}" class="left arrow">&#8592;</a>
-		{{ end }}
-		{{ if .Paginator.HasNext }}
-		<a href="{{ .Paginator.Next.URL }}" class="right arrow">&#8594;</a>
-		{{ end }}
-
-		<span>{{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}</span>
-	</div>
-</main>
-
-{{ end }}
+{{ partial "footer.html" . }}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    <meta name="description" content="{{ .Description | default .Site.Params.Description }}">
+
+    {{ template "_internal/opengraph.html" . }}
+		{{ template "_internal/twitter_cards.html" . }}
+
+    {{ if not .Site.Params.disableWebFonts }}
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400|Old+Standard+TT:400&display=swap" rel="stylesheet" media="print" type="text/css" onload="this.media='all'">
+    {{ end }}
+
+    <title>
+      {{- if .Params.Title }}
+      {{ .Title }} &middot; {{ .Site.Title }}
+      {{- else }}
+      {{ .Site.Title }}
+      {{- end }}
+    </title>
+    <link rel="canonical" href="{{ .Permalink }}">
+
+    {{ partial "styles.html" . }}
+
+    {{ range .AlternativeOutputFormats -}}
+        {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
+  </head>
+
+  <body>

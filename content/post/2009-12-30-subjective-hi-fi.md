@@ -1,6 +1,6 @@
 +++
 title = "On the subjective hi-fi quality"
-locations_full = ["Borowiny, łódzkie"]
+location = "Borowiny, łódzkie"
 locations = ["Borowiny"]
 aliases = ["/2009/12/30/on-the-subjective-hi-fi-quality/"]
 date = "2009-12-30"
@@ -45,38 +45,10 @@ gramophones are the best source for a hi-fi system.
 
 Now shortly, a number of _tips_ that I'd give to anyone asking me for advice.
 
-- If you're not willing to spend too much money on a hi-fi system,
-  don't expect huge differences amongst different amplifiers or
-  loudspeakers. You might pick a terribly sounding component, but the
-  chances are low.
+* If you're not willing to spend too much money on a hi-fi system, don't expect huge differences amongst different amplifiers or loudspeakers. You might pick a terribly sounding component, but the chances are low.
+* Keep in mind that among budget hi-fi manufacturers there are some which are usually a safe bet, i.e. their products will sound at least decently, and that includes some European companies (NAD, Creek, Cambridge Audio) and some Japanese (Rotel, Marantz).
+* Don't be cheap on the loudspeakers, their quality is very important. Also, when it comes to cables, don't use the _default_ ones. You don't have to spend hundreds of euros for Van den Hul, but get an entry-level Monster or Ixos, and you'll certainly hear the difference.
+* If it's the first time you're buying hi-fi, you might want to read some reviews. British "[What Hi-Fi](http://www.whathifi.com)" and "[Hi-Fi Choice](http://www.hifichoice.co.uk)" are a start, but watch out -- they tend to be very enthusiastic about most stuff they review. American "[Stereophile](http://www.stereophile.com)" (personal favorite) on the other hand is usually very cautious.
+* Reading the reviews you will probably end up with choosing the most _universally_ sounding system, which is good for a start. Later, if you upgrade or replace it, you'll know what sound you're looking for, and the reviews will just be a bit of a guide, but nothing more.
   
-- Keep in mind that among budget hi-fi manufacturers there are some
-  which are usually a safe bet, i.e. their products will sound at
-  least decently, and that includes some European companies (NAD,
-  Creek, Cambridge Audio) and some Japanese (Rotel, Marantz).
-  
-- Don't be cheap on the loudspeakers, their quality is very
-  important. Also, when it comes to cables, don't use the _default_
-  ones. You don't have to spend hundreds of euros for Van den Hul, but
-  get an entry-level Monster or Ixos, and you'll certainly hear the
-  difference.
-  
-- If it's the first time you're buying hi-fi, you might want to read
-  some reviews. British "[What Hi-Fi](http://www.whathifi.com)" and
-  "[Hi-Fi Choice](http://www.hifichoice.co.uk)" are a start, but watch
-  out -- they tend to be very enthusiastic about most stuff they
-  review. American "[Stereophile](http://www.stereophile.com)"
-  (personal favorite) on the other hand is usually very cautious.
-  
-- Reading the reviews you will probably end up with choosing the most
-  _universally_ sounding system, which is good for a start. Later, if
-  you upgrade or replace it, you'll know what sound you're looking
-  for, and the reviews will just be a bit of a guide, but nothing
-  more.
-  
-Finally, always remember that it's your call as a listener to choose a system.
-You're your best advisor. Bear in mind that no hi-fi is 100% neutral (perhaps
-except for some insanely expensive hi-end systems), although theoretically
-that's the goal. And lastly: remember that once you start searching for The
-Perfect Hi-Fi System, this search will probably never be over. Good luck!
-
+Finally, always remember that it's your call as a listener to choose a system.  You're your best advisor. Bear in mind that no hi-fi is 100% neutral (perhaps except for some insanely expensive hi-end systems), although theoretically that's the goal. And lastly: remember that once you start searching for The Perfect Hi-Fi System, this search will probably never be over. Good luck!

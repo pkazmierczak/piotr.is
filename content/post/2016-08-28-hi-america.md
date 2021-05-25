@@ -3,7 +3,7 @@ title: "Hi, 🇺🇸"
 slug: "hi-america"
 date: "2016-08-28"
 tags: ["america", "travels"]
-locations_full: ["München, BY"]
+location: "München, BY"
 locations: ["München"]
 twitter: true
 ---

@@ -1,7 +1,6 @@
 ---
 title: "How I traveled from Norway to Poland for Christmas this year"
-locations_full: 
-- "Luboń, wielkopolskie"
+location: "Luboń, wielkopolskie"
 locations: 
 - Luboń
 aliases: ["/2013/12/30/how-i-traveled-from-norway-to-poland-for-christmas-this-year/"]

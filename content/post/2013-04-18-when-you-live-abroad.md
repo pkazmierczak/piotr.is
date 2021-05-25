@@ -1,6 +1,6 @@
 +++
 title = "What Happens When You Live Abroad"
-locations_full = ["Bergen, Vestland"]
+location = "Bergen, Vestland"
 locations = ["Bergen"]
 link = "http://thoughtcatalog.com/2012/what-happens-when-you-live-abroad/"
 date = "2013-04-18"

@@ -1,6 +1,6 @@
 +++
 title = "Norway in the eyes of a foreigner"
-locations_full = ["Bergen, Vestland"]
+location = "Bergen, Vestland"
 locations = ["Bergen"]
 readlater = true
 aliases = ["/2010/04/17/norway-in-the-eyes-of-a-foreigner/"]

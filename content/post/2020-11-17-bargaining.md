@@ -1,6 +1,6 @@
 ---
 date: 2020-11-17T00:00:00+01:00
-locations_full: ["Amsterdam, NH"]
+location: "Amsterdam, NH"
 locations: ["Amsterdam"]
 title: Bargaining with my left-wing indulgence
 aliases:

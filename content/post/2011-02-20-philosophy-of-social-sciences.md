@@ -1,6 +1,6 @@
 +++
 title = "Philosophy of Social Sciences and Norwegian Mountains"
-locations_full = ["Flåm, Vestland"]
+location = "Flåm, Vestland"
 locations = ["Flåm"]
 aliases = ["/2011/02/20/philosophy-of-social-sciences-and-norwegian-mountains/"]
 date = "2011-02-20"
