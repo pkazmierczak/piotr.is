@@ -5,5 +5,3 @@ photo: voorthuizen.jpg
 location: "Voorthuizen, GE"
 locations: ["Voorthuizen"]
 ---
-
-![](/images/voorthuizen.jpg)

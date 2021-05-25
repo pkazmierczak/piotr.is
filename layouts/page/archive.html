@@ -1,17 +1,26 @@
 {{ partial "header.html" . }}
 
 <section id=content>
+    <div class="archive">
+        {{ range where .Site.Pages "Section" "photo" }}
+        {{ range .Pages }}
+        <a href="{{ .Permalink }}">{{ .Params.photo }}</a>
+        {{ end }}
+        {{ end }}
+    </div>
 
     <div class="archive">
         {{ range $key, $taxonomy := .Site.Taxonomies.tags.ByCount }}
         <a class="archive-item-{{ $taxonomy.Count }}" href="/tags/{{ $taxonomy.Name | urlize }}">{{ $taxonomy.Name }}</a>&nbsp;&nbsp;
         {{ end }}
     </div>
+
     <div class="archive">
         {{ range $key, $taxonomy := .Site.Taxonomies.locations.ByCount }}
         <a class="archive-item-{{ $taxonomy.Count }}" href="/locations/{{ $taxonomy.Name | urlize }}">{{ $taxonomy.Name }}</a>&nbsp;&nbsp;
         {{ end }}
     </div>
+
     <div class="archive">
         {{ range where .Site.Pages "Section" "post" }}
         {{ range .Pages.GroupByDate "2006"}}
@@ -25,13 +34,6 @@
             {{ end }}
         </ul>
         {{ end }}
-        {{ end }}
-        {{ end }}
-    </div>
-    <div class="archive">
-        {{ range where .Site.Pages "Section" "photo" }}
-        {{ range .Pages }}
-        <a href="{{ .Permalink }}">{{ .Content }}</a>
         {{ end }}
         {{ end }}
     </div>

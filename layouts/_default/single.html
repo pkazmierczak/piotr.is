@@ -19,7 +19,7 @@
     <div id=sub-header>
 
     {{ .Date.Format (.Site.Params.dateform | default "January 2006") }}&nbsp;&middot;&nbsp;{{ .Params.location }}
-        &nbsp;&middot;&nbsp;{{ .ReadingTime }} minute read&nbsp;&middot;&nbsp;<a href="{{ .Permalink }}">&infin;</a>
+        &nbsp;&middot;&nbsp;<a href="{{ .Permalink }}">&infin;</a>
     </div>
   {{ end }}
 

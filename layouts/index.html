@@ -1,13 +1,16 @@
 {{ partial "header.html" . }}
 {{ range first 1 (where .Site.Pages "Section" "photo") }}
+{{ $img := .Page.Resources.GetMatch .Params.photo}}
+{{ $exif := $img.Exif.Tags }}
+
 <section id=content>
   <div class="photo-content">
-    {{ .Content }}
+    <img src="{{ $img.RelPermalink }}" title="{{ $exif.Make }} {{ $exif.Model }}, {{ $exif.FocalLength }}mm, {{ $exif.ExposureTime }} sec., f/{{ $exif.FNumber }}, ISO {{ $exif.ISOSpeedRatings }}"/>
   </div>
 
   <div id=sub-header align="center">
-    {{ .Date.Format (.Site.Params.dateform | default "January 2006") }}&nbsp;&middot;&nbsp;{{ .Params.location }}
-    </div>
+    <span class="photo">Taken with {{ $exif.Make }} {{ $exif.Model }} on {{ with $img.Exif.Date }}{{ .Format "January 02, 2006" }}{{ end }} in {{ .Params.location }}. </span>
+  </div>
 
 </section>
 

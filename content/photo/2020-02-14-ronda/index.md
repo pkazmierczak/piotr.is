@@ -5,6 +5,4 @@ photo: ronda.jpg
 location: Ronda, Málaga
 locations:
 - Ronda
-
 ---
-![](/images/ronda.jpg)

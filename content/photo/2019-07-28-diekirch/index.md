@@ -5,7 +5,5 @@ photo: diekirch.jpg
 location: Diekirch, Luxembourg
 locations:
 - Diekirch
-
 ---
-![](/images/diekirch.jpg)
 
