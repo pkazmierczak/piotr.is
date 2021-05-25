@@ -1,12 +1,22 @@
 {{ partial "header.html" . }}
 
 <section id=content>
-    <div class="archive">
-        {{ range where .Site.Pages "Section" "photo" }}
-        {{ range .Pages }}
-        <a href="{{ .Permalink }}">{{ .Params.photo }}</a>
+    <div class="archive-gallery">
+        <div class="archive-gallery-row">
+        {{ $images := where .Site.RegularPages "Section" "photo" }}
+        {{ $images_count := len $images }}
+        {{ if ge $images_count 1 }}
+        {{ range $i, $sorted := $images }}
+        {{ $img := $sorted.Page.Resources.GetMatch .Params.photo }}
+        {{ $image := $img.Fill "100x100" }}
+            <a href="{{ .Permalink }}"><img src="{{ $image.RelPermalink }}"></a>
+        {{ if modBool (add $i 1) 5 }}
+            </div>
+            <div class="archive-gallery-row">
         {{ end }}
         {{ end }}
+        {{ end }}
+        </div>
     </div>
 
     <div class="archive">
