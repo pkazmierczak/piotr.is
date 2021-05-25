@@ -1,6 +1,6 @@
 +++
 slug = "switching-season"
-locations_full = ["Bergen, Vestland"]
+location = "Bergen, Vestland"
 locations = ["Bergen"]
 link = "https://al3x.net/2013/08/12/switching-season-annual-report-2013.html"
 date = "2013-08-22"

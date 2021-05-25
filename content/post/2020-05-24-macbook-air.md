@@ -1,6 +1,6 @@
 ---
 date: 2020-05-24T00:00:00+01:00
-locations_full: ["Amsterdam, NH"]
+location: "Amsterdam, NH"
 locations: ["Amsterdam"]
 title: "2020 Core i5 Apple Macbook Air Detailed Review"
 aliases:

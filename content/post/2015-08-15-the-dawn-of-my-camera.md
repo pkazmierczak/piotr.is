@@ -1,7 +1,7 @@
 ---
 date: 2015-08-15
 title: The dawn of my camera
-locations_full: ["München, BY"]
+location: "München, BY"
 locations: ["München"]
 tags: [photography, personal]
 ---

@@ -1,6 +1,6 @@
 +++
 title = "How the iPad ruins my travel experience"
-locations_full = ["Aéroport de Paris-Charles-de-Gaulle, IDF"]
+location = "Aéroport de Paris-Charles-de-Gaulle, IDF"
 locations = ["Paris"]
 aliases = ["/2012/08/25/how-the-ipad-ruins-my-travel-experience/"]
 date = "2012-08-25"

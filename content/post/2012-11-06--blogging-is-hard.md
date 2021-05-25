@@ -1,6 +1,6 @@
 +++
 title = "Blogging is hard"
-locations_full = ["Bergen, Vestland"]
+location = "Bergen, Vestland"
 locations = ["Bergen"]
 aliases = ["/2012/11/06/blogging-is-hard/"]
 date = "2012-11-06"

@@ -1,6 +1,6 @@
 +++
 title = "Emacs as the Ultimate LaTeX Editor"
-locations_full = ["Bergen, Vestland"]
+location = "Bergen, Vestland"
 locations = ["Bergen"]
 aliases = ["/2010/05/13/emacs-as-the-ultimate-latex-editor/", "/post/21038270357/emacs-as-the-ultimate-latex-editor", "/blog/emacs-as-the-ultimate-latex-editor"]
 date = "2010-05-13"

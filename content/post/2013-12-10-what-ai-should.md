@@ -1,6 +1,6 @@
 +++
 title = "What AI Should And What It Should Not Be"
-locations_full = ["Dunedin, Otago"]
+location = "Dunedin, Otago"
 locations = ["Dunedin"]
 link = "http://www.theatlantic.com/magazine/archive/2013/11/the-man-who-would-teach-machines-to-think/309529/"
 aliases = ["/2013/12/10/what-ai-should-and-what-it-should-not-be/"]

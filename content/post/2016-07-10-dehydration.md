@@ -3,7 +3,7 @@ title: "Dehydration—a cautionary tale"
 slug: "dehydration"
 date: "2016-07-10"
 tags: ["cycling", "personal"]
-locations_full: ["München, BY"]
+location: "München, BY"
 locations: ["München"]
 ---
 

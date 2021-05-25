@@ -1,6 +1,6 @@
 +++
 slug = "breaking-bad"
-locations_full = ["Bergen, Vestland"]
+location = "Bergen, Vestland"
 locations = ["Bergen"]
 aliases = ["/2013/10/05/6252/"]
 date = "2013-10-05"

@@ -1,10 +1,9 @@
 ---
 date: 2016-01-10
 title: No more LaTeX
-locations_full: ["München, BY"]
+location: "München, BY"
 locations: ["München"]
 tags: [LaTeX, vim]
-twitter: false
 ---
 
 I made [jokes](/2015/done/) about this before, but it actually happened: since I no longer use LaTeX, I removed it from my laptop and got rid of the config from my `.vimrc`. It's nothing unusual, but I somewhat feel that the departure from LaTeX marks an important *(sic!)* moment in my life.

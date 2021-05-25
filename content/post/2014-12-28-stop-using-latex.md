@@ -1,6 +1,6 @@
 +++
 title = "Stop using LaTeX, switch to MS Word"
-locations_full = ["München, BY"]
+location = "München, BY"
 locations = ["München"]
 link = "http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0115069"
 aliases = ["/2014/12/28/stop-using-latex-switch-to-ms-word/"]

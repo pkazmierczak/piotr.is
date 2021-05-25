@@ -1,6 +1,6 @@
 +++
 title = "Keith Jarrett Trio 30th Anniversary Tour at De Doelen, Rotterdam"
-locations_full = ["Rotterdam, ZH"]
+location = "Rotterdam, ZH"
 locations = ["Rotterdam"]
 aliases = ["/2013/07/08/keith-jarrett-trio-30th-anniversary-tour-at-de-doelen-rotterdam/"]
 date = "2013-07-08"

@@ -1,6 +1,6 @@
 +++
 slug = "linux-frustration"
-locations_full = ["Bergen, Vestland"]
+location = "Bergen, Vestland"
 locations = ["Bergen"]
 aliases = ["/2010/08/07/growing-linux-frustration/"]
 date = "2010-08-07"

@@ -1,7 +1,7 @@
 ---
 title: "“And the Weak Suffer What They Must?”"
 date: 2017-09-05T22:26:57+01:00
-locations_full: ["München, BY"]
+location: "München, BY"
 locations: ["München"]
 tags: ["books", "europe", "economics", "politics"]
 ---

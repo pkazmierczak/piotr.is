@@ -1,7 +1,7 @@
 ---
 title: "“Hunger makes me a modern girl”"
 date: 2016-06-23
-locations_full: ["München, BY"]
+location: "München, BY"
 locations: ["München"]
 tags: [music, books]
 ---

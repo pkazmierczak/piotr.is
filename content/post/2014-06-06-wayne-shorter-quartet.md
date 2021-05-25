@@ -1,6 +1,6 @@
 +++
 title = "Wayne Shorter Quartet at USF Verftet (NattJazz 2014)"
-locations_full = ["Bergen, Vestland"]
+location = "Bergen, Vestland"
 locations = ["Bergen"]
 aliases = ["/2014/06/06/wayne-shorter-quartet-at-usf-verftet-nattjazz-2014/"]
 date = "2014-06-06"

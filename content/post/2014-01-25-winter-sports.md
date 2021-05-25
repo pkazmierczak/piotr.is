@@ -1,6 +1,6 @@
 +++
 title = "Winter Sports"
-locations_full = ["Bergen, Vestland"]
+location = "Bergen, Vestland"
 locations = ["Bergen"]
 aliases = ["/2014/01/25/winter-sports/"]
 date = "2014-01-25"

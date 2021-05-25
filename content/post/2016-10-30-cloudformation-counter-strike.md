@@ -1,7 +1,7 @@
 ---
 slug: cloudformation-counter-strike
 date: 2016-10-30T23:31:23+01:00
-locations_full: ["München, BY"]
+location: "München, BY"
 locations: ["München"]
 tags: ["aws", "cloudformation", "automation", "gaming"]
 ---

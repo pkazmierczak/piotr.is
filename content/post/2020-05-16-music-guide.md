@@ -1,6 +1,6 @@
 ---
 date: 2020-05-16T00:00:00+01:00
-locations_full: ["Amsterdam, NH"]
+location: "Amsterdam, NH"
 locations: ["Amsterdam"]
 title: "Non-classical music playing guide for classically trained musicians"
 aliases:

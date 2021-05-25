@@ -1,7 +1,7 @@
 +++
 slug = "letterpress"
 locations = ["München"]
-locations_full = ["München, BY"]
+location = "München, BY"
 aliases = ["/2015/01/22/coding-in-python-cheating-in-letterpress/"]
 date = "2015-01-22"
 tags = ["python", "gaming", "programming"]
