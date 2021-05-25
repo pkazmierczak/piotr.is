@@ -1,9 +1,0 @@
----
-date: 2019-07-28
-slug: diekirch
-photo: diekirch.jpg
-location: Diekirch, Luxembourg
-locations:
-- Diekirch
----
-
