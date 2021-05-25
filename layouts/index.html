@@ -9,7 +9,7 @@
   </div>
 
   <div id=sub-header align="center">
-    <span class="photo">Taken with {{ $exif.Make }} {{ $exif.Model }} on {{ with $img.Exif.Date }}{{ .Format "January 02, 2006" }}{{ end }} in {{ .Params.location }}. </span>
+    <span class="photo">{{ with $img.Exif.Date }}{{ .Format "January 02, 2006" }}{{ end }}&nbsp;&middot;&nbsp;{{ .Params.location }}. </span>
   </div>
 
 </section>
