@@ -1,7 +1,8 @@
 ---
 date: 2015-09-03
 slug: spacemacs
-location: Munich, Germany
+locations_full: ["München, BY"]
+locations: ["München"]
 tags: [emacs, vim]
 update_date: 2015-09-14
 ---

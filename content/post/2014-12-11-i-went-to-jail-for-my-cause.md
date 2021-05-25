@@ -1,6 +1,7 @@
 +++
 slug = "peter-sunde"
-location = "Munich, Germany"
+locations_full = ["München, BY"]
+locations = ["München"]
 link = "http://www.wired.co.uk/news/archive/2014-12/11/peter-sunde"
 aliases = ["/2014/12/11/i-went-to-jail-for-my-cause-what-did-you-do/"]
 date = "2014-12-11"

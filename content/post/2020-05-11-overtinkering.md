@@ -2,7 +2,8 @@
 date: 2020-05-11T00:00:00+01:00
 aliases:
 - /2020/05/11/over-tinkering/
-location: Amsterdam, Noord-Holland
+locations_full: ["Amsterdam, NH"]
+locations: ["Amsterdam"]
 title: "Over-tinkering"
 ---
 

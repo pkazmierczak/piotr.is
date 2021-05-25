@@ -1,6 +1,7 @@
 +++
 slug = "dell-sputnik"
-location = "Munich, Germany"
+locations = ["München"]
+locations_full = ["München, BY"]
 aliases = ["/2015/02/07/dell-precision-m3800-mobile-workstation-developer-edition/"]
 date = "2015-02-07"
 tags = ["linux"]

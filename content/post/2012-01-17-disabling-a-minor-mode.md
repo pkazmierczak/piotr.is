@@ -1,6 +1,7 @@
 +++
 slug = "disabling-minor-mode"
-location = "Bergen, Norway"
+locations_full = ["Bergen, Vestland"]
+locations = ["Bergen"]
 aliases = ["/2012/01/17/disabling-a-minor-mode-on-a-per-file-basis/"]
 date = "2012-01-17"
 tags = ["emacs", "stack overflow"]

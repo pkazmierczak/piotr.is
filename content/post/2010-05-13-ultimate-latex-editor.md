@@ -1,10 +1,10 @@
 +++
 title = "Emacs as the Ultimate LaTeX Editor"
-location = "Bergen, Norway"
+locations_full = ["Bergen, Vestland"]
+locations = ["Bergen"]
 aliases = ["/2010/05/13/emacs-as-the-ultimate-latex-editor/", "/post/21038270357/emacs-as-the-ultimate-latex-editor", "/blog/emacs-as-the-ultimate-latex-editor"]
 date = "2010-05-13"
 tags = ["latex", "emacs"]
-twitter = true
 +++
 
 Everyone knows, that [GNU Emacs](http://www.gnu.org/software/emacs/) is [THE Best Programmer's Editor](http://www.dina.dk/~abraham/religion/). Not everyone knows, though, that when you combine it with [AUCTeX](http://www.gnu.org/software/auctex/) macros, it also becomes **THE** Best Editor for LaTeX.

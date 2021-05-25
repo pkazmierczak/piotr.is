@@ -1,7 +1,8 @@
 ---
 title: "Walkability"
 date: 2019-10-21
-location: San Jose, CA
+locations_full: ["San Diego, CA"]
+locations: ["San Diego"]
 tags:
 - society
 - travels

@@ -1,6 +1,7 @@
 +++
 title = "How I stopped being a desktop linux enthusiast"
-location = "Borowiny, Poland"
+locations_full = ["Borowiny, łódzkie"]
+locations = ["Borowiny"]
 aliases = ["/2009/11/09/how-ive-stopped-being-a-desktop-linux-enthusiast/"]
 date = "2009-11-09"
 tags = ["linux", "rant"]

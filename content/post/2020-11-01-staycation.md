@@ -1,6 +1,7 @@
 ---
 date: 2020-11-01T00:00:00+01:00
-location: Amsterdam, Noord-Holland
+locations_full: ["Amsterdam, NH"]
+locations: ["Amsterdam"]
 title: The Four Stages of Staycation
 aliases:
 - /2020/11/01/the-four-stages-of-staycation/

@@ -1,7 +1,8 @@
 ---
 date: 2015-09-14
 slug: lvjv
-location: Munich, Germany
+locations_full: ["München, BY"]
+locations: ["München"]
 tags: [internet, privacy]
 link: https://medium.com/matter/the-web-we-have-to-save-2eb1fe15a426
 ---

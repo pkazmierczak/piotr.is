@@ -1,7 +1,7 @@
 +++
 title = "Hit & Run"
-location = "Bergen, Norway"
-readlater = true
+locations_full = ["Bergen, Vestland"]
+locations = ["Bergen"]
 aliases = ["/2014/03/22/hit-and-run/"]
 date = "2014-03-22"
 tags = ["personal"]

@@ -9,6 +9,12 @@
         {{ end }}
     </div>
     <div class="archive">
+        <h2 class="archive-title">Locations</h2>
+        {{ range $key, $taxonomy := .Site.Taxonomies.locations.ByCount }}
+        <a class="archive-item-{{ $taxonomy.Count }}" href="/locations/{{ $taxonomy.Name | urlize }}">{{ $taxonomy.Name }}</a>&nbsp;&nbsp;
+        {{ end }}
+    </div>
+    <div class="archive">
         {{ range where .Site.Pages "Section" "post" }}
         {{ range .Pages.GroupByDate "2006"}}
         <h2 class="archive-title">{{ .Key }}</h2>

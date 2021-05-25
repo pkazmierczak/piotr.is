@@ -1,7 +1,8 @@
 ---
 title: "“Hunger makes me a modern girl”"
 date: 2016-06-23
-location: "Munich International Airport, Germany"
+locations_full: ["München, BY"]
+locations: ["München"]
 tags: [music, books]
 ---
 

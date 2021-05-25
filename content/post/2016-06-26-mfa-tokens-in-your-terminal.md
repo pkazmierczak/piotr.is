@@ -2,8 +2,8 @@
 title: MFA tokens in your terminal
 date: 2016-06-26
 tags: [aws, security, mfa]
-location: "Munich, Germany"
-twitter: true
+locations_full: ["München, BY"]
+locations: ["München"]
 ---
 
 <small><em>All the stuff described here I learned from my dear colleague [Giulio](https://github.com/giuliocalzolari). I'm sharing it here because it's cool, and because I don't think he'd share it anywhere other than our internal mailing list.</em></small>

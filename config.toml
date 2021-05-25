@@ -7,6 +7,10 @@ pygmentsuseclasses = true
 MetaDataFormat = "yaml"
 canonifyURLs = true
 
+[taxonomies]
+  location = "locations"
+  tag = "tags"
+
 [outputs]
     home = ["HTML", "RSS"]
     page = ["HTML"]

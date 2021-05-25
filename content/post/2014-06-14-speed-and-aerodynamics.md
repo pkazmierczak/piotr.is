@@ -1,6 +1,7 @@
 +++
 slug = "prolly"
-location = "Bergen, Norway"
+locations_full = ["Bergen, Vestland"]
+locations = ["Bergen"]
 aliases = ["/2014/06/14/speed-and-aerodynamics/"]
 update_date = "2015-03-17"
 date = "2014-06-14"

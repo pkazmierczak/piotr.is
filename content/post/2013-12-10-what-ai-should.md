@@ -1,11 +1,11 @@
 +++
 title = "What AI Should And What It Should Not Be"
-location = "Dunedin, New Zealand"
+locations_full = ["Dunedin, Otago"]
+locations = ["Dunedin"]
 link = "http://www.theatlantic.com/magazine/archive/2013/11/the-man-who-would-teach-machines-to-think/309529/"
 aliases = ["/2013/12/10/what-ai-should-and-what-it-should-not-be/"]
 date = "2013-12-10"
 tags = ["ai"]
-twitter = true
 +++
 
 > “It depends on what you mean by artificial intelligence.” Douglas Hofstadter is in a grocery store in Bloomington, Indiana, picking out salad ingredients. “If somebody meant by artificial intelligence the attempt to understand the mind, or to create something human-like, they might say—maybe they wouldn’t go this far—but they might say this is some of the only good work that’s ever been done.”

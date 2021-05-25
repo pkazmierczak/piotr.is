@@ -1,6 +1,7 @@
 +++
 slug = "breaking-bad"
-location = "Bergen, Norway"
+locations_full = ["Bergen, Vestland"]
+locations = ["Bergen"]
 aliases = ["/2013/10/05/6252/"]
 date = "2013-10-05"
 tags = ["television"]

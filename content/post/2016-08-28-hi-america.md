@@ -1,9 +1,10 @@
 ---
-title: "Hi, America"
+title: "Hi, 🇺🇸"
 slug: "hi-america"
 date: "2016-08-28"
 tags: ["america", "travels"]
-location: "New York, NY and Munich, Germany"
+locations_full: ["München, BY"]
+locations: ["München"]
 twitter: true
 ---
 

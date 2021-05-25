@@ -1,6 +1,7 @@
 +++
 title = "“The rise of the image, the fall of the word”"
-location = "Munich, Germany"
+locations = ["München"]
+locations_full = ["München, BY"]
 aliases = ["/2014/12/30/the-rise-of-the-image-the-fall-of-the-word/"]
 date = "2014-12-30"
 tags = ["books", "cinema", "television"]

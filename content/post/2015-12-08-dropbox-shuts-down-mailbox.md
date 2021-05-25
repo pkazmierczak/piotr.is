@@ -1,7 +1,8 @@
 ---
 date: 2015-12-08
 slug: botd
-location: Munich, Germany
+locations_full: ["München, BY"]
+locations: ["München"]
 tags: [dropbox]
 aliases: /2015/12/08/dropbox-shuts-down-mailbox/
 link: https://blogs.dropbox.com/mailbox/2015/12/saying-goodbye/

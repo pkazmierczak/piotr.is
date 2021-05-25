@@ -1,6 +1,7 @@
 +++
 title = "I can't read fiction anymore"
-location = "Leuven, Belgium"
+locations_full = ["Leuven, Vlaams-Brabant"]
+locations = ["Leuven"]
 aliases = ["/2010/02/12/i-cant-read-fiction-anymore/"]
 date = "2010-02-12"
 tags = ["books"]

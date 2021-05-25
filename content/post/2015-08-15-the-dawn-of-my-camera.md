@@ -1,11 +1,9 @@
 ---
 date: 2015-08-15
 title: The dawn of my camera
-readlater: true
-location: Munich, Germany
+locations_full: ["München, BY"]
+locations: ["München"]
 tags: [photography, personal]
-twitter: true
-header: "/images/header-dolomiti.jpg"
 ---
 
 I like taking photographs, and I *love* cameras.

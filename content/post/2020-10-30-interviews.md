@@ -1,6 +1,7 @@
 ---
 date: 2020-10-30T00:00:00+01:00
-location: Amsterdam, Noord-Holland
+locations_full: ["Amsterdam, NH"]
+locations: ["Amsterdam"]
 title: How not to interview software engineers
 aliases:
 - /2020/10/30/how-not-to-interview-software-engineers/

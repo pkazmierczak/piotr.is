@@ -1,6 +1,7 @@
 +++
 title = "Philosophy of Social Sciences and Norwegian Mountains"
-location = "Flåm, Norway"
+locations_full = ["Flåm, Vestland"]
+locations = ["Flåm"]
 aliases = ["/2011/02/20/philosophy-of-social-sciences-and-norwegian-mountains/"]
 date = "2011-02-20"
 tags = ["norway", "travels", "philosophy"]

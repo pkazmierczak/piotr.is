@@ -5,7 +5,7 @@
 	{{ if and (eq .Section "post") (.Title) }}
 	<h2 class="post-title">{{ .Title }}</h2>
 	<div class="post-meta">
-		<time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>&nbsp;&middot;&nbsp;{{ .Params.location }}
+		<time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>&nbsp;&middot;&nbsp;{{ range .Params.locations_full }}{{ . }}&nbsp;{{end}}
 	</div>
 	{{ else }} 	<h1 class="post-title"></h1> {{ end }}
 		{{ .Content }}
@@ -18,11 +18,11 @@
   <div class="meta">
 	  {{ end }}
 		<div><time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
-		{{- if .Params.location }}
-		&nbsp;&middot;&nbsp;{{ .Params.location }}
+		{{- if .Params.locations_full }}
+		&nbsp;&middot;&nbsp;{{ range .Params.locations_full }}{{ . }}&nbsp;{{end}}
 		{{- end }}
     {{ if not .Params.image }}
-    &nbsp;&middot;&nbsp;<a href="{{ .Permalink }}">&infin;</a>
+    &middot;&nbsp;<a href="{{ .Permalink }}">&infin;</a>
     {{ end }}
     </div>
 	</div>

@@ -1,6 +1,7 @@
 ---
 date: 2020-11-17T00:00:00+01:00
-location: Amsterdam, Noord-Holland
+locations_full: ["Amsterdam, NH"]
+locations: ["Amsterdam"]
 title: Bargaining with my left-wing indulgence
 aliases:
 - /2020/11/17/bargaining-with-my-left-wing-indulgence/

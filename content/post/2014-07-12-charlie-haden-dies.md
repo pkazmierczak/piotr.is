@@ -1,6 +1,7 @@
 +++
 title = "Jazz icon Charlie Haden dies at 76"
-location = "Bergen, Norway"
+locations_full = ["Bergen, Vestland"]
+locations = ["Bergen"]
 link = "http://www.theguardian.com/music/2014/jul/12/jazz-icon-charlie-haden-dies-at-76"
 aliases = ["/2014/07/12/jazz-icon-charlie-haden-dies-at-76/"]
 date = "2014-07-12"

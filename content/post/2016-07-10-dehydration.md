@@ -3,7 +3,8 @@ title: "Dehydration—a cautionary tale"
 slug: "dehydration"
 date: "2016-07-10"
 tags: ["cycling", "personal"]
-location: "Munich, Germany"
+locations_full: ["München, BY"]
+locations: ["München"]
 ---
 
 I've been riding bikes for a very long time, and although I've had breaks, I can safely say I've been riding bicycles throughout my whole life. I am lucky to have never had any serious accidents or injuries while cycling, other than the occasional my-shoes-are-still-clipped-into-the-pedals thing,[^1] I've never been [doored](https://en.wikipedia.org/wiki/Door_zone), I never smashed with my bike into things that generally don't like being smashed into (that's a lie; it's just that injuries were never serious), and I was rear-ended by other bikers only on a few occasions.

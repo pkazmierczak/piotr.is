@@ -1,7 +1,8 @@
 ---
 date: 2016-01-10
 title: No more LaTeX
-location: Munich, Germany
+locations_full: ["München, BY"]
+locations: ["München"]
 tags: [LaTeX, vim]
 twitter: false
 ---

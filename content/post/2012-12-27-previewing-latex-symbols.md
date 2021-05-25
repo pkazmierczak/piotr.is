@@ -1,6 +1,7 @@
 +++
 title = "Previewing LaTeX symbols without preview-latex"
-location = "Bergen, Norway"
+locations_full = ["Bergen, Vestland"]
+locations = ["Bergen"]
 aliases = ["/2012/12/27/previewing-latex-symbols-without-preview-latex/"]
 date = "2012-12-27"
 tags = ["latex", "emacs"]

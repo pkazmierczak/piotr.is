@@ -1,7 +1,8 @@
 ---
 date: 2016-01-16
 slug: ijaz
-location: "Munich, Germany"
+locations_full: ["München, BY"]
+locations: ["München"]
 tags: [golang, software engineering, scala]
 twitter: false
 ---

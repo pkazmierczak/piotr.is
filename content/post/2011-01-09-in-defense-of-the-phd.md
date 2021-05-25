@@ -1,11 +1,10 @@
 +++
 title = "In Defense Of The PhD"
-location = "Bergen, Norway"
-readlater = true
+locations_full = ["Bergen, Vestland"]
+locations = ["Bergen"]
 aliases = ["/2011/01/09/in-defense-of-the-phd/"]
 date = "2011-01-09"
 tags = ["academia", "phd", "society", "personal"]
-twitter = true
 +++
 
 Recently there's been a lively discussion on why do people pursue PhD studies, is it good (for them and for the society), is it optimal (for the society and for the universities), and so on. The whole topic is by no means new, but since The Economist's [recent publication](http://www.economist.com/node/17723223), [other](http://pipeline.corante.com/archives/2011/01/07/the_phd_problem.php) [people](https://twitter.com/irowan/status/23506930576138240) expressed their opinions.

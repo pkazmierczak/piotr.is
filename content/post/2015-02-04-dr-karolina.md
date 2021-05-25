@@ -1,6 +1,7 @@
 +++
 title = "Dr. Karolina"
-location = "Groningen, The Netherlands"
+locations_full = ["Groningen, GR"]
+locations = ["Groningen"]
 aliases = ["/2015/02/04/dr-karolina/"]
 date = "2015-02-04"
 tags = ["academia", "phd", "philosophy"]

@@ -1,6 +1,7 @@
 +++
 title = "Continuous list enumeration throughout the document with LaTeX"
-location = "Leuven, Belgium"
+locations_full = ["Leuven, Vlaams-Brabant"]
+locations = ["Leuven"]
 aliases = ["/2010/06/28/continuous-list-enumeration-throughout-the-document-with-latex/"]
 date = "2010-06-28"
 tags = ["latex"]

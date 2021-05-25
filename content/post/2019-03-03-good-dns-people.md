@@ -1,7 +1,8 @@
 ---
 title: Good DNS people live in remote places
 date: 2019-03-03
-location: "Amsterdam, Noord-Holland"
+locations_full: ["Amsterdam, NH"]
+locations: ["Amsterdam"]
 tags: ["dns", "internet"]
 ---
 

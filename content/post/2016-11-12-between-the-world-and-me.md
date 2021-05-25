@@ -1,7 +1,8 @@
 ---
 title: "“Between the world and me”"
 date: 2016-11-19T21:31:23+01:00
-location: "Munich, Germany"
+locations_full: ["München, BY"]
+locations: ["München"]
 tags: ["america", "books", "society"]
 ---
 

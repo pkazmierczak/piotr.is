@@ -1,7 +1,7 @@
 +++
 title = "Blogging is hard"
-location = "Bergen, Norway"
-readlater = true
+locations_full = ["Bergen, Vestland"]
+locations = ["Bergen"]
 aliases = ["/2012/11/06/blogging-is-hard/"]
 date = "2012-11-06"
 tags = ["meta"]

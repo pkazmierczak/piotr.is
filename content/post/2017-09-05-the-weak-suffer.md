@@ -1,9 +1,9 @@
 ---
 title: "“And the Weak Suffer What They Must?”"
 date: 2017-09-05T22:26:57+01:00
-location: "Munich, Germany"
+locations_full: ["München, BY"]
+locations: ["München"]
 tags: ["books", "europe", "economics", "politics"]
-twitter: true
 ---
 
 I always slightly disliked Yanis Varoufakis. Strike that, actually I always thought he's a bit of a clown. Motorbike-riding, leather-jacket-clad, attention-seeking, populist, arrogant clown. Worst of all, he was part of that annoying movement of European politicians that rejected the narrative I believed in, namely that:

@@ -1,7 +1,8 @@
 ---
 date: 2016-01-03
 title: Best Jazz Albums of 2015
-location: "Munich, Germany"
+locations_full: ["München, BY"]
+locations: ["München"]
 tags: 
   - music
   - jazz

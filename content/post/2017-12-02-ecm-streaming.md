@@ -1,9 +1,9 @@
 ---
 title: "ECM is finally streaming, and I'm here to tell you what's good"
 date: 2017-12-02T18:26:57+01:00
-location: "Munich, Germany"
+locations_full: ["München, BY"]
+locations: ["München"]
 tags: ["music", "jazz"]
-twitter: true
 ---
 
 As some of you might have heard, the legendary Munich label ECM *finally* [jumped](https://www.ecmrecords.com/public/docs/ECM_and_Streaming.pdf) on the streaming bandwagon. Yes, Manfred, I wholeheartedly agree that the beautiful music your label publishes demands to be listened on CDs and LPs, but these are harder and harder to take on a plane. With iPod Classic not sold anymore and iTunes morphing into Apple Music, music lovers will soon be left with only 3rd party solutions to keep actual music files on their smartphones. So thank you, herr Eicher, for allowing us to stream your whole catalog in 96 kbps Ogg Vorbis [Spotify streams](https://support.spotify.com/us/article/high-quality-streaming/). (Did Keith Jarrett sign off on that btw? Nevermind, I know he didn't. )

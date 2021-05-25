@@ -1,6 +1,7 @@
 +++
 slug = "strava-lanes"
-location = "Bergen, Norway"
+locations_full = ["Bergen, Vestland"]
+locations = ["Bergen"]
 link = "http://www.wired.com/2014/06/strava-sells-cycling-data/"
 aliases = ["/2014/06/06/stravas-cycling-app-is-helping-cities-build-better-bike-lanes/"]
 date = "2014-06-06"

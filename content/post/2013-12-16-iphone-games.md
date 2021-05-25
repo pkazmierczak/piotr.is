@@ -1,6 +1,7 @@
 +++
 title = "The Best, Most Elegant iPhone Games of 2013"
-location = "Bergen, Norway"
+locations_full = ["Bergen, Vestland"]
+locations = ["Bergen"]
 link = "http://www.newyorker.com/online/blogs/culture/2013/12/the-year-in-elegant-iphone-games.html"
 aliases = ["/2013/12/16/the-best-most-elegant-iphone-games-of-2013-the-new-yorker/"]
 date = "2013-12-16"

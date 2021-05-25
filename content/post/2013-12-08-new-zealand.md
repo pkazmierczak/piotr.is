@@ -1,6 +1,7 @@
 +++
 title = "New Zealand"
-location = "Dunedin, New Zealand"
+locations_full = ["Dunedin, Otago"]
+locations = ["Dunedin"]
 update_date = "2015-03-17"
 aliases = ["/2013/12/08/new-zealand/"]
 date = "2013-12-08"

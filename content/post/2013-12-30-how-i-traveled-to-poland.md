@@ -1,6 +1,9 @@
 ---
 title: "How I traveled from Norway to Poland for Christmas this year"
-location: "Luboń, Poznań, Poland"
+locations_full: 
+- "Luboń, wielkopolskie"
+locations: 
+- Luboń
 aliases: ["/2013/12/30/how-i-traveled-from-norway-to-poland-for-christmas-this-year/"]
 date: "2013-12-30"
 tags: ["travels"]

@@ -1,6 +1,7 @@
 +++
 slug = "shaka"
-location = "Bergen, Norway"
+locations_full = ["Bergen, Vestland"]
+locations = ["Bergen"]
 link = "http://www.theatlantic.com/entertainment/archive/2014/06/star-trek-tng-and-the-limits-of-language-shaka-when-the-walls-fell/372107/?single_page=true"
 aliases = ["/2014/09/28/shaka-when-the-walls-fell/"]
 date = "2014-09-28"

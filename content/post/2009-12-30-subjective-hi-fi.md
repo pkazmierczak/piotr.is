@@ -1,6 +1,7 @@
 +++
 title = "On the subjective hi-fi quality"
-location = "Borowiny, Poland"
+locations_full = ["Borowiny, łódzkie"]
+locations = ["Borowiny"]
 aliases = ["/2009/12/30/on-the-subjective-hi-fi-quality/"]
 date = "2009-12-30"
 tags = ["hifi"]

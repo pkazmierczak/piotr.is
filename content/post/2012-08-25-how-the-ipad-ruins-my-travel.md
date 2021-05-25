@@ -1,6 +1,7 @@
 +++
 title = "How the iPad ruins my travel experience"
-location = "Paris CDG Airport, France"
+locations_full = ["Aéroport de Paris-Charles-de-Gaulle, IDF"]
+locations = ["Paris"]
 aliases = ["/2012/08/25/how-the-ipad-ruins-my-travel-experience/"]
 date = "2012-08-25"
 tags = ["ipad", "travels"]

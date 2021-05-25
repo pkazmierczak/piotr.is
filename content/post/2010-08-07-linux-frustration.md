@@ -1,6 +1,7 @@
 +++
 slug = "linux-frustration"
-location = "Bergen, Norway"
+locations_full = ["Bergen, Vestland"]
+locations = ["Bergen"]
 aliases = ["/2010/08/07/growing-linux-frustration/"]
 date = "2010-08-07"
 tags = ["linux", "rant"]

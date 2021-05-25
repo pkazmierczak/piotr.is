@@ -1,8 +1,8 @@
 +++
 title = "On Haskell"
-location = "Bergen, Norway"
+locations_full = ["Bergen, Vestland"]
+locations = ["Bergen"]
 aliases = ["/2010/05/23/on-haskell/"]
-readlater = true
 date = "2010-05-23"
 tags = ["programming", "logic"]
 +++

@@ -1,6 +1,7 @@
 +++
 title = "Winter Sports"
-location = "Bergen, Norway"
+locations_full = ["Bergen, Vestland"]
+locations = ["Bergen"]
 aliases = ["/2014/01/25/winter-sports/"]
 date = "2014-01-25"
 tags = ["cycling"]

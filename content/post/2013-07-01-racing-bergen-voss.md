@@ -1,6 +1,7 @@
 +++
 title = "On Racing Bergen-Voss"
-location = "Groningen, The Netherlands"
+locations_full = ["Groningen, GR"]
+locations = ["Groningen"]
 aliases = ["/2013/07/01/on-racing-in-bergen-voss/"]
 date = "2013-07-01"
 tags = ["cycling", "norway"]
