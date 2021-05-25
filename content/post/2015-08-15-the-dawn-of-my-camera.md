@@ -14,7 +14,7 @@ My grandfather gave me my first camera. It was a DDR-made [Praktica B100](http:/
 
 I learned a ton[^2] shooting film with the Praktica B100, and I learned to love *bokeh* of f/1.8 above all, like every mediocre photographer. Shooting film was, unfortunately, expensive, and when I finally got a part-time job in college in 2006, I was able to afford one of the greatest cameras ever made—the Nikon D40.
 
-#### Nikon
+## Nikon
 
 Nikon D40, which I bought with a first generation, terrible 18-55mm f/3.5-5.6 kit lens, was brilliant because, like its rival Canon EOS 400D, it was *very* cheap. It was the first of Nikon's DSLR to "feature" the lack of AF motor in the body, which meant you had to buy the newer AF-S series lenses if you wanted to use autofocus, and it looked cheap and funny compared to bigger DSLRs. It produced decent images, though (especially the RAW files), it was easy to use and ergonomic, and sold very well. Funny thing about this cheap, entry-level DSLR is that I still have it today. It's been with me on many, many trips, thrown around, used in rain and snow (which I neither recommend nor condone), and it didn't once break.
 
@@ -22,13 +22,13 @@ I bought a big, "all-purpose" lens for the Nikon in 2011, which was still optica
 
 It was 2012 and the whole mirrorless revolution was at its peak, with all major manufacturers embracing either the micro 4/3 format or trying to put APS-C (or even [full frame!](https://en.wikipedia.org/wiki/Sony_Cyber-shot_DSC-RX1)) sensors into smaller bodies. I wanted to jumped on that wagon.
 
-#### Fujifilm
+## Fujifilm
 
  I bought a Fujifilm X10. It had a sensor smaller than micro 4/3, it rendered pleasing colors (hello, [Velvia!](https://en.wikipedia.org/wiki/Velvia)), was portable, had a lot of manual controls and was a very enjoyable camera. It had a fixed lens, though and couldn't really produce any shallow depth-of-field, which I, as a still mediocre photographer, really missed. I liked Fujifilm colors and manual controls (and, yes, retro aesthetics), so I bought another mirrorless camera, the X-E1, together with two absolutely brilliant lenses: 14mm f/2.8 and 35mm f/1.4.
 
 I loved the X-E1 despite its numerous flaws, and I really enjoyed shooting with it; it was a camera that, through its manual controls and well thought-through interface, made you *want* to go out and shoot. Still, it wasn't exactly pocketable. Yes, the body was relatively small, but the lenses were big and heavy. So I sold both my Fujifilm cameras, all the lenses and accessories this Spring.[^3]
 
-#### The smartphone revolution
+## The smartphone revolution
 
 I'd say there are three types of photographers.
 
@@ -63,7 +63,7 @@ Galaxy S5's HDR mode gives exactly the amount of detail and dynamic range for ph
 
 After coming back from the Dolomites I transferred all the photographs to my computer, and realized that the majority of great shots from that trip are from the phone. It renders colors better than the Nikon, it has better dynamic range (thanks to its clever HDR mode), it's orders of magnitude smaller and lighter, I always have it with me, it geotags the photographs, and can back them up to Dropbox on the fly if I so wish. I understand of course that this particular comparison is unfair towards the DSLR, because our D40's sensor is 7 years old.[^6] Still, the sole fact that this comparison is possible made me wonder if I still need *a camera*. The truth is, I don't. I would actually sell the D40 setup if it was worth any money.
 
-#### The dawn of my camera
+## The dawn of my camera
 
 I love cameras. I love that they're purpose built, precise tools. Modern Japanese DSLR are of course very much like computers, in as much as most of their operation is controlled purely electronically, but then again a lot of camera elements, like shutters and of course lenses require very precise craftsmanship. That's pretty rare when it comes to consumer goods available in the 21st century.
 
