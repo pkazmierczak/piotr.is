@@ -1,15 +1,13 @@
-{{ define "main" }}
+{{ partial "header.html" . }}
 
-<main>
-    <div class="post">
+<section id=content>
+
     <div class="archive">
-        <h2 class="archive-title">Topics</h2>
         {{ range $key, $taxonomy := .Site.Taxonomies.tags.ByCount }}
         <a class="archive-item-{{ $taxonomy.Count }}" href="/tags/{{ $taxonomy.Name | urlize }}">{{ $taxonomy.Name }}</a>&nbsp;&nbsp;
         {{ end }}
     </div>
     <div class="archive">
-        <h2 class="archive-title">Locations</h2>
         {{ range $key, $taxonomy := .Site.Taxonomies.locations.ByCount }}
         <a class="archive-item-{{ $taxonomy.Count }}" href="/locations/{{ $taxonomy.Name | urlize }}">{{ $taxonomy.Name }}</a>&nbsp;&nbsp;
         {{ end }}
@@ -17,7 +15,7 @@
     <div class="archive">
         {{ range where .Site.Pages "Section" "post" }}
         {{ range .Pages.GroupByDate "2006"}}
-        <h2 class="archive-title">{{ .Key }}</h2>
+        <h1>{{ .Key }}</h1>
         {{ range .Pages }}
         <ul>
             {{ if .Title }}
@@ -30,7 +28,5 @@
         {{ end }}
         {{ end }}
     </div>
-</div>
-</main>
-
-{{ end }}
+</section>
+{{ partial "footer.html" . }}

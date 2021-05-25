@@ -28,6 +28,7 @@ canonifyURLs = true
 [params]
     description = "A personal blog."
     author = "Piotr Kaźmierczak"
+    sitename = "Piotr Kaźmierczak"
 
 [markup.goldmark.renderer]
     unsafe= true
