@@ -1,23 +1,30 @@
-{{ define "main" }}
+{{ partial "header.html" . }}
 
-    <div class="post">
-        <div class="title-group">
-            <div class="title">
-                <h1>{{ .Title }}</h1>
-            </div>
-            <div class="date"><h5>{{ .Params.date.Format "Jan 02, 2006" }}&nbsp;&middot;&nbsp;{{ .Params.location }}</h5></div>
-        </div>
-        <article class="content">
-            {{ .Content }}
-        </article>
-        {{ with .Params.tags }}
-            <div class="tags">
-                <span title="Tags">🏷</span>
-                <div class="horizontal-links links">
-                    {{ range . }}{{ with $.Site.GetPage (printf "/tags/%s" ( . | urlize)) }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}{{ end }}
-                </div>
-            </div>
-        {{ end }}
-    </article>
+<section id=content>
+  {{ if and (eq .Section "post") (.Title) }}
+  <h1>{{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} {{ end }}</h1>
 
-{{ end }}
+  {{ if .Params.date }}
+    <div id=sub-header>
+      {{ .Date.Format (.Site.Params.dateform | default "January 2006") }}&nbsp;&middot;&nbsp;{{ .Params.location }} · {{ .ReadingTime }} minute read
+    </div>
+  {{ end }}
+  {{ end }}
+
+  <div class="entry-content">
+    {{ .Content }}
+  </div>
+
+  {{ if and (eq .Section "post") (not .Title) }}
+    <div id=sub-header>
+
+    {{ .Date.Format (.Site.Params.dateform | default "January 2006") }}&nbsp;&middot;&nbsp;{{ .Params.location }}
+        &nbsp;&middot;&nbsp;<a href="{{ .Permalink }}">&infin;</a>
+    </div>
+  {{ end }}
+
+</section>
+
+{{ partial "footer.html" . }}
+
+

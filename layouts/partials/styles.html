@@ -1,0 +1,737 @@
+<style>
+  * {
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-decoration-skip: ink;
+  }
+
+  body {
+    font-family: 'Open Sans', 'Myriad Pro', Myriad, sans-serif;
+    font-size: 17px;
+    line-height: 160%;
+    color: #1d1313;
+    max-width: 600px;
+    margin: auto;
+  }
+
+  p {
+    margin: 20px 0;
+  }
+
+  a img {
+    border: none;
+  }
+
+  img {
+    margin: 10px auto 10px auto;
+    max-width: 100%;
+    display: block;
+  }
+
+  .photo-content img,
+  .photo-content {
+    margin-left: -100px;
+    max-width: 1000px;
+    width: 1000px;
+  }
+
+  .left-justify {
+    float: left;
+  }
+
+  .right-justify {
+    float: right;
+  }
+
+  pre,
+  code {
+    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    background-color: #f7f7f7;
+  }
+
+  code {
+    font-size: 12px;
+    padding: 4px;
+  }
+
+  pre {
+    margin-top: 0;
+    margin-bottom: 16px;
+    word-wrap: normal;
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+  }
+
+  pre>code {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    word-break: normal;
+    white-space: pre;
+    background: transparent;
+    border: 0;
+  }
+
+  pre code {
+    display: inline;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0;
+  }
+
+  pre code::before,
+  pre code::after {
+    content: normal;
+  }
+
+  em,
+  q,
+  em,
+  dfn {
+    font-style: italic;
+  }
+
+  .sans,
+  html .gist .gist-file .gist-meta {
+    font-family: "Open Sans", "Myriad Pro", Myriad, sans-serif;
+  }
+
+  .mono,
+  pre,
+  code,
+  tt,
+  p code,
+  li code {
+    font-family: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;
+  }
+
+  .heading,
+  .serif,
+  h1,
+  h2,
+  h3 {
+    font-family: "Old Standard TT", serif;
+  }
+
+  strong {
+    font-weight: 600;
+  }
+
+  q:before {
+    content: "\201C";
+  }
+
+  q:after {
+    content: "\201D";
+  }
+
+  del,
+  s {
+    text-decoration: line-through;
+  }
+
+  blockquote {
+    padding: 5px;
+  }
+
+  blockquote p {
+    display: inline-block;
+    font-style: italic;
+  }
+
+  blockquote:before,
+  blockquote:after {
+    font-family: "Old Standard TT", serif;
+    content: '\201C';
+    font-size: 30px;
+    color: #403c3b;
+  }
+
+  blockquote:after {
+    content: '\201D';
+  }
+
+  hr {
+    width: 40%;
+    height: 1px;
+    background: #403c3b;
+    margin: 25px auto;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 22px;
+    margin-top: 18px;
+  }
+
+  h1 a,
+  h2 a,
+  h3 a {
+    text-decoration: none;
+  }
+
+  h1,
+  h2 {
+    margin-top: 28px;
+  }
+
+  #sub-header,
+  .date {
+    color: #403c3b;
+    font-size: 13px;
+  }
+
+  #sub-header {
+    margin: 0 4px;
+  }
+
+  #sub-header a {
+    text-decoration: none;
+  }
+
+  #nav h1 a {
+    font-size: 35px;
+    color: #1d1313;
+    line-height: 120%;
+  }
+
+  .posts_listing a,
+  #nav a {
+    text-decoration: none;
+  }
+
+  li {
+    margin-left: 20px;
+  }
+
+  ul li {
+    margin-left: 5px;
+    margin-top: 10px;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+
+  ul li:before {
+    content: "\00BB \0020";
+  }
+
+  #nav ul li:before,
+  .posts_listing li:before {
+    content: '';
+    margin-right: 0;
+  }
+
+  #content {
+    text-align: left;
+    width: 100%;
+    font-size: 15px;
+    padding: 60px 0 80px;
+  }
+
+  #content h1,
+  #content h2 {
+    margin-bottom: 5px;
+  }
+
+  #content h2 {
+    font-size: 25px;
+  }
+
+  #content .entry-content {
+    margin-top: 15px;
+  }
+
+  #content .date {
+    margin-left: 3px;
+  }
+
+  #content h1 {
+    font-size: 30px;
+  }
+
+  .highlight {
+    margin: 10px 0;
+  }
+
+  .posts_listing {
+    margin: 0 0 50px;
+  }
+
+  .posts_listing li {
+    margin: 0 0 25px 15px;
+  }
+
+  .posts_listing li a:hover,
+  #nav a:hover {
+    text-decoration: underline;
+  }
+
+  #nav {
+    text-align: center;
+    position: static;
+    margin-top: 60px;
+  }
+
+  #nav ul {
+    display: table;
+    margin: 8px auto 0 auto;
+  }
+
+  #nav li {
+    list-style-type: none;
+    display: table-cell;
+    font-size: 15px;
+    padding: 0 20px;
+  }
+
+  #links {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0 0 0;
+  }
+
+  #links :nth-child(1) {
+    margin-right: 0.5em;
+    ;
+  }
+
+  #links :nth-child(2) {
+    margin-left: 0.5em;
+    ;
+  }
+
+  #not-found {
+    text-align: center;
+  }
+
+  #not-found a {
+    font-family: "Old Standard TT", serif;
+    font-size: 200px;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 225px;
+  }
+
+  @media (max-width: 1000px) {
+
+    .photo-content img,
+    .photo-content {
+      margin-left: 0;
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 750px) {
+    body {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    #nav h1 a {
+      font-size: 28px;
+    }
+
+    #nav li {
+      font-size: 13px;
+      padding: 0 15px;
+    }
+
+    #content {
+      margin-top: 0;
+      padding-top: 50px;
+      font-size: 14px;
+    }
+
+    #content h1 {
+      font-size: 25px;
+    }
+
+    #content h2 {
+      font-size: 22px;
+    }
+
+    .posts_listing li div {
+      font-size: 12px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    body {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    #nav h1 a {
+      font-size: 22px;
+    }
+
+    #nav li {
+      font-size: 12px;
+      padding: 0 10px;
+    }
+
+    #content {
+      margin-top: 0;
+      padding-top: 20px;
+      font-size: 12px;
+    }
+
+    #content h1 {
+      font-size: 20px;
+    }
+
+    #content h2 {
+      font-size: 18px;
+    }
+
+    .posts_listing li div {
+      font-size: 12px;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+
+    *,
+    #nav h1 a {
+      color: #FDFDFD;
+    }
+
+    body {
+      background: #121212;
+    }
+
+    pre,
+    code {
+      background-color: #262626;
+    }
+
+    #sub-header,
+    .date {
+      color: #BABABA;
+    }
+
+    hr {
+      background: #EBEBEB;
+    }
+  }
+
+  .aside {
+    color: #8b8b8b;
+    font-size: small;
+    font-style: italic;
+  }
+
+  .aside a {
+    color: inherit;
+  }
+
+  footer {
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+
+  footer span,
+  footer time {
+    color: #8b8b8b;
+    font-size: .8rem;
+  }
+
+  footer a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .archive {
+    padding-top: 3em;
+  }
+
+  .archive-item-date {
+    font-size: smaller;
+    color: #8b8b8b;
+  }
+
+  .archive-item-link {
+    text-decoration: none;
+  }
+
+  .archive ul li::before {
+    content: none;
+  }
+
+  .archive ul {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+  }
+
+  .archive-item-1 {
+    font-size: .7em
+  }
+
+  .archive-item-2 {
+    font-size: .8em
+  }
+
+  .archive-item-3 {
+    font-size: .9em
+  }
+
+  .archive-item-4 {
+    font-size: 1em
+  }
+
+  .archive-item-5 {
+    font-size: 1.1em
+  }
+
+  .archive-item-6 {
+    font-size: 1.2em
+  }
+
+  .archive-item-7 {
+    font-size: 1.3em
+  }
+
+  .archive-item-8 {
+    font-size: 1.4em
+  }
+
+  .archive-item-9 {
+    font-size: 1.5em
+  }
+
+  .archive-item-10 {
+    font-size: 1.6em
+  }
+
+  .archive-item-11 {
+    font-size: 1.7em
+  }
+
+  .archive-item-12 {
+    font-size: 1.8em
+  }
+
+  .archive-item-13 {
+    font-size: 1.9em
+  }
+
+  .archive-item-14 {
+    font-size: 2em
+  }
+
+  .archive-item-15 {
+    font-size: 2.1em
+  }
+
+  .archive-item-16 {
+    font-size: 2.2em
+  }
+
+  .archive-item-17 {
+    font-size: 2.3em
+  }
+
+  .archive-item-18 {
+    font-size: 2.4em
+  }
+
+  .archive-item-19 {
+    font-size: 2.5em
+  }
+
+  .archive-item-20 {
+    font-size: 2.6em
+  }
+
+  .archive-item-21 {
+    font-size: 2.7em
+  }
+
+  .archive-item-22 {
+    font-size: 2.8em
+  }
+
+  .archive-item-23 {
+    font-size: 2.9em
+  }
+
+  .archive-item-24 {
+    font-size: 3em
+  }
+
+  .archive-item-25 {
+    font-size: 3.1em
+  }
+
+  .archive-item-26 {
+    font-size: 3.2em
+  }
+
+  .archive-item-27 {
+    font-size: 3.3em
+  }
+
+  .archive-item-28 {
+    font-size: 3.4em
+  }
+
+  .archive-item-29 {
+    font-size: 3.5em
+  }
+
+  .archive-item-30 {
+    font-size: 3.6em
+  }
+
+  .archive-item-31 {
+    font-size: 3.7em
+  }
+
+  .archive-item-32 {
+    font-size: 3.8em
+  }
+
+  .archive-item-33 {
+    font-size: 3.9em
+  }
+
+  .archive-item-34 {
+    font-size: 4em
+  }
+
+  .archive-item-35 {
+    font-size: 4.1em
+  }
+
+  .archive-item-36 {
+    font-size: 4.2em
+  }
+
+  .archive-item-37 {
+    font-size: 4.3em
+  }
+
+  .archive-item-38 {
+    font-size: 4.4em
+  }
+
+  .archive-item-39 {
+    font-size: 4.5em
+  }
+
+  .archive-item-40 {
+    font-size: 4.6em
+  }
+
+  .archive-item-41 {
+    font-size: 4.7em
+  }
+
+  .archive-item-42 {
+    font-size: 4.8em
+  }
+
+  .archive-item-43 {
+    font-size: 4.9em
+  }
+
+  .archive-item-44 {
+    font-size: 5em
+  }
+
+  .archive-item-45 {
+    font-size: 5.1em
+  }
+
+  .archive-item-46 {
+    font-size: 5.2em
+  }
+
+  .archive-item-47 {
+    font-size: 5.3em
+  }
+
+  .archive-item-48 {
+    font-size: 5.4em
+  }
+
+  .archive-item-49 {
+    font-size: 5.5em
+  }
+
+  .archive-item-50 {
+    font-size: 5.6em
+  }
+
+  .archive ul li {
+    padding-right: 0.6rem;
+    margin: -10px 0;
+  }
+
+  .archive a {
+    text-decoration: none;
+  }
+
+  .archive a:hover {
+    text-decoration: underline;
+  }
+
+  .archive-gallery {
+    padding: 0;
+  }
+
+  .archive-gallery img {
+    display:inline-block;
+    max-width: 80px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .tags {
+    margin-top: 0;
+    margin-bottom: 0.6rem;
+  }
+
+  .footnotes {
+    padding-top: 1rem;
+    font-size: smaller;
+  }
+
+  .footnotes hr {
+    display: none;
+  }
+
+  sup {
+    vertical-align: super;
+    font-size: small;
+  }
+
+  figcaption {
+    margin-top: -10px;
+    text-align: center;
+    font-size: small;
+    font-style: italic;
+  }
+</style>

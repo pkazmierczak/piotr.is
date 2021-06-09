@@ -1,7 +1,9 @@
-{{ if not .IsNode }}
-  <div class="content-container">
-    <div class="content">
-      {{- partial "about.html" . -}}
-    </div>
-  </div>
-{{ end }}
+  <footer>
+  <span> &copy; <time datetime="{{ now }}">2009—{{ dateFormat "2006" .Site.LastChange }}</time> {{ .Site.Author.name }}</span><br />
+
+  <span>
+    <a href="/archive">archive</a>&nbsp;&middot;&nbsp;<a href="/about">about</a>&nbsp;&middot;&nbsp;<a href="/about-this-website">website info</a>&nbsp;&middot;&nbsp;<a href="/privacy-policy">privacy policy</a>&nbsp;&middot;&nbsp;<a href="/feed/index.xml">rss</a>
+	</span>
+  </footer>
+</body>
+</html>
