@@ -1,6 +1,6 @@
 baseurl = "https://piotr.is/"
 languageCode = "en-us"
-title = "Piotr Kaźmierczak"
+title = "Sound & Complete"
 enableEmoji = true
 footnotereturnlinkcontents = "↩"
 pygmentsuseclasses = true
@@ -19,6 +19,7 @@ canonifyURLs = true
 
 [permalinks]
     post = "/:year/:slug/"
+    photos = "/photos/:year/:slug/"
     page = "/:title/"
 
 [author]
@@ -27,7 +28,26 @@ canonifyURLs = true
 [params]
     description = "A personal blog."
     author = "Piotr Kaźmierczak"
-    sitename = "Piotr Kaźmierczak"
+    sitename = "Sound & Complete"
+    mainSections = ["post", "photos"]
+    about = """
+Hi, I'm Piotr! 👋
+
+I am a husband to a renowned philosopher, [Karolina Krzyżanowska](http://karolinakrzyzanowska.com). I work as a software engineer for [Catawiki](https://catawiki.com). In my spare time, I enjoy riding my gravel bike and playing my bass guitar.  
+In my youth I dabbled in formal logic. I co-authored [some papers](https://scholar.google.com/citations?user=4Ec7NmwAAAAJ&hl=en).  
+I live in <s>Warsaw</s> <s>Leuven</s> <s>Bergen</s> <s>Munich</s> Amsterdam.
+"""
+
+  [[params.links]]
+    [[params.links.link]]
+      name = "Archive"
+      href = "/archive"
+    [[params.links.link]]
+      name = "Privacy policy"
+      href = "/privacy-policy"
+    [[params.links.link]]
+      name = "About this website"
+      href = "/about-this-website"
 
 [markup.goldmark.renderer]
     unsafe= true

@@ -1,18 +1,13 @@
-{{ partial "header.html" . }}
-{{ range first 1 (where .Site.Pages "Section" "photo") }}
-{{ $img := .Page.Resources.GetMatch .Params.photo}}
-{{ $exif := $img.Exif.Tags }}
+{{ define "main" }}
+    {{ $paginator := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+    {{ .Scratch.Set "pagenumber" .Paginator.PageNumber }}
+    {{ if eq .Paginator.PageNumber 1 }}
+        {{- partial "about.html" . -}}
+    {{ else }}
+        <h3 class="inline current-page">Page {{.Paginator.PageNumber}}</h3>
+    {{ end }}
+    <hr>
 
-<section id=content>
-  <div class="photo-content">
-    <img src="{{ $img.RelPermalink }}" title="{{ $exif.Make }} {{ $exif.Model }}, {{ $exif.FocalLength }}mm, {{ $exif.ExposureTime }} sec., f/{{ $exif.FNumber }}, ISO {{ $exif.ISOSpeedRatings }}"/>
-  </div>
-
-  <div id=sub-header align="center">
-    <span class="photo">{{ with $img.Exif.Date }}{{ .Format "January 02, 2006" }}{{ end }}&nbsp;&middot;&nbsp;{{ .Params.location }}. </span>
-  </div>
-
-</section>
-
+    {{- partial "listcontent.html" . -}}
+    {{- partial "pagination.html" . -}}
 {{ end }}
-{{ partial "footer.html" . }}

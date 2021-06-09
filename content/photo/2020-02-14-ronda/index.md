@@ -1,8 +1,0 @@
----
-slug: ronda
-date: 2020-02-14T00:00:00+01:00
-photo: ronda.jpg
-location: Ronda, Málaga
-locations:
-- Ronda
----
