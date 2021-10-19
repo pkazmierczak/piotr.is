@@ -1,0 +1,14 @@
+{{ partial "header.html" . }}
+
+<section id=content>
+    <div class="archive-gallery">
+        {{ $images := where .Site.RegularPages "Section" "photo" }}
+        {{ range $images }}
+        {{ $img := .Page.Resources.GetMatch .Params.photo }}
+        {{ $image := $img.Fill "100x100" }}
+            <a href="{{ .Permalink }}"><img src="{{ $image.RelPermalink }}"></a>
+        {{ end }}
+    </div>
+</section>
+
+{{ partial "footer.html" . }}

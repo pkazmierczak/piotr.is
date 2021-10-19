@@ -8,7 +8,7 @@
   </div>
 
   <div id=sub-header align="center">
-    <span class="photo">{{ with $img.Exif.Date }}{{ .Format "January 02, 2006" }}{{ end }}&nbsp;&middot;&nbsp;{{ .Params.location }}</span>
+    <span class="photo">{{ with $img.Exif.Date }}{{ .Format "January 02, 2006" }}{{ end }}&nbsp;&middot;&nbsp;<a href="https://www.google.com/maps/search/{{ .Params.location | urlize }}">{{ .Params.location }}</a></span>
   </div>
 
 </section>
