@@ -10,8 +10,6 @@ I am a husband to a renowned philosopher, [Karolina Krzyżanowska](http://karoli
 
 I work at [Mollie](https://www.mollie.com) as a data engineer.
 
-In my youth I dabbled in formal logic. I co-authored [some papers](https://scholar.google.com/citations?user=4Ec7NmwAAAAJ&hl=en).
-
 I enjoy playing awful electronic jazz music and riding a gravel bike in my free time.
 
 I live in <s>Warsaw</s> <s>Leuven</s> <s>Bergen</s> <s>Munich</s> Amsterdam.
