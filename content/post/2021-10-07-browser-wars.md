@@ -9,6 +9,8 @@ tags:
 - firefox
 - google
 - privacy
+aliases:
+- /2021/10/07/browser-wars-are-over-and-google-won/
 ---
 
 Today I read that Mozilla will start putting [contextual ads into Firefox address bar](https://support.mozilla.org/en-US/kb/navigate-web-faster-firefox-suggest#w_contextual-suggestions).  It made me reflect on the current landscape of web browsers, and it doesn't look good.
