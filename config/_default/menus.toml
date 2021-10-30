@@ -12,22 +12,22 @@
 
 [[main]]
   name = "About"
-  pageRef = "about"
+  url = "/about"
   weight = 10
 
 [[main]]
   name = "Now"
-  pageRef = "now"
+  url = "/now"
   weight = 15
 
 [[main]]
   name = "Articles"
-  pageRef = "post"
+  url = "/post"
   weight = 20
 
 [[main]]
   name = "Topics"
-  pageRef = "tags"
+  url = "/tags"
   weight = 30
 
 
@@ -37,5 +37,5 @@
 
 [[footer]]
   name = "Site info"
-  pageRef = "website"
+  url = "/website"
   weight = 10
