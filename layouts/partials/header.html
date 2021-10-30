@@ -1,34 +1,44 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
-  <head>
-    <meta charset="utf-8">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="referrer" content="no-referrer">
-    <meta name="description" content="{{ .Description | default .Site.Params.Description }}">
-
-    {{ template "_internal/opengraph.html" . }}
-		{{ template "_internal/twitter_cards.html" . }}
-
-    {{ if not .Site.Params.disableWebFonts }}
-      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400|Old+Standard+TT:400&display=swap" rel="stylesheet" media="print" type="text/css" onload="this.media='all'">
-    {{ end }}
-
-    <title>
-      {{- if .Params.Title }}
-      {{ .Title }} &middot; {{ .Site.Title }}
-      {{- else }}
-      {{ .Site.Title }}
-      {{- end }}
-    </title>
-    <link rel="canonical" href="{{ .Permalink }}">
-
-    {{ partial "styles.html" . }}
-
-    {{ range .AlternativeOutputFormats -}}
-        {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-    {{ end -}}
-  </head>
-
-  <body>
+<header
+  class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-800 dark:text-neutral"
+>
+  {{/* Site logo/title */}}
+  <div>
+    {{ if .Site.Params.Logo -}}
+      {{ $logo := resources.Get .Site.Params.Logo }}
+      {{ if $logo }}
+        <a href="{{ "/" | relURL }}">
+          <img
+            src="{{ $logo.RelPermalink }}"
+            width="{{ div $logo.Width 2 }}"
+            height="{{ div $logo.Height 2 }}"
+            alt="{{ .Site.Title }}"
+          />
+        </a>
+      {{ end }}
+    {{ else }}
+      <a
+        class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small"
+        rel="me"
+        href="{{ "/" | relURL }}"
+        >{{ .Site.Title }}</a
+      >
+    {{- end }}
+  </div>
+  {{/* Main menu */}}
+  {{ if .Site.Menus.main }}
+    <nav>
+      <ul class="flex flex-col list-none sm:flex-row">
+        {{ range .Site.Menus.main }}
+          <li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+            <a
+              class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small"
+              href="{{ .URL }}"
+              title="{{ .Title }}"
+              >{{ .Name }}</a
+            >
+          </li>
+        {{ end }}
+      </ul>
+    </nav>
+  {{ end }}
+</header>

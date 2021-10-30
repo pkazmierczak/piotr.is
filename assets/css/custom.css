@@ -1,0 +1,13 @@
+.aside {
+  color: var(--color-neutral-400);
+  font-size: small;
+  font-style: italic;
+}
+
+.aside a {
+  color: inherit;
+}
+
+.footnotes {
+  font-size: small;
+}

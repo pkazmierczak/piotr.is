@@ -1,0 +1,67 @@
+# -- Site Configuration --
+# Refer to the theme docs for more details about each of these parameters.
+# https://jpanther.github.io/congo/docs/getting-started/
+
+baseURL = "https://piotr.is/"
+languageCode = "en"
+defaultContentLanguage = "en"
+
+title = "Sound & Complete"
+copyright = "© 2009—2021 Piotr Kaźmierczak"
+
+enableEmoji = true
+enableRobotsTXT = false
+
+summaryLength = 0
+
+[author]
+  # name = "Piotr Kaźmierczak"
+  # image = "img/author.jpg"
+  # links = [
+  #   { email = "mailto:contact@piotr.is" },
+  #   { link = "https://link-to-some-website.com/" },
+  #   { codepen = "https://codepen.io/username" },
+  #   { dev = "https://dev.to/username" },
+  #   { discord = "https://discord.gg/invitecode" },
+  #   { dribbble = "https://dribbble.com/username" },
+  #   { facebook = "https://facebook.com/username" },
+  #   { foursquare = "https://foursquare.com/username" },
+  #   { github = "https://github.com/username" },
+  #   { gitlab = "https://gitlab.com/username" },
+  #   { instagram = "https://instagram.com/username" },
+  #   { keybase = "https://keybase.io/username" },
+  #   { lastfm = "https://lastfm.com/user/username" },
+  #   { linkedin = "https://linkedin.com/in/username" },
+  #   { mastodon = "https://mastodon.instance/@username" },
+  #   { medium = "https://medium.com/username" },
+  #   { pinterest = "https://pinterest.com/username" },
+  #   { reddit = "https://reddit.com/user/username" },
+  #   { slack = "https://workspace.url/team/userid" },
+  #   { snapchat = "https://snapchat.com/add/username" },
+  #   { soundcloud = "https://soundcloud.com/username" },
+  #   { steam = "https://steamcommunity.com/profiles/userid" },
+  #   { tiktok = "https://tiktok.com/@username" },
+  #   { twitch = "https://twitch.tv/username" },
+  #   { twitter = "https://twitter.com/username" },
+  #   { youtube = "https://youtube.com/username" },
+  # ]
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[outputFormats.RSS]
+  path = "/feed/"
+
+[permalinks]
+  post = "/:year/:slug/"
+  page = "/:filename/"
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
