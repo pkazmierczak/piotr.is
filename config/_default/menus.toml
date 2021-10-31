@@ -25,6 +25,11 @@
   url = "/post"
   weight = 20
 
+[[main]]
+  name = "Contact"
+  url = "/contact"
+  weight = 25
+
 # [[main]]
 #   name = "Topics"
 #   url = "/tags"
