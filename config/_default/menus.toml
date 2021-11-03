@@ -10,25 +10,21 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
-# [[main]]
-#   name = "About"
-#   url = "/about"
-#   weight = 10
+[[main]]
+  name = "About"
+  url = "/about"
+  weight = 10
 
-# [[main]]
-#   name = "Now"
-#   url = "/now"
-#   weight = 15
+[[main]]
+  name = "Now"
+  url = "/now"
+  weight = 15
 
 [[main]]
   name = "Articles"
   url = "/post"
   weight = 20
 
-[[main]]
-  name = "Contact"
-  url = "/contact"
-  weight = 25
 
 # [[main]]
 #   name = "Topics"
@@ -44,3 +40,8 @@
   name = "Site info"
   url = "/website"
   weight = 10
+
+[[footer]]
+  name = "Contact"
+  url = "/contact"
+  weight = 25
