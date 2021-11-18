@@ -1,2 +1,1 @@
-# piotr.is
-my personal website
+# piotrkazmierczak.com
