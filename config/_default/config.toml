@@ -6,7 +6,7 @@ baseURL = "https://piotr.is"
 languageCode = "en"
 defaultContentLanguage = "en"
 
-title = "Sound & Complete"
+title = "Piotr is."
 copyright = "© 2009—2021 Piotr Kaźmierczak"
 
 enableEmoji = true
