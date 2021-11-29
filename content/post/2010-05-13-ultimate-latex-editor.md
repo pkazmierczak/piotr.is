@@ -8,6 +8,10 @@ tags = ["latex", "emacs"]
 nocomment = true
 +++
 
+{{< alert >}}
+This article gets a lot of hits, but it's been a while since I wrote it and I haven't been using Emacs or LaTeX in years. I'm sorry, but I can't provide any support and won't reply to emails about it.
+{{< /alert >}}
+
 Everyone knows, that [GNU Emacs](http://www.gnu.org/software/emacs/) is [THE Best Programmer's Editor](http://www.dina.dk/~abraham/religion/). Not everyone knows, though, that when you combine it with [AUCTeX](http://www.gnu.org/software/auctex/) macros, it also becomes **THE** Best Editor for LaTeX.
 
 The biggest problem with Emacs is that it's not a particularly intuitive piece of software, to say the least, hence many users flee after their first encounter with it. Emacs has its complicated keyboard shortcuts, enormous documentation and config files written in a Lisp dialect (called [Emacs lisp](http://en.wikipedia.org/wiki/Emacs_lisp)), so at first it might seem very unpleasant using it. However, once *tamed*, it becomes your best friend.
