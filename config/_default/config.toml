@@ -46,11 +46,17 @@ summaryLength = 0
   #   { youtube = "https://youtube.com/username" },
   # ]
 
+# [mediaTypes]
+# [mediaTypes."application/rss"]
+#   suffixes = ["html"]
+
 [outputs]
   home = ["HTML", "RSS"]
 
-[outputFormats.RSS]
-  path = "/feed/"
+# [outputFormats]
+# [outputFormats.RSS]
+#   mediatype = "application/rss"
+#   path = "/feed/"
 
 [permalinks]
   post = "/:year/:slug/"

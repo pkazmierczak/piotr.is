@@ -10,6 +10,7 @@ tags:
 slug: /apple-csam
 aliases:
 - /2021/08/12/apple-csam/
+nocomment: true
 ---
 
 My wife is pretty tech-savvy. While not a software engineer and not a computer scientist, she has a good understanding of computing technologies, statistics, formal methods, and an intuitive (but quickly growing) grasp of machine learning. She's also able to code in R for [her research](http://karolinakrzyzanowska.com/), and she's highly addicted to her iPhone 12 Mini, her iPad Pro, and her 12" MacBook, despite its slowly but steadily failing keyboard. With all this being said, I spent about 30 minutes yesterday evening trying to explain to her, what's all the fuss about Apple's new CSAM (child sexual abuse material) prevention [features](https://www.apple.com/child-safety/) that are being introduced in iOS 15.

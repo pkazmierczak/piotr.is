@@ -5,6 +5,7 @@ locations = ["Bergen"]
 aliases = ["/2010/05/13/emacs-as-the-ultimate-latex-editor/", "/post/21038270357/emacs-as-the-ultimate-latex-editor", "/blog/emacs-as-the-ultimate-latex-editor"]
 date = "2010-05-13"
 tags = ["latex", "emacs"]
+nocomment = true
 +++
 
 Everyone knows, that [GNU Emacs](http://www.gnu.org/software/emacs/) is [THE Best Programmer's Editor](http://www.dina.dk/~abraham/religion/). Not everyone knows, though, that when you combine it with [AUCTeX](http://www.gnu.org/software/auctex/) macros, it also becomes **THE** Best Editor for LaTeX.
@@ -61,9 +62,9 @@ On the other hand, spell-checking while you type isn't so cpu consuming, and you
 
 ```
 ; could be ispell as well, depending on your preferences
-(setq ispell-program-name "aspell") 
+(setq ispell-program-name "aspell")
 ; this can obviously be set to any language your spell-checking program supports
-(setq ispell-dictionary "english") 
+(setq ispell-dictionary "english")
 
 (add-hook 'LaTeX-mode-hook 'flyspell-mode)
 (add-hook 'LaTeX-mode-hook 'flyspell-buffer)

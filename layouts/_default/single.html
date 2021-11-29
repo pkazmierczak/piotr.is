@@ -19,8 +19,5 @@
       {{ partial "sharing-links.html" . }}
       {{ partial "article-pagination.html" . }}
     </footer>
-    {{ if templates.Exists "partials/comments.html" }}
-      {{ partial "comments.html" . }}
-    {{ end }}
   </article>
 {{ end }}

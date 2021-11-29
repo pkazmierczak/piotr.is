@@ -5,6 +5,7 @@ locations = ["Bergen"]
 aliases = ["/2011/10/24/a-eulogy-for-maemomeego/"]
 date = "2011-10-24"
 tags = ["maemo", "meego", "linux"]
+nocomment = true
 +++
 
 A long, long time ago, when I was still very enthusiastic about desktop linux and free software in general, an idea of a linux-based cellphone or a 'palmtop', as they were called back in the day, was something the FLOSS community dreamed of. There were numerous software and hardware projects (does anyone still remember [OpenMoko](http://en.wikipedia.org/wiki/Openmoko)?), and one of them, [Android](http://www.android.com/), was acquired by Google in 2005, and later became one of the most popular operating systems for mobile devices in the world.[^1]
