@@ -1,0 +1,5 @@
+/feed                         /index.xml
+/feed/                        /index.xml
+/category/uncategorized/feed/ /index.xml
+/feed.rss                     /index.xml
+/feed/index.xml               /index.xml
