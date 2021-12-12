@@ -9,7 +9,7 @@ colorScheme = "congo"
 # logo = "img/logo.jpg"
 description = "Piotr's personal website"
 mainSections = ["post"]
-# robots = ""
+# robots = "all"
 
 [homepage]
   layout = "custom" # valid options: page, profile, custom
