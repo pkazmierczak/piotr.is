@@ -11,3 +11,9 @@
 .footnotes {
   font-size: small;
 }
+
+.gallery img {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
