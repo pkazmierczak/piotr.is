@@ -16,11 +16,6 @@
   weight = 10
 
 [[main]]
-  name = "Now"
-  url = "/now"
-  weight = 15
-
-[[main]]
   name = "Articles"
   url = "/post"
   weight = 20
