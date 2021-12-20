@@ -5,6 +5,7 @@ location: "München, BY"
 locations: ["München"]
 tags: [emacs, vim]
 update_date: 2015-09-14
+title: Spacemacs
 ---
 
 I was about to write a blog post about how indifferent I became towards different text editors, and how I don't really care anymore whether I edit code with emacs, vim, Sublime or even [Atom](http://atom.io). And then this happened:

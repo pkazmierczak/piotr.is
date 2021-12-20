@@ -11,7 +11,7 @@ I like `auto-fill-mode` and even have it customized for `LaTeX-mode` in my Emacs
 
 The most straightforward solution is to put some local variables into the file, like `(auto-fill-mode -1)`, but today at StackOverflow I saw [a much neater solution](http://stackoverflow.com/questions/6669373/disabling-auto-fill-mode-on-a-per-file-not-filetype-basis): one can put a function that searches for a specific string inside a file and sets minor-modes accordingly. So now there’s a *coauthors search* function in my `.emacs`:
 
-```
+{{< highlight lisp >}}
 ; auto-fill is enabled for TeX...
 (add-hook 'LaTeX-mode-hook 'turn-on-auto-fill)
 ; ...unless I work with the gang
@@ -23,4 +23,4 @@ The most straightforward solution is to put some local variables into the file, 
               (re-search-forward "erik" 1000 t))
       (auto-fill-mode -1))))
 (add-hook 'find-file-hooks 'my-auto-fill-disabling-hook)
-```
+{{< /highlight >}}

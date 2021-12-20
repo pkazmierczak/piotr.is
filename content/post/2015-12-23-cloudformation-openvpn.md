@@ -16,7 +16,7 @@ Netflix is brilliant and there's no better time to catch up on your [Jessica Jon
 
 To create one really quickly and cheaply (and destroy it as easily once it's not needed), it's best to use Cloudformation, an orchestration/templating tool that AWS provides. With Cloudformation, all the details[^2] of your stack are included in one JSON file which, once uploaded via AWS Console, deploys the stack defined by the template. The JSON file below defines an EC2 instance together with a security group suited for OpenVPN:
 
-{{< highlight json >}}
+```
 {
     "AWSTemplateFormatVersion": "2010-09-09",
     "Description": "OpenVPN server template",
@@ -176,7 +176,7 @@ To create one really quickly and cheaply (and destroy it as easily once it's not
         }
     }
 }
-{{< /highlight >}}
+```
 
 You can [download it](https://gist.github.com/pkazmierczak/6886e01508c470934c4d), and use it whenever you need to quickly deploy an OpenVPN server. In order to use it, you need:
 
