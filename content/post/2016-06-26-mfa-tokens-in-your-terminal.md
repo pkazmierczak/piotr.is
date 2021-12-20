@@ -6,7 +6,9 @@ location: "München, BY"
 locations: ["München"]
 ---
 
-<small><em>All the stuff described here I learned from my dear colleague [Giulio](https://github.com/giuliocalzolari). I'm sharing it here because it's cool, and because I don't think he'd share it anywhere other than our internal mailing list.</em></small>
+{{< aside >}}
+All the stuff described here I learned from my dear colleague [Giulio](https://github.com/giuliocalzolari). I'm sharing it here because it's cool, and because I don't think he'd share it anywhere other than our internal mailing list.
+{{< /aside >}}
 
 Do you use MFA a lot? Are you tired of reaching for your phone to check those codes on Google Authenticator app? Perhaps you've been logging to too many different AWS accounts because your work requires that? 😔 Here's a couple paragraphs of advice that will ease your pain.
 
