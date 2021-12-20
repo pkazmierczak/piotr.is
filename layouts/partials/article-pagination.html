@@ -16,7 +16,7 @@
                 <span class="-mt-1 text-xs text-neutral-400 dark:text-neutral-500">
                   {{ if .Params.showDate | default (.Site.Params.article.showDate | default true) }}
 <time datetime="{{ .Date }}">
-  {{- .NextInSection.Date.Format .Site.Params.article.dateFormat | default "2 January 2006" -}}&nbsp;&middot;&nbsp;{{ .Params.location }}
+  {{- .NextInSection.Date.Format .Site.Params.article.dateFormat | default "2 January 2006" -}}&nbsp;&middot;&nbsp;{{ .NextInSection.Params.location }}
 </time>
                   {{ end }}
                 </span>
@@ -36,7 +36,7 @@
                 <span class="-mt-1 text-xs text-neutral-400 dark:text-neutral-500">
                   {{ if .Params.showDate | default (.Site.Params.article.showDate | default true) }}
 <time datetime="{{ .Date }}">
-  {{- .PrevInSection.Date.Format .Site.Params.article.dateFormat | default "2 January 2006" -}}&nbsp;&middot;&nbsp;{{ .Params.location }}
+  {{- .PrevInSection.Date.Format .Site.Params.article.dateFormat | default "2 January 2006" -}}&nbsp;&middot;&nbsp;{{ .PrevInSection.Params.location }}
 </time>
                   {{ end }}
                 </span>
