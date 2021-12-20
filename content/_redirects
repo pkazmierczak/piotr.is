@@ -3,3 +3,5 @@
 /category/uncategorized/feed/ /index.xml
 /feed.rss                     /index.xml
 /feed/index.xml               /index.xml
+/feed/atom/                   /index.xml
+/blog/                        /post/
