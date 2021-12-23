@@ -1,0 +1,18 @@
+{{ define "main" }}
+  {{ if gt .Pages 0 }}
+    <section class="gallery">
+        {{ $images := where .Site.RegularPages "Section" "photo" }}
+        {{ range $images }}
+        {{ $img := .Page.Resources.GetMatch .Params.photo }}
+        {{ $image := $img.Fill "100x100" }}
+            <a href="{{ .Permalink }}"><img class="gallery" src="{{ $image.RelPermalink }}"></a>
+        {{ end }}
+    </section>
+  {{ else }}
+    <section class="mt-10 prose dark:prose-light">
+      <p class="py-8 border-t">
+        <em>{{ i18n "list.no_articles" | emojify }}</em>
+      </p>
+    </section>
+  {{ end }}
+{{ end }}
