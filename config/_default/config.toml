@@ -60,6 +60,7 @@ summaryLength = 0
 
 [permalinks]
   post = "/:year/:slug/"
+  photo = "/:year/:slug/"
   page = "/:filename/"
 
 [privacy]
