@@ -18,13 +18,7 @@
   {{ end }}
   {{/* Copyright */}}
   <p class="text-sm text-neutral-400 dark:text-neutral-500">
-    {{- with .Site.Copyright }}
-      {{ . | emojify | markdownify }}
-    {{- else }}
-      &copy;
-      {{ now.Format "2006" }}
-      {{ .Site.Author.name }}
-    {{- end }}
+    &copy; 2009—{{ dateFormat "2006" .Site.LastChange }} {{ .Site.Author.name }}
   </p>
   {{/* Theme attribution */}}
   {{ if .Site.Params.attribution | default true }}

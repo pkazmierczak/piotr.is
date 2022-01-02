@@ -15,7 +15,7 @@ enableRobotsTXT = false
 summaryLength = 0
 
 [author]
-  # name = "Piotr Kaźmierczak"
+  name = "Piotr Kaźmierczak"
   # image = "img/author.jpg"
   # links = [
   #   { email = "mailto:contact@piotr.is" },
