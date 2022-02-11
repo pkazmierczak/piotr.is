@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ $images := where .Site.RegularPages "Section" "photo" }}
-{{ range first 1 $images }}
+{{ range first 1 (shuffle $images) }}
   {{ $img := .Page.Resources.GetMatch .Params.photo }}
   {{ $exif := $img.Exif.Tags }}
   <article class="photo">
