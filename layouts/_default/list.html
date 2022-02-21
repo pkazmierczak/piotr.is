@@ -1,29 +1,25 @@
 {{ define "main" }}
-{{ $images := where .Site.RegularPages "Section" "photo" }}
-{{ $posts := where .Site.RegularPages "Section" "post" }}
+  {{ partial "section-header.html" . }}
+  {{ if gt .Pages 0 }}
     <section>
-      {{ range (.Paginate ((union $images $posts).GroupByDate "2006")).PageGroups }}
+      {{ range (.Paginate (.Pages.GroupByDate "2006")).PageGroups }}
+        {{ if $.Site.Params.list.groupByYear }}
           <h2 class="mt-12 text-2xl font-bold first:mt-8 text-neutral-700 dark:text-neutral-300">
             {{ .Key }}
           </h2>
           <hr class="border-dotted border-neutral-400 w-36" />
+        {{ end }}
         {{ range .Pages }}
-        {{ if eq .Section "photo" }}
-          {{ $img := .Page.Resources.GetMatch .Params.photo }}
-            {{ $exif := $img.Exif.Tags }}
-            <article class="photo">
-              <section class="prose dark:prose-light photo">
-                <a href="{{ .Page.RelPermalink }}{{ .Page.Params.photo }}"><img src="{{ .Page.RelPermalink}}{{ .Page.Params.photo }}" title="{{ $exif.Make }} {{ $exif.Model }}, {{ $exif.FocalLength }}mm, {{ $exif.ExposureTime }} sec., f/{{ $exif.FNumber }}, ISO {{ $exif.ISOSpeedRatings }}"/></a>
-              </section>
-                <div class="mt-8 mb-12 text-base text-neutral-400 dark:text-neutral-500">
-                  <a href="{{ .Page.Permalink }}">{{ $img.Exif.Date.Format "January 02, 2006" }}</a>&nbsp;&middot;&nbsp;<a href="https://www.google.com/maps/search/{{ .Params.location | urlize }}">{{ .Params.location }}</a>
-                </div>
-            </article>
-          {{ else }}
-            {{ partial "article-link.html" . }}
-          {{ end }}
-      {{ end }}
+          {{ partial "article-link.html" . }}
+        {{ end }}
       {{ end }}
     </section>
     {{ partial "pagination.html" . }}
+  {{ else }}
+    <section class="mt-10 prose dark:prose-light">
+      <p class="py-8 border-t">
+        <em>{{ i18n "list.no_articles" | emojify }}</em>
+      </p>
+    </section>
+  {{ end }}
 {{ end }}
