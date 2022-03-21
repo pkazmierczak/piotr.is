@@ -5,10 +5,10 @@
   {{ $exif := $img.Exif.Tags }}
   <article class="photo">
     <section class="prose dark:prose-light photo">
-      <a href="{{ .Page.RelPermalink }}{{ .Page.Params.photo }}"><img src="{{ .Page.RelPermalink}}{{ .Page.Params.photo }}" title="{{ $exif.Make }} {{ $exif.Model }}, {{ $exif.FocalLength }}mm, {{ $exif.ExposureTime }} sec., f/{{ $exif.FNumber }}, ISO {{ $exif.ISOSpeedRatings }}"/></a>
+      <img src="{{ .Page.RelPermalink}}{{ .Page.Params.photo }}" title="{{ $exif.Make }} {{ $exif.Model }}, {{ $exif.FocalLength }}mm, {{ $exif.ExposureTime }} sec., f/{{ $exif.FNumber }}, ISO {{ $exif.ISOSpeedRatings }}"/>
     </section>
       <div class="mt-8 mb-12 text-base text-neutral-400 dark:text-neutral-500">
-        <a href="{{ .Page.Permalink }}">{{ $img.Exif.Date.Format "January 02, 2006" }}</a>&nbsp;&middot;&nbsp;<a href="https://www.google.com/maps/search/{{ .Params.location | urlize }}">{{ .Params.location }}</a>
+        {{ $img.Exif.Date.Format "January 02, 2006" }}</a>&nbsp;&middot;&nbsp;<a href="https://www.google.com/maps/search/{{ .Params.location | urlize }}">{{ .Params.location }}
       </div>
     <footer class="pt-8">
       {{ partial "author.html" . }}
