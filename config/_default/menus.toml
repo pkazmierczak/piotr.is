@@ -5,14 +5,8 @@
 
 [[main]]
   name = "Articles"
-  url = "/post"
+  url = "/posts"
   weight = 20
-
-# [[main]]
-#   name = "Topics"
-#   url = "/tags"
-#   weight = 30
-
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before

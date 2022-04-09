@@ -1,7 +1,0 @@
-{{ $img := resources.Get "main.jpg" }}
-{{ $exif := $img.Exif.Tags }}
-
-<article class="max-w-full prose dark:prose-light">
-<img src="{{ $img.RelPermalink }}" title="{{ $exif.Make }} {{ $exif.Model }}, {{ $exif.FocalLength }}mm, {{ $exif.ExposureTime }} sec., f/{{ $exif.FNumber }}, ISO {{ $exif.ISOSpeedRatings }}"/>
-
-</article>

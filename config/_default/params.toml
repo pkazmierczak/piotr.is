@@ -8,11 +8,11 @@
 colorScheme = "congo"
 # logo = "img/logo.jpg"
 description = "Piotr's personal website"
-mainSections = ["post"]
-# robots = "all"
+mainSections = ["posts"]
+enableSearch = true
 
 [homepage]
-  layout = "custom" # valid options: page, profile, custom
+  layout = "page" # valid options: page, profile, custom
   showRecent = true
 
 [article]
@@ -28,6 +28,7 @@ mainSections = ["post"]
   showPagination = true
   showReadingTime = true
   # sharingLinks = ["facebook", "twitter", "pinterest", "reddit", "linkedin", "email"]
+  showTableOfContents = true
 
 [list]
   showBreadcrumbs = false
