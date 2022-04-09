@@ -8,5 +8,5 @@
   TZ = "CEST"  # Set to preferred timezone
 
 [context.production.environment]
-  HUGO_VERSION = "0.91.0"
+  HUGO_VERSION = "0.96.0"
   HUGO_ENV = "production"
