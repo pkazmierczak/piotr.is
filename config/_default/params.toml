@@ -9,7 +9,7 @@ colorScheme = "congo"
 # logo = "img/logo.jpg"
 description = "Piotr's personal website"
 mainSections = ["posts"]
-enableSearch = true
+enableSearch = false
 
 [homepage]
   layout = "page" # valid options: page, profile, custom
