@@ -1,12 +1,12 @@
-[[main]]
-  name = "About"
-  url = "/about"
-  weight = 10
-
-[[main]]
-  name = "Articles"
-  url = "/posts"
-  weight = 20
+# [[main]]
+#   name = "About"
+#   url = "/about"
+#   weight = 10
+#
+# [[main]]
+#   name = "Articles"
+#   url = "/posts"
+#   weight = 20
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
@@ -17,7 +17,7 @@
   url = "/website"
   weight = 10
 
-[[footer]]
-  name = "Contact"
-  url = "/contact"
-  weight = 25
+# [[footer]]
+#   name = "Contact"
+#   url = "/contact"
+#   weight = 25
