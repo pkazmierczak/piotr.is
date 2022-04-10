@@ -24,12 +24,12 @@ Every major linux distro comes with both Emacs and AUCTeX available via package 
 
 After running Emacs and loading a TeX file (`C-x C-f file_name.tex`), AUCTeX should load itself automatically. If it doesn't happen, you can invoke it with `M-x tex-mode`, or you can put the following into your `$HOME/.emacs` file:
 
-{{< highlight lisp >}}
+```
 (setq TeX-auto-save t)
 (setq TeX-parse-self t)
 (setq TeX-save-query nil)
 ;(setq TeX-PDF-mode t)
-{{< /highlight >}}
+```
 
 *(all the code snippets from this post are available as a [Github Gist](https://gist.github.com/pkazmierczak/4331666))*
 
@@ -50,7 +50,7 @@ AUCTeX has many many more features, and you can always consult its [documentatio
 
 [Flymake](http://flymake.sourceforge.net/) is one of those packages. It enables Emacs to check the syntax of your TeX file on-the-fly. To turn it on, put the following code in your `$HOME/.emacs`:
 
-{{< highlight lisp >}}
+```
 (require 'flymake)
 
 (defun flymake-get-tex-args (file-name)
@@ -58,13 +58,13 @@ AUCTeX has many many more features, and you can always consult its [documentatio
 (list "-file-line-error" "-draftmode" "-interaction=nonstopmode" file-name)))
 
 (add-hook 'LaTeX-mode-hook 'flymake-mode)
-{{< /highlight >}}
+```
 
 Beware, though --- flymake consumes quite a lot of CPU power, especially when used with large files (and paradoxically large files make it most useful).
 
 On the other hand, spell-checking while you type isn't so cpu consuming, and you can turn it on with:
 
-{{< highlight lisp >}}
+```
 ; could be ispell as well, depending on your preferences
 (setq ispell-program-name "aspell")
 ; this can obviously be set to any language your spell-checking program supports
@@ -72,24 +72,24 @@ On the other hand, spell-checking while you type isn't so cpu consuming, and you
 
 (add-hook 'LaTeX-mode-hook 'flyspell-mode)
 (add-hook 'LaTeX-mode-hook 'flyspell-buffer)
-{{< /highlight >}}
+```
 
 Another nice package is the [Outline Mode](http://www.gnu.org/software/emacs/manual/html_node/emacs/Outline-Mode.html). It allows the user to *hide* some parts of the text file, which makes working with large files much easier. To enable it, put the following in `$HOME/.emacs`:
 
-{{< highlight lisp >}}
+```
 (defun turn-on-outline-minor-mode ()
 (outline-minor-mode 1))
 
 (add-hook 'LaTeX-mode-hook 'turn-on-outline-minor-mode)
 (add-hook 'latex-mode-hook 'turn-on-outline-minor-mode)
 (setq outline-minor-mode-prefix "\C-c \C-o") ; Or something else
-{{< /highlight >}}
+```
 
 Now you can *fold* sections, subsections, chapters, or the whole document. To hide all the contents of your current section, use `C-c C-o C-l`. You can apply it to a chapter, subsection, etc. You can also move to a next *unit* of your document with `C-c C-o C-n`, or to a previous one with `C-c C-o C-p`. If you're lost and want to see the whole document again, use `C-c C-o C-a`.
 
 Folding and unfolding parts of the text might be confusing, though, but there's another way to navigate through a big TeX file, and you can use [Reftex](http://www.gnu.org/software/auctex/reftex.html) mode for it. Reftex is a mode that helps with managing references ([full documentation](http://www.gnu.org/software/auctex/manual/reftex.index.html)), but it can also be used to create a table of contents for a TeX file and to navigate using it. Here is my configuration for Reftex from my `.emacs` file:
 
-{{< highlight lisp >}}
+```
 (require 'tex-site)
 (autoload 'reftex-mode "reftex" "RefTeX Minor Mode" t)
 (autoload 'turn-on-reftex "reftex" "RefTeX Minor Mode" nil)
@@ -118,7 +118,7 @@ LaTeX-section-title
 LaTeX-section-toc
 LaTeX-section-section
 LaTeX-section-label))
-{{< /highlight >}}
+```
 
 Once Reftex is loaded, you can invoke the table of contents buffer with
 `C-c =`
