@@ -1,7 +1,0 @@
----
-slug: sporenburg
-date: 2021-12-21T00:00:00+01:00
-photo: sporenburg.jpg
-location: "Amsterdam, Noord-Holland"
-locations: ["Amsterdam"]
----
