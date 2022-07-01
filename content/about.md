@@ -9,7 +9,7 @@ Hi, I'm Piotr! 👋
 
 I am a husband to a renowned philosopher, [Karolina Krzyżanowska](http://karolinakrzyzanowska.com).
 
-I work at [Mollie](https://www.mollie.com) as a data engineer.
+I work at [HashiCorp](https://www.hashicorp.com) as a software engineer.
 
 I enjoy playing awful electronic jazz music and riding a gravel bike in my free time.
 
