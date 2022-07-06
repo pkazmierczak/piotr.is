@@ -1,27 +1,27 @@
 .aside {
-    color: rgb(94, 94, 94);
-    background: rgb(248, 248, 248);
-    padding: 2em;
-    border-radius: 1rem;
-    font-size: small;
-    font-style: italic;
-  }
-  
-  .aside a {
-    color: inherit;
-  }
-  
-  .footnotes {
-    font-size: small;
-  }
-  
-  .gallery img {
-    display: inline;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .photo {
-    width: 100%;
-    max-width: 100%;
-  }
+  color: rgb(94, 94, 94);
+  background: rgb(248, 248, 248);
+  padding: 2em;
+  border-radius: 1rem;
+  font-size: small;
+  font-style: italic;
+}
+
+.aside a {
+  color: inherit;
+}
+
+.footnotes {
+  font-size: small;
+}
+
+.gallery img {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.photo {
+  width: 100%;
+  max-width: 100%;
+}

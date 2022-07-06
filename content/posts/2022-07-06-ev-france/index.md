@@ -8,6 +8,8 @@ tags:
 - ev
 - personal
 showTableOfContents: true
+aliases:
+- /2022/what-s-it-like-to-travel-with-an-ev-in-europe-in-2022/
 ---
 
 **tl;dr:** It's easier than you think. 
