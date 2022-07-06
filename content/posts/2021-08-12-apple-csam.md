@@ -53,6 +53,6 @@ The worst part is: how do I put my money where my mouth is? Am I going back to u
 
 I can only hope that the backlash caused by [the screeching voice of the minority](https://twitter.com/Snowden/status/1423751484081070081), will make Apple nonetheless reconsider, and perhaps change the implementation in future versions of iOS. 
 
-{{< aside >}}
-[Discussion on HackerNews.](https://news.ycombinator.com/item?id=28160673)
-{{< /aside >}}
+<small>
+<a href="https://news.ycombinator.com/item?id=28160673">Discussion on HackerNews.</a>
+</small>
