@@ -16,7 +16,9 @@ A few weeks ago I decided to take a short trip from The Netherlands to France. I
 
 ![A map of the route I took.](map.png "A map of the route I took.")
 
-_(An obvious disclaimer here is that all my experiences apply to the Low Countries, Germany and France. I don't exactly know how the situation is in other regions of Europe, but from googling around I would wager Italy and Spain are much like France when it comes to the infrastructure, and Scandinavia is more like the Low Countries. Eastern EU I expect to still be The Land of Great Adventure when it comes to EV road tripping, which I will likely investigate in detail in the near future. Stay tuned I suppose?)_
+{{< aside >}}
+An obvious disclaimer here is that all my experiences apply to the Low Countries, Germany and France. I don't exactly know how the situation is in other regions of Europe, but from googling around I would wager Italy and Spain are much like France when it comes to the infrastructure, and Scandinavia is more like the Low Countries. Eastern EU I expect to still be The Land of Great Adventure when it comes to EV road tripping, which I will likely investigate in detail in the near future. Stay tuned I suppose?
+{{< /aside >}}
 
 ## What works well
 
