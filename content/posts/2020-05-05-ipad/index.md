@@ -50,21 +50,7 @@ Of all the issues that I've had, there were two major ones:
     use usb-c, and b) iPadOS limits the kind of protocols it allows the apps to
     use for transferring data over usb-c. So if [your
     hardware](https://www.native-instruments.com/en/products/maschine/production-systems/maschine/)
-    uses a custom protocol, it won't work on the iPad.
-
-{{< aside >}}
-There is a 3rd but very niche yet infuriating problem that relates to both of
-the issues above that not many people care about, as it relates to me being
-Polish. All the Polish Mac users I know install
-[Karabiner-Elements](https://karabiner-elements.pqrs.org) as one of the first
-apps after getting a new Mac. This software allows for remapping the keyboard,
-most importantly swapping the right **⌘** with right **⌥** key, in order to get
-Alt Gr (which is required to input Polish characters) right next to the space,
-so that you can press it with your thumb and not die. There is no way to
-achieve the same thing on the iPad with an external keyboard. Unless you make
-the keyboard yourself I guess. This niche problem remains niche, but
-illustrates perfectly what's wrong with the iPad.
-{{< /aside >}}
+    uses a custom protocol, it won't work on the iPad.[^1]
 
 It baffles me now when I think of how much time and money I spent trying to
 make my iPad setup work well for me. Any obstacle I encountered I tried finding
@@ -87,14 +73,7 @@ attributed to Concorde development—the British and French governments took
 their past investments as a factor when deciding on whether to continue the
 project. It applies to [human
 relationships](https://www.npr.org/2015/02/13/385948508/how-sunk-cost-fallacy-applies-to-love),
-too, and, as I experienced, to consumer decisions.
-
-{{< aside >}}
-Side-note: how often does sunk cost fallacy apply to software projects? How
-many projects were you part of, dear reader, when a decision was made to stick
-to old, buggy, messy ways of doing things simply because “we've already
-invested so much time and effort into this system”? Food for thought.
-{{< /aside >}}
+too, and, as I experienced, to consumer decisions.[^2]
 
 This post, then, isn't a caveat emptor, I'm not trying to discourage anyone
 from buying an iPad, nor am I saying it's a bad purchase in general. On the
@@ -103,3 +82,6 @@ it took me by surprise how far I'd gone into my sunk cost, and it made me
 reevaluate many of my past choices (no, I'm not divorcing my wife). I invite
 you, dear reader, to do the same, and now please excuse me while I go to the
 Apple store online and spend an insane amount of money on a new laptop.
+
+[^1]: There is a 3rd but very niche yet infuriating problem that relates to both of the issues above that not many people care about, as it relates to me being Polish. All the Polish Mac users I know install [Karabiner-Elements](https://karabiner-elements.pqrs.org) as one of the first apps after getting a new Mac. This software allows for remapping the keyboard, most importantly swapping the right **⌘** with right **⌥** key, in order to get Alt Gr (which is required to input Polish characters) right next to the space, so that you can press it with your thumb and not die. There is no way to achieve the same thing on the iPad with an external keyboard. Unless you make the keyboard yourself I guess. This niche problem remains niche, but illustrates perfectly what's wrong with the iPad.
+[^2]: Side-note: how often does sunk cost fallacy apply to software projects? How many projects were you part of, dear reader, when a decision was made to stick to old, buggy, messy ways of doing things simply because “we've already invested so much time and effort into this system”? Food for thought.

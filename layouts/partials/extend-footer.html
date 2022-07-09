@@ -1,0 +1,5 @@
+{{ $js := resources.Get "js/littlefoot.js" }}
+<script src="{{ $js.Permalink }}" type="application/javascript"></script>
+<script type="application/javascript">
+  littlefoot.littlefoot() // Pass any littlefoot settings here.
+</script>

@@ -22,11 +22,7 @@ But to what degree?
 
 We don't eat meat and our diary consumption is minimal. Ok, I guess it could be even more minimal. But no eggs, seriously? Fine, what about eggs twice a week? Once a week?
 
-And the car, come on, it's not like I'm driving a GMC Sierra, mine has a small petrol engine. It's small, I promise, I'm getting 42 miles to the gallon on average.
-
-{{< aside >}}
-50 mpg UK, 5.6 l/100km in normal European countries, 17.8 km/l in weird European countries. I've no idea why I defaulted to American units, must be the joy from SNL's cheerful <a href="https://www.youtube.com/watch?v=vJYL4Osyipc">post-election sketches</a>.
-{{< /aside >}}
+And the car, come on, it's not like I'm driving a GMC Sierra, mine has a small petrol engine. It's small, I promise, I'm getting 42 miles to the gallon on average.[^1]
 
 And I don't drive it daily, so that's okay. But does it mean I have to buy an even smaller car next year? Or no car at all? What if I bought an old V8 American muscle car, but drove it once a month? Is that okay? Do I really have to get a Prius? I can't afford an electric car, and living without a car is sad. Oh you're saying I shouldn't have a car? Fine, I could still rent I suppose, for the occasional road-trip. But if I rent, it's okay to rent a BMW 5 series, right?
 
@@ -39,3 +35,5 @@ And what's the most reasonable way to visit family in Poland? Driving with two p
 Everyone goes through this bargaining in their head after they read an article like Bregman's, right?
 
 Right?
+
+[^1]: 50 mpg UK, 5.6 l/100km in normal European countries, 17.8 km/l in weird European countries. I've no idea why I defaulted to American units, must be the joy from SNL's cheerful <a href="https://www.youtube.com/watch?v=vJYL4Osyipc">post-election sketches</a>.
