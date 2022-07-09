@@ -1,5 +1,15 @@
 {{ $js := resources.Get "js/littlefoot.js" }}
 <script src="{{ $js.Permalink }}" type="application/javascript"></script>
 <script type="application/javascript">
-  littlefoot.littlefoot() // Pass any littlefoot settings here.
+  littlefoot.littlefoot(
+    {
+      buttonTemplate: `<button
+  aria-label="Footnote <% number %>"
+  class="littlefoot-footnote__button"
+  id="<% reference %>"
+  title="See Footnote <% number %>"
+/>
+  <% number %>
+</button>`}
+  ) 
 </script>
