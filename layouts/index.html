@@ -1,4 +1,76 @@
-{{ define "main" }}
+<!DOCTYPE html>
+<html
+  lang="en"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="light"
+  data-auto-appearance="true"
+><head>
+	<meta name="generator" content="Hugo 0.101.0" /><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+    <meta http-equiv="content-language" content="en" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Sound & Complete</title>
+    <meta name="title" content="Sound & Complete" />
+  <meta name="description" content="Piotr&#39;s personal website" />
+  <link rel="canonical" href="http://localhost:1313/" />
+  <link rel="alternate" type="application/rss+xml" href="/index.xml" title="Sound & Complete" />
+  <link rel="alternate" type="application/json" href="/index.json" title="Sound & Complete" />
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="/css/main.bundle.min.63783078673b0d3701e1424fda2b3e3f84f0f0fc7ec6fa3fc2f2e4e299da56e9d0f3aad51561a439f2f8f3f9d92c1ef8e53d6cb2d9819123ed2909f4f2ea5fba.css"
+    integrity="sha512-Y3gweGc7DTcB4UJP2is&#43;P4Tw8Px&#43;xvo/wvLk4pnaVunQ86rVFWGkOfL48/nZLB745T1sstmBkSPtKQn08upfug=="
+  />
+  <script type="text/javascript" src="/js/appearance.min.badab316c9287a5a42a843e4eb45da65bb3d194a5a0f5fa4a3e516160e67df0b8c65f4f19a8e146436e29d583699e6cb41d6bbe99e05e1dbaa877763bad9f8e2.js" integrity="sha512-utqzFskoelpCqEPk60XaZbs9GUpaD1&#43;ko&#43;UWFg5n3wuMZfTxmo4UZDbinVg2mebLQda76Z4F4duqh3djutn44g=="></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  <meta property="og:title" content="Sound &amp; Complete" />
+<meta property="og:description" content="Piotr&#39;s personal website" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://localhost:1313/" />
+
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Sound &amp; Complete"/>
+<meta name="twitter:description" content="Piotr&#39;s personal website"/>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "http:\/\/localhost:1313\/",
+    "name": "Sound \u0026 Complete",
+    "description": "Piotr\u0027s personal website",
+    "inLanguage": "en",
+    "url": "http:\/\/localhost:1313\/",
+
+    "publisher" : {
+      "@type": "Person",
+      "name": "Piotr Kaźmierczak"
+    }
+  }
+  </script>
+  <meta name="author" content="Piotr Kaźmierczak" />
+</head>
+<body
+    class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"
+  >
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 dark:bg-neutral-600 focus:translate-y-0"
+        href="#main-content"
+        ><span class="font-bold ltr:pr-2 rtl:pl-2 text-primary-600 dark:text-primary-400"
+          >&darr;</span
+        >Skip to main content</a
+      >
+    </div>
+      <header class="py-6 font-semibold sm:py-10 text-neutral-900 dark:text-neutral print:hidden">
+</header>
+    <div class="relative flex flex-col grow">
+      <main id="main-content" class="grow">
 {{ $images := where .Site.RegularPages "Section" "photo" }}
 {{ range first 1 $images }}
   {{ $img := .Page.Resources.GetMatch .Params.photo }}
@@ -10,10 +82,11 @@
       <div class="mt-8 mb-12 text-base text-neutral-400 dark:text-neutral-500">
         {{ $img.Exif.Date.Format "January 02, 2006" }}</a>&nbsp;&middot;&nbsp;<a href="https://www.google.com/maps/search/{{ .Params.location | urlize }}">{{ .Params.location }}
       </div>
-    <footer class="pt-8">
-      {{ partial "author.html" . }}
-      {{ partial "sharing-links.html" . }}
-    </footer>
   </article>
 {{ end }}
-{{ end }}
+      </main>
+
+    </div>
+  </body>
+</html>
+
