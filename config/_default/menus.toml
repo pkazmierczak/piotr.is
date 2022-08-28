@@ -2,7 +2,7 @@
   name = "About"
   url = "/about"
   weight = 10
- 
+
 [[main]]
   name = "Articles"
   url = "/posts"
@@ -12,10 +12,10 @@
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
 
-[[footer]]
-  name = "Site info"
-  url = "/website"
-  weight = 10
+# [[footer]]
+#   name = "Site info"
+#   url = "/website"
+#   weight = 10
 
 # [[footer]]
 #   name = "Contact"
