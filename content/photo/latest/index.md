@@ -1,7 +1,7 @@
 ---
-slug: fornalutx
-date: 2022-09-02T00:00:00+01:00
+slug: chicago
+date: 2022-10-09T00:00:00+01:00
 photo: photo.jpg
-location: "Fornalutx, Illes Balears"
-locations: ["Fornalutx"]
+location: "Chicago, Illinois"
+locations: ["Chicago"]
 ---
