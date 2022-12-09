@@ -1,0 +1,28 @@
+---
+title: "“And the Weak Suffer What They Must?”"
+date: 2017-09-05T22:26:57+01:00
+location: "München, BY"
+locations: ["München"]
+tags: ["books", "europe", "economics", "politics"]
+---
+
+I always slightly disliked Yanis Varoufakis. Strike that, actually I always thought he's a bit of a clown. Motorbike-riding, leather-jacket-clad, attention-seeking, populist, arrogant clown. Worst of all, he was part of that annoying movement of European politicians that rejected the narrative I believed in, namely that:
+
+1. One must *always* pay ones debts.[^1]
+2. EU and its institutions *always* know what they're doing.
+3. Countries must be extremely careful with public spending and apply strict austerity measures when facing economic difficulties.[^2]
+
+Varoufakis, an outspoken critic of European Union and its institutions, and a prime minister in a populist [government](https://en.wikipedia.org/wiki/First_Cabinet_of_Alexis_Tsipras) was in stark opposition to that narrative, and thus to everything I knew about public-sector economics (gives you an idea of how deep my knowledge was). I really hated the man, and felt sorry for the Greek people that they had a politician like this, in as critical a function as their finance minister, in the midst of such an enormous crisis. 
+
+But then one day I was stuck on a train in the middle of nowhere. In wealthy Germany, where trains always run on time, and they never stand for hours in completely random villages of Bavaria. And as I was silently swearing to murder every DB employee on the planet, I stumbled upon an article in The New Statesman, by none other than Varoufakis himself. The article, click-baitily titled ["Exclusive: Yanis Varoufakis opens up about his five month battle to save Greece"](http://www.newstatesman.com/world-affairs/2015/07/exclusive-yanis-varoufakis-opens-about-his-five-month-battle-save-greece) looked like a perfect way to kill some time and amuse myself a bit at how silly the former Greek finance minister was. 
+
+Then it turned out that maybe he wasn't silly after all. The article was good. It was actually *excellent* in the way it shed light on the inner workings of the European Union and its secret, behind-close-doors-only meetings of the informal "eurogroup." It didn't play well with my strong belief in the sanctity of EU and Brussels bureaucrats, but something told me there might be some truth to it. Also, I saw no reason for Varoufakis to lie; his political career was over anyway. So when I recently found his book that gives his first-hand account of the €-crisis, I bought it, and read it. And boy was I in for a treat. 
+
+"And the Weak Suffer What They Must? Europe's Crisis and America's Economic Future" is a fascinating, in-depth dive into the history of the common European currency, but also the history of post-war global economics, and the economic underpinnings of what we now know as the European Union. In a similar way to David Graeber's ["Debt"](/2013/debt/), Varoufakis' book is an enlightening text, especially to a reader unfamiliar with nuances of global economics (i.e., 90% of the world population) and its history. But while Graeber's book dives deep into concepts and ancient history, Varoufakis is all about here and now, and what we can do about it. Why did I find particularly interesting then, and what made me change my mind about Varoufakis?
+
+For one, he sticks to the facts. Yes, he peddles a certain ideology, but unlike your average TV-populist, Varoufakis actually knows what he's talking about. But secondly, and perhaps more importantly, he points out systemic problems in EU's core design, which allows it to be run by anonymous bureaucrats that aren’t subjected to any political scrutiny or indeed any form of democratic process. The image of European Union that Varoufakis’ account presents is not the European Union I though I knew, and not the one I like. Politics aside, it's a fascinating book that debunks many myths of pop-economics. It describes in detail how the global trade was shaped by the Bretton Woods system and how Nixon's 1971 decision to abandon the gold standard destroyed the world order. It reminds us that the EU that we know today was born out of a "European Coal and Steel Community," which Varoufakis calls a "cartel" and makes a pretty good case for it. It finally offers a very detailed account of how the European Commission, the European Central Bank and the International Monetary Found (mis)-handled the €-crisis. And it's not all horror and despair, oh no—the author actually offers some reasonably compelling political and economic solutions in the appendix (although you still want to pack your bags and flee to Australia after reading the whole book). 
+
+"And the Weak Suffer What They Must?" is an excellent read, one that every European should get acquainted with (unless of course they are afraid of big spiders; then again I hear Canada is nice, too). It made me hate my continent a little bit more, but I learned a valuable lesson: never judge an economist by his political affiliation, his clothing style or affection for motorcycles. ❤️ you, Yanis!
+
+[^1]: Not a big believer in that [for a while now](/2013/debt/).
+[^2]: This is something that resonates with many Poles, Lithuanians, Latvians and Estonians, because all our economies went through "shock-therapy" economic plans with extreme belt-tightening policies that, [some say](https://en.wikipedia.org/wiki/Balcerowicz_Plan#Positive), saved our economies. 
