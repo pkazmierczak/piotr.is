@@ -13,12 +13,13 @@ aliases:
 nocomment: true
 ---
 
+{{< alert >}}
+**Update Dec 7, 2022:** Apple [scrapped the plan](https://www.wired.com/story/apple-photo-scanning-csam-communication-safety-messages/) of CSAM-scanning iCloud Photos libraries.
+{{< /alert >}}
+
 My wife is pretty tech-savvy. While not a software engineer and not a computer scientist, she has a good understanding of computing technologies, statistics, formal methods, and an intuitive (but quickly growing) grasp of machine learning. She's also able to code in R for [her research](http://karolinakrzyzanowska.com/), and she's highly addicted to her iPhone 12 Mini, her iPad Pro, and her 12" MacBook, despite its slowly but steadily failing keyboard. With all this being said, I spent about 30 minutes yesterday evening trying to explain to her, what's all the fuss about Apple's new CSAM (child sexual abuse material) prevention [features](https://www.apple.com/child-safety/) that are being introduced in iOS 15.
 
 The point of the anecdote is of course not to show that my wife is dim, but rather to illustrate the issue with said CSAM features. In contrast to how easy it is to explain to "an average Joe" why Google's or Facebook's business models pose a threat to people's privacy, it's very hard to explain why Apple's new mechanism is even worse.[^1]
-
-{{< aside >}}
-{{< /aside >}}
 
 I don't want this blog post to be an exhaustive explanation of what exactly Apple is planning to do, because many [other](https://stratechery.com/2021/apples-mistake/) [excellent](https://www.hackerfactor.com/blog/index.php?/archives/929-One-Bad-Apple.html) [articles](https://daringfireball.net/2021/08/apple_child_safety_initiatives_slippery_slope) have already been written about it over the last week. In essence, iOS 15 will introduce a mechanism that allows for checking user's photographs against a CSAM content database, and this will happen *on the device*. That's the big difference between Apple's approach and what every other company that hosts big libraries of photographs online has been doing for a while now. A paragraph from [Ben Thompson's article](https://stratechery.com/2021/apples-mistake/) that was published yesterday sums it up pretty well:
 
