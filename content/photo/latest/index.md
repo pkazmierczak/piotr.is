@@ -1,7 +1,7 @@
 ---
-slug: chicago
-date: 2022-10-09T00:00:00+01:00
+slug: rijssen
+date: 2022-11-12T00:00:00+01:00
 photo: photo.jpg
-location: "Chicago, Illinois"
-locations: ["Chicago"]
+location: "Rijssen, Overijssel"
+locations: ["Rijssen"]
 ---
