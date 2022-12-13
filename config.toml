@@ -638,7 +638,7 @@ uglyURLs = false
     # Note: render only in production
     #       environment
 
-    enableComments = true
+    enableComments = false
     # Note: *global settings*
     #       `comments` in post’s Front Matter
     #       has a higher priority than here
@@ -672,8 +672,8 @@ uglyURLs = false
     # Note: https://valine.js.org/
 
     ## Utterances
-    enableUtterances = true
-    utterancesRepo = "https://github.com/pkazmierczak/piotr.is"
+    enableUtterances = false
+    utterancesRepo = ""
     utterancesIssueTerm = "pathname"
     utterancesTheme = "github-light"
     utterancesThemeDark = "photon-dark"
