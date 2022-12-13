@@ -907,7 +907,7 @@ uglyURLs = false
 
     enableCaption = true
 
-    captionPrefix = "◎ "
+    captionPrefix = ""
 
 
     ######################################
