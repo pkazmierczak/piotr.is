@@ -6,9 +6,7 @@ locations: ["München"]
 tags: [photography, personal]
 ---
 
-{{< lead >}}
 I like taking photographs, and I *love* cameras.
-{{< /lead >}}
 
 My grandfather was the first professional photographer in my hometown,[^1] and I loved playing with his cameras. His darkroom was my favorite place on Earth, filled with cameras, lenses, and a huge [enlarger](https://en.wikipedia.org/wiki/Enlarger) in the middle of a table. I spent hours playing there, and perhaps that's what sparked my interest in photography, but it was definitely what sparked my interest in photographic gear.
 
