@@ -1,12 +1,12 @@
 [build]
-  command = "git submodule init && git submodule update && hugo --gc --minify -b $URL"
+  command = "hugo mod get -u && hugo --gc --minify -b $URL"
   publish = "public"
 
 [build.environment]
   NODE_ENV = "production"
-  GO_VERSION = "1.16"
-  TZ = "CEST"  # Set to preferred timezone
+  GO_VERSION = "1.19.4"
+  TZ = "CET"  # Set to preferred timezone
 
 [context.production.environment]
-  HUGO_VERSION = "0.96.0"
+  HUGO_VERSION = "0.108.0"
   HUGO_ENV = "production"
