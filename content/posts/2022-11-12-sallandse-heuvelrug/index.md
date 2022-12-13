@@ -6,6 +6,7 @@ title: Sallandse Heuvelrug
 tags:
 - cycling
 - gravel in the netherlands
+gitinfo: true
 ---
 
 ![](sallandse_heuvelrug.jpg)

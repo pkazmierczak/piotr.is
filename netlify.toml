@@ -1,5 +1,5 @@
 [build]
-  command = "hugo mod get -u && hugo --gc --minify -b $URL"
+  command = "git submodule init && git submodule --update && hugo --gc --minify -b $URL"
   publish = "public"
 
 [build.environment]

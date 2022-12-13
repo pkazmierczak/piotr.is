@@ -97,13 +97,13 @@ uglyURLs = false
 # Author’s information
 [author]
     # Name
-    name = "Piotr"
+    name = "Piotr Kaźmierczak"
     # Email
     email = "contact@piotr.is"
     # Motto or introduction
-    motto = "Viva La Vida"
+    # motto = "Viva La Vida"
     # Avatar
-    avatar = "/icons/apple-touch-icon.png"
+    avatar = "/apple-touch-icon.png"
     # Twitter
     twitter = "pkazmierczak"
 
@@ -219,7 +219,7 @@ uglyURLs = false
         pre = "internal"
         post = "tags"
     [[menu.main]]
-        pageref = "/about/"
+        url = "/about/"
         name = "About"
         weight = 5
         pre = "internal"
@@ -341,7 +341,7 @@ uglyURLs = false
     ######################################
     # Site Info
 
-    siteLogo = "/icons/apple-touch-icon.png"
+    siteLogo = "/apple-touch-icon.png"
     # Note: used for JSON-LD, Open Graph
 
     siteDescription = "Sound & Complete is Piotr Kaźmierczak's personal website."
@@ -448,7 +448,7 @@ uglyURLs = false
     groupByMonth = true
 
     # Enable Chinese zodiac?
-    chineseZodiac = true
+    chineseZodiac = false
 
     # Translate the year? (valid for title)
     i18nYear = false

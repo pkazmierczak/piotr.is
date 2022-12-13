@@ -1,7 +1,7 @@
-/feed                         /index.xml
-/feed/                        /index.xml
-/category/uncategorized/feed/ /index.xml
-/feed.rss                     /index.xml
-/feed/index.xml               /index.xml
-/feed/atom/                   /index.xml
+/feed                         /rss.xml
+/feed/                        /rss.xml
+/category/uncategorized/feed/ /rss.xml
+/feed.rss                     /rss.xml
+/feed/index.xml               /rss.xml
+/feed/atom/                   /rss.xml
 /blog/                        /post/

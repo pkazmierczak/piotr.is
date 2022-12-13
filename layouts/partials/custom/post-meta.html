@@ -1,0 +1,4 @@
+{{if .Params.location }}
+{{ $icon := partial "utils/icon.html" (dict "$" $ "name" "location" "class" "post-meta-icon") }}
+<span class="post-meta-item location">{{ $icon }}&nbsp;{{ $.Params.location }}</span>
+{{ end }}
