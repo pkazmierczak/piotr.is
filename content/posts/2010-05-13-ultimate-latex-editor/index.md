@@ -40,7 +40,7 @@ AUCTeX has a number of nice features, the two I use most often are:
 - automatic formatting of a section: `C-c C-q C-s`;
 - section preview: `C-c C-p C-s`; (see the screenshot on the right)
 
-![](emacs-latex-preview.png)
+![](emacs-latex-preview-thumb.png)
 
 Preview function is very nice, because you can *see* the commands that are *behind* preview images, edit the code, apply preview again and see the results --- no need to parse the whole file too often, and most importantly no need to switch to a PDF/PS viewer to see if your math formula/xypic tree is formatted correctly. Trust me, this saves a lot of time.
 

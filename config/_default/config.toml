@@ -12,7 +12,7 @@ copyright = "© 2009—2021 Piotr Kaźmierczak"
 enableEmoji = true
 enableRobotsTXT = true
 
-summaryLength = 0
+summaryLength = 10
 
 [author]
   name = "Piotr Kaźmierczak"
@@ -60,7 +60,6 @@ summaryLength = 0
 
 [permalinks]
   posts = "/:year/:slug/"
-  photo = "/:year/:slug/"
   page = "/:filename/"
 
 [privacy]

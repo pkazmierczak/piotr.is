@@ -149,7 +149,7 @@ but not necessarily to bow instruments or the brass section. Here's my advice:
     or slightly overdriven strings can sound amazing, but they require a good
     quality overdrive. Look for midrange-heavy, crunchy ones.
 
-![](pedalboard.jpg "On the left, my small pedalboard from May 2019. Signal comes from a wahwah pedal (not pictured) and goes into a boost pedal, through the overdrive, into the Whammy pitch-shifting pedal, and into the EQ, then delay and finally through the reverb into the amplifier.  
+![](thumb-pedalboard.jpg "On the left, my small pedalboard from May 2019. Signal comes from a wahwah pedal (not pictured) and goes into a boost pedal, through the overdrive, into the Whammy pitch-shifting pedal, and into the EQ, then delay and finally through the reverb into the amplifier.  
 On the right, my even smaller “pedalboard” from May 2020. Signal comes into the tuner, and then to Line6 multi-effect stomp box. And there's an expression pedal. And that's it.")
 
 There's of course many more types of pedals that can be fun to play with, and I

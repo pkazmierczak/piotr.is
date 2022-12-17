@@ -5,11 +5,11 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://jpanther.github.io/congo/docs/configuration/#theme-parameters
 
-colorScheme = "congo"
+colorScheme = "fire"
 # logo = "img/logo.jpg"
 description = "Piotr's personal website"
 mainSections = ["posts"]
-enableSearch = false
+enableSearch = true
 
 [homepage]
   layout = "page" # valid options: page, profile, custom

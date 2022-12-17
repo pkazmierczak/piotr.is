@@ -34,7 +34,7 @@ either doesn't do well, or doesn't do at all. I agree with
 iPad didn't fulfill the potential that was always in the hardware itself, even
 after 10 years of being on the market.
 
-![](ipad-blink-external-display.jpg "With a bit of effort you can code relatively productively on the iPad, and by “the iPad” I mean a small AWS instance with mosh and some goodies on it. Yes, there are probably some SSH keys leaked in this photograph, HACK ME NOW.")
+![](thumb-ipad-blink-external-display.jpg "With a bit of effort you can code relatively productively on the iPad, and by “the iPad” I mean a small AWS instance with mosh and some goodies on it. Yes, there are probably some SSH keys leaked in this photograph, HACK ME NOW.")
 
 Of all the issues that I've had, there were two major ones:
 
