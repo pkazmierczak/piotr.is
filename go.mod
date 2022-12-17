@@ -1,5 +1,5 @@
 module github.com/pkazmierczak/piotr.is
 
-go 1.18
+go 1.19
 
-require github.com/jpanther/congo/v2 v2.3.0 // indirect
+require github.com/MunifTanjim/minimo v2.10.1+incompatible // indirect
