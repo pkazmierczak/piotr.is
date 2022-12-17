@@ -12,7 +12,7 @@ copyright = "© 2009—2021 Piotr Kaźmierczak"
 enableEmoji = true
 enableRobotsTXT = true
 
-summaryLength = 10
+summaryLength = 20
 
 [author]
   name = "Piotr Kaźmierczak"
@@ -52,11 +52,6 @@ summaryLength = 10
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-
-# [outputFormats]
-# [outputFormats.RSS]
-#   mediatype = "application/rss"
-#   path = "/feed/"
 
 [permalinks]
   posts = "/:year/:slug/"
