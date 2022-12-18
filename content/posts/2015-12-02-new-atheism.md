@@ -3,7 +3,7 @@ date: 2015-12-02
 title: New Atheism
 location: "München, BY"
 locations: ["München"]
-tags: [atheism, religion, society, books]
+tags: [religion, society, books]
 aliases: /2015/12/02/new-atheism/
 link: http://blog.oup.com/2015/11/legacy-new-atheism/
 ---

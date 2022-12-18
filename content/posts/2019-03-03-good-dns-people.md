@@ -3,7 +3,7 @@ title: Good DNS people live in remote places
 date: 2019-03-03
 location: "Amsterdam, NH"
 locations: ["Amsterdam"]
-tags: ["dns", "internet"]
+tags: ["internet"]
 ---
 
 DNS and domain registration services generally suck. GoDaddy people [hunt elephants](http://edition.cnn.com/2011/BUSINESS/04/01/godaddy.peta.protest/index.html). Hover is _okay_, but has mediocre customer service (personal experience) and bad web interface (objective truth). There’s tons of bad domain registrars out there. But amongst them, there are people that know their shit and know it well, and they don’t try to scam or bullshit you.

@@ -7,6 +7,7 @@ aliases:
 - /2020/05/24/2020-core-i5-apple-macbook-air-detailed-review/
 tags:
 - apple
+- laptop
 ---
 
 It's brilliant.

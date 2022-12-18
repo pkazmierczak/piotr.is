@@ -4,7 +4,7 @@ location = "Bergen, Vestland"
 locations = ["Bergen"]
 aliases = ["/2010/05/23/on-haskell/"]
 date = "2010-05-23"
-tags = ["programming", "logic"]
+tags = ["software engineering", "logic"]
 +++
 
 Although I've always wanted to become a professional programmer, I never

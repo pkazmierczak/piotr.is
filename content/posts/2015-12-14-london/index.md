@@ -3,7 +3,7 @@ date: 2015-12-14
 title: London
 location: "München, BY"
 locations: ["München"]
-tags: [travels, london, uk, personal]
+tags: [travels]
 aliases: /2015/12/14/london/
 header: "/images/header-london.jpg"
 twitter: yes

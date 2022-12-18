@@ -5,10 +5,8 @@ locations = ["Dunedin"]
 update_date = "2015-03-17"
 aliases = ["/2013/12/08/new-zealand/"]
 date = "2013-12-08"
-tags = ["travels", "new zealand"]
+tags = ["travels"]
 +++
-
-![](otago.jpg)
 
 Last week I came to New Zealand for [COIN@PRIMA workshop](http://coin2013-prima.tudelft.nl) and [PRIMA-13](http://prima2013.otago.ac.nz) conference. It's the first time I'm on the southern hemisphere, and I have a couple of observations about New Zealand and the whole Oceania region I'd like to share. 
 

@@ -4,7 +4,6 @@ location = "Borowiny, łódzkie"
 locations = ["Borowiny"]
 aliases = ["/2009/12/30/on-the-subjective-hi-fi-quality/"]
 date = "2009-12-30"
-tags = ["hifi"]
 +++
 
 Every now and then different people ask me about an opinion on buying hi-fi

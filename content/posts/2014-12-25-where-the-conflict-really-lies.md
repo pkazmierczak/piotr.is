@@ -4,7 +4,7 @@ location = "München, BY"
 locations = ["München"]
 aliases = ["/2014/12/25/where-the-conflict-really-lies/"]
 date = "2014-12-25"
-tags = ["religion", "philosophy", "theology", "books"]
+tags = ["religion", "philosophy", "books"]
 +++
 
 Since it's Christmas, I feel it's only appropriate to share some thoughts about a book on philosophy of religion I recently read. 

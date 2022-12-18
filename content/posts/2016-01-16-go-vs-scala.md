@@ -3,7 +3,7 @@ date: 2016-01-16
 title: Go vs. Scala
 location: "München, BY"
 locations: ["München"]
-tags: [golang, software engineering, scala]
+tags: [golang, software engineering]
 twitter: false
 ---
 

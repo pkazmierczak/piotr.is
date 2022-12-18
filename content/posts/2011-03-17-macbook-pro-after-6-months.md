@@ -5,7 +5,7 @@ locations = ["Bergen"]
 aliases = ["/2011/03/17/macbook-pro-after-6-months/"]
 readlater = true
 date = "2011-03-17"
-tags = ["apple", "macbook"]
+tags = ["apple", "laptop"]
 +++
 
 Some readers of this blog probably know that for a very long time (ca. 1998--

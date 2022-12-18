@@ -33,6 +33,7 @@ enableSearch = true
   showReadingTime = true
   # sharingLinks = ["facebook", "twitter", "pinterest", "reddit", "linkedin", "email"]
   showTableOfContents = true
+  showTaxonomies = true
 
 [list]
   showBreadcrumbs = false
