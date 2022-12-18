@@ -6,6 +6,7 @@ locations: ["München"]
 tags: ["america", "books", "society"]
 ---
 
+![](thumb.jpg#floatleft) 
 > Here is what I would like for you to know: In America, it is traditional to destroy the black body—*it is heritage.*
 
 My recent [disillusioning trip](/2016/hi-america) notwithstanding, I am still very much in love with the US, but Ta-Nehisi Coates puts things into perspective. Much like sexism is often difficult to notice for males until a woman points it out, white people tend not to realize just how *huge* a problem racism in America still is.

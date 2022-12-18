@@ -6,7 +6,7 @@ locations: ["München"]
 tags: ["books", "economics"]
 ---
 
-I always slightly disliked Yanis Varoufakis. Strike that, actually I always thought he's a bit of a clown. Motorbike-riding, leather-jacket-clad, attention-seeking, populist, arrogant clown. Worst of all, he was part of that annoying movement of European politicians that rejected the narrative I believed in, namely that:
+![](thumb.jpg#floatleft) I always slightly disliked Yanis Varoufakis. Strike that, actually I always thought he's a bit of a clown. Motorbike-riding, leather-jacket-clad, attention-seeking, populist, arrogant clown. Worst of all, he was part of that annoying movement of European politicians that rejected the narrative I believed in, namely that:
 
 1. One must *always* pay ones debts.[^1]
 2. EU and its institutions *always* know what they're doing.

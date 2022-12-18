@@ -317,3 +317,10 @@
 .is-positioned-top .littlefoot-footnote__tooltip {
   bottom: -0.65em
 }
+
+img[src$='#floatleft']
+{
+	float:left;
+  padding-right: 1em;
+  max-width: 15em;
+}
