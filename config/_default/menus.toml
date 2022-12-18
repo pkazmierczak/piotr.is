@@ -4,6 +4,11 @@
   weight = 1
 
 [[main]]
+  name = "Tags"
+  url = "/tags"
+  weight = 2
+
+[[main]]
   name = "'Gram"
   url = "https://instagram.com/pete_casmerry"
   weight = 10
