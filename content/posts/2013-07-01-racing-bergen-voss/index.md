@@ -7,8 +7,6 @@ date = "2013-07-01"
 tags = ["cycling", "norway"]
 +++
 
-![](bergen-voss.jpg)
-
 That's me riding the final climb of Bergen-Voss 2013 race, the famous road from Granvin to Voss and its hairpins around [Skjervsfossen](http://no.wikipedia.org/wiki/Skjervefossen). It was the second time I did this race, and although I had a better time than last year, I'm still at the very end of the "top 4000" list. 
 
 It's a relatively easy, amateur race. The distance is about 165 km, but there is some climbing on the way (about 1800m), with 3 distinct climbs, one of which is rather serious:

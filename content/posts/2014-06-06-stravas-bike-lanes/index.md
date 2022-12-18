@@ -17,7 +17,7 @@ You'd think that the problem of building cycling lanes is a simple one, right? W
 
 Strava is my favorite sport-tracking service (I wrote about it [before](/2012/03/03/i-ride-because-im-angry-at-other-people/)), and it's found a new and somewhat surprising source of revenue – selling "heatmaps" to cities.[^2] Heatmaps are created by analyzing publicly available GPS data from users' rides and mapping them to frequency. For example, this is a heatmap for Bergen:
 
-[![](strava-heatmap.png)](http://labs.strava.com/heatmap/#13/5.30730/60.38387/gray/bike)
+[![](strava-heatmap-thumb.png)](http://labs.strava.com/heatmap/#13/5.30730/60.38387/gray/bike)
 
 Some say that Strava isn't popular amongst commuters, and that it's mainly used by people who treat cycling as sport, and not just a mean of transportation, but as is clearly visible on the screenshot above, racers need to get through town just like anyone else; I'd conjecture they need to do this even more often than others. 
 

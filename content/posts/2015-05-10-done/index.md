@@ -6,8 +6,6 @@ date = "2015-05-10"
 tags = ["academia", "logic", "PhD", "personal"]
 +++
 
-![](disputas.jpg)
-
 On Thursday, April 30th I successfully defended my thesis on ["Agents that Play by the Rules"](/papers/thesis.pdf) and was awarded the title of PhD.[^1] It was 4,5 years of work,[^2] and the last week was definitely the most stressful and exhausting one I had in my entire life, but now I'm *done.* There's no more school to go to, no more exams and no more courses to take.[^3]
 
 The overwhelming feeling of completion is a very pleasant one. For the first time since March 2010 there is nothing hanging over my head. There are no papers to be finished, and no talks to be given. No students to teach. Hell, I might even comment out [LaTeX-Box](https://github.com/LaTeX-Box-Team/LaTeX-Box) from my `.vimrc`.[^4] It feels *good.*
