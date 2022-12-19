@@ -19,15 +19,18 @@ nocomment: true
 
 My wife is pretty tech-savvy. While not a software engineer and not a computer scientist, she has a good understanding of computing technologies, statistics, formal methods, and an intuitive (but quickly growing) grasp of machine learning. She's also able to code in R for [her research](http://karolinakrzyzanowska.com/), and she's highly addicted to her iPhone 12 Mini, her iPad Pro, and her 12" MacBook, despite its slowly but steadily failing keyboard. With all this being said, I spent about 30 minutes yesterday evening trying to explain to her, what's all the fuss about Apple's new CSAM (child sexual abuse material) prevention [features](https://www.apple.com/child-safety/) that are being introduced in iOS 15.
 
-The point of the anecdote is of course not to show that my wife is dim, but rather to illustrate the issue with said CSAM features. In contrast to how easy it is to explain to "an average Joe" why Google's or Facebook's business models pose a threat to people's privacy, it's very hard to explain why Apple's new mechanism is even worse.[^1]
+The point of the anecdote is of course not to show that my wife is dim, but rather to illustrate the issue with said CSAM features. In contrast to how easy it is to explain to "an average Joe" why Google's or Facebook's business models pose a threat to people's privacy, it's very hard to explain why Apple's new mechanism is even worse.
+
+{{< aside >}}
+Actually, as I was working on a draft of this post, Matthew Green and Alex Stamos wrote [an op-ed in the New York Times](https://www.nytimes.com/2021/08/11/opinion/apple-iphones-privacy.html) that makes a good attempt at trying to concisely explain the issue to a non-technical audience. There's hope.
+{{< /aside >}}
 
 I don't want this blog post to be an exhaustive explanation of what exactly Apple is planning to do, because many [other](https://stratechery.com/2021/apples-mistake/) [excellent](https://www.hackerfactor.com/blog/index.php?/archives/929-One-Bad-Apple.html) [articles](https://daringfireball.net/2021/08/apple_child_safety_initiatives_slippery_slope) have already been written about it over the last week. In essence, iOS 15 will introduce a mechanism that allows for checking user's photographs against a CSAM content database, and this will happen *on the device*. That's the big difference between Apple's approach and what every other company that hosts big libraries of photographs online has been doing for a while now. A paragraph from [Ben Thompson's article](https://stratechery.com/2021/apples-mistake/) that was published yesterday sums it up pretty well:
 
 > (…) instead of adding CSAM-scanning to iCloud Photos in the cloud that
 > they own and operate, Apple is compromising the phone that you and I
 > own and operate, without any of us having a say in the matter. Yes,
-> you can turn off iCloud Photos to disable Apple's scanning, but that
-> is a *policy* decision; the *capability* to reach into a user's phone
+> you can turn off iCloud Photos to disable Apple's scanning, but that is a *policy* decision; the *capability* to reach into a user's phone
 > now exists, and there is nothing an iPhone user can do to get rid of
 > it.
 
@@ -45,7 +48,11 @@ Sadly, due to the intrinsically technical nature of the problem, which I mention
 
 * * * * *
 
-It pains me as a self-proclaimed Apple fanboy, a loyal customer of many years and even an evangelist of the brand to see the company making a step in such a dangerous direction.[^2]
+It pains me as a self-proclaimed Apple fanboy, a loyal customer of many years and even an evangelist of the brand to see the company making a step in such a dangerous direction.
+
+{{< aside >}}
+The worst part is: how do I put my money where my mouth is? Am I going back to using Linux on the desktop (2022 will be the year of Linux on the desktop, remember), debugging wifi drivers and tirelessly trying to make resume-from-suspend work? Am I getting a Pixel and putting GrapheneOS on it like a total nerd? FUCK.
+{{< /aside >}}
 
 I can only hope that the backlash caused by [the screeching voice of the minority](https://twitter.com/Snowden/status/1423751484081070081), will make Apple nonetheless reconsider, and perhaps change the implementation in future versions of iOS. 
 
@@ -53,5 +60,3 @@ I can only hope that the backlash caused by [the screeching voice of the minorit
 <a href="https://news.ycombinator.com/item?id=28160673">Discussion on HackerNews.</a>
 </small>
 
-[^1]: Actually, as I was working on a draft of this post, Matthew Green and Alex Stamos wrote [an op-ed in the New York Times](https://www.nytimes.com/2021/08/11/opinion/apple-iphones-privacy.html) that makes a good attempt at trying to concisely explain the issue to a non-technical audience. There's hope.
-[^2]: The worst part is: how do I put my money where my mouth is? Am I going back to using Linux on the desktop (2022 will be the year of Linux on the desktop, remember), debugging wifi drivers and tirelessly trying to make resume-from-suspend work? Am I getting a Pixel and putting GrapheneOS on it like a total nerd? FUCK.
