@@ -1,17 +1,17 @@
-[[main]]
-  name = "Articles"
-  url = "/posts"
-  weight = 1
-
-[[main]]
-  name = "'Gram"
-  url = "https://instagram.com/pete_casmerry"
-  weight = 10
-
-[[main]]
-  name = "Github"
-  url = "https://github.com/pkazmierczak"
-  weight = 20
+#  [[main]]
+#    name = "Articles"
+#    url = "/posts"
+#    weight = 1
+#
+#  [[main]]
+#    name = "'Gram"
+#    url = "https://instagram.com/pete_casmerry"
+#    weight = 10
+#
+#  [[main]]
+#    name = "Github"
+#    url = "https://github.com/pkazmierczak"
+#    weight = 20
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before

@@ -9,7 +9,7 @@ colorScheme = "ocean"
 # logo = "img/logo.jpg"
 description = "Piotr's personal website"
 mainSections = ["posts"]
-enableSearch = true
+enableSearch = false
 
 [homepage]
   layout = "page" # valid options: page, profile, custom
@@ -31,9 +31,9 @@ enableSearch = true
   showHeadingAnchors = true
   showPagination = false
   showReadingTime = true
-  # sharingLinks = ["facebook", "twitter", "pinterest", "reddit", "linkedin", "email"]
+  # sharingLinks = ["reddit", "linkedin", "mastodon", "email"]
   showTableOfContents = true
-  showTaxonomies = true
+  showTaxonomies = false
 
 [list]
   showBreadcrumbs = false
