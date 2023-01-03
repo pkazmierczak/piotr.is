@@ -16,7 +16,7 @@ enableSearch = false
   showRecent = true
 
 [footer]
-  showAppearanceSwitcher = true
+  showAppearanceSwitcher = false
   showScrollToTop = false
 
 [article]
