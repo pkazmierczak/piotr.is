@@ -1,10 +1,9 @@
 ---
 title: "Auto Emoción"
-date: 2019-04-25T18:26:57+01:00
-location: "Amsterdam, NH"
-locations: ["Amsterdam"]
+date: 2018-01-03T18:26:57+01:00
+location: "München, BY"
+locations: ["München"]
 tags: ["cars", "personal"]
-aliases: ["/2019/04/25/dotgo-2019/"]
 showTableOfContents: false
 ---
 
