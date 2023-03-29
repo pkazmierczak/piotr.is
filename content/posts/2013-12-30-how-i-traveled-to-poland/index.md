@@ -6,9 +6,6 @@ locations:
 aliases: ["/2013/12/30/how-i-traveled-from-norway-to-poland-for-christmas-this-year/"]
 date: "2013-12-30"
 tags: ["travels"]
-cover: 
-    image: /images/covers/train.jpg
-    style: full
 ---
 
 I traveled by train, and this post is an account of my experiences and a warning for others who might be attempting the same thing. It costed a lot of money, but most importantly, it was a very exhausting and stressful experience. So if you're reading this and planning on doing the same thing – don't.
