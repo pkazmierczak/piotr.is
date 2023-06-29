@@ -27,10 +27,10 @@
 #   url = "/contact"
 #   weight = 25
 
-[[footer]]
-  name = "Articles"
-  url = "/posts"
-  weight = 1
+# [[footer]]
+#   name = "Articles"
+#   url = "/posts"
+#   weight = 1
 
 [[footer]]
   name = "'Gram"

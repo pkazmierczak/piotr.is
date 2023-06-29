@@ -1,7 +1,7 @@
 ---
-slug: rijssen
-date: 2022-11-12T00:00:00+01:00
+slug: pebble-beach
+date: 2023-04-21T00:00:00+01:00
 photo: photo.jpg
-location: "Rijssen, Overijssel"
-locations: ["Rijssen"]
+location: "Pebble Beach, California"
+locations: ["Pebble Beach"]
 ---
