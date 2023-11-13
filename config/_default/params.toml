@@ -8,7 +8,7 @@
 colorScheme = "sapphire"
 description = "Piotr's personal website"
 mainSections = ["posts"]
-enableSearch = false
+enableSearch = true
 
 [homepage]
   layout = "page" # valid options: page, profile, custom
@@ -19,7 +19,7 @@ enableSearch = false
   showScrollToTop = false
 
 [header]
-  showTitle = false
+  showTitle = true
 
 [article]
   showDate = true
