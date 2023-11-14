@@ -50,7 +50,7 @@ It's not only the optics and sensors of smartphone cameras that are improving as
 
 I have shots of the very same place at the very same time taken with the Nikon DSLR. Despite the Nikon having more than twice the size of a sensor, shooting RAW and pulling shadows in post-processing, it can't beat Samsung's subtle-but-effective HDR mode's dynamic range. In these conditions even the Fujifilm's excellent X-Trans sensor would struggle, yet my smartphone's tiny sensor aided by great, built-in HDR software manages very well. Here's another one.
 
-![](thumb-samsung-dolomites.jpg "Fig. 3: View of the Dolomites from the Drei Zinnen, shot with Samsung Galaxy S5 (panorama mode).")
+![](samsung-dolomites.jpg "Fig. 3: View of the Dolomites from the Drei Zinnen, shot with Samsung Galaxy S5 (panorama mode).")
 
 Galaxy S5's HDR mode gives exactly the amount of detail and dynamic range for photographs to look more than decent, yet the fact they are shot in HDR is not immediately obvious.
 

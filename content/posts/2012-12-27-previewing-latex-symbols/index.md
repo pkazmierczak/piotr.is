@@ -18,7 +18,7 @@ My friends Erik Parmann and Pål Drange made a simple
 turns many math symbols and Greek letters commands into corresponding
 unicode characters. Here's a sample of how this looks:
 
-![](emacs-pretty-latex-thumb.png)
+![](emacs-pretty-latex.png)
 
 If you're running Emacs 24, you can get the package from
 [MELPA](http://melpa.milkbox.net) repository. Otherwise you can get it

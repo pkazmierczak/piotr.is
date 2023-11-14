@@ -40,7 +40,7 @@ AUCTeX has a number of nice features, the two I use most often are:
 - automatic formatting of a section: `C-c C-q C-s`;
 - section preview: `C-c C-p C-s`; (see the screenshot on the right)
 
-![](emacs-latex-preview-thumb.png)
+![](emacs-latex-preview.png)
 
 Preview function is very nice, because you can *see* the commands that are *behind* preview images, edit the code, apply preview again and see the results --- no need to parse the whole file too often, and most importantly no need to switch to a PDF/PS viewer to see if your math formula/xypic tree is formatted correctly. Trust me, this saves a lot of time.
 
@@ -85,7 +85,7 @@ Another nice package is the [Outline Mode](http://www.gnu.org/software/emacs/man
 (setq outline-minor-mode-prefix "\C-c \C-o") ; Or something else
 ```
 
-Now you can *fold* sections, subsections, chapters, or the whole document. To hide all the contents of your current section, use `C-c C-o C-l`. You can apply it to a chapter, subsection, etc. You can also move to a next *unit* of your document with `C-c C-o C-n`, or to a previous one with `C-c C-o C-p`. If you're lost and want to see the whole document again, use `C-c C-o C-a`.
+Now you can *fold* sections, subsections, chapters, or the whole document. To hide all the contents of your current section, use <kbd>C-c C-o C-l</kbd>. You can apply it to a chapter, subsection, etc. You can also move to a next *unit* of your document with `C-c C-o C-n`, or to a previous one with `C-c C-o C-p`. If you're lost and want to see the whole document again, use `C-c C-o C-a`.
 
 Folding and unfolding parts of the text might be confusing, though, but there's another way to navigate through a big TeX file, and you can use [Reftex](http://www.gnu.org/software/auctex/reftex.html) mode for it. Reftex is a mode that helps with managing references ([full documentation](http://www.gnu.org/software/auctex/manual/reftex.index.html)), but it can also be used to create a table of contents for a TeX file and to navigate using it. Here is my configuration for Reftex from my `.emacs` file:
 

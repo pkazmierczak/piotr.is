@@ -8,6 +8,8 @@ date = "2013-12-08"
 tags = ["travels"]
 +++
 
+![](nz.jpg)
+
 Last week I came to New Zealand for [COIN@PRIMA workshop](http://coin2013-prima.tudelft.nl) and [PRIMA-13](http://prima2013.otago.ac.nz) conference. It's the first time I'm on the southern hemisphere, and I have a couple of observations about New Zealand and the whole Oceania region I'd like to share. 
 
 1. First off, New Zealand is soooper far away from *everything*. It took me more than 45 hours to get here from Bergen,[^1] and I just talked to a Kiwi friend who told me that Wellington is [the most remote](http://en.wikipedia.org/wiki/Extreme_points_of_Earth#Remoteness) capital city in the world, being furthest away from any other capital city. The feeling one has here is that while the country seems rather Western (lots of post-British architecture, English as the official language, lots of familiar products in the shops), it's very exotic. You see Fiji Airways planes at the airports, and there are weird looking trees, birds and plants everywhere. Also, New Zealanders seem to often (implicitly) refer to Australia as the "big world." Australia's where the big cities are, it's where you go to do your post-doc or PhD, and it's where many people transfer for intercontinental flights. Still, from a European point of view, Australia is the end of the world in many ways—it's vast, sparsely populated,[^2] and very far away from, well, anything.[^3] 

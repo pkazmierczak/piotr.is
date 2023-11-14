@@ -25,7 +25,7 @@ Everything sucks.
 
 Ok, so playing bass is actually straightforward if you've been playing another stringed instrument for 25 years. Karolina is OK, we play horrific renditions of old Polish rock songs and Audioslave in the evenings; neighbors love us. It's a lot of fun, butchering good music. I started reading another book, it's good. I gave up on programming, I code for work so a week away from vim won't kill me. An <a href="https://en.wikipedia.org/wiki/Oliebol">oliebollen</a> stand opened in front of our Albert Heijn. I spend loads of time doing nothing, <a href="https://twitter.com/pkazmierczak/status/1322546113023512583">playing TTD</a> and re-watching old House MD episodes.
 
-![](thumb-staycation.jpg)
+![](staycation.jpg)
 
 I became one with the couch.
 

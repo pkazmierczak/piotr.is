@@ -50,7 +50,7 @@ So here's the thing about ICE. It's advertised as high-speed, premium service by
 
 First off, ICE 38 is nowhere near high-speed. It's a *diesel high-speed train*, geddit? It's diesel, because tracks in southern Denmark aren't electrified, and because it has to be loaded on a ferry (!) in order to cross the Fehrman belt (from Rodbyhavn to Puttgarden).
 
-![](trainChristmas4-thumb.jpg)
+![](trainChristmas4.jpg)
 
 On top of being slow, the ICE 38 was late. It left Copenhagen on time, but was late for the ferry, was 20 minutes late in Hamburg Hbf, and then it simply broke down. It took another 35 minutes before we left for Berlin. The ridiculous thing about ICE is that it was hands-down the most expensive leg of my journey – the ticket from Copenhagen to Berlin costed €140 (in comparison, the NSB ticket from Bergen to Oslo costed 300 NOK (which is ~€35), the SJ ticket from Oslo to Copenhagen costed 800 SEK (which is ~€90), and the last part from Berlin to Poznań was ~€40 (bought that one very late, would have been much cheaper if booked earlier)). For €140 I'd expect much more.
 
