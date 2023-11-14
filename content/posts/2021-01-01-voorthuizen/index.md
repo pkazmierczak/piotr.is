@@ -8,6 +8,8 @@ tags:
 showTableOfContents: false
 ---
 
+![](voorthuizen.jpg)
+
 First time ever: gravel ride on a frosty New Year's Day morning!
 
 Happy 2021! 🎉
