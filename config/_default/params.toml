@@ -5,7 +5,7 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://jpanther.github.io/congo/docs/configuration/#theme-parameters
 
-colorScheme = "sapphire"
+colorScheme = "ocean"
 description = "Piotr's personal website"
 mainSections = ["posts"]
 enableSearch = true
@@ -30,15 +30,15 @@ enableSearch = true
   showEdit = false
   # editURL = "https://github.com/username/repo/"
   editAppendPath = true
-  showHeadingAnchors = true
+  showHeadingAnchors = false
   showPagination = false
-  showReadingTime = true
-  # sharingLinks = ["reddit", "linkedin", "mastodon", "email"]
+  showReadingTime = false
   showTableOfContents = true
   showTaxonomies = false
 
 [list]
   showBreadcrumbs = false
+  showThumbs = false
   showSummary = true
   groupByYear = true
 
