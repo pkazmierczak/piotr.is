@@ -57,3 +57,8 @@ enableSearch = true
   # bing = ""
   # pinterest = ""
   # yandex = ""
+  # config/_default/params.toml
+
+[plausibleAnalytics]
+  domain = "piotr.is"
+
