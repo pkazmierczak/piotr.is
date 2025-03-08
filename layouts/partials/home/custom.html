@@ -1,0 +1,17 @@
+    <div class="relative flex flex-col grow">
+      <main id="main-content" class="grow">
+{{ $images := where .Site.RegularPages "Section" "photo" }}
+{{ range first 1 $images }}
+  {{ $img := .Page.Resources.GetMatch .Params.photo }}
+  {{ $exif := $img.Exif.Tags }}
+  <article class="photo">
+    <section class="prose dark:prose-light photo">
+      <img src="{{ .Page.RelPermalink}}{{ .Page.Params.photo }}" title="{{ $exif.Make }} {{ $exif.Model }}, {{ $exif.FocalLength }}mm, {{ $exif.ExposureTime }} sec., f/{{ $exif.FNumber }}, ISO {{ $exif.ISOSpeedRatings }}"/>
+    </section>
+      <div class="mt-8 mb-12 text-base text-neutral-400 dark:text-neutral-500">
+        {{ $img.Exif.Date.Format "January 02, 2006" }}</a>&nbsp;&middot;&nbsp;<a href="https://www.google.com/maps/search/{{ .Params.location | urlize }}">{{ .Params.location }}
+      </div>
+  </article>
+{{ end }}
+      </main>
+    </div>

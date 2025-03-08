@@ -1,4 +1,5 @@
 +++
+title = "Disabling a minor mode"
 slug = "disabling-minor-mode"
 location = "Bergen, Vestland"
 locations = ["Bergen"]
