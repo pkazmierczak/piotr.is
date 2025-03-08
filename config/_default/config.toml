@@ -12,7 +12,7 @@ copyright = "© 2009—2024 Piotr Kaźmierczak"
 enableEmoji = true
 enableRobotsTXT = true
 
-summaryLength = 20
+summaryLength = 0
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
@@ -22,11 +22,6 @@ summaryLength = 20
   page = "/:filename/"
 
 [privacy]
-  [privacy.googleAnalytics]
-    anonymizeIP = true
-    disable = false
-    respectDoNotTrack = true
-    useSessionStorage = true
   [privacy.youtube]
     disable = false
     privacyEnhanced = true
