@@ -14,6 +14,7 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: '0.152.2'
+          extended: true
       - name: Build
         run: cd /home/runner/work/piotr.is/piotr.is; hugo --gc --minify; pwd;
       - name: Deploy FTP
