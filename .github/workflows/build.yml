@@ -24,3 +24,4 @@ jobs:
           user: ${{ secrets.BUNNYCDNSTORAGEUSER }}
           password: ${{ secrets.BUNNYCDNSTORAGEPASSW }}
           localDir: "/home/runner/work/piotr.is/piotr.is/public"
+          options: "--delete --asci"
