@@ -1,19 +1,25 @@
 on:
   push:
-    tags:
-      - '*.*.*'
-  workflow_dispatch: {}
+    branches: 'master'
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - uses: jakejarvis/hugo-build-action@v0.121.1
-      with:
-        args: --gc --minify
-    - uses: actions/upload-artifact@master
-      with:
-        name: website
-        path: './public'
-
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+          fetch-depth: 0
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.121.1'
+      - name: Build
+        run: cd /home/runner/work/piotr.is/piotr.is; hugo --gc --minify; pwd;
+      - name: Deploy FTP
+        uses: sebastianpopp/ftp-action@releases/v2
+        with:
+          host: ftp://storage.bunnycdn.com
+          user: ${{ secrets.BUNNYCDNSTORAGEUSER }}
+          password: ${{ secrets.BUNNYCDNSTORAGEPASSW }}
+          localDir: "/home/runner/work/piotr.is/piotr.is/public"
