@@ -1,0 +1,19 @@
+on:
+  push:
+    tags:
+      - '*.*.*'
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - uses: jakejarvis/hugo-build-action@v0.121.1
+      with:
+        args: --gc --minify
+    - uses: actions/upload-artifact@master
+      with:
+        name: website
+        path: './public'
+
