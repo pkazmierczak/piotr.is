@@ -25,3 +25,7 @@ summaryLength = 0
   [privacy.youtube]
     disable = false
     privacyEnhanced = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
