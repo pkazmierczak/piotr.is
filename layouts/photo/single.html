@@ -4,12 +4,11 @@
     {{ $exif := .Exif }}
     {{ $tags := $exif.Tags }}
     <article>
-      <div class="photo-full-width">
-        <img
-          src="{{ .RelPermalink }}"
-          alt="{{ with $tags }}{{ .Make }} {{ .Model }}, {{ .FocalLength }}mm, {{ .ExposureTime }}s, f/{{ .FNumber }}, ISO {{ .ISO }}{{ end }}"
-        />
-      </div>
+      <img
+        src="{{ .RelPermalink }}"
+        alt="{{ with $tags }}{{ .Make }} {{ .Model }}, {{ .FocalLength }}mm, {{ .ExposureTime }}s, f/{{ .FNumber }}, ISO {{ .ISO }}{{ end }}"
+        class="photo"
+      />
 
       <div class="mt-6 text-sm text-neutral-500 dark:text-neutral-400">
         {{ with $tags }}

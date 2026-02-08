@@ -63,17 +63,3 @@ img[src$='#floatleft']
   font-size: 0.75rem;
   color: #a3a3a3;
 }
-
-/* Full-width single photo */
-.photo-full-width {
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.photo-full-width img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
