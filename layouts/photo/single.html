@@ -1,0 +1,50 @@
+{{ define "main" }}
+  {{ $img := .Resources.GetMatch (.Params.photo | default "*.jpg") }}
+  {{ with $img }}
+    {{ $exif := .Exif }}
+    {{ $tags := $exif.Tags }}
+    <article>
+      <div class="photo-full-width">
+        <img
+          src="{{ .RelPermalink }}"
+          alt="{{ with $tags }}{{ .Make }} {{ .Model }}, {{ .FocalLength }}mm, {{ .ExposureTime }}s, f/{{ .FNumber }}, ISO {{ .ISO }}{{ end }}"
+        />
+      </div>
+
+      <div class="mt-6 text-sm text-neutral-500 dark:text-neutral-400">
+        {{ with $tags }}
+          <div>{{ .Make }} {{ .Model }}{{ with .LensModel }} &middot; {{ . }}{{ end }}</div>
+          <div>
+            {{ with .FocalLength }}{{ . }}mm{{ end }}
+            {{ with .FNumber }} &middot; f/{{ . }}{{ end }}
+            {{ with .ExposureTime }} &middot; {{ . }}s{{ end }}
+            {{ with .ISO }} &middot; ISO {{ . }}{{ end }}
+          </div>
+        {{ end }}
+
+        {{ with $exif.Date }}
+          <div class="mt-2">
+            <time datetime="{{ .Format "2006-01-02" }}">{{ .Format "2 January 2006" }}</time>
+          </div>
+        {{ end }}
+
+        {{ with $.Params.location }}
+          <div>
+            <a href="https://www.google.com/maps/search/{{ . | urlize }}"
+               class="text-neutral-500 hover:text-primary-500 dark:text-neutral-400 dark:hover:text-primary-400"
+               target="_blank" rel="noopener">
+              {{ . }}
+            </a>
+          </div>
+        {{ end }}
+      </div>
+
+      <div class="mt-8 mb-12">
+        <a href="/photo/"
+           class="text-sm text-neutral-500 hover:text-primary-500 dark:text-neutral-400 dark:hover:text-primary-400">
+          &larr; All photos
+        </a>
+      </div>
+    </article>
+  {{ end }}
+{{ end }}

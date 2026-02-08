@@ -18,6 +18,11 @@
   weight = 1
 
 [[footer]]
+  name = "Photos"
+  url = "/photo/"
+  weight = 2
+
+[[footer]]
   name = "'Gram"
   url = "https://instagram.com/pete_casmerry"
   weight = 3

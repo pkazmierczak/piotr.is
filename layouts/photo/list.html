@@ -1,0 +1,39 @@
+{{ define "main" }}
+  <header>
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      {{ .Title }}
+    </h1>
+  </header>
+
+  {{ if .Pages }}
+    <div class="photo-grid mt-8">
+      {{ range .Pages.ByDate.Reverse }}
+        {{ $page := . }}
+        {{ $img := .Resources.GetMatch (.Params.photo | default "*.jpg") }}
+        {{ with $img }}
+          {{ $thumb := .Fill "600x600 Center" }}
+          {{ $tags := .Exif.Tags }}
+          <a href="{{ $page.Permalink }}" class="photo-grid-item">
+            <img
+              src="{{ $thumb.RelPermalink }}"
+              alt="{{ with $tags }}{{ .Make }} {{ .Model }}, {{ .FocalLength }}mm{{ end }}"
+              width="600"
+              height="600"
+              loading="lazy"
+              decoding="async"
+            />
+            <div class="photo-grid-meta">
+              {{ with .Exif.Date }}
+                <span>{{ .Format "2 January 2006" }}</span>
+              {{ end }}
+              {{ if and .Exif.Date $page.Params.location }}&middot;{{ end }}
+              {{ with $page.Params.location }}
+                <span>{{ . }}</span>
+              {{ end }}
+            </div>
+          </a>
+        {{ end }}
+      {{ end }}
+    </div>
+  {{ end }}
+{{ end }}
