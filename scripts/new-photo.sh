@@ -38,21 +38,12 @@ fi
 # Convert "2024:03:15 14:30:00" to "2024-03-15T14:30:00"
 HUGO_DATE=$(echo "$EXIF_DATE_RAW" | sed 's/\([0-9]\{4\}\):\([0-9]\{2\}\):\([0-9]\{2\}\) /\1-\2-\3T/')
 
-# Derive directory name from EXIF date (YYYY-MM-DD)
-DIR_DATE=$(echo "$HUGO_DATE" | cut -dT -f1)
-
-# Create page bundle (append suffix if date directory already exists)
-PHOTO_DIR="$SITE_ROOT/content/photo/$DIR_DATE"
-if [ -d "$PHOTO_DIR" ]; then
-    COUNTER=2
-    while [ -d "${PHOTO_DIR}-${COUNTER}" ]; do
-        COUNTER=$((COUNTER + 1))
-    done
-    PHOTO_DIR="${PHOTO_DIR}-${COUNTER}"
-fi
+# Generate a random 8-character slug
+SLUG=$(LC_ALL=C tr -dc 'a-z0-9' < /dev/urandom | head -c 8 || true)
+PHOTO_DIR="$SITE_ROOT/content/photo/$SLUG"
 
 mkdir -p "$PHOTO_DIR"
-cp "$PHOTO_PATH" "$PHOTO_DIR/photo.jpg"
+mv "$PHOTO_PATH" "$PHOTO_DIR/photo.jpg"
 
 cat > "$PHOTO_DIR/index.md" << EOF
 ---
