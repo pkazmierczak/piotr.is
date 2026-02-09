@@ -6,6 +6,10 @@
 {{- else -}}
 {{- $pages = $pctx.Pages -}}
 {{- end -}}
+{{- if .IsHome -}}
+{{- $mainSections := .Site.Params.mainSections | default (slice "posts") -}}
+{{- $pages = where $pages "Section" "in" $mainSections -}}
+{{- end -}}
 {{- $limit := .Site.Config.Services.RSS.Limit -}}
 {{- if ge $limit 1 -}}
 {{- $pages = $pages | first $limit -}}

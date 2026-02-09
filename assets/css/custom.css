@@ -35,3 +35,31 @@ img[src$='#floatleft']
   padding-right: 1em;
   max-width: 15em;
 }
+
+/* Photo gallery grid */
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 0.5rem;
+}
+
+.photo-grid-item {
+  display: block;
+  overflow: hidden;
+}
+
+.photo-grid-item img {
+  width: 100%;
+  display: block;
+  transition: opacity 0.3s;
+}
+
+.photo-grid-item:hover img {
+  opacity: 0.8;
+}
+
+.photo-grid-meta {
+  padding: 0.25rem 0;
+  font-size: 0.75rem;
+  color: #a3a3a3;
+}
