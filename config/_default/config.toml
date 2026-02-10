@@ -19,7 +19,7 @@ summaryLength = 0
 
 [permalinks]
   posts = "/:year/:slug/"
-  page = "/:filename/"
+  page = "/:contentbasename/"
 
 [privacy]
   [privacy.youtube]
