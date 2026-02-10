@@ -29,6 +29,29 @@
 }
 }
 
+/* Breakout images: expand figures to match main content width, left-aligned with text */
+/* Body padding: px-6 (1.5rem), sm:px-14 (3.5rem), md:px-24 (6rem), lg:px-32 (8rem) */
+article .min-w-0.max-w-prose > figure {
+  width: calc(100vw - 3rem);
+  max-width: 100%;
+}
+@media (min-width: 640px) {
+  article .min-w-0.max-w-prose > figure {
+    width: calc(100vw - 7rem);
+  }
+}
+@media (min-width: 768px) {
+  article .min-w-0.max-w-prose > figure {
+    width: calc(100vw - 12rem);
+  }
+}
+@media (min-width: 1024px) {
+  article .min-w-0.max-w-prose > figure {
+    width: calc(100vw - 16rem);
+    max-width: calc(80rem - 16rem); /* cap at max-w-7xl minus padding */
+  }
+}
+
 img[src$='#floatleft']
 {
 	float:left;
