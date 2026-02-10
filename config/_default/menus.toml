@@ -13,12 +13,12 @@
 # the copyright notice. Configure as per the main menu above.
 
 [[footer]]
-  name = "Articles"
+  name = "All Articles"
   url = "/posts"
   weight = 1
 
 [[footer]]
-  name = "Photos"
+  name = "All Photos"
   url = "/photo/"
   weight = 3
 

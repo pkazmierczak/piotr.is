@@ -63,3 +63,8 @@ img[src$='#floatleft']
   font-size: 0.75rem;
   color: #a3a3a3;
 }
+
+/* Smaller grid for homepage */
+.photo-grid-home {
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
