@@ -6,10 +6,6 @@ locations: ["München"]
 tags: [photography, personal]
 ---
 
-{{< lead >}}
-I like taking photographs, and I *love* cameras.
-{{< /lead >}}
-
 My grandfather was the first professional photographer in my hometown,[^1] and I loved playing with his cameras. His darkroom was my favorite place on Earth, filled with cameras, lenses, and a huge [enlarger](https://en.wikipedia.org/wiki/Enlarger) in the middle of a table. I spent hours playing there, and perhaps that's what sparked my interest in photography, but it was definitely what sparked my interest in photographic gear.
 
 My grandfather gave me my first camera. It was a DDR-made [Praktica B100](http://simonhawketts.com/2014/09/13/vintage-camera-collection-praktica-b100-electronic/) semi-automatic SLR with a 50mm Pentacon f/1.8 lens. It was so superior to all the Soviet Zenith SLRs my high-school friends had, and its optical performance made my poorly composed photographs look at least decent. I cherished that camera and enjoyed every minute with it, and I actually still do, although sadly I haven't shot film since 2010.

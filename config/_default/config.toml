@@ -1,7 +1,3 @@
-# -- Site Configuration --
-# Refer to the theme docs for more details about each of these parameters.
-# https://jpanther.github.io/congo/docs/getting-started/
-
 baseURL = "https://piotr.is/"
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -15,7 +11,7 @@ enableRobotsTXT = true
 summaryLength = 0
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS"]
 
 [permalinks]
   posts = "/:year/:slug/"
@@ -25,7 +21,3 @@ summaryLength = 0
   [privacy.youtube]
     disable = false
     privacyEnhanced = true
-
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'
