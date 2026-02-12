@@ -1,0 +1,50 @@
+---
+title: "dotGo 2019"
+date: 2019-04-25T18:26:57+01:00
+location: "Amsterdam, NH"
+locations: ["Amsterdam"]
+tags: ["golang", "conference"]
+aliases: ["/2019/04/25/dotgo-2019/"]
+showTableOfContents: false
+---
+
+A couple of weeks ago I went to Paris to attend [dotGo](https://www.dotgo.eu/) (thanks, [MessageBird](https://www.messagebird.com)!), one of the biggest Go conferences in Europe. dotGo lasts only one day, and it's single-track, but it's a solid offering with great organization, excellent venue and awesome talks. I realize I sound like a dotGo commercial, but as a former academic I remain amazed at how much better professional conferences are, and in the case of dotGo we're talking orders of magnitude.
+
+![](dotgo.jpg)
+
+Not all of the dotGo 2019 talks were brilliant, but I see even that as an advantage; it's easy to make a good conference by putting an all-star speaker line-up. It doesn't allow for younger, less known people in the community to present anything, though, and I think dotGo organizers' decision to present a mix of established engineers and newcomers was very successful. They also succeeded in having a variety of topics, and many of the talks weren't necessarily Go-specific. Sure,
+
+### advanced, Go-specific topics
+
+were prominently represented, with Daniel Martí's [optimization talk](https://www.dotconferences.com/2019/03/daniel-marti-optimizing-go-code-without-a-blindfold) a prime example, and Dave Cheney's [talk about constants](https://www.dotconferences.com/2019/03/dave-cheney-constant-time), probably the best talk of the whole conference. There was also [a perfectly mediocre talk](https://www.dotconferences.com/2019/03/bryan-boreham-go-tune-your-memory) about Go GC, because, as we all know, no Go conference is complete without a GC talk. These are the kind of talks everyone going to a Go-related conference expects. You can learn more about internals of the language and some of its more obscure features, and that's great. But then there's the second kind of talks, my personal favorite, a "meetup-talk", or
+
+### "I had this problem, and I've been trying to solve it"
+
+-talk. It's when an engineer comes on stage, and tells us about an unusual problem they've been having, and they walk us through their reasoning, and iterative attempts at finding a solution. Basically, something we can all easily relate to as developers.
+
+Ignat Korchagin, a systems engineer at CloudFlare, spoke about his attempts of using Go as a scripting language, and ended up taking a deep dive into how the Linux kernel executes "shebang" lines that start all scripts. [An excellent talk](https://www.dotconferences.com/2019/03/ignat-korchagin-go-as-a-scripting-language-in-linux) that everyone should watch, not necessarily only engineers interested in Go.
+
+But then there was Ellen Körbes' [excellent talk](https://www.dotconferences.com/2019/03/ellen-korbes-go-for-phallic-object-generation) about "phallic object generation" (oh yeah). Ellen, a transgender woman, gave the coolest background story for her talk:
+
+> Installing a vagina makes the body go "oh noes there's a huge gash here I better close it asap!!" To avoid that happening, there are dilators, and not dilating for even a single day may be catastrophic.
+> Problem: Airport security loves to take them away. Solution: Let's make 3D printable dilators... with Go!
+
+Well if you want to captivate your audience's attention, waving a 3D printed penis-shaped object is definitely one way to do it. And if you thought Körbes just wanted to be sensational and didn't really have much to say, you'd be wrong; her "let's try to 3d print with Go" journey was very interesting and her presentation very well prepared. Go watch it.
+
+dotGo is of course a major conference, so it naturally attracts big names from big companies, working on huge projects. That's the last talk category, aka
+
+### "I'm a big-shot working on big problems, and I wanted to show you something cool."
+
+We had three highlights that fall into said category:
+
+- ["Multi-module repositories"](https://www.dotconferences.com/2019/03/jean-de-klerk-multi-module-repositories) by Google's Jean de Klerk, which covers an interesting situation of having multiple Go modules within single repository. A problem, hopefully, nobody but giant corporations should have.
+- ["A dive into RISC-V"](https://www.dotconferences.com/2019/03/jessica-frazelle-a-dive-into-risc-v) by Jess Frazelle, of Docker/Google/Microsoft/Github fame. It was a bit of a disappointment, because Jess "`xrandr` goddess" Frazelle's Linux laptop refused to work with the conference beamer, and instead of live demos of [RISC-V Go binaries](https://twitter.com/jessfraz/status/1108385226609385475), we got a long historical rant about computer architectures and firmware. `¯\_(ツ)_/¯`
+- and finally ["Better x86 Assembly Generation with Go"](https://www.dotconferences.com/2019/03/michael-mcloughlin-better-x86-assembly-generation-with-go) by Uber's Michael McLoughlin. That one deserves more than a `<li>`.
+
+What McLoughlin presented was, at least to me, jaw-dropping. He works on optimizing cryptographic operations, and is the author of [`avo`](https://github.com/mmcloughlin/avo), which is basically a DSL for generating assembly from Go. `avo` lets the user take advantage of Go native types, function signatures and control structures, thus making writing assembly from within Go (something you should never do unless you work on cray things) much easier and safer. Seeing McLoughlin present how to generate assembly code for SHA-1 hash function with `avo` was quite spectacular. 😶➡️💥
+
+### Wrapping it all up,
+
+going to dotGo was an excellent idea. We got to listen to awesome talks, meet fellow Gophers from all around Europe (actually that's not true, we didn't network, because we're shy), and eat French baguette. Can't put a price on any of that! Or actually you can, and it's not expensive; it's all a 4-hour-long train ride away from Amsterdam and the conference fees are very reasonable, so there's really no reason for other Gophers not to go next year.
+
+See you all at dotGo 2020!
