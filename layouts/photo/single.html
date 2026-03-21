@@ -38,12 +38,26 @@
         {{ end }}
       </div>
 
-      <div class="mt-8 mb-12">
-        <a href="/photo/"
-           class="text-sm text-neutral-500 hover:text-primary-500 dark:text-neutral-400 dark:hover:text-primary-400">
-          &larr; All photos
-        </a>
-      </div>
+      <div class="mt-8 mb-12 flex items-center gap-6">
+              {{ with $.PrevInSection }}
+                <a href="{{ .RelPermalink }}"
+                   class="text-sm text-neutral-500 hover:text-primary-500 dark:text-neutral-400 dark:hover:text-primary-400">
+                  &larr; Previous photo &middot;&nbsp;
+                </a>
+              {{ end }}
+
+              <a href="/photo/"
+                 class="text-sm text-neutral-500 hover:text-primary-500 dark:text-neutral-400 dark:hover:text-primary-400">
+                All photos
+              </a>
+
+              {{ with $.NextInSection }}
+                <a href="{{ .RelPermalink }}"
+                   class="text-sm text-neutral-500 hover:text-primary-500 dark:text-neutral-400 dark:hover:text-primary-400">
+                   &nbsp;&middot; Next photo &rarr;
+                </a>
+              {{ end }}
+            </div>
     </article>
   {{ end }}
 {{ end }}
