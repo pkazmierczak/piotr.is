@@ -51,7 +51,7 @@ Sadly, due to the intrinsically technical nature of the problem, which I mention
 It pains me as a self-proclaimed Apple fanboy, a loyal customer of many years and even an evangelist of the brand to see the company making a step in such a dangerous direction.
 
 {{< aside >}}
-The worst part is: how do I put my money where my mouth is? Am I going back to using Linux on the desktop (2022 will be the year of Linux on the desktop, remember), debugging wifi drivers and tirelessly trying to make resume-from-suspend work? Am I getting a Pixel and putting GrapheneOS on it like a total nerd? FUCK.
+The worst part is: how do I put my money where my mouth is? Am I going back to using Linux on the desktop (2022 will be the year of Linux on the desktop, remember), debugging wifi drivers and tirelessly trying to make resume-from-suspend work? Am I getting a Pixel and putting GrapheneOS on it like a total nerd? OOF.
 {{< /aside >}}
 
 I can only hope that the backlash caused by [the screeching voice of the minority](https://twitter.com/Snowden/status/1423751484081070081), will make Apple nonetheless reconsider, and perhaps change the implementation in future versions of iOS. 
